@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.bimal.pathology",
+      "sha256_cert_fingerprints": [
+        "30:90:FC:6F:9C:47:55:5A:9C:6E:14:1D:D3:84:5B:93:E3:40:9F:92:02:84:CB:67:8D:72:D3:B1:83:5A:A6:E0",
+        "4F:22:26:BD:91:0F:6A:4D:8F:89:33:84:96:FD:45:1B:15:E0:9E:29:48:D8:80:3F:F7:77:DE:14:BC:22:A0:DC"
+      ]
+    }
+  }
+]
