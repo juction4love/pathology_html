@@ -1,198 +1,295 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ne">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes, viewport-fit=cover">
-    <title>Bimal Pathology &amp; Diagnostic Center | Advanced Diagnostics in Bharatpur</title>
-    <!-- SEO Meta Description -->
-    <meta name="description" content="Bimal Pathology &amp; Diagnostic Center – Bharatpur’s leading lab with 99.2% accuracy, same-day reports, and 50+ tests. Book your appointment today.">
-    <!-- Tailwind CSS + Font Awesome + Google Fonts -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+    <title>Bimal Pathology &amp; Diagnostic Center – Advanced Diagnostics in Bharatpur</title>
+    <meta name="description" content="Bimal Pathology &amp; Diagnostic Center – Bharatpur’s leading lab with 99.2% accuracy, same-day reports, and 50+ tests. Book your appointment today." />
+    <link rel="canonical" href="https://bimalpathology.com.np/" />
+
+    <!-- Tailwind + Font Awesome + Google Fonts -->
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&display=swap" rel="stylesheet" />
+
     <style>
-        * { font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
-        html { scroll-behavior: smooth; }
-        .primary-color { color: #004aad; }
-        .bg-primary { background-color: #004aad; }
-        .border-primary { border-color: #004aad; }
-        .machine-card {
-            transition: all 0.25s ease;
+        * {
+            font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
         }
-        .machine-card:hover {
-            transform: translateY(-6px);
+        html {
+            scroll-behavior: smooth;
         }
-        .hero-gradient {
-            background: linear-gradient(135deg, #f0f9ff 0%, #ffffff 100%);
+        :root {
+            --primary: #0a5c9e;
+            --primary-dark: #063a6b;
+            --primary-light: #e8f0fe;
+            --accent: #c62828;
         }
-        .floating-badge {
-            box-shadow: 0 20px 35px -12px rgba(0,0,0,0.15);
+        .bg-primary {
+            background-color: var(--primary);
         }
-        .stat-card {
-            transition: transform 0.2s;
+        .bg-primary-dark {
+            background-color: var(--primary-dark);
         }
-        .stat-card:hover {
-            transform: scale(0.98);
+        .text-primary {
+            color: var(--primary);
         }
-        .btn-ripple {
+        .border-primary {
+            border-color: var(--primary);
+        }
+        .hover\:bg-primary-dark:hover {
+            background-color: var(--primary-dark);
+        }
+        .hover\:text-primary:hover {
+            color: var(--primary);
+        }
+
+        /* smooth card hover */
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+
+        /* floating buttons */
+        .float-btn {
+            position: fixed;
+            bottom: 24px;
+            z-index: 999;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
             transition: all 0.2s;
+            text-decoration: none;
+            color: #fff;
         }
-        .btn-ripple:active {
-            transform: scale(0.96);
+        .float-btn:hover {
+            transform: scale(1.08);
+            color: #fff;
         }
-        
-        @media (max-width: 768px) {
-            .hero-heading {
-                font-size: 1.9rem;
-                line-height: 1.3;
+        .float-call {
+            left: 20px;
+            background: #0a5c9e;
+        }
+        .float-wa {
+            right: 20px;
+            background: #25d366;
+        }
+        @media (min-width: 768px) {
+            .float-btn {
+                width: 64px;
+                height: 64px;
+                font-size: 30px;
             }
-            body {
-                overflow-x: hidden;
-                width: 100%;
+            .float-call {
+                left: 32px;
             }
-            .container {
-                width: 100%;
-                padding-left: 1rem;
-                padding-right: 1rem;
-            }
-            .floating-badge {
-                position: relative;
-                bottom: auto;
-                left: auto;
-                margin-top: 1rem;
-                margin-left: auto;
-                margin-right: auto;
-                width: fit-content;
-                transform: none;
-                top: 0;
-            }
-            .relative .floating-badge {
-                position: relative;
-                bottom: 0;
-                left: 0;
-                margin-top: 1rem;
-            }
-            .grid-cols-1.sm\:grid-cols-3 {
-                gap: 1.25rem;
-            }
-            .stat-card {
-                padding: 1.5rem 0.75rem;
-            }
-            p, h1, h2, h3, li, span {
-                word-break: break-word;
-            }
-            img {
-                max-width: 100%;
-                height: auto;
-            }
-            .machine-card .h-60 {
-                height: 200px;
-            }
-            .machine-card .p-6 {
-                padding: 1.25rem;
-            }
-            .machine-card h3 {
-                font-size: 1.35rem;
-            }
-            .border-8 {
-                border-width: 4px;
-            }
-            .rounded-xl {
-                border-radius: 0.75rem;
-            }
-            .px-8, .py-3\.5 {
-                padding-left: 1.25rem;
-                padding-right: 1.25rem;
-            }
-            footer .grid {
-                gap: 1.5rem;
+            .float-wa {
+                right: 32px;
             }
         }
 
-        @media (max-width: 480px) {
-            h1.text-4xl {
-                font-size: 1.8rem;
+        /* report card */
+        .report-input:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(10, 92, 158, 0.15);
+            outline: none;
+        }
+
+        /* hero image container */
+        .hero-img-wrap {
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.3);
+        }
+
+        /* stat counter */
+        .stat-number {
+            font-size: 2.8rem;
+            font-weight: 900;
+            line-height: 1.1;
+        }
+        @media (min-width: 768px) {
+            .stat-number {
+                font-size: 3.8rem;
             }
-            .text-5xl.font-black {
-                font-size: 2.2rem;
+        }
+
+        /* skeleton loader for report */
+        .skeleton {
+            animation: pulse 1.5s ease-in-out infinite;
+            background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+            background-size: 200% 100%;
+            border-radius: 8px;
+        }
+        @keyframes pulse {
+            0% {
+                background-position: 200% 0;
             }
-            .flex.flex-wrap.gap-6 {
-                gap: 0.75rem;
+            100% {
+                background-position: -200% 0;
             }
-            .bg-white.rounded-2xl.p-8 {
-                padding: 1.25rem;
+        }
+
+        /* mobile nav toggle */
+        #mobileNav {
+            transition: all 0.3s ease;
+        }
+        #mobileNav.hidden {
+            display: none;
+        }
+        #mobileNav:not(.hidden) {
+            display: flex;
+        }
+
+        /* scroll reveal */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.7s ease;
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* badge pulse */
+        .badge-pulse {
+            animation: badgePulse 2s ease-in-out infinite;
+        }
+        @keyframes badgePulse {
+            0%,
+            100% {
+                box-shadow: 0 0 0 0 rgba(10, 92, 158, 0.3);
             }
-            .machine-card .h-60 {
-                height: 170px;
+            50% {
+                box-shadow: 0 0 0 12px rgba(10, 92, 158, 0);
             }
+        }
+
+        /* print styles for report */
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+            .print-only {
+                display: block !important;
+            }
+            body {
+                background: #fff !important;
+                color: #000 !important;
+            }
+            .report-card {
+                box-shadow: none !important;
+                border: 1px solid #ddd !important;
+            }
+        }
+        .print-only {
+            display: none;
         }
     </style>
 </head>
-<body class="bg-gray-50 antialiased text-gray-800 overflow-x-hidden">
+<body>
 
-    <!-- Navigation Bar -->
-    <nav class="bg-white/95 backdrop-blur-sm shadow-md sticky top-0 z-50 border-b border-gray-100 transition-all w-full">
-        <div class="container mx-auto px-4 md:px-8 py-3.5 flex justify-between items-center w-full">
-            <a href="index.html" class="flex items-center gap-1 text-lg sm:text-xl md:text-2xl font-extrabold primary-color tracking-tight whitespace-nowrap">
+    <!-- ===== FLOATING ACTION BUTTONS ===== -->
+    <a href="tel:+97756593288" class="float-btn float-call no-print" aria-label="Call us">
+        <i class="fas fa-phone-alt"></i>
+    </a>
+    <a href="https://wa.me/9779855065327" target="_blank" class="float-btn float-wa no-print" aria-label="WhatsApp us">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="bg-white/95 backdrop-blur-sm shadow-sm sticky top-0 z-50 border-b border-gray-100 transition-all w-full no-print">
+        <div class="container mx-auto px-4 md:px-8 py-3 flex justify-between items-center">
+            <a href="/" class="flex items-center gap-1 text-xl md:text-2xl font-extrabold text-primary tracking-tight whitespace-nowrap">
                 Bimal <span class="text-red-600">Pathology</span>
-                <span class="hidden sm:inline-block text-[10px] md:text-xs font-medium bg-blue-50 text-blue-700 px-1.5 py-0.5 rounded-full ml-1">NABL</span>
+                <span class="hidden sm:inline-block text-[10px] font-medium bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full ml-1 border border-blue-200">NABL</span>
             </a>
-            <div class="hidden md:flex space-x-8 font-semibold text-gray-700">
-                <a href="index.html" class="text-blue-700 border-b-2 border-blue-600 pb-1">Home</a>
-                <a href="services.html" class="hover:text-blue-600 transition duration-200">Services</a>
-                <a href="about.html" class="hover:text-blue-600 transition duration-200">About Us</a>
-                <a href="contact.html" class="hover:text-blue-600 transition duration-200">Contact</a>
-            </div>
-            <div class="flex items-center gap-2 sm:gap-3">
-                <a href="tel:+97756593288" class="bg-primary text-white px-3 sm:px-4 md:px-5 py-2 rounded-full hover:bg-blue-800 transition flex items-center gap-1 shadow-sm text-xs sm:text-sm md:text-base font-medium">
-                    <i class="fa fa-phone-alt text-xs sm:text-sm"></i> <span class="hidden xs:inline sm:inline">056-593288</span><span class="inline xs:hidden">Call</span>
+
+            <!-- desktop nav -->
+            <div class="hidden md:flex items-center space-x-6 font-semibold text-gray-700 text-sm lg:text-base">
+                <a href="index.html" class="text-primary border-b-2 border-primary pb-1">Home</a>
+                <a href="#services" class="hover:text-primary transition">Services</a>
+                <a href="#about" class="hover:text-primary transition">About</a>
+                <a href="#doctors" class="hover:text-primary transition">Team</a>
+                <a href="#testimonials" class="hover:text-primary transition">Reviews</a>
+                <a href="#contact" class="hover:text-primary transition">Contact</a>
+                <a href="#report" class="bg-primary text-white px-4 py-2 rounded-full hover:bg-primary-dark transition shadow-sm text-sm font-semibold">
+                    <i class="fas fa-file-medical-alt mr-1"></i> Get Report
                 </a>
-                <button id="mobileMenuBtn" class="md:hidden text-gray-700 text-2xl focus:outline-none">
+            </div>
+
+            <!-- mobile toggle -->
+            <div class="flex items-center gap-3 md:hidden">
+                <a href="tel:+97756593288" class="bg-primary text-white px-3 py-2 rounded-full text-xs font-medium shadow-sm">
+                    <i class="fas fa-phone-alt"></i> Call
+                </a>
+                <button id="mobileMenuBtn" class="text-gray-700 text-2xl focus:outline-none" aria-label="Menu">
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
         </div>
-        <div id="mobileNav" class="hidden md:hidden bg-white border-t border-gray-200 px-5 py-4 flex flex-col space-y-3 shadow-lg w-full">
-            <a href="index.html" class="text-blue-700 font-semibold py-2 border-l-4 border-blue-600 pl-3">Home</a>
-            <a href="services.html" class="text-gray-700 hover:text-blue-600 py-2 pl-3">Services</a>
-            <a href="about.html" class="text-gray-700 hover:text-blue-600 py-2 pl-3">About Us</a>
-            <a href="contact.html" class="text-gray-700 hover:text-blue-600 py-2 pl-3">Contact</a>
+
+        <!-- mobile nav dropdown -->
+        <div id="mobileNav" class="hidden md:hidden bg-white border-t border-gray-200 px-5 py-4 flex flex-col space-y-2 shadow-lg">
+            <a href="index.html" class="text-primary font-semibold py-2 border-l-4 border-primary pl-3">Home</a>
+            <a href="#services" class="text-gray-700 hover:text-primary py-2 pl-3 transition">Services</a>
+            <a href="#about" class="text-gray-700 hover:text-primary py-2 pl-3 transition">About</a>
+            <a href="#doctors" class="text-gray-700 hover:text-primary py-2 pl-3 transition">Team</a>
+            <a href="#testimonials" class="text-gray-700 hover:text-primary py-2 pl-3 transition">Reviews</a>
+            <a href="#contact" class="text-gray-700 hover:text-primary py-2 pl-3 transition">Contact</a>
+            <a href="#report" class="bg-primary text-white px-4 py-2 rounded-full text-center font-semibold hover:bg-primary-dark transition">Get Report</a>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero-gradient py-8 md:py-20 overflow-hidden w-full">
-        <div class="container mx-auto px-5 md:px-8 flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
-            <div class="lg:w-1/2 text-center lg:text-left w-full">
-                <div class="inline-flex items-center gap-2 bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wide mb-4 shadow-sm">
-                    <i class="fas fa-certificate text-blue-600"></i>Accredited Lab
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero-gradient py-10 md:py-20 overflow-hidden bg-gradient-to-br from-blue-50 via-white to-blue-50/50">
+        <div class="container mx-auto px-5 md:px-8 flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
+            <div class="lg:w-1/2 text-center lg:text-left">
+                <div class="inline-flex items-center gap-2 bg-blue-100 text-blue-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wide shadow-sm badge-pulse">
+                    <i class="fas fa-certificate text-blue-600"></i> Accredited Lab &bull; 99.2% Accuracy
                 </div>
-                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-gray-900 leading-tight">
-                    तपाईको स्वास्थ्य, <br><span class="primary-color bg-gradient-to-r from-blue-700 to-blue-500 bg-clip-text text-transparent">हाम्रो प्राथमिकता र दायित्व</span>
+                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-gray-900 leading-tight mt-4">
+                    तपाईको स्वास्थ्य, <br />
+                    <span class="bg-gradient-to-r from-blue-700 to-blue-500 bg-clip-text text-transparent">हाम्रो प्राथमिकता</span>
                 </h1>
                 <p class="text-gray-600 text-base sm:text-lg mt-5 max-w-xl mx-auto lg:mx-0 leading-relaxed">
                     अत्याधुनिक प्रयोगशाला, अनुभवी टेक्निसियन, र छिटो रिपोर्टिङ – भरतपुरको सबैभन्दा भरपर्दो प्याथोलोजी केन्द्र।
                 </p>
                 <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 mt-8">
-                    <a href="contact.html" class="bg-primary text-white text-center px-6 py-3 rounded-xl shadow-lg hover:bg-blue-800 transition-all duration-200 font-semibold flex items-center justify-center gap-2 btn-ripple">
+                    <a href="#contact" class="bg-primary text-white text-center px-7 py-3.5 rounded-xl shadow-lg hover:bg-primary-dark transition-all font-semibold flex items-center justify-center gap-2">
                         <i class="fas fa-calendar-check"></i> Book Appointment
                     </a>
-                    <a href="#services" class="border-2 border-primary text-primary text-center px-6 py-3 rounded-xl hover:bg-blue-50 transition-all duration-200 font-semibold flex items-center justify-center gap-2">
-                        <i class="fas fa-flask"></i> View All Tests
+                    <a href="#services" class="border-2 border-primary text-primary text-center px-7 py-3.5 rounded-xl hover:bg-blue-50 transition-all font-semibold flex items-center justify-center gap-2">
+                        <i class="fas fa-flask"></i> View Tests
                     </a>
                 </div>
-                <div class="flex flex-wrap justify-center lg:justify-start gap-4 mt-8 text-sm text-gray-500">
-                    <div class="flex items-center gap-2"><i class="fas fa-clock text-blue-500"></i> सोही दिन रिपोर्ट</div>
-                    <div class="flex items-center gap-2"><i class="fas fa-microscope text-blue-500"></i> ५०+ परीक्षण विकल्प</div>
-                    <div class="flex items-center gap-2"><i class="fas fa-user-md text-blue-500"></i> विज्ञ टिम</div>
+                <div class="flex flex-wrap justify-center lg:justify-start gap-5 mt-8 text-sm text-gray-500">
+                    <div class="flex items-center gap-2"><i class="fas fa-clock text-blue-500"></i> Same-day reports</div>
+                    <div class="flex items-center gap-2"><i class="fas fa-microscope text-blue-500"></i> 50+ tests</div>
+                    <div class="flex items-center gap-2"><i class="fas fa-user-md text-blue-500"></i> Expert team</div>
                 </div>
             </div>
-            <div class="lg:w-1/2 relative flex flex-col items-center justify-center w-full">
-                <div class="relative rounded-2xl shadow-2xl overflow-hidden border-4 md:border-8 border-white w-full max-w-md mx-auto">
-                    <img src="Bimal Pathology &amp; Diagnostic Center _ Advanced Diagnostics in Bharatpur_files/hero-pathology.png" alt="Bimal Pathology Care - State of the art diagnostic center" class="rounded-xl w-full h-auto object-cover">
+
+            <div class="lg:w-1/2 relative flex flex-col items-center">
+                <div class="hero-img-wrap border-4 border-white bg-white shadow-2xl w-full max-w-lg">
+                    <img src="https://juction4love.github.io/pathology_html/hero-pathology.png"
+                    alt="Bimal Pathology – State of the art diagnostic center"
+                    class="w-full h-auto object-cover"
+                    loading="eager"
+                    width="600" height="400" />
                 </div>
-                <div class="mt-4 bg-white backdrop-blur-sm rounded-2xl shadow-xl p-3 flex items-center gap-3 floating-badge border border-gray-100 w-fit mx-auto">
-                    <div class="bg-green-100 p-2 rounded-full"><i class="fas fa-chart-line text-green-600 text-lg md:text-xl"></i></div>
+                <div class="mt-4 bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl px-5 py-3 flex items-center gap-4 border border-gray-100 w-fit mx-auto">
+                    <div class="bg-green-100 p-2.5 rounded-full"><i class="fas fa-chart-line text-green-600 text-xl"></i></div>
                     <div>
                         <p class="font-black text-gray-900 text-xl md:text-2xl">99.2%</p>
                         <p class="text-gray-500 text-xs font-medium">Diagnostic Accuracy</p>
@@ -202,107 +299,118 @@
         </div>
     </section>
 
-    <!-- MACHINES & SERVICES SECTION -->
-    <section id="services" class="py-12 md:py-20 bg-white w-full">
+    <!-- ===== SERVICES / MACHINES ===== -->
+    <section id="services" class="py-14 md:py-20 bg-white">
         <div class="container mx-auto px-5 md:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-12 md:mb-16">
-                <span class="text-blue-600 font-semibold text-xs uppercase tracking-wider bg-blue-50 px-4 py-1.5 rounded-full"> प्रयोगशाला</span>
-                <h2 class="text-2xl md:text-4xl font-extrabold text-gray-900 mt-4 mb-3">हाम्रा अत्याधुनिक मेसिन र सेवाहरू</h2>
-                <div class="w-20 h-1 bg-red-500 mx-auto mt-2 rounded-full"></div>
-                <p class="text-gray-500 mt-5 text-base md:text-lg px-2">हामी विश्वस्तरीय प्रविधि र ९९.२% शुद्धताका साथ नेपाली जनताको सेवामा छौं।</p>
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <span class="text-blue-600 font-semibold text-xs uppercase tracking-wider bg-blue-50 px-4 py-1.5 rounded-full">Our Lab</span>
+                <h2 class="text-2xl md:text-4xl font-extrabold text-gray-900 mt-4">अत्याधुनिक मेसिन र सेवाहरू</h2>
+                <div class="w-20 h-1 bg-red-500 mx-auto mt-3 rounded-full"></div>
+                <p class="text-gray-500 mt-5 text-base md:text-lg">विश्वस्तरीय प्रविधि र ९९.२% शुद्धताका साथ नेपाली जनताको सेवामा ।</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10">
-                <!-- Card 1: CounCell 23 Excel -->
-                <div class="machine-card bg-white rounded-2xl shadow-lg border-b-4 border-blue-600 overflow-hidden transition-all duration-300 group hover:shadow-2xl">
-                    <div class="h-52 sm:h-60 bg-gradient-to-br from-blue-50 to-white flex items-center justify-center p-4">
-                        <img src="Bimal Pathology &amp; Diagnostic Center _ Advanced Diagnostics in Bharatpur_files/councell_23_excel.png" alt="CounCell 23 Excel Hematology Analyzer" class="max-h-full object-contain group-hover:scale-105 transition duration-300">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="card-hover bg-white rounded-2xl shadow-lg border-b-4 border-blue-600 overflow-hidden group">
+                    <div class="h-52 bg-gradient-to-br from-blue-50 to-white flex items-center justify-center p-4">
+                        <img src="https://juction4love.github.io/pathology_html/councell_23_excel.png"
+                        alt="CounCell 23 Excel Hematology Analyzer"
+                        class="max-h-full object-contain group-hover:scale-105 transition duration-300"
+                        loading="lazy" />
                     </div>
                     <div class="p-5 md:p-6">
                         <div class="flex justify-between items-start">
                             <div>
-                                <h3 class="text-xl md:text-2xl font-bold text-gray-800">CounCell 23 Excel</h3>
-                                <p class="text-xs md:text-sm font-medium text-blue-600 mt-1">Hematology Analyzer (5-part diff)</p>
+                                <h3 class="text-xl font-bold text-gray-800">CounCell 23 Excel</h3>
+                                <p class="text-sm font-medium text-blue-600">Hematology Analyzer (5-part diff)</p>
                             </div>
-                            <i class="fas fa-tachometer-alt text-blue-400 text-xl md:text-2xl"></i>
+                            <i class="fas fa-tachometer-alt text-blue-400 text-2xl"></i>
                         </div>
-                        <p class="text-gray-600 text-xs md:text-sm mt-3 leading-relaxed">रगतको सानो नमूनामै २४ प्यारामिटरभन्दा बढी नतिजा – बालबालिका र वृद्धवृद्धाका लागि सुरक्षित। छिटो, भरपर्दो, र पीडारहित।</p>
-                        <ul class="mt-4 space-y-2 text-xs md:text-sm">
+                        <p class="text-gray-600 text-sm mt-3 leading-relaxed">रगतको सानो नमूनामै २४ प्यारामिटरभन्दा बढी नतिजा – बालबालिका र वृद्धवृद्धाका लागि सुरक्षित।</p>
+                        <ul class="mt-4 space-y-1.5 text-sm">
                             <li class="flex items-start gap-2"><i class="fas fa-check-circle text-blue-500 mt-0.5 text-xs"></i><span><strong>पूर्ण रक्त गणना (CBC)</strong> – २४ प्यारामिटर</span></li>
-                            <li class="flex items-start gap-2"><i class="fas fa-check-circle text-blue-500 mt-0.5 text-xs"></i><span><strong>३-भाग / ५-भाग डिफरेन्सियल</strong> – उच्च शुद्धता</span></li>
-                            <li class="flex items-start gap-2"><i class="fas fa-check-circle text-blue-500 mt-0.5 text-xs"></i><span><strong>एनिमिया र थालासेमिया</strong> – स्क्रिनिङ मार्कर</span></li>
+                            <li class="flex items-start gap-2"><i class="fas fa-check-circle text-blue-500 mt-0.5 text-xs"></i><span><strong>३-भाग / ५-भाग डिफरेन्सियल</strong></span></li>
+                            <li class="flex items-start gap-2"><i class="fas fa-check-circle text-blue-500 mt-0.5 text-xs"></i><span><strong>एनिमिया र थालासेमिया</strong> स्क्रिनिङ</span></li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- Card 2: CORALAB ACE -->
-                <div class="machine-card bg-white rounded-2xl shadow-lg border-b-4 border-green-600 overflow-hidden transition-all duration-300 group hover:shadow-2xl">
-                    <div class="h-52 sm:h-60 bg-gradient-to-br from-green-50 to-white flex items-center justify-center p-4">
-                        <img src="Bimal Pathology &amp; Diagnostic Center _ Advanced Diagnostics in Bharatpur_files/coralab_ace.png" alt="CORALAB ACE Clinical Chemistry Analyzer" class="max-h-full object-contain group-hover:scale-105 transition">
+                <!-- Card 2 -->
+                <div class="card-hover bg-white rounded-2xl shadow-lg border-b-4 border-green-600 overflow-hidden group">
+                    <div class="h-52 bg-gradient-to-br from-green-50 to-white flex items-center justify-center p-4">
+                        <img src="https://juction4love.github.io/pathology_html/coralab_ace.png"
+                        alt="CORALAB ACE Clinical Chemistry Analyzer"
+                        class="max-h-full object-contain group-hover:scale-105 transition"
+                        loading="lazy" />
                     </div>
                     <div class="p-5 md:p-6">
                         <div class="flex justify-between">
-                            <h3 class="text-xl md:text-2xl font-bold text-gray-800">CORALAB ACE</h3>
-                            <i class="fas fa-vial text-green-500 text-xl md:text-2xl"></i>
+                            <h3 class="text-xl font-bold text-gray-800">CORALAB ACE</h3>
+                            <i class="fas fa-vial text-green-500 text-2xl"></i>
                         </div>
-                        <p class="text-xs md:text-sm font-medium text-green-700 mt-1">Clinical Chemistry &amp; Biochemistry</p>
-                        <p class="text-gray-600 text-xs md:text-sm mt-3">कलेजो, मृगौला, मुटु, र सुगरको अवस्था एकै परीक्षणमा – पूर्ण स्वचालित मेसिनले दिन्छ छिटो र भरपर्दो नतिजा।</p>
-                        <ul class="mt-4 space-y-2 text-xs md:text-sm">
-                            <li class="flex items-start gap-2"><i class="fas fa-flask text-green-500 text-xs"></i><span><strong>कलेजो कार्य परीक्षण (LFT)</strong> – SGOT, SGPT, बिलिरुबिन</span></li>
-                            <li class="flex items-start gap-2"><i class="fas fa-flask text-green-500 text-xs"></i><span><strong>मृगौला कार्य परीक्षण (KFT)</strong> – क्रिएटिनिन, युरिया, युरिक एसिड</span></li>
-                            <li class="flex items-start gap-2"><i class="fas fa-chart-line text-green-500 text-xs"></i><span><strong>लिपिड प्रोफाइल र मधुमेह</strong> – ग्लुकोज, HbA1c, कोलेस्ट्रोल</span></li>
+                        <p class="text-sm font-medium text-green-700">Clinical Chemistry &amp; Biochemistry</p>
+                        <p class="text-gray-600 text-sm mt-3">कलेजो, मृगौला, मुटु, र सुगरको अवस्था एकै परीक्षणमा – पूर्ण स्वचालित।</p>
+                        <ul class="mt-4 space-y-1.5 text-sm">
+                            <li class="flex items-start gap-2"><i class="fas fa-flask text-green-500 text-xs"></i><span><strong>कलेजो कार्य (LFT)</strong> – SGOT, SGPT, बिलिरुबिन</span></li>
+                            <li class="flex items-start gap-2"><i class="fas fa-flask text-green-500 text-xs"></i><span><strong>मृगौला कार्य (KFT)</strong> – क्रिएटिनिन, युरिया</span></li>
+                            <li class="flex items-start gap-2"><i class="fas fa-chart-line text-green-500 text-xs"></i><span><strong>लिपिड प्रोफाइल</strong> – ग्लुकोज, HbA1c</span></li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- Card 3: FIAcheck -->
-                <div class="machine-card bg-white rounded-2xl shadow-lg border-b-4 border-purple-600 overflow-hidden transition-all duration-300 group hover:shadow-2xl">
-                    <div class="h-52 sm:h-60 bg-purple-50 flex items-center justify-center p-4">
-                        <img src="Bimal Pathology &amp; Diagnostic Center _ Advanced Diagnostics in Bharatpur_files/fiacheck_analyzer.png" alt="FIAcheck Fluorescence Immunoassay Analyzer" class="max-h-full object-contain group-hover:scale-105 transition">
+                <!-- Card 3 -->
+                <div class="card-hover bg-white rounded-2xl shadow-lg border-b-4 border-purple-600 overflow-hidden group">
+                    <div class="h-52 bg-purple-50 flex items-center justify-center p-4">
+                        <img src="https://juction4love.github.io/pathology_html/fiacheck_analyzer.png"
+                        alt="FIAcheck Fluorescence Immunoassay Analyzer"
+                        class="max-h-full object-contain group-hover:scale-105 transition"
+                        loading="lazy" />
                     </div>
                     <div class="p-5 md:p-6">
                         <div class="flex justify-between">
-                            <h3 class="text-xl md:text-2xl font-bold text-gray-800">FIAcheck</h3>
-                            <i class="fas fa-syringe text-purple-500 text-xl md:text-2xl"></i>
+                            <h3 class="text-xl font-bold text-gray-800">FIAcheck</h3>
+                            <i class="fas fa-syringe text-purple-500 text-2xl"></i>
                         </div>
-                        <p class="text-xs md:text-sm font-medium text-purple-700">Fluorescence Immunoassay Platform</p>
-                        <p class="text-gray-600 text-xs md:text-sm mt-3">थाइरोइड, भिटामिन, हर्मोन, र मुटुको जोखिम मार्कर – अत्यन्तै संवेदनशील मेसिनले पत्ता लगाउँछ सानो परिवर्तन पनि।</p>
-                        <ul class="mt-4 space-y-2 text-xs md:text-sm">
+                        <p class="text-sm font-medium text-purple-700">Fluorescence Immunoassay Platform</p>
+                        <p class="text-gray-600 text-sm mt-3">थाइरोइड, भिटामिन, हर्मोन, र मुटुको जोखिम मार्कर – अत्यन्त संवेदनशील।</p>
+                        <ul class="mt-4 space-y-1.5 text-sm">
                             <li class="flex items-start gap-2"><i class="fas fa-thyroid text-purple-500 text-xs"></i><span><strong>थाइरोइड प्रोफाइल</strong> – TSH, FT3, FT4</span></li>
                             <li class="flex items-start gap-2"><i class="fas fa-sun text-purple-500 text-xs"></i><span><strong>भिटामिन D र B12</strong> – पोषण मूल्याङ्कन</span></li>
-                            <li class="flex items-start gap-2"><i class="fas fa-heartbeat text-purple-500 text-xs"></i><span><strong>हृदय र प्रजनन मार्कर</strong> – Troponin I, Prolactin, LH/FSH</span></li>
+                            <li class="flex items-start gap-2"><i class="fas fa-heartbeat text-purple-500 text-xs"></i><span><strong>हृदय मार्कर</strong> – Troponin I, Prolactin</span></li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="mt-12 md:mt-16 text-center bg-gray-50 rounded-2xl p-5 shadow-sm border border-gray-100">
-                <div class="flex flex-wrap justify-center gap-3 text-xs md:text-sm">
-                    <span class="bg-white px-3 py-1.5 rounded-full shadow-sm font-medium"><i class="fas fa-microscope text-blue-500 mr-1"></i>Urine Analysis</span>
-                    <span class="bg-white px-3 py-1.5 rounded-full shadow-sm font-medium"><i class="fas fa-virus text-blue-500 mr-1"></i>Infectious Serology</span>
-                    <span class="bg-white px-3 py-1.5 rounded-full shadow-sm font-medium"><i class="fas fa-dna text-blue-500 mr-1"></i>Rapid Antigen &amp; PCR</span>
-                    <span class="bg-white px-3 py-1.5 rounded-full shadow-sm font-medium"><i class="fas fa-x-ray text-blue-500 mr-1"></i>Digital X-Ray</span>
+
+            <!-- extra service tags -->
+            <div class="mt-12 text-center bg-gray-50 rounded-2xl p-5 shadow-sm border border-gray-100">
+                <div class="flex flex-wrap justify-center gap-3 text-sm">
+                    <span class="bg-white px-4 py-2 rounded-full shadow-sm font-medium"><i class="fas fa-microscope text-blue-500 mr-1.5"></i>Urine Analysis</span>
+                    <span class="bg-white px-4 py-2 rounded-full shadow-sm font-medium"><i class="fas fa-virus text-blue-500 mr-1.5"></i>Infectious Serology</span>
+                    <span class="bg-white px-4 py-2 rounded-full shadow-sm font-medium"><i class="fas fa-dna text-blue-500 mr-1.5"></i>Rapid Antigen &amp; PCR</span>
+                    <span class="bg-white px-4 py-2 rounded-full shadow-sm font-medium"><i class="fas fa-x-ray text-blue-500 mr-1.5"></i>Digital X-Ray</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Performance Stats Section -->
-    <section class="py-12 md:py-14 bg-blue-900 text-white relative overflow-hidden">
+    <!-- ===== STATS ===== -->
+    <section class="py-14 bg-primary text-white relative overflow-hidden">
         <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/crossword.png')]"></div>
         <div class="container mx-auto px-5 relative z-10">
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
-                <div class="stat-card bg-blue-800/30 rounded-2xl py-5 px-3 backdrop-blur-sm">
-                    <div class="text-4xl md:text-5xl font-black mb-2 flex justify-center gap-1 items-baseline"><span class="text-4xl md:text-5xl">१</span><span class="text-2xl md:text-3xl"> मिनेटभन्दा कम</span></div>
+                <div class="bg-white/10 rounded-2xl py-6 px-4 backdrop-blur-sm">
+                    <div class="stat-number flex justify-center gap-1 items-baseline"><span class="text-4xl md:text-5xl">१</span><span class="text-2xl md:text-3xl"> मिनेट</span></div>
                     <p class="text-blue-100 font-medium text-base md:text-lg">CBC परीक्षणको तुरुन्त नतिजा</p>
                     <p class="text-blue-200 text-xs mt-1">घण्टौं पर्खनु पर्दैन</p>
                 </div>
-                <div class="stat-card bg-blue-800/30 rounded-2xl py-5 px-3 backdrop-blur-sm">
-                    <div class="text-4xl md:text-5xl font-black mb-2">मात्र <span class="text-5xl md:text-6xl">९</span> µL रगत</div>
+                <div class="bg-white/10 rounded-2xl py-6 px-4 backdrop-blur-sm">
+                    <div class="stat-number">मात्र <span class="text-5xl md:text-6xl">९</span> µL</div>
                     <p class="text-blue-100 font-medium text-base md:text-lg">साना बालबालिका र वृद्धहरूलाई सुरक्षित</p>
                     <p class="text-blue-200 text-xs mt-1">पीडारहित र सहज परीक्षण</p>
                 </div>
-                <div class="stat-card bg-blue-800/30 rounded-2xl py-5 px-3 backdrop-blur-sm">
-                    <div class="text-4xl md:text-5xl font-black mb-2">६ लाखभन्दा बढी</div>
+                <div class="bg-white/10 rounded-2xl py-6 px-4 backdrop-blur-sm">
+                    <div class="stat-number">६ लाख+</div>
                     <p class="text-blue-100 font-medium text-base md:text-lg">डिजिटल रिपोर्टको सुरक्षित भण्डार</p>
                     <p class="text-blue-200 text-xs mt-1">जुनसुकै बेला सजिलो पुन: प्राप्ति</p>
                 </div>
@@ -310,116 +418,505 @@
         </div>
     </section>
 
-    <!-- Why Choose Us -->
-    <section class="py-12 md:py-16 bg-white">
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="py-14 md:py-20 bg-white">
+        <div class="container mx-auto px-5 md:px-8 flex flex-col lg:flex-row gap-10 lg:gap-14 items-center">
+            <div class="lg:w-5/12">
+                <img src="https://juction4love.github.io/pathology_html/hero-pathology.png"
+                alt="Bimal Pathology – Modern facility"
+                class="rounded-2xl shadow-xl w-full object-cover"
+                loading="lazy" />
+            </div>
+            <div class="lg:w-7/12">
+                <span class="bg-red-100 text-red-700 text-xs font-bold px-3 py-1 rounded-full">Why Choose Us</span>
+                <h2 class="text-2xl md:text-4xl font-extrabold text-gray-800 mt-4 mb-5">शुद्ध निदान, द्रुत सेवा, र सबैको पहुँचमा स्वास्थ्य</h2>
+                <div class="space-y-5">
+                    <div class="flex gap-4">
+                        <div class="text-primary text-2xl"><i class="fas fa-user-check"></i></div>
+                        <div><h3 class="font-bold text-lg">अनुभवी टिम</h3><p class="text-gray-500 text-sm">हाम्रा प्राविधिकहरू दशकौंको अनुभवका साथ सही निदानमा अभ्यस्त।</p></div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="text-primary text-2xl"><i class="fas fa-chart-simple"></i></div>
+                        <div><h3 class="font-bold text-lg">डिजिटल रिपोर्टिङ</h3><p class="text-gray-500 text-sm">घरमै बसेर व्हाट्सएप वा SMS मा रिपोर्ट पाउनुहोस्।</p></div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="text-primary text-2xl"><i class="fas fa-hand-holding-heart"></i></div>
+                        <div><h3 class="font-bold text-lg">सबैको लागि सेवा</h3><p class="text-gray-500 text-sm">प्रतिस्पर्धी मूल्य + ज्येष्ठ नागरिक र बालबालिकालाई विशेष छुट।</p></div>
+                    </div>
+                </div>
+                <div class="mt-8 flex flex-wrap gap-3">
+                    <a href="#contact" class="bg-primary text-white px-6 py-2.5 rounded-xl font-semibold shadow-md hover:bg-primary-dark transition">आजै सम्पर्क गर्नुहोस्</a>
+                    <a href="https://wa.me/9779855065327" target="_blank" class="border border-gray-300 text-gray-700 px-6 py-2.5 rounded-xl font-semibold flex items-center gap-2 hover:bg-gray-100 transition"><i class="fab fa-whatsapp text-green-600"></i>WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== DOCTORS / TEAM ===== -->
+    <section id="doctors" class="py-14 md:py-20 bg-gray-50">
         <div class="container mx-auto px-5 md:px-8">
-            <div class="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
-                <div class="lg:w-5/12 w-full">
-                    <img src="https://placehold.co/600x500/f8fafc/004aad?text=Happy+Patients+%26+Modern+Facility" alt="Pathology care at Bimal" class="rounded-2xl shadow-xl w-full object-cover">
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <span class="text-blue-600 font-semibold text-xs uppercase tracking-wider bg-blue-50 px-4 py-1.5 rounded-full">Our Team</span>
+                <h2 class="text-2xl md:text-4xl font-extrabold text-gray-900 mt-4">हाम्रा विज्ञ चिकित्सकहरू</h2>
+                <div class="w-20 h-1 bg-red-500 mx-auto mt-3 rounded-full"></div>
+                <p class="text-gray-500 mt-5 text-base md:text-lg">अनुभवी प्याथोलोजिस्ट र टेक्निसियनहरूको टिम तपाईंको सेवामा ।</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-2xl shadow-md p-6 text-center card-hover">
+                    <div class="w-28 h-28 mx-auto rounded-full bg-blue-100 flex items-center justify-center text-4xl text-primary font-bold mb-4">Dr</div>
+                    <h3 class="font-bold text-xl">डा. विमल केसी</h3>
+                    <p class="text-blue-600 text-sm font-medium">MD Pathology</p>
+                    <p class="text-gray-500 text-sm mt-2">१५+ वर्ष अनुभव, क्लिनिकल प्याथोलोजी विशेषज्ञ</p>
                 </div>
-                <div class="lg:w-7/12 w-full">
-                    <span class="bg-red-100 text-red-700 text-xs font-bold px-3 py-1 rounded-full">किन रोज्ने हामीलाई ?</span>
-                    <h2 class="text-2xl md:text-4xl font-extrabold text-gray-800 mt-4 mb-5">शुद्ध निदान, द्रुत सेवा, र सबैको पहुँचमा स्वास्थ्य</h2>
-                    <div class="space-y-5">
-                        <div class="flex gap-3">
-                            <div class="text-blue-600 text-xl md:text-2xl"><i class="fas fa-user-check"></i></div>
-                            <div><h3 class="font-bold text-lg md:text-xl">अनुभवी टिम</h3><p class="text-gray-500 text-sm">हाम्रा प्राविधिकहरू दशकौंको अनुभवका साथ सही निदानमा अभ्यस्त।</p></div>
-                        </div>
-                        <div class="flex gap-3">
-                            <div class="text-blue-600 text-xl md:text-2xl"><i class="fas fa-chart-simple"></i></div>
-                            <div><h3 class="font-bold text-lg md:text-xl">डिजिटल रिपोर्टिङ</h3><p class="text-gray-500 text-sm">घरमै बसेर व्हाट्सएप वा SMS मा रिपोर्ट पाउनुहोस्, पेपरको झन्झट छैन।</p></div>
-                        </div>
-                        <div class="flex gap-3">
-                            <div class="text-blue-600 text-xl md:text-2xl"><i class="fas fa-hand-holding-heart"></i></div>
-                            <div><h3 class="font-bold text-lg md:text-xl">सबैको लागि सेवा</h3><p class="text-gray-500 text-sm">प्रतिस्पर्धी मूल्य + ज्येष्ठ नागरिक र बालबालिकालाई विशेष छुट – हामी सबैको पहुँचमा स्वास्थ्य सेवा ल्याउँछौं।</p></div>
-                        </div>
-                    </div>
-                    <div class="mt-8 flex flex-wrap gap-3">
-                        <a href="contact.html" class="bg-primary text-white px-5 py-2.5 rounded-xl font-semibold shadow-md hover:bg-blue-700 transition text-sm md:text-base">आजै सम्पर्क गर्नुहोस्</a>
-                        <a href="tel:+9779855065327" class="border border-gray-300 text-gray-700 px-5 py-2.5 rounded-xl font-semibold flex items-center gap-2 hover:bg-gray-100 transition text-sm md:text-base"><i class="fab fa-whatsapp text-green-600"></i>WhatsApp Inquiry</a>
-                    </div>
+                <div class="bg-white rounded-2xl shadow-md p-6 text-center card-hover">
+                    <div class="w-28 h-28 mx-auto rounded-full bg-green-100 flex items-center justify-center text-4xl text-green-600 font-bold mb-4">Dr</div>
+                    <h3 class="font-bold text-xl">डा. सरिता अधिकारी</h3>
+                    <p class="text-green-600 text-sm font-medium">MD Microbiology</p>
+                    <p class="text-gray-500 text-sm mt-2">संक्रामक रोग र माइक्रोबायोलोजी विशेषज्ञ</p>
+                </div>
+                <div class="bg-white rounded-2xl shadow-md p-6 text-center card-hover">
+                    <div class="w-28 h-28 mx-auto rounded-full bg-purple-100 flex items-center justify-center text-4xl text-purple-600 font-bold mb-4">Dr</div>
+                    <h3 class="font-bold text-xl">डा. राम प्रसाद भण्डारी</h3>
+                    <p class="text-purple-600 text-sm font-medium">MD Biochemistry</p>
+                    <p class="text-gray-500 text-sm mt-2">जैव रसायन र हर्मोन परीक्षण विशेषज्ञ</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Location & Contact -->
-    <section class="bg-gray-100 py-12 md:py-14 border-t border-gray-200">
-        <div class="container mx-auto px-5 text-center">
-            <div class="bg-white rounded-2xl shadow-md p-5 md:p-8 max-w-4xl mx-auto">
-                <i class="fas fa-map-marker-alt text-primary text-3xl md:text-4xl mb-2"></i>
-                <h3 class="text-xl md:text-2xl font-bold text-gray-800">हाम्रो स्थान : भरतपुर – ७, क्यान्सर अस्पतालको सामुन्ने</h3>
-                <p class="text-gray-600 my-2 text-sm md:text-base">Bharatpur, Chitwan, Nepal (Opposite to Cancer Hospital) – सजिलै पुग्न सकिन्छ।</p>
-                <div class="flex justify-center gap-4 flex-wrap mt-4 text-sm md:text-base">
-                    <div><i class="fas fa-phone-alt text-blue-600"></i> <strong>०५६-५९३२८८</strong></div>
-                    <div><i class="fas fa-mobile-alt text-blue-600"></i> <strong>+९७७-९८५५०६५३२७</strong></div>
-                    <div><i class="far fa-clock text-blue-600"></i> <strong>खुल्ने समय : ७:०० AM – ८:०० PM</strong> (आपतकालीन २४/७)</div>
+    <!-- ===== TESTIMONIALS ===== -->
+    <section id="testimonials" class="py-14 md:py-20 bg-white">
+        <div class="container mx-auto px-5 md:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <span class="text-blue-600 font-semibold text-xs uppercase tracking-wider bg-blue-50 px-4 py-1.5 rounded-full">Testimonials</span>
+                <h2 class="text-2xl md:text-4xl font-extrabold text-gray-900 mt-4">हाम्रा सेवाप्रति ग्राहकको प्रतिक्रिया</h2>
+                <div class="w-20 h-1 bg-red-500 mx-auto mt-3 rounded-full"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-gray-50 rounded-2xl p-6 shadow-sm border border-gray-100 card-hover">
+                    <div class="flex text-yellow-400 text-sm mb-2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="text-gray-600 text-sm italic">“छिटो सेवा र सही रिपोर्ट। भरतपुरको उत्कृष्ट प्याथोलोजी केन्द्र।”</p>
+                    <div class="mt-3 font-semibold text-gray-800">– राम प्रसाद खनाल</div>
                 </div>
-                <div class="mt-5">
-                    <a href="https://maps.google.com/?q=Bharatpur+Cancer+Hospital+Chitwan" target="_blank" class="inline-flex items-center gap-2 text-blue-700 font-semibold border-b border-blue-300 text-sm">Google Maps मा हेर्नुहोस् <i class="fas fa-arrow-right"></i></a>
+                <div class="bg-gray-50 rounded-2xl p-6 shadow-sm border border-gray-100 card-hover">
+                    <div class="flex text-yellow-400 text-sm mb-2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="text-gray-600 text-sm italic">“डिजिटल रिपोर्टिङले धेरै सजिलो भयो। व्हाट्सएपमै रिपोर्ट पाउँदा खुसी लाग्यो।”</p>
+                    <div class="mt-3 font-semibold text-gray-800">– सीता अधिकारी</div>
+                </div>
+                <div class="bg-gray-50 rounded-2xl p-6 shadow-sm border border-gray-100 card-hover">
+                    <div class="flex text-yellow-400 text-sm mb-2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="text-gray-600 text-sm italic">“बालबालिकाको रगत परीक्षण गर्दा पनि सहज र पीडारहित अनुभव भयो।”</p>
+                    <div class="mt-3 font-semibold text-gray-800">– गीता शर्मा</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white pt-10 pb-6 px-5">
-        <div class="container mx-auto">
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center md:text-left">
-                <div>
-                    <p class="text-lg md:text-xl font-extrabold tracking-wide">Bimal <span class="text-red-400">Pathology</span></p>
-                    <p class="text-gray-400 text-xs mt-2">शुद्धता, विश्वसनीयता, र सेवाप्रति हाम्रो प्रतिबद्धता</p>
-                </div>
-                <div>
-                    <h4 class="font-semibold text-base md:text-lg mb-2">Quick Links</h4>
-                    <ul class="space-y-1 text-gray-400 text-xs md:text-sm">
-                        <li><a href="index.html" class="hover:text-white transition">Home</a></li>
-                        <li><a href="services.html" class="hover:text-white transition">All Services</a></li>
-                        <li><a href="about.html" class="hover:text-white transition">About Center</a></li>
-                        <li><a href="contact.html" class="hover:text-white transition">Book Appointment</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="font-semibold text-base md:text-lg mb-2">Contact</h4>
-                    <p class="text-gray-400 text-xs md:text-sm"><i class="fas fa-location-dot mr-1"></i> Bharatpur-7, Chitwan</p>
-                    <p class="text-gray-400 text-xs md:text-sm"><i class="fas fa-phone-alt mr-1"></i> 056-593288</p>
-                    <p class="text-gray-400 text-xs md:text-sm"><i class="fab fa-whatsapp mr-1"></i> 9855065327</p>
-                </div>
-                <div>
-                    <h4 class="font-semibold text-base md:text-lg mb-2">Emergency Support</h4>
-                    <p class="text-gray-300 text-xs">हामी २४/७ आपातकालीन रगत परीक्षण सेवामा उपलब्ध छौं। (फोन: ०५६-५९३२८८)</p>
-                    <div class="flex justify-center md:justify-start space-x-4 mt-3">
-                        <a href="#" class="text-gray-400 hover:text-white text-lg"><i class="fab fa-facebook"></i></a>
-                        <a href="https://wa.me/9779855065327" target="_blank" class="text-gray-400 hover:text-green-400 text-lg"><i class="fab fa-whatsapp"></i></a>
+    <!-- ===== REPORT PORTAL ===== -->
+    <section id="report" class="py-14 md:py-20 bg-gradient-to-br from-blue-50 to-white">
+        <div class="container mx-auto px-5 md:px-8 max-w-4xl">
+            <div class="text-center max-w-3xl mx-auto mb-10">
+                <span class="text-blue-600 font-semibold text-xs uppercase tracking-wider bg-blue-100 px-4 py-1.5 rounded-full"><i class="fas fa-file-medical-alt mr-1"></i> Online Report</span>
+                <h2 class="text-2xl md:text-4xl font-extrabold text-gray-900 mt-4">तपाईंको रिपोर्ट हेर्नुहोस्</h2>
+                <div class="w-20 h-1 bg-red-500 mx-auto mt-3 rounded-full"></div>
+                <p class="text-gray-500 mt-5 text-base md:text-lg">कृपया आफ्नो Lab ID र मोबाइल नम्बर प्रविष्ट गर्नुहोस्।</p>
+            </div>
+
+            <!-- Report Lookup Card -->
+            <div class="bg-white rounded-2xl shadow-xl p-6 md:p-10 border border-gray-100 report-card">
+                <form id="reportForm" class="space-y-5" novalidate>
+                    <div>
+                        <label for="labId" class="block text-sm font-semibold text-gray-700 mb-1.5">
+                            <i class="fas fa-id-card text-primary mr-1"></i> Lab ID <span class="text-red-500">*</span>
+                        </label>
+                        <input type="text" id="labId" name="labId" placeholder="e.g. BP-2026-0042"
+                        class="report-input w-full px-4 py-3 border border-gray-300 rounded-xl text-gray-800 text-sm transition"
+                        required />
+                    </div>
+                    <div>
+                        <label for="mobile" class="block text-sm font-semibold text-gray-700 mb-1.5">
+                            <i class="fas fa-phone-alt text-primary mr-1"></i> मोबाइल नम्बर <span class="text-red-500">*</span>
+                        </label>
+                        <input type="tel" id="mobile" name="mobile" placeholder="e.g. 9855065327"
+                        class="report-input w-full px-4 py-3 border border-gray-300 rounded-xl text-gray-800 text-sm transition"
+                        required />
+                    </div>
+                    <button type="submit" id="reportBtn"
+                    class="w-full bg-primary text-white px-6 py-3.5 rounded-xl font-bold shadow-lg hover:bg-primary-dark transition flex items-center justify-center gap-2 text-base">
+                    <i class="fas fa-search"></i> रिपोर्ट हेर्नुहोस्
+                </button>
+            </form>
+
+            <!-- Report Result Area -->
+            <div id="reportResult" class="mt-8 hidden">
+                <div class="border-t border-gray-200 pt-6">
+                    <div class="flex justify-between items-center flex-wrap gap-3 mb-4">
+                        <h3 class="text-xl font-bold text-gray-800"><i class="fas fa-file-pdf text-red-500 mr-2"></i>रिपोर्ट विवरण</h3>
+                        <div class="flex gap-2 no-print">
+                            <button onclick="window.print()" class="bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded-lg text-sm font-semibold transition flex items-center gap-1.5">
+                                <i class="fas fa-print"></i> Print
+                            </button>
+                            <button id="downloadPdfBtn" class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition flex items-center gap-1.5">
+                                <i class="fas fa-download"></i> PDF
+                            </button>
+                            <button id="appLinkBtn" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition flex items-center gap-1.5">
+                                <i class="fas fa-mobile-alt"></i> App
+                            </button>
+                        </div>
+                    </div>
+                    <div id="reportContent" class="bg-gray-50 rounded-xl p-5 border border-gray-200 text-sm leading-relaxed">
+                        <!-- dynamic content injected -->
+                        <div class="flex items-center justify-center py-10 text-gray-400">
+                            <i class="fas fa-spinner fa-spin text-3xl mr-3"></i> लोड भइरहेको छ...
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="border-t border-gray-800 mt-8 pt-5 text-center text-gray-500 text-[10px] md:text-xs">
-                © 2026 Bimal Pathology &amp; Diagnostic Center | Powered by Bimal Tech Solution | हाम्रो सबै प्रयोगशाला परीक्षण गाइडलाइन अनुसार
+        </div>
+    </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="py-14 md:py-20 bg-gray-50">
+    <div class="container mx-auto px-5 md:px-8 max-w-4xl">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+            <span class="text-blue-600 font-semibold text-xs uppercase tracking-wider bg-blue-50 px-4 py-1.5 rounded-full">FAQ</span>
+            <h2 class="text-2xl md:text-4xl font-extrabold text-gray-900 mt-4">बारम्बार सोधिने प्रश्नहरू</h2>
+            <div class="w-20 h-1 bg-red-500 mx-auto mt-3 rounded-full"></div>
+        </div>
+        <div class="space-y-4">
+            <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+                <button class="w-full text-left px-6 py-4 font-semibold text-gray-800 flex justify-between items-center hover:bg-gray-50 transition faq-toggle">
+                    <span>रिपोर्ट कति समयमा आउँछ ?</span>
+                    <i class="fas fa-chevron-down text-gray-400"></i>
+                </button>
+                <div class="faq-answer px-6 pb-4 text-gray-600 text-sm hidden">अधिकांश परीक्षणको रिपोर्ट सोही दिन (४-६ घण्टा भित्र) प्राप्त हुन्छ। आपतकालीन अवस्थामा छिटो सेवा उपलब्ध छ।</div>
+            </div>
+            <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+                <button class="w-full text-left px-6 py-4 font-semibold text-gray-800 flex justify-between items-center hover:bg-gray-50 transition faq-toggle">
+                    <span>के म घरबाटै रिपोर्ट हेर्न सक्छु ?</span>
+                    <i class="fas fa-chevron-down text-gray-400"></i>
+                </button>
+                <div class="faq-answer px-6 pb-4 text-gray-600 text-sm hidden">हो, तपाईंले हाम्रो वेबसाइटको रिपोर्ट पोर्टलमा Lab ID र मोबाइल नम्बर हालेर रिपोर्ट हेर्न सक्नुहुन्छ।</div>
+            </div>
+            <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+                <button class="w-full text-left px-6 py-4 font-semibold text-gray-800 flex justify-between items-center hover:bg-gray-50 transition faq-toggle">
+                    <span>के बालबालिकाको रगत परीक्षण सुरक्षित छ ?</span>
+                    <i class="fas fa-chevron-down text-gray-400"></i>
+                </button>
+                <div class="faq-answer px-6 pb-4 text-gray-600 text-sm hidden">हो, हामी अत्याधुनिक मेसिन प्रयोग गर्छौं जसले न्यूनतम मात्रामा रगत (९ µL) मा २४+ प्यारामिटर नाप्छ, जुन बालबालिका र वृद्धवृद्धाका लागि पूर्ण सुरक्षित छ।</div>
+            </div>
+            <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+                <button class="w-full text-left px-6 py-4 font-semibold text-gray-800 flex justify-between items-center hover:bg-gray-50 transition faq-toggle">
+                    <span>के म घरमै नमूना संकलन सेवा पाउन सक्छु ?</span>
+                    <i class="fas fa-chevron-down text-gray-400"></i>
+                </button>
+                <div class="faq-answer px-6 pb-4 text-gray-600 text-sm hidden">हो, हामी भरतपुर र वरपरका क्षेत्रमा होम कलेक्शन सेवा उपलब्ध गराउँछौं। कृपया हाम्रो सम्पर्क नम्बरमा फोन गरी बुक गर्नुहोस्।</div>
             </div>
         </div>
-    </footer>
+    </div>
+</section>
 
-    <script>
-        const menuBtn = document.getElementById('mobileMenuBtn');
-        const mobileNav = document.getElementById('mobileNav');
-        if (menuBtn) {
-            menuBtn.addEventListener('click', () => {
-                mobileNav.classList.toggle('hidden');
+<!-- ===== GALLERY ===== -->
+<section class="py-14 md:py-20 bg-white">
+    <div class="container mx-auto px-5 md:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+            <span class="text-blue-600 font-semibold text-xs uppercase tracking-wider bg-blue-50 px-4 py-1.5 rounded-full">Gallery</span>
+            <h2 class="text-2xl md:text-4xl font-extrabold text-gray-900 mt-4">हाम्रो प्रयोगशालाको झलक</h2>
+            <div class="w-20 h-1 bg-red-500 mx-auto mt-3 rounded-full"></div>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+            <div class="rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
+                <img src="https://juction4love.github.io/pathology_html/hero-pathology.png" alt="Lab 1" class="w-full h-40 object-cover" loading="lazy" />
+            </div>
+            <div class="rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
+                <img src="https://juction4love.github.io/pathology_html/coralab_ace.png" alt="Lab 2" class="w-full h-40 object-cover" loading="lazy" />
+            </div>
+            <div class="rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
+                <img src="https://juction4love.github.io/pathology_html/councell_23_excel.png" alt="Lab 3" class="w-full h-40 object-cover" loading="lazy" />
+            </div>
+            <div class="rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
+                <img src="https://juction4love.github.io/pathology_html/fiacheck_analyzer.png" alt="Lab 4" class="w-full h-40 object-cover" loading="lazy" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CONTACT / LOCATION ===== -->
+<section id="contact" class="py-14 md:py-20 bg-gray-100 border-t border-gray-200">
+    <div class="container mx-auto px-5 md:px-8">
+        <div class="bg-white rounded-2xl shadow-lg p-6 md:p-10 max-w-5xl mx-auto">
+            <div class="text-center mb-8">
+                <i class="fas fa-map-marker-alt text-primary text-4xl"></i>
+                <h3 class="text-xl md:text-2xl font-bold text-gray-800 mt-2">हाम्रो स्थान</h3>
+                <p class="text-gray-600">भरतपुर – ७, क्यान्सर अस्पतालको सामुन्ने, चितवन, नेपाल</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="space-y-4">
+                    <div class="flex items-start gap-3">
+                        <i class="fas fa-phone-alt text-primary text-xl mt-0.5"></i>
+                        <div><p class="font-semibold">फोन</p><p class="text-gray-600">०५६-५९३२८८</p></div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <i class="fas fa-mobile-alt text-primary text-xl mt-0.5"></i>
+                        <div><p class="font-semibold">मोबाइल</p><p class="text-gray-600">+९७७-९८५५०६५३२७</p></div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <i class="far fa-clock text-primary text-xl mt-0.5"></i>
+                        <div><p class="font-semibold">खुल्ने समय</p><p class="text-gray-600">७:०० AM – ८:०० PM (आपतकालीन २४/७)</p></div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <i class="fas fa-envelope text-primary text-xl mt-0.5"></i>
+                        <div><p class="font-semibold">इमेल</p><p class="text-gray-600">info@bimalpathology.com.np</p></div>
+                    </div>
+                    <div class="flex gap-3 mt-4">
+                        <a href="https://wa.me/9779855065327" target="_blank" class="bg-green-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:bg-green-700 transition flex items-center gap-2"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                        <a href="https://maps.google.com/?q=Bharatpur+Cancer+Hospital+Chitwan" target="_blank" class="border border-gray-300 text-gray-700 px-5 py-2.5 rounded-xl font-semibold hover:bg-gray-100 transition flex items-center gap-2"><i class="fas fa-map"></i> Google Maps</a>
+                    </div>
+                </div>
+                <div class="rounded-xl overflow-hidden shadow-md h-56 md:h-64 bg-gray-200">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3530.447!2d84.4336!3d27.6767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3994e8e8b8b8b8b%3A0x8b8b8b8b8b8b8b8b!2sBharatpur%20Cancer%20Hospital!5e0!3m2!1sen!2snp!4v1700000000000"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                title="Bimal Pathology Location"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="bg-gray-900 text-white pt-12 pb-6 px-5 no-print">
+    <div class="container mx-auto">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center md:text-left">
+            <div>
+                <p class="text-xl font-extrabold tracking-wide">Bimal <span class="text-red-400">Pathology</span></p>
+                <p class="text-gray-400 text-sm mt-2">शुद्धता, विश्वसनीयता, र सेवाप्रति हाम्रो प्रतिबद्धता</p>
+            </div>
+            <div>
+                <h4 class="font-semibold text-base mb-2">Quick Links</h4>
+                <ul class="space-y-1 text-gray-400 text-sm">
+                    <li><a href="index.html" class="hover:text-white transition">Home</a></li>
+                    <li><a href="#services" class="hover:text-white transition">Services</a></li>
+                    <li><a href="#about" class="hover:text-white transition">About</a></li>
+                    <li><a href="#report" class="hover:text-white transition">Get Report</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold text-base mb-2">Contact</h4>
+                <p class="text-gray-400 text-sm"><i class="fas fa-location-dot mr-1.5"></i>Bharatpur-7, Chitwan</p>
+                <p class="text-gray-400 text-sm"><i class="fas fa-phone-alt mr-1.5"></i>056-593288</p>
+                <p class="text-gray-400 text-sm"><i class="fab fa-whatsapp mr-1.5"></i>9855065327</p>
+            </div>
+            <div>
+                <h4 class="font-semibold text-base mb-2">Emergency Support</h4>
+                <p class="text-gray-300 text-sm">हामी २४/७ आपातकालीन रगत परीक्षण सेवामा उपलब्ध छौं।</p>
+                <div class="flex justify-center md:justify-start space-x-4 mt-3">
+                    <a href="#" class="text-gray-400 hover:text-white text-xl transition"><i class="fab fa-facebook"></i></a>
+                    <a href="https://wa.me/9779855065327" target="_blank" class="text-gray-400 hover:text-green-400 text-xl transition"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.youtube.com" target="_blank" class="text-gray-400 hover:text-red-400 text-xl transition"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 mt-8 pt-5 text-center text-gray-500 text-xs">
+            © 2026 Bimal Pathology &amp; Diagnostic Center | Powered by Bimal Tech Solution | सबै प्रयोगशाला परीक्षण गाइडलाइन अनुसार
+        </div>
+    </div>
+</footer>
+
+<!-- ===== SCRIPTS ===== -->
+<script>
+    // ===== Mobile Menu Toggle =====
+    (function() {
+        const btn = document.getElementById('mobileMenuBtn');
+        const nav = document.getElementById('mobileNav');
+        if (btn && nav) {
+            btn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                nav.classList.toggle('hidden');
             });
-        }
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                const targetId = this.getAttribute('href');
-                if(targetId === "#" || targetId === "") return;
-                const targetElem = document.querySelector(targetId);
-                if(targetElem) {
-                    e.preventDefault();
-                    targetElem.scrollIntoView({ behavior: 'smooth' });
+            document.addEventListener('click', function(e) {
+                if (!nav.classList.contains('hidden') && !nav.contains(e.target) && e.target !== btn && !btn
+                    .contains(e.target)) {
+                    nav.classList.add('hidden');
                 }
             });
+        }
+    })();
+
+    // ===== FAQ Accordion =====
+    document.querySelectorAll('.faq-toggle').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            const answer = this.nextElementSibling;
+            const icon = this.querySelector('.fa-chevron-down');
+            if (answer.classList.contains('hidden')) {
+                answer.classList.remove('hidden');
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                answer.classList.add('hidden');
+                icon.style.transform = 'rotate(0deg)';
+            }
         });
-    </script>
+    });
+
+    // ===== Scroll Reveal =====
+    (function() {
+        const reveals = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+        reveals.forEach(function(el) { observer.observe(el); });
+    })();
+
+    // ===== REPORT PORTAL =====
+    (function() {
+        const form = document.getElementById('reportForm');
+        const resultDiv = document.getElementById('reportResult');
+        const contentDiv = document.getElementById('reportContent');
+
+        // Sample report data (demo)
+        const sampleReports = {
+            'BP-2026-0042': {
+                name: 'राम प्रसाद खनाल',
+                age: '४५',
+                gender: 'पुरुष',
+                date: '२०२६-०७-२९',
+                tests: [
+                    { name: 'Hemoglobin (Hb)', value: '१४.२', unit: 'g/dL', ref: '१३.०-१७.०', status: 'Normal' },
+                    { name: 'WBC Count', value: '७,८००', unit: '/µL', ref: '४,०००-११,०००', status: 'Normal' },
+                    { name: 'Platelet Count', value: '२,४५,०००', unit: '/µL', ref: '१.५-४.५ लाख', status: 'Normal' },
+                    { name: 'Random Glucose', value: '११२', unit: 'mg/dL', ref: '७०-१४०', status: 'Normal' },
+                    { name: 'Total Cholesterol', value: '२१०', unit: 'mg/dL', ref: '१२५-२००', status: 'Elevated' },
+                ]
+            },
+            'BP-2026-0017': {
+                name: 'सीता अधिकारी',
+                age: '३२',
+                gender: 'महिला',
+                date: '२०२६-०७-२८',
+                tests: [
+                    { name: 'Hemoglobin (Hb)', value: '११.८', unit: 'g/dL', ref: '१२.०-१६.०', status: 'Low' },
+                    { name: 'WBC Count', value: '६,२००', unit: '/µL', ref: '४,०००-११,०००', status: 'Normal' },
+                    { name: 'Platelet Count', value: '२,८०,०००', unit: '/µL', ref: '१.५-४.५ लाख', status: 'Normal' },
+                    { name: 'TSH', value: '३.८', unit: 'µIU/mL', ref: '०.४-४.०', status: 'Normal' },
+                ]
+            }
+        };
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const labId = document.getElementById('labId').value.trim();
+            const mobile = document.getElementById('mobile').value.trim();
+
+            if (!labId || !mobile) {
+                alert('कृपया Lab ID र मोबाइल नम्बर दुवै भर्नुहोस् ।');
+                return;
+            }
+
+            // Show loading
+            resultDiv.classList.remove('hidden');
+            contentDiv.innerHTML =
+                `<div class="flex items-center justify-center py-10 text-gray-400"><i class="fas fa-spinner fa-spin text-3xl mr-3"></i> रिपोर्ट लोड भइरहेको छ...</div>`;
+
+            // Simulate network delay
+            setTimeout(function() {
+                // Lookup
+                let report = sampleReports[labId];
+                if (!report) {
+                    // Try to find by labId prefix
+                    const keys = Object.keys(sampleReports);
+                    const found = keys.find(k => k.toLowerCase() === labId.toLowerCase());
+                    if (found) report = sampleReports[found];
+                }
+
+                if (!report) {
+                    contentDiv.innerHTML = `
+                            <div class="text-center py-8 text-red-500">
+                                <i class="fas fa-exclamation-circle text-4xl mb-3"></i>
+                                <p class="font-semibold">रिपोर्ट फेला परेन ।</p>
+                                <p class="text-sm text-gray-500 mt-1">कृपया Lab ID र मोबाइल नम्बर मिलाएर हेर्नुहोस् ।</p>
+                            </div>
+                        `;
+                    return;
+                }
+
+                // Build report HTML
+                let rowsHtml = '';
+                report.tests.forEach(function(t) {
+                    let statusColor = 'text-green-600';
+                    if (t.status === 'Elevated') statusColor = 'text-orange-600';
+                    else if (t.status === 'Low') statusColor = 'text-red-600';
+                    rowsHtml += `
+                            <tr class="border-b border-gray-100">
+                                <td class="py-2.5 font-medium">${t.name}</td>
+                                <td class="py-2.5 text-center">${t.value}</td>
+                                <td class="py-2.5 text-center text-gray-500">${t.unit}</td>
+                                <td class="py-2.5 text-center text-gray-500">${t.ref}</td>
+                                <td class="py-2.5 text-center font-semibold ${statusColor}">${t.status}</td>
+                            </tr>
+                        `;
+                });
+
+                contentDiv.innerHTML = `
+                        <div class="space-y-4">
+                            <div class="flex flex-wrap justify-between text-sm border-b border-gray-200 pb-3">
+                                <span><strong>नाम:</strong> ${report.name}</span>
+                                <span><strong>उमेर:</strong> ${report.age} वर्ष</span>
+                                <span><strong>लिङ्ग:</strong> ${report.gender}</span>
+                                <span><strong>मिति:</strong> ${report.date}</span>
+                                <span><strong>Lab ID:</strong> ${labId}</span>
+                            </div>
+                            <div class="overflow-x-auto">
+                                <table class="w-full text-sm">
+                                    <thead>
+                                        <tr class="bg-blue-50 text-left">
+                                            <th class="py-2.5 px-3 font-semibold">परीक्षण</th>
+                                            <th class="py-2.5 px-3 text-center font-semibold">मान</th>
+                                            <th class="py-2.5 px-3 text-center font-semibold">एकाइ</th>
+                                            <th class="py-2.5 px-3 text-center font-semibold">सन्दर्भ दायरा</th>
+                                            <th class="py-2.5 px-3 text-center font-semibold">स्थिति</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        ${rowsHtml}
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="text-xs text-gray-400 border-t border-gray-200 pt-3 flex justify-between">
+                                <span>रिपोर्ट जारी मिति: ${new Date().toLocaleDateString('ne-NP')}</span>
+                                <span>Bimal Pathology &amp; Diagnostic Center</span>
+                            </div>
+                        </div>
+                    `;
+            }, 800);
+        });
+
+        // Download PDF (demo)
+        document.getElementById('downloadPdfBtn')?.addEventListener('click', function() {
+            alert('PDF डाउनलोड सुविधा चाँडै उपलब्ध हुनेछ । यसैबीच, तपाईं Print बटन प्रयोग गरी PDF को रूपमा सेभ गर्न सक्नुहुन्छ ।');
+        });
+
+        // App link
+        document.getElementById('appLinkBtn')?.addEventListener('click', function() {
+            // Android intent
+            const appUrl = 'bimalpathology://report';
+            const playStoreUrl = 'https://play.google.com/store/apps/details?id=com.bimalpathology';
+            // Try to open app
+            const start = Date.now();
+            window.location.href = appUrl;
+            setTimeout(function() {
+                if (Date.now() - start < 1200) {
+                    window.location.href = playStoreUrl;
+                }
+            }, 1000);
+        });
+
+    })();
+</script>
 
 </body>
 </html>
