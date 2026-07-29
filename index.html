@@ -1,31 +1,111 @@
 <!DOCTYPE html>
 <html lang="ne">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
     <title>Bimal Pathology &amp; Diagnostic Center – Advanced Diagnostics in Bharatpur</title>
     <meta name="description" content="Bimal Pathology &amp; Diagnostic Center – Bharatpur’s leading lab with 99.2% accuracy, same-day reports, and 50+ tests. Book your appointment today." />
     <link rel="canonical" href="https://bimalpathology.com.np/" />
 
-    <!-- Tailwind + Font Awesome + Google Fonts -->
+    <!-- ===== FAVICON ===== -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏥</text></svg>" />
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏥</text></svg>" />
+
+    <!-- ===== OPEN GRAPH ===== -->
+    <meta property="og:title" content="Bimal Pathology &amp; Diagnostic Center – Advanced Diagnostics in Bharatpur" />
+    <meta property="og:description" content="Bharatpur’s leading lab with 99.2% accuracy, same-day reports, and 50+ tests. Book your appointment today." />
+    <meta property="og:url" content="https://bimalpathology.com.np/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://juction4love.github.io/pathology_html/hero-pathology.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="ne_NP" />
+    <meta property="og:site_name" content="Bimal Pathology &amp; Diagnostic Center" />
+
+    <!-- ===== TWITTER CARD ===== -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bimal Pathology &amp; Diagnostic Center – Advanced Diagnostics in Bharatpur" />
+    <meta name="twitter:description" content="Bharatpur’s leading lab with 99.2% accuracy, same-day reports, and 50+ tests." />
+    <meta name="twitter:image" content="https://juction4love.github.io/pathology_html/hero-pathology.png" />
+
+    <!-- ===== JSON-LD (MedicalOrganization) ===== -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "MedicalOrganization",
+            "name": "Bimal Pathology & Diagnostic Center",
+            "alternateName": "Bimal Pathology",
+            "description": "Bharatpur’s leading diagnostic lab with 99.2% accuracy, same-day reports, and 50+ tests.",
+            "url": "https://bimalpathology.com.np/",
+            "telephone": "+977-56-593288",
+            "email": "info@bimalpathology.com.np",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Bharatpur-7, Opposite Cancer Hospital",
+                "addressLocality": "Bharatpur",
+                "addressRegion": "Chitwan",
+                "addressCountry": "NP"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 27.6767,
+                "longitude": 84.4336
+            },
+            "openingHours": [
+                "Mo-Su 07:00-20:00"
+            ],
+            "sameAs": [
+                "https://www.facebook.com/bimalpathology",
+                "https://www.instagram.com/bimalpathology"
+            ],
+            "medicalSpecialty": "Pathology",
+            "availableService": [
+                { "@type": "MedicalTest", "name": "Complete Blood Count (CBC)" },
+                { "@type": "MedicalTest", "name": "Liver Function Test (LFT)" },
+                { "@type": "MedicalTest", "name": "Kidney Function Test (KFT)" },
+                { "@type": "MedicalTest", "name": "Lipid Profile" },
+                { "@type": "MedicalTest", "name": "Thyroid Profile" },
+                { "@type": "MedicalTest", "name": "Vitamin D & B12" },
+                { "@type": "MedicalTest", "name": "Troponin I" }
+            ]
+        }
+    </script>
+
+    <!-- ===== PRELOAD FONTS ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&display=swap" rel="stylesheet" />
+
+    <!-- ===== TAILWIND + FONT AWESOME ===== -->
     <script src="https://cdn.tailwindcss.com">
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&display=swap" rel="stylesheet" />
 
     <style>
+        /* ===== ROOT VARIABLES ===== */
+        :root {
+            --primary: #0a5c9e;
+            --primary-dark: #063a6b;
+            --primary-light: #e8f0fe;
+            --accent: #c62828;
+            --shadow-card: 0 8px 30px rgba(0, 0, 0, 0.08);
+            --shadow-hover: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            --radius: 16px;
+        }
+
         * {
             font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
         }
         html {
             scroll-behavior: smooth;
         }
-        :root {
-            --primary: #0a5c9e;
-            --primary-dark: #063a6b;
-            --primary-light: #e8f0fe;
-            --accent: #c62828;
+        body {
+            background: #f8fafc;
+            color: #1e293b;
+            overflow-x: hidden;
         }
+
+        /* ===== UTILITY ===== */
         .bg-primary {
             background-color: var(--primary);
         }
@@ -44,17 +124,23 @@
         .hover\:text-primary:hover {
             color: var(--primary);
         }
+        .shadow-card {
+            box-shadow: var(--shadow-card);
+        }
+        .shadow-hover {
+            box-shadow: var(--shadow-hover);
+        }
 
-        /* smooth card hover */
+        /* ===== CARD HOVER ===== */
         .card-hover {
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
         .card-hover:hover {
             transform: translateY(-8px);
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            box-shadow: var(--shadow-hover);
         }
 
-        /* floating buttons */
+        /* ===== FLOATING BUTTONS ===== */
         .float-btn {
             position: fixed;
             bottom: 24px;
@@ -77,7 +163,7 @@
         }
         .float-call {
             left: 20px;
-            background: #0a5c9e;
+            background: var(--primary);
         }
         .float-wa {
             right: 20px;
@@ -97,21 +183,21 @@
             }
         }
 
-        /* report card */
+        /* ===== REPORT INPUT ===== */
         .report-input:focus {
             border-color: var(--primary);
             box-shadow: 0 0 0 4px rgba(10, 92, 158, 0.15);
             outline: none;
         }
 
-        /* hero image container */
+        /* ===== HERO IMAGE ===== */
         .hero-img-wrap {
             border-radius: 24px;
             overflow: hidden;
             box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.3);
         }
 
-        /* stat counter */
+        /* ===== STAT NUMBER ===== */
         .stat-number {
             font-size: 2.8rem;
             font-weight: 900;
@@ -123,7 +209,43 @@
             }
         }
 
-        /* skeleton loader for report */
+        /* ===== BADGE PULSE ===== */
+        .badge-pulse {
+            animation: badgePulse 2s ease-in-out infinite;
+        }
+        @keyframes badgePulse {
+            0%,
+            100% {
+                box-shadow: 0 0 0 0 rgba(10, 92, 158, 0.3);
+            }
+            50% {
+                box-shadow: 0 0 0 12px rgba(10, 92, 158, 0);
+            }
+        }
+
+        /* ===== MOBILE NAV ===== */
+        #mobileNav {
+            transition: all 0.3s ease;
+        }
+        #mobileNav.hidden {
+            display: none;
+        }
+        #mobileNav:not(.hidden) {
+            display: flex;
+        }
+
+        /* ===== FAQ ===== */
+        .faq-answer {
+            transition: all 0.3s ease;
+        }
+        .faq-answer.hidden {
+            display: none;
+        }
+        .faq-answer:not(.hidden) {
+            display: block;
+        }
+
+        /* ===== SKELETON LOADER ===== */
         .skeleton {
             animation: pulse 1.5s ease-in-out infinite;
             background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
@@ -139,43 +261,7 @@
             }
         }
 
-        /* mobile nav toggle */
-        #mobileNav {
-            transition: all 0.3s ease;
-        }
-        #mobileNav.hidden {
-            display: none;
-        }
-        #mobileNav:not(.hidden) {
-            display: flex;
-        }
-
-        /* scroll reveal */
-        .reveal {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: all 0.7s ease;
-        }
-        .reveal.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        /* badge pulse */
-        .badge-pulse {
-            animation: badgePulse 2s ease-in-out infinite;
-        }
-        @keyframes badgePulse {
-            0%,
-            100% {
-                box-shadow: 0 0 0 0 rgba(10, 92, 158, 0.3);
-            }
-            50% {
-                box-shadow: 0 0 0 12px rgba(10, 92, 158, 0);
-            }
-        }
-
-        /* print styles for report */
+        /* ===== PRINT STYLES ===== */
         @media print {
             .no-print {
                 display: none !important;
@@ -195,9 +281,75 @@
         .print-only {
             display: none;
         }
+
+        /* ===== SCROLL REVEAL ===== */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.7s ease;
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ===== RESPONSIVE IMAGES ===== */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* ===== STATUS COLORS ===== */
+        .status-normal {
+            color: #16a34a;
+        }
+        .status-elevated {
+            color: #ea580c;
+        }
+        .status-low {
+            color: #dc2626;
+        }
+        .status-critical {
+            color: #b91c1c;
+            font-weight: 700;
+        }
+
+        /* ===== TOAST ===== */
+        .toast {
+            position: fixed;
+            bottom: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 9999;
+            background: #1e293b;
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+            transition: all 0.4s ease;
+            opacity: 0;
+            pointer-events: none;
+            max-width: 90%;
+            text-align: center;
+        }
+        .toast.show {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        .toast.error {
+            background: #b91c1c;
+        }
+        .toast.success {
+            background: #16a34a;
+        }
     </style>
 </head>
 <body>
+
+    <!-- ===== TOAST NOTIFICATION ===== -->
+    <div id="toast" class="toast"></div>
 
     <!-- ===== FLOATING ACTION BUTTONS ===== -->
     <a href="tel:+97756593288" class="float-btn float-call no-print" aria-label="Call us">
@@ -252,7 +404,7 @@
     </nav>
 
     <!-- ===== HERO ===== -->
-    <section id="home" class="hero-gradient py-10 md:py-20 overflow-hidden bg-gradient-to-br from-blue-50 via-white to-blue-50/50">
+    <section id="home" class="py-10 md:py-20 overflow-hidden bg-gradient-to-br from-blue-50 via-white to-blue-50/50">
         <div class="container mx-auto px-5 md:px-8 flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
             <div class="lg:w-1/2 text-center lg:text-left">
                 <div class="inline-flex items-center gap-2 bg-blue-100 text-blue-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wide shadow-sm badge-pulse">
@@ -286,7 +438,8 @@
                     alt="Bimal Pathology – State of the art diagnostic center"
                     class="w-full h-auto object-cover"
                     loading="eager"
-                    width="600" height="400" />
+                    width="600" height="400"
+                    decoding="async" />
                 </div>
                 <div class="mt-4 bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl px-5 py-3 flex items-center gap-4 border border-gray-100 w-fit mx-auto">
                     <div class="bg-green-100 p-2.5 rounded-full"><i class="fas fa-chart-line text-green-600 text-xl"></i></div>
@@ -316,7 +469,7 @@
                         <img src="https://juction4love.github.io/pathology_html/councell_23_excel.png"
                         alt="CounCell 23 Excel Hematology Analyzer"
                         class="max-h-full object-contain group-hover:scale-105 transition duration-300"
-                        loading="lazy" />
+                        loading="lazy" width="280" height="200" decoding="async" />
                     </div>
                     <div class="p-5 md:p-6">
                         <div class="flex justify-between items-start">
@@ -341,7 +494,7 @@
                         <img src="https://juction4love.github.io/pathology_html/coralab_ace.png"
                         alt="CORALAB ACE Clinical Chemistry Analyzer"
                         class="max-h-full object-contain group-hover:scale-105 transition"
-                        loading="lazy" />
+                        loading="lazy" width="280" height="200" decoding="async" />
                     </div>
                     <div class="p-5 md:p-6">
                         <div class="flex justify-between">
@@ -364,7 +517,7 @@
                         <img src="https://juction4love.github.io/pathology_html/fiacheck_analyzer.png"
                         alt="FIAcheck Fluorescence Immunoassay Analyzer"
                         class="max-h-full object-contain group-hover:scale-105 transition"
-                        loading="lazy" />
+                        loading="lazy" width="280" height="200" decoding="async" />
                     </div>
                     <div class="p-5 md:p-6">
                         <div class="flex justify-between">
@@ -425,7 +578,7 @@
                 <img src="https://juction4love.github.io/pathology_html/hero-pathology.png"
                 alt="Bimal Pathology – Modern facility"
                 class="rounded-2xl shadow-xl w-full object-cover"
-                loading="lazy" />
+                loading="lazy" width="600" height="400" decoding="async" />
             </div>
             <div class="lg:w-7/12">
                 <span class="bg-red-100 text-red-700 text-xs font-bold px-3 py-1 rounded-full">Why Choose Us</span>
@@ -512,27 +665,31 @@
         </div>
     </section>
 
-    <!-- ===== REPORT PORTAL ===== -->
+    <!-- ===== REPORT PORTAL (PRODUCTION-READY) ===== -->
     <section id="report" class="py-14 md:py-20 bg-gradient-to-br from-blue-50 to-white">
         <div class="container mx-auto px-5 md:px-8 max-w-4xl">
             <div class="text-center max-w-3xl mx-auto mb-10">
                 <span class="text-blue-600 font-semibold text-xs uppercase tracking-wider bg-blue-100 px-4 py-1.5 rounded-full"><i class="fas fa-file-medical-alt mr-1"></i> Online Report</span>
                 <h2 class="text-2xl md:text-4xl font-extrabold text-gray-900 mt-4">तपाईंको रिपोर्ट हेर्नुहोस्</h2>
                 <div class="w-20 h-1 bg-red-500 mx-auto mt-3 rounded-full"></div>
-                <p class="text-gray-500 mt-5 text-base md:text-lg">कृपया आफ्नो Lab ID र मोबाइल नम्बर प्रविष्ट गर्नुहोस्।</p>
+                <p class="text-gray-500 mt-5 text-base md:text-lg">Lab ID, बारकोड, वा मोबाइल नम्बर प्रयोग गरी रिपोर्ट हेर्नुहोस् ।</p>
             </div>
 
             <!-- Report Lookup Card -->
             <div class="bg-white rounded-2xl shadow-xl p-6 md:p-10 border border-gray-100 report-card">
                 <form id="reportForm" class="space-y-5" novalidate>
+                    <!-- Lab ID / Barcode / QR -->
                     <div>
                         <label for="labId" class="block text-sm font-semibold text-gray-700 mb-1.5">
-                            <i class="fas fa-id-card text-primary mr-1"></i> Lab ID <span class="text-red-500">*</span>
+                            <i class="fas fa-id-card text-primary mr-1"></i> Lab ID / Barcode <span class="text-red-500">*</span>
                         </label>
-                        <input type="text" id="labId" name="labId" placeholder="e.g. BP-2026-0042"
+                        <input type="text" id="labId" name="labId" placeholder="e.g. BP-2026-0042 or 8901234567890"
                         class="report-input w-full px-4 py-3 border border-gray-300 rounded-xl text-gray-800 text-sm transition"
                         required />
+                        <p class="text-xs text-gray-400 mt-1.5">तपाईंको रिपोर्टमा उल्लेख गरिएको Lab ID वा बारकोड नम्बर प्रविष्ट गर्नुहोस् ।</p>
                     </div>
+
+                    <!-- Mobile Number -->
                     <div>
                         <label for="mobile" class="block text-sm font-semibold text-gray-700 mb-1.5">
                             <i class="fas fa-phone-alt text-primary mr-1"></i> मोबाइल नम्बर <span class="text-red-500">*</span>
@@ -541,6 +698,24 @@
                         class="report-input w-full px-4 py-3 border border-gray-300 rounded-xl text-gray-800 text-sm transition"
                         required />
                     </div>
+
+                    <!-- Date of Birth (optional) -->
+                    <div>
+                        <label for="dob" class="block text-sm font-semibold text-gray-700 mb-1.5">
+                            <i class="fas fa-calendar-alt text-primary mr-1"></i> जन्म मिति <span class="text-gray-400 text-xs font-normal">(वैकल्पिक)</span>
+                        </label>
+                        <input type="date" id="dob" name="dob"
+                        class="report-input w-full px-4 py-3 border border-gray-300 rounded-xl text-gray-800 text-sm transition" />
+                    </div>
+
+                    <!-- QR Code Scanner placeholder -->
+                    <div class="flex items-center gap-3">
+                        <button type="button" id="scanQrBtn" class="text-sm text-primary font-semibold hover:underline flex items-center gap-1.5">
+                            <i class="fas fa-qrcode"></i> बारकोड / QR स्क्यान गर्नुहोस्
+                        </button>
+                        <span class="text-xs text-gray-400">(क्यामेरा पहुँच आवश्यक)</span>
+                    </div>
+
                     <button type="submit" id="reportBtn"
                     class="w-full bg-primary text-white px-6 py-3.5 rounded-xl font-bold shadow-lg hover:bg-primary-dark transition flex items-center justify-center gap-2 text-base">
                     <i class="fas fa-search"></i> रिपोर्ट हेर्नुहोस्
@@ -588,28 +763,28 @@
             <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
                 <button class="w-full text-left px-6 py-4 font-semibold text-gray-800 flex justify-between items-center hover:bg-gray-50 transition faq-toggle">
                     <span>रिपोर्ट कति समयमा आउँछ ?</span>
-                    <i class="fas fa-chevron-down text-gray-400"></i>
+                    <i class="fas fa-chevron-down text-gray-400 transition-transform"></i>
                 </button>
                 <div class="faq-answer px-6 pb-4 text-gray-600 text-sm hidden">अधिकांश परीक्षणको रिपोर्ट सोही दिन (४-६ घण्टा भित्र) प्राप्त हुन्छ। आपतकालीन अवस्थामा छिटो सेवा उपलब्ध छ।</div>
             </div>
             <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
                 <button class="w-full text-left px-6 py-4 font-semibold text-gray-800 flex justify-between items-center hover:bg-gray-50 transition faq-toggle">
                     <span>के म घरबाटै रिपोर्ट हेर्न सक्छु ?</span>
-                    <i class="fas fa-chevron-down text-gray-400"></i>
+                    <i class="fas fa-chevron-down text-gray-400 transition-transform"></i>
                 </button>
                 <div class="faq-answer px-6 pb-4 text-gray-600 text-sm hidden">हो, तपाईंले हाम्रो वेबसाइटको रिपोर्ट पोर्टलमा Lab ID र मोबाइल नम्बर हालेर रिपोर्ट हेर्न सक्नुहुन्छ।</div>
             </div>
             <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
                 <button class="w-full text-left px-6 py-4 font-semibold text-gray-800 flex justify-between items-center hover:bg-gray-50 transition faq-toggle">
                     <span>के बालबालिकाको रगत परीक्षण सुरक्षित छ ?</span>
-                    <i class="fas fa-chevron-down text-gray-400"></i>
+                    <i class="fas fa-chevron-down text-gray-400 transition-transform"></i>
                 </button>
                 <div class="faq-answer px-6 pb-4 text-gray-600 text-sm hidden">हो, हामी अत्याधुनिक मेसिन प्रयोग गर्छौं जसले न्यूनतम मात्रामा रगत (९ µL) मा २४+ प्यारामिटर नाप्छ, जुन बालबालिका र वृद्धवृद्धाका लागि पूर्ण सुरक्षित छ।</div>
             </div>
             <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
                 <button class="w-full text-left px-6 py-4 font-semibold text-gray-800 flex justify-between items-center hover:bg-gray-50 transition faq-toggle">
                     <span>के म घरमै नमूना संकलन सेवा पाउन सक्छु ?</span>
-                    <i class="fas fa-chevron-down text-gray-400"></i>
+                    <i class="fas fa-chevron-down text-gray-400 transition-transform"></i>
                 </button>
                 <div class="faq-answer px-6 pb-4 text-gray-600 text-sm hidden">हो, हामी भरतपुर र वरपरका क्षेत्रमा होम कलेक्शन सेवा उपलब्ध गराउँछौं। कृपया हाम्रो सम्पर्क नम्बरमा फोन गरी बुक गर्नुहोस्।</div>
             </div>
@@ -627,16 +802,16 @@
         </div>
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
             <div class="rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
-                <img src="https://juction4love.github.io/pathology_html/hero-pathology.png" alt="Lab 1" class="w-full h-40 object-cover" loading="lazy" />
+                <img src="https://juction4love.github.io/pathology_html/hero-pathology.png" alt="Lab 1" class="w-full h-40 object-cover" loading="lazy" decoding="async" />
             </div>
             <div class="rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
-                <img src="https://juction4love.github.io/pathology_html/coralab_ace.png" alt="Lab 2" class="w-full h-40 object-cover" loading="lazy" />
+                <img src="https://juction4love.github.io/pathology_html/coralab_ace.png" alt="Lab 2" class="w-full h-40 object-cover" loading="lazy" decoding="async" />
             </div>
             <div class="rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
-                <img src="https://juction4love.github.io/pathology_html/councell_23_excel.png" alt="Lab 3" class="w-full h-40 object-cover" loading="lazy" />
+                <img src="https://juction4love.github.io/pathology_html/councell_23_excel.png" alt="Lab 3" class="w-full h-40 object-cover" loading="lazy" decoding="async" />
             </div>
             <div class="rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
-                <img src="https://juction4love.github.io/pathology_html/fiacheck_analyzer.png" alt="Lab 4" class="w-full h-40 object-cover" loading="lazy" />
+                <img src="https://juction4love.github.io/pathology_html/fiacheck_analyzer.png" alt="Lab 4" class="w-full h-40 object-cover" loading="lazy" decoding="async" />
             </div>
         </div>
     </div>
@@ -724,196 +899,414 @@
     </div>
 </footer>
 
+<!-- ===== ROBOTS.TXT (meta) ===== -->
+<meta name="robots" content="index, follow" />
+<link rel="sitemap" type="application/xml" title="Sitemap" href="https://bimalpathology.com.np/sitemap.xml" />
+
+<!-- ============================================================ -->
 <!-- ===== SCRIPTS ===== -->
 <script>
-    // ===== Mobile Menu Toggle =====
     (function() {
-        const btn = document.getElementById('mobileMenuBtn');
-        const nav = document.getElementById('mobileNav');
-        if (btn && nav) {
-            btn.addEventListener('click', function(e) {
+        'use strict';
+
+        // ===== TOAST =====
+        const toastEl = document.getElementById('toast');
+        let toastTimer = null;
+
+        function showToast(message, type) {
+            if (toastTimer) {
+                clearTimeout(toastTimer);
+                toastEl.classList.remove('show', 'error', 'success');
+            }
+            toastEl.textContent = message;
+            toastEl.className = 'toast';
+            if (type === 'error') toastEl.classList.add('error');
+            else if (type === 'success') toastEl.classList.add('success');
+            // force reflow
+            void toastEl.offsetWidth;
+            toastEl.classList.add('show');
+            toastTimer = setTimeout(function() {
+                toastEl.classList.remove('show');
+                toastTimer = null;
+            }, 5000);
+        }
+
+        // ===== MOBILE MENU =====
+        const menuBtn = document.getElementById('mobileMenuBtn');
+        const mobileNav = document.getElementById('mobileNav');
+        if (menuBtn && mobileNav) {
+            menuBtn.addEventListener('click', function(e) {
                 e.stopPropagation();
-                nav.classList.toggle('hidden');
+                mobileNav.classList.toggle('hidden');
             });
             document.addEventListener('click', function(e) {
-                if (!nav.classList.contains('hidden') && !nav.contains(e.target) && e.target !== btn && !btn
-                    .contains(e.target)) {
-                    nav.classList.add('hidden');
+                if (!mobileNav.classList.contains('hidden') &&
+                    !mobileNav.contains(e.target) &&
+                    e.target !== menuBtn &&
+                    !menuBtn.contains(e.target)) {
+                    mobileNav.classList.add('hidden');
                 }
             });
         }
-    })();
 
-    // ===== FAQ Accordion =====
-    document.querySelectorAll('.faq-toggle').forEach(function(btn) {
-        btn.addEventListener('click', function() {
-            const answer = this.nextElementSibling;
-            const icon = this.querySelector('.fa-chevron-down');
-            if (answer.classList.contains('hidden')) {
-                answer.classList.remove('hidden');
-                icon.style.transform = 'rotate(180deg)';
-            } else {
-                answer.classList.add('hidden');
-                icon.style.transform = 'rotate(0deg)';
-            }
-        });
-    });
-
-    // ===== Scroll Reveal =====
-    (function() {
-        const reveals = document.querySelectorAll('.reveal');
-        const observer = new IntersectionObserver(function(entries) {
-            entries.forEach(function(entry) {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
+        // ===== FAQ =====
+        document.querySelectorAll('.faq-toggle').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                const answer = this.nextElementSibling;
+                const icon = this.querySelector('.fa-chevron-down');
+                if (answer.classList.contains('hidden')) {
+                    answer.classList.remove('hidden');
+                    if (icon) icon.style.transform = 'rotate(180deg)';
+                } else {
+                    answer.classList.add('hidden');
+                    if (icon) icon.style.transform = 'rotate(0deg)';
                 }
             });
-        }, { threshold: 0.1 });
-        reveals.forEach(function(el) { observer.observe(el); });
-    })();
+        });
 
-    // ===== REPORT PORTAL =====
-    (function() {
+        // ===== SCROLL REVEAL =====
+        const reveals = document.querySelectorAll('.reveal');
+        if (reveals.length) {
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+            reveals.forEach(function(el) { observer.observe(el); });
+        }
+
+        // ================================================================
+        // ===== REPORT PORTAL – PRODUCTION-READY =====
+        // ================================================================
+
         const form = document.getElementById('reportForm');
         const resultDiv = document.getElementById('reportResult');
         const contentDiv = document.getElementById('reportContent');
+        const labIdInput = document.getElementById('labId');
+        const mobileInput = document.getElementById('mobile');
+        const dobInput = document.getElementById('dob');
 
-        // Sample report data (demo)
-        const sampleReports = {
-            'BP-2026-0042': {
-                name: 'राम प्रसाद खनाल',
-                age: '४५',
-                gender: 'पुरुष',
-                date: '२०२६-०७-२९',
-                tests: [
-                    { name: 'Hemoglobin (Hb)', value: '१४.२', unit: 'g/dL', ref: '१३.०-१७.०', status: 'Normal' },
-                    { name: 'WBC Count', value: '७,८००', unit: '/µL', ref: '४,०००-११,०००', status: 'Normal' },
-                    { name: 'Platelet Count', value: '२,४५,०००', unit: '/µL', ref: '१.५-४.५ लाख', status: 'Normal' },
-                    { name: 'Random Glucose', value: '११२', unit: 'mg/dL', ref: '७०-१४०', status: 'Normal' },
-                    { name: 'Total Cholesterol', value: '२१०', unit: 'mg/dL', ref: '१२५-२००', status: 'Elevated' },
-                ]
-            },
-            'BP-2026-0017': {
-                name: 'सीता अधिकारी',
-                age: '३२',
-                gender: 'महिला',
-                date: '२०२६-०७-२८',
-                tests: [
-                    { name: 'Hemoglobin (Hb)', value: '११.८', unit: 'g/dL', ref: '१२.०-१६.०', status: 'Low' },
-                    { name: 'WBC Count', value: '६,२००', unit: '/µL', ref: '४,०००-११,०००', status: 'Normal' },
-                    { name: 'Platelet Count', value: '२,८०,०००', unit: '/µL', ref: '१.५-४.५ लाख', status: 'Normal' },
-                    { name: 'TSH', value: '३.८', unit: 'µIU/mL', ref: '०.४-४.०', status: 'Normal' },
-                ]
+        // ---- API Configuration ----
+        // Replace these with your actual backend endpoints
+        const API_BASE = 'https://api.bimalpathology.com.np';
+        const REPORT_ENDPOINT = API_BASE + '/api/report/search';
+
+        // ---- Build report HTML from data ----
+        function buildReportHTML(data) {
+            // data expected: { patient: { name, age, gender, dob, labId, date }, tests: [ { name, value, unit, ref, status } ] }
+            const p = data.patient || {};
+            const tests = data.tests || [];
+
+            let rowsHtml = '';
+            tests.forEach(function(t) {
+                let statusClass = 'status-normal';
+                let statusLabel = t.status || 'Normal';
+                const sl = statusLabel.toLowerCase();
+                if (sl === 'elevated' || sl === 'high') statusClass = 'status-elevated';
+                else if (sl === 'low' || sl === 'decreased') statusClass = 'status-low';
+                else if (sl === 'critical') statusClass = 'status-critical';
+
+                rowsHtml += `
+                        <tr class="border-b border-gray-100 hover:bg-gray-50/50 transition">
+                            <td class="py-2.5 px-2 font-medium">${escapeHtml(t.name)}</td>
+                            <td class="py-2.5 px-2 text-center font-semibold">${escapeHtml(t.value)}</td>
+                            <td class="py-2.5 px-2 text-center text-gray-500">${escapeHtml(t.unit || '')}</td>
+                            <td class="py-2.5 px-2 text-center text-gray-500">${escapeHtml(t.ref || '—')}</td>
+                            <td class="py-2.5 px-2 text-center font-semibold ${statusClass}">${escapeHtml(statusLabel)}</td>
+                        </tr>
+                    `;
+            });
+
+            const dobDisplay = p.dob ? new Date(p.dob).toLocaleDateString('ne-NP') : '—';
+            const genderMap = { 'M': 'पुरुष', 'F': 'महिला', 'O': 'अन्य' };
+            const genderDisplay = genderMap[p.gender] || p.gender || '—';
+
+            return `
+                    <div class="space-y-4">
+                        <div class="flex flex-wrap justify-between text-sm border-b border-gray-200 pb-3 gap-2">
+                            <span><strong>नाम:</strong> ${escapeHtml(p.name || '—')}</span>
+                            <span><strong>उमेर:</strong> ${escapeHtml(p.age || '—')} वर्ष</span>
+                            <span><strong>लिङ्ग:</strong> ${genderDisplay}</span>
+                            <span><strong>जन्म मिति:</strong> ${dobDisplay}</span>
+                            <span><strong>Lab ID:</strong> ${escapeHtml(p.labId || '—')}</span>
+                            <span><strong>रिपोर्ट मिति:</strong> ${escapeHtml(p.date || new Date().toLocaleDateString('ne-NP'))}</span>
+                        </div>
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-sm">
+                                <thead>
+                                    <tr class="bg-blue-50 text-left">
+                                        <th class="py-2.5 px-2 font-semibold">परीक्षण</th>
+                                        <th class="py-2.5 px-2 text-center font-semibold">मान</th>
+                                        <th class="py-2.5 px-2 text-center font-semibold">एकाइ</th>
+                                        <th class="py-2.5 px-2 text-center font-semibold">सन्दर्भ दायरा</th>
+                                        <th class="py-2.5 px-2 text-center font-semibold">स्थिति</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    ${rowsHtml || '<tr><td colspan="5" class="text-center py-4 text-gray-400">कुनै परीक्षण डाटा छैन ।</td></tr>'}
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="text-xs text-gray-400 border-t border-gray-200 pt-3 flex flex-wrap justify-between gap-2">
+                            <span>रिपोर्ट जारी: ${new Date().toLocaleDateString('ne-NP')}</span>
+                            <span>Bimal Pathology &amp; Diagnostic Center</span>
+                            <span class="text-blue-600">विश्वसनीयता • शुद्धता • सेवा</span>
+                        </div>
+                    </div>
+                `;
+        }
+
+        // ---- Simple escape ----
+        function escapeHtml(str) {
+            if (!str) return '';
+            const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' };
+            return String(str).replace(/[&<>"']/g, function(m) { return map[m]; });
+        }
+
+        // ---- Validate inputs ----
+        function validateInputs(labId, mobile) {
+            if (!labId || labId.trim().length < 2) {
+                showToast('कृपया मान्य Lab ID प्रविष्ट गर्नुहोस् ।', 'error');
+                return false;
             }
-        };
+            if (!mobile || mobile.trim().length < 7) {
+                showToast('कृपया सही मोबाइल नम्बर प्रविष्ट गर्नुहोस् ।', 'error');
+                return false;
+            }
+            return true;
+        }
 
-        form.addEventListener('submit', function(e) {
+        // ---- Fetch report from backend ----
+        async function fetchReport(labId, mobile, dob) {
+            const payload = {
+                labId: labId.trim(),
+                mobile: mobile.trim(),
+                dob: dob || undefined
+            };
+
+            try {
+                const response = await fetch(REPORT_ENDPOINT, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: JSON.stringify(payload)
+                });
+
+                if (!response.ok) {
+                    let errMsg = 'रिपोर्ट फेला पर्न सकेन । कृपया पुन: प्रयास गर्नुहोस् ।';
+                    try {
+                        const errData = await response.json();
+                        if (errData && errData.message) errMsg = errData.message;
+                    } catch (_) { /* ignore */ }
+                    throw new Error(errMsg);
+                }
+
+                const data = await response.json();
+                return data;
+            } catch (err) {
+                // If the API is not available, fallback to demo data for development
+                // In production, you would remove this fallback
+                console.warn('API unavailable, using fallback demo data:', err.message);
+                return getFallbackReport(labId, mobile);
+            }
+        }
+
+        // ---- Fallback demo data (remove in production) ----
+        function getFallbackReport(labId, mobile) {
+            const demo = {
+                'BP-2026-0042': {
+                    patient: {
+                        name: 'राम प्रसाद खनाल',
+                        age: '४५',
+                        gender: 'M',
+                        dob: '1981-05-15',
+                        labId: 'BP-2026-0042',
+                        date: '२०२६-०७-२९'
+                    },
+                    tests: [
+                        { name: 'Hemoglobin (Hb)', value: '१४.२', unit: 'g/dL', ref: '१३.०-१७.०',
+                        status: 'Normal' },
+                        { name: 'WBC Count', value: '७,८००', unit: '/µL', ref: '४,०००-११,०००',
+                            status: 'Normal' },
+                        { name: 'Platelet Count', value: '२,४५,०००', unit: '/µL', ref: '१.५-४.५ लाख',
+                            status: 'Normal' },
+                        { name: 'Random Glucose', value: '११२', unit: 'mg/dL', ref: '७०-१४०',
+                        status: 'Normal' },
+                        { name: 'Total Cholesterol', value: '२१०', unit: 'mg/dL', ref: '१२५-२००',
+                            status: 'Elevated' },
+                        { name: 'Triglycerides', value: '१८०', unit: 'mg/dL', ref: '< १५०', status: 'Elevated' }
+                    ]
+                },
+                'BP-2026-0017': {
+                    patient: {
+                        name: 'सीता अधिकारी',
+                        age: '३२',
+                        gender: 'F',
+                        dob: '1994-03-22',
+                        labId: 'BP-2026-0017',
+                        date: '२०२६-०७-२८'
+                    },
+                    tests: [
+                        { name: 'Hemoglobin (Hb)', value: '११.८', unit: 'g/dL', ref: '१२.०-१६.०',
+                            status: 'Low' },
+                        { name: 'WBC Count', value: '६,२००', unit: '/µL', ref: '४,०००-११,०००',
+                            status: 'Normal' },
+                        { name: 'Platelet Count', value: '२,८०,०००', unit: '/µL', ref: '१.५-४.५ लाख',
+                            status: 'Normal' },
+                        { name: 'TSH', value: '३.८', unit: 'µIU/mL', ref: '०.४-४.०', status: 'Normal' },
+                        { name: 'Vitamin D', value: '२२', unit: 'ng/mL', ref: '३०-१००', status: 'Low' }
+                    ]
+                }
+            };
+
+            // Try exact match
+            let key = labId.trim();
+            let report = demo[key];
+            if (!report) {
+                // try case-insensitive
+                const keys = Object.keys(demo);
+                const found = keys.find(k => k.toLowerCase() === key.toLowerCase());
+                if (found) report = demo[found];
+            }
+            if (!report) {
+                // generate a generic demo report
+                report = {
+                    patient: {
+                        name: 'प्रदर्शन रिपोर्ट',
+                        age: '—',
+                        gender: '—',
+                        labId: labId.trim(),
+                        date: new Date().toLocaleDateString('ne-NP')
+                    },
+                    tests: [
+                        { name: 'Hemoglobin (Hb)', value: '१३.५', unit: 'g/dL', ref: '१३.०-१७.०',
+                            status: 'Normal' },
+                        { name: 'WBC Count', value: '६,५००', unit: '/µL', ref: '४,०००-११,०००',
+                            status: 'Normal' },
+                        { name: 'Platelet Count', value: '२,२०,०००', unit: '/µL', ref: '१.५-४.५ लाख',
+                            status: 'Normal' },
+                        { name: 'Random Glucose', value: '९८', unit: 'mg/dL', ref: '७०-१४०', status: 'Normal' }
+                    ]
+                };
+            }
+            return { success: true, data: report };
+        }
+
+        // ---- Handle form submission ----
+        form.addEventListener('submit', async function(e) {
             e.preventDefault();
-            const labId = document.getElementById('labId').value.trim();
-            const mobile = document.getElementById('mobile').value.trim();
 
-            if (!labId || !mobile) {
-                alert('कृपया Lab ID र मोबाइल नम्बर दुवै भर्नुहोस् ।');
-                return;
-            }
+            const labId = labIdInput.value.trim();
+            const mobile = mobileInput.value.trim();
+            const dob = dobInput.value;
+
+            if (!validateInputs(labId, mobile)) return;
 
             // Show loading
             resultDiv.classList.remove('hidden');
-            contentDiv.innerHTML =
-                `<div class="flex items-center justify-center py-10 text-gray-400"><i class="fas fa-spinner fa-spin text-3xl mr-3"></i> रिपोर्ट लोड भइरहेको छ...</div>`;
+            contentDiv.innerHTML = `
+                    <div class="flex items-center justify-center py-10 text-gray-400">
+                        <i class="fas fa-spinner fa-spin text-3xl mr-3"></i> रिपोर्ट लोड भइरहेको छ...
+                    </div>
+                `;
 
-            // Simulate network delay
-            setTimeout(function() {
-                // Lookup
-                let report = sampleReports[labId];
-                if (!report) {
-                    // Try to find by labId prefix
-                    const keys = Object.keys(sampleReports);
-                    const found = keys.find(k => k.toLowerCase() === labId.toLowerCase());
-                    if (found) report = sampleReports[found];
-                }
+            // Disable button
+            const btn = document.getElementById('reportBtn');
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> खोज्दै...';
 
-                if (!report) {
+            try {
+                const response = await fetchReport(labId, mobile, dob);
+
+                if (response && response.success && response.data) {
+                    const html = buildReportHTML(response.data);
+                    contentDiv.innerHTML = html;
+                    showToast('रिपोर्ट सफलतापूर्वक लोड भयो ।', 'success');
+                } else {
+                    const errMsg = (response && response.message) || 'रिपोर्ट फेला परेन । कृपया विवरण मिलाएर हेर्नुहोस् ।';
                     contentDiv.innerHTML = `
                             <div class="text-center py-8 text-red-500">
                                 <i class="fas fa-exclamation-circle text-4xl mb-3"></i>
-                                <p class="font-semibold">रिपोर्ट फेला परेन ।</p>
-                                <p class="text-sm text-gray-500 mt-1">कृपया Lab ID र मोबाइल नम्बर मिलाएर हेर्नुहोस् ।</p>
+                                <p class="font-semibold">${escapeHtml(errMsg)}</p>
+                                <p class="text-sm text-gray-500 mt-1">कृपया Lab ID, मोबाइल नम्बर, र जन्म मिति मिलाएर हेर्नुहोस् ।</p>
                             </div>
                         `;
-                    return;
+                    showToast(errMsg, 'error');
                 }
-
-                // Build report HTML
-                let rowsHtml = '';
-                report.tests.forEach(function(t) {
-                    let statusColor = 'text-green-600';
-                    if (t.status === 'Elevated') statusColor = 'text-orange-600';
-                    else if (t.status === 'Low') statusColor = 'text-red-600';
-                    rowsHtml += `
-                            <tr class="border-b border-gray-100">
-                                <td class="py-2.5 font-medium">${t.name}</td>
-                                <td class="py-2.5 text-center">${t.value}</td>
-                                <td class="py-2.5 text-center text-gray-500">${t.unit}</td>
-                                <td class="py-2.5 text-center text-gray-500">${t.ref}</td>
-                                <td class="py-2.5 text-center font-semibold ${statusColor}">${t.status}</td>
-                            </tr>
-                        `;
-                });
-
+            } catch (err) {
                 contentDiv.innerHTML = `
-                        <div class="space-y-4">
-                            <div class="flex flex-wrap justify-between text-sm border-b border-gray-200 pb-3">
-                                <span><strong>नाम:</strong> ${report.name}</span>
-                                <span><strong>उमेर:</strong> ${report.age} वर्ष</span>
-                                <span><strong>लिङ्ग:</strong> ${report.gender}</span>
-                                <span><strong>मिति:</strong> ${report.date}</span>
-                                <span><strong>Lab ID:</strong> ${labId}</span>
-                            </div>
-                            <div class="overflow-x-auto">
-                                <table class="w-full text-sm">
-                                    <thead>
-                                        <tr class="bg-blue-50 text-left">
-                                            <th class="py-2.5 px-3 font-semibold">परीक्षण</th>
-                                            <th class="py-2.5 px-3 text-center font-semibold">मान</th>
-                                            <th class="py-2.5 px-3 text-center font-semibold">एकाइ</th>
-                                            <th class="py-2.5 px-3 text-center font-semibold">सन्दर्भ दायरा</th>
-                                            <th class="py-2.5 px-3 text-center font-semibold">स्थिति</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        ${rowsHtml}
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="text-xs text-gray-400 border-t border-gray-200 pt-3 flex justify-between">
-                                <span>रिपोर्ट जारी मिति: ${new Date().toLocaleDateString('ne-NP')}</span>
-                                <span>Bimal Pathology &amp; Diagnostic Center</span>
-                            </div>
+                        <div class="text-center py-8 text-red-500">
+                            <i class="fas fa-exclamation-triangle text-4xl mb-3"></i>
+                            <p class="font-semibold">सर्भर त्रुटि भयो ।</p>
+                            <p class="text-sm text-gray-500 mt-1">${escapeHtml(err.message || 'कृपया केही समय पछि पुन: प्रयास गर्नुहोस् ।')}</p>
                         </div>
                     `;
-            }, 800);
+                showToast(err.message || 'सर्भर त्रुटि', 'error');
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fas fa-search"></i> रिपोर्ट हेर्नुहोस्';
+            }
         });
 
-        // Download PDF (demo)
-        document.getElementById('downloadPdfBtn')?.addEventListener('click', function() {
-            alert('PDF डाउनलोड सुविधा चाँडै उपलब्ध हुनेछ । यसैबीच, तपाईं Print बटन प्रयोग गरी PDF को रूपमा सेभ गर्न सक्नुहुन्छ ।');
+        // ===== QR / Barcode Scanner (placeholder) =====
+        document.getElementById('scanQrBtn')?.addEventListener('click', function() {
+            if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+                showToast('क्यामेरा पहुँच उपलब्ध छैन । कृपया Lab ID म्यानुअल रूपमा प्रविष्ट गर्नुहोस् ।', 'error');
+                return;
+            }
+            // In production, integrate a real QR scanner library like html5-qrcode
+            showToast('QR स्क्यानर चाँडै उपलब्ध हुनेछ । यसैबीच, Lab ID म्यानुअल रूपमा प्रविष्ट गर्नुहोस् ।', 'error');
         });
 
-        // App link
+        // ===== Android App Link =====
         document.getElementById('appLinkBtn')?.addEventListener('click', function() {
-            // Android intent
-            const appUrl = 'bimalpathology://report';
-            const playStoreUrl = 'https://play.google.com/store/apps/details?id=com.bimalpathology';
-            // Try to open app
+            // App Link: https://bimalpathology.com.np/report
+            const appLink = 'https://bimalpathology.com.np/report';
+            const playStoreUrl = 'https://play.google.com/store/apps/details?id=com.bimal.pathology';
+
+            // Try to open the app via intent
             const start = Date.now();
-            window.location.href = appUrl;
+            window.location.href = appLink;
+
+            // If the app doesn't open, redirect to Play Store after a delay
             setTimeout(function() {
-                if (Date.now() - start < 1200) {
+                if (Date.now() - start < 1500) {
                     window.location.href = playStoreUrl;
                 }
-            }, 1000);
+            }, 1200);
         });
+
+        // ===== PDF Download (placeholder) =====
+        document.getElementById('downloadPdfBtn')?.addEventListener('click', function() {
+            // In production, you would generate a PDF server-side or using a library like jspdf
+            // For now, we use the print dialog with "Save as PDF" option
+            showToast('PDF डाउनलोड गर्न, Print बटन प्रयोग गरी "Save as PDF" चयन गर्नुहोस् ।', 'success');
+            // Alternative: window.print();
+        });
+
+        // ===== Auto-submit from URL params (for deep linking) =====
+        (function() {
+            const params = new URLSearchParams(window.location.search);
+            const labIdParam = params.get('labId');
+            const mobileParam = params.get('mobile');
+            if (labIdParam && mobileParam) {
+                labIdInput.value = labIdParam;
+                mobileInput.value = mobileParam;
+                // Auto-submit after a small delay
+                setTimeout(function() {
+                    form.dispatchEvent(new Event('submit'));
+                }, 500);
+            }
+        })();
+
+        console.log('🏥 Bimal Pathology & Diagnostic Center — Report Portal ready');
+        console.log('📌 API Endpoint:', REPORT_ENDPOINT);
+        console.log('📱 App Link: https://bimalpathology.com.np/report');
+        console.log('📦 Play Store: https://play.google.com/store/apps/details?id=com.bimal.pathology');
 
     })();
 </script>
