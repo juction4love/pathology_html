@@ -343,6 +343,28 @@
             opacity: 1;
             transform: translateY(0);
         }
+
+        /* ===== COMMITMENT ICON BOX ===== */
+        .commitment-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            margin: 0 auto 1rem auto;
+            transition: all 0.3s ease;
+        }
+        .commitment-card:hover .commitment-icon {
+            transform: scale(1.08) rotate(-2deg);
+        }
+        .commitment-card {
+            transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .commitment-card:hover {
+            transform: translateY(-6px);
+        }
     </style>
 </head>
 <body>
@@ -371,7 +393,7 @@
                 <a href="index.html" class="text-primary border-b-2 border-primary pb-1">Home</a>
                 <a href="#services" class="hover:text-primary transition">Services</a>
                 <a href="#about" class="hover:text-primary transition">About</a>
-                <a href="#team" class="hover:text-primary transition">Team</a>
+                <a href="#commitment" class="hover:text-primary transition">Commitment</a>
                 <a href="#testimonials" class="hover:text-primary transition">Reviews</a>
                 <a href="#contact" class="hover:text-primary transition">Contact</a>
                 <a href="#report" class="bg-primary text-white px-5 py-2 rounded-full hover:bg-primary-dark transition shadow-sm text-sm font-semibold flex items-center gap-1.5">
@@ -395,7 +417,7 @@
             <a href="index.html" class="text-primary font-semibold py-2 border-l-4 border-primary pl-3">Home</a>
             <a href="#services" class="text-gray-700 hover:text-primary py-2 pl-3 transition">Services</a>
             <a href="#about" class="text-gray-700 hover:text-primary py-2 pl-3 transition">About</a>
-            <a href="#team" class="text-gray-700 hover:text-primary py-2 pl-3 transition">Team</a>
+            <a href="#commitment" class="text-gray-700 hover:text-primary py-2 pl-3 transition">Commitment</a>
             <a href="#testimonials" class="text-gray-700 hover:text-primary py-2 pl-3 transition">Reviews</a>
             <a href="#contact" class="text-gray-700 hover:text-primary py-2 pl-3 transition">Contact</a>
             <a href="#report" class="bg-primary text-white px-4 py-2.5 rounded-full text-center font-semibold hover:bg-primary-dark transition">Get Report</a>
@@ -608,15 +630,70 @@
         </div>
     </section>
 
-    <!-- ===== TEAM (Simplified - Text Only) ===== -->
-    <section id="team" class="py-16 md:py-24 bg-gray-50/60">
-        <div class="container mx-auto px-5 md:px-8 max-w-4xl">
-            <div class="text-center">
-                <span class="text-blue-600 font-semibold text-xs uppercase tracking-wider bg-blue-50 px-4 py-1.5 rounded-full">Our Team</span>
-                <h2 class="text-3xl md:text-5xl font-extrabold text-gray-900 mt-4">हाम्रो टिम</h2>
+    <!-- ===== COMMITMENT (Replaces Team Section) ===== -->
+    <section id="commitment" class="py-16 md:py-24 bg-gray-50/60">
+        <div class="container mx-auto px-5 md:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <span class="text-blue-600 font-semibold text-xs uppercase tracking-wider bg-blue-50 px-4 py-1.5 rounded-full">Our Commitment</span>
+                <h2 class="text-3xl md:text-5xl font-extrabold text-gray-900 mt-4">गुणस्तर र विश्वसनीयताको प्रतिबद्धता</h2>
                 <div class="w-20 h-1.5 bg-red-500 mx-auto mt-4 rounded-full"></div>
-                <p class="text-gray-600 text-base md:text-lg mt-6 max-w-2xl mx-auto leading-relaxed">
-                    अनुभवी प्याथोलोजिस्ट र टेक्निसियनहरूको टिम तपाईंको सेवामा ।
+                <p class="text-gray-600 text-base md:text-lg mt-5 max-w-2xl mx-auto leading-relaxed">
+                    हामी हरेक परीक्षणमा शुद्धता, पारदर्शिता र रोगी-केन्द्रित सेवाको पूर्ण पालना गर्छौं । हाम्रो प्रतिबद्धता — तपाईंको स्वास्थ्य, हाम्रो जिम्मेवारी ।
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Pillar 1: Accuracy -->
+                <div class="commitment-card bg-white rounded-2xl shadow-sm border border-gray-100 p-6 text-center hover:shadow-md transition">
+                    <div class="commitment-icon bg-blue-50 text-blue-600">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-gray-800">१००% शुद्धता</h3>
+                    <p class="text-gray-500 text-sm mt-2 leading-relaxed">
+                        अत्याधुनिक उपकरण र गुणस्तरीय मापदण्डहरूको पालना गर्दै ९९.२% भन्दा बढी निदान शुद्धता कायम गर्छौं ।
+                    </p>
+                </div>
+
+                <!-- Pillar 2: Advanced Technology -->
+                <div class="commitment-card bg-white rounded-2xl shadow-sm border border-gray-100 p-6 text-center hover:shadow-md transition">
+                    <div class="commitment-icon bg-purple-50 text-purple-600">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-gray-800">अत्याधुनिक प्रविधि</h3>
+                    <p class="text-gray-500 text-sm mt-2 leading-relaxed">
+                        CounCell 23 Excel, CORALAB ACE, FIAcheck लगायतका विश्वस्तरीय मेसिनहरूमा परीक्षण गरिन्छ ।
+                    </p>
+                </div>
+
+                <!-- Pillar 3: Patient-Centric Care -->
+                <div class="commitment-card bg-white rounded-2xl shadow-sm border border-gray-100 p-6 text-center hover:shadow-md transition">
+                    <div class="commitment-icon bg-green-50 text-green-600">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-gray-800">रोगी-केन्द्रित सेवा</h3>
+                    <p class="text-gray-500 text-sm mt-2 leading-relaxed">
+                        न्यूनतम रगतमा परीक्षण, सोही दिन रिपोर्ट, र डिजिटल पहुँच — तपाईंको सुविधालाई प्राथमिकता ।
+                    </p>
+                </div>
+
+                <!-- Pillar 4: Trust & Transparency -->
+                <div class="commitment-card bg-white rounded-2xl shadow-sm border border-gray-100 p-6 text-center hover:shadow-md transition">
+                    <div class="commitment-icon bg-amber-50 text-amber-600">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-gray-800">विश्वसनीयता र पारदर्शिता</h3>
+                    <p class="text-gray-500 text-sm mt-2 leading-relaxed">
+                        खुला संचार, पारदर्शी मूल्य निर्धारण, र हरेक रिपोर्टको स्पष्ट व्याख्या — तपाईंको विश्वास नै हाम्रो पूँजी ।
+                    </p>
+                </div>
+            </div>
+
+            <!-- Bottom note -->
+            <div class="mt-12 text-center">
+                <p class="text-sm text-gray-500 max-w-2xl mx-auto">
+                    <i class="fas fa-quote-left text-blue-400 mr-2"></i>
+                    हामी हरेक बिरामीलाई सही निदान, समयमै सेवा, र मानवीय सहानुभूति प्रदान गर्न प्रतिबद्ध छौं ।
+                    <i class="fas fa-quote-right text-blue-400 ml-2"></i>
                 </p>
             </div>
         </div>
@@ -854,6 +931,7 @@
                     <li><a href="index.html" class="hover:text-white transition">Home</a></li>
                     <li><a href="#services" class="hover:text-white transition">Services</a></li>
                     <li><a href="#about" class="hover:text-white transition">About</a></li>
+                    <li><a href="#commitment" class="hover:text-white transition">Commitment</a></li>
                     <li><a href="#report" class="hover:text-white transition">Get Report</a></li>
                 </ul>
             </div>
