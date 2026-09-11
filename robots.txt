@@ -1,0 +1,6 @@
+# robots.txt for https://bimalpathology.com.np/
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://bimalpathology.com.np/sitemap.xml
