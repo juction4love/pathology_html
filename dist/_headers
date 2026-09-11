@@ -1,0 +1,19 @@
+# Security and Cache Headers for Cloudflare Pages
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; frame-src 'self' https://www.google.com; connect-src 'self' https://api.bimalpathology.com.np;
+
+# Cache static image and media assets for 1 year
+/assets/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Cache CSS and JS for 1 week with revalidation
+/assets/css/*
+  Cache-Control: public, max-age=604800, must-revalidate
+
+/assets/js/*
+  Cache-Control: public, max-age=604800, must-revalidate
