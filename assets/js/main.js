@@ -394,7 +394,7 @@
     executeRateSearch(); // Boots in default empty state (0 tests rendered)
 
     if (window.location.protocol.startsWith('http')) {
-      fetch('assets/data/rates.json', { cache: 'no-cache' })
+      fetch('/assets/data/rates.json', { cache: 'no-cache' })
         .then(response => {
           if (!response.ok) throw new Error('Network response not ok');
           return response.json();
@@ -467,30 +467,6 @@
     });
   }
 
-  // ===== 6. ACTIVE NAVBAR LINK HIGHLIGHTING ON SCROLL =====
-  const sections = document.querySelectorAll('section[id]');
-  const navLinks = document.querySelectorAll('.nav-link');
-
-  if (sections.length > 0) {
-    window.addEventListener('scroll', () => {
-      let current = '';
-      const scrollPosition = window.scrollY + 140;
-
-      sections.forEach(section => {
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.offsetHeight;
-        if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-          current = section.getAttribute('id');
-        }
-      });
-
-      navLinks.forEach(link => {
-        link.classList.remove('active');
-        if (link.getAttribute('href') === `#${current}` || (current === '' && link.getAttribute('href') === '#home')) {
-          link.classList.add('active');
-        }
-      });
-    }, { passive: true });
-  }
-
+  // ===== 6. ACTIVE NAVBAR LINK HIGHLIGHTING (MULTI-PAGE COMPATIBLE) =====
+  // Active links are statically assigned per HTML page via class="nav-link active"
 })();
