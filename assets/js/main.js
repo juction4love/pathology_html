@@ -1,6 +1,6 @@
 /**
  * Bimal Pathology & Diagnostic Center — Main UI Application Logic
- * Lightweight, accessible, zero-dependency JavaScript
+ * Lightweight, accessible, zero-dependency native JavaScript
  */
 
 (function() {
@@ -20,7 +20,7 @@
     toastEl.className = 'toast-msg';
     if (type === 'error') toastEl.classList.add('error');
     else if (type === 'success') toastEl.classList.add('success');
-    
+
     // Force reflow
     void toastEl.offsetWidth;
     toastEl.classList.add('show');
@@ -31,13 +31,13 @@
     }, 4500);
   };
 
-  // ===== 2. MOBILE NAVIGATION DRAWER =====
-  const mobileToggleBtn = document.getElementById('mobileMenuBtn');
-  const mobileNavDrawer = document.getElementById('mobileNav');
+  // ===== 2. MOBILE NAVIGATION DRAWER & TOGGLE =====
+  const mobileToggleBtn = document.getElementById('mobileMenuBtn') || document.getElementById('navToggle');
+  const mobileNavDrawer = document.getElementById('mobileNav') || document.getElementById('navMenu');
 
   function closeMobileNav() {
-    if (mobileNavDrawer && mobileNavDrawer.classList.contains('open')) {
-      mobileNavDrawer.classList.remove('open');
+    if (mobileNavDrawer) {
+      mobileNavDrawer.classList.remove('open', 'active');
       if (mobileToggleBtn) {
         mobileToggleBtn.setAttribute('aria-expanded', 'false');
       }
@@ -47,7 +47,7 @@
 
   function openMobileNav() {
     if (mobileNavDrawer) {
-      mobileNavDrawer.classList.add('open');
+      mobileNavDrawer.classList.add('open', 'active');
       if (mobileToggleBtn) {
         mobileToggleBtn.setAttribute('aria-expanded', 'true');
       }
@@ -58,7 +58,7 @@
   if (mobileToggleBtn && mobileNavDrawer) {
     mobileToggleBtn.addEventListener('click', function(e) {
       e.stopPropagation();
-      const isOpen = mobileNavDrawer.classList.contains('open');
+      const isOpen = mobileNavDrawer.classList.contains('open') || mobileNavDrawer.classList.contains('active');
       if (isOpen) {
         closeMobileNav();
       } else {
@@ -68,15 +68,14 @@
 
     // Close on clicking outside
     document.addEventListener('click', function(e) {
-      if (mobileNavDrawer.classList.contains('open') && 
-          !mobileNavDrawer.contains(e.target) && 
-          !mobileToggleBtn.contains(e.target)) {
+      const isOpen = mobileNavDrawer.classList.contains('open') || mobileNavDrawer.classList.contains('active');
+      if (isOpen && !mobileNavDrawer.contains(e.target) && !mobileToggleBtn.contains(e.target)) {
         closeMobileNav();
       }
     });
 
     // Close on mobile link click
-    mobileNavDrawer.querySelectorAll('.mobile-nav-link, a.btn').forEach(link => {
+    mobileNavDrawer.querySelectorAll('.mobile-nav-link, .nav-link, a.btn').forEach(link => {
       link.addEventListener('click', () => {
         closeMobileNav();
       });
@@ -84,8 +83,9 @@
 
     // Close on Escape key
     document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape' && mobileNavDrawer.classList.contains('open')) {
-        closeMobileNav();
+      if (e.key === 'Escape') {
+        const isOpen = mobileNavDrawer.classList.contains('open') || mobileNavDrawer.classList.contains('active');
+        if (isOpen) closeMobileNav();
       }
     });
   }
@@ -97,7 +97,7 @@
     if (!btn) return;
     btn.addEventListener('click', () => {
       const isOpen = item.classList.contains('open');
-      
+
       // Close other accordions for clean single-panel UX
       faqItems.forEach(other => {
         if (other !== item) {
@@ -112,255 +112,309 @@
     });
   });
 
-  // ===== 4. TEST DIRECTORY & SEARCH DATASET =====
-  const TESTS_DATA = [
-    {
-      name: 'Complete Blood Count (CBC)',
-      nepaliName: 'पूर्ण रक्त गणना (CBC)',
-      abbr: 'CBC',
-      category: 'hematology',
-      categoryLabel: 'Hematology',
-      sample: 'Blood (EDTA Whole Blood)',
-      prep: 'Routine sample / No fasting needed',
-      desc: 'Hemoglobin, Total & Differential WBC count, Platelet Count, and RBC Indices analysis.'
-    },
-    {
-      name: 'Hemoglobin (Hb)',
-      nepaliName: 'हेमोग्लोबिन परीक्षण',
-      abbr: 'Hb',
-      category: 'hematology',
-      categoryLabel: 'Hematology',
-      sample: 'Blood (EDTA)',
-      prep: 'Routine sample / No fasting needed',
-      desc: 'Assessment for anemia and oxygen-carrying capacity.'
-    },
-    {
-      name: 'Erythrocyte Sedimentation Rate (ESR)',
-      nepaliName: 'ईएसआर (ESR)',
-      abbr: 'ESR',
-      category: 'hematology',
-      categoryLabel: 'Hematology',
-      sample: 'Blood (Citrate/EDTA)',
-      prep: 'Routine sample collection',
-      desc: 'Non-specific marker for clinical inflammation assessment.'
-    },
-    {
-      name: 'Liver Function Test (LFT)',
-      nepaliName: 'कलेजो कार्य परीक्षण (LFT)',
-      abbr: 'LFT',
-      category: 'biochemistry',
-      categoryLabel: 'Biochemistry',
-      sample: 'Blood Serum',
-      prep: 'Overnight fasting (8–10 hrs) recommended or as advised',
-      desc: 'Total/Direct Bilirubin, SGOT (AST), SGPT (ALT), Alkaline Phosphatase, Total Protein, Albumin.'
-    },
-    {
-      name: 'Kidney Function Test (KFT / RFT)',
-      nepaliName: 'मृगौला कार्य परीक्षण (KFT)',
-      abbr: 'KFT',
-      category: 'biochemistry',
-      categoryLabel: 'Biochemistry',
-      sample: 'Blood Serum',
-      prep: 'Routine sample; maintain normal hydration',
-      desc: 'Serum Creatinine, Blood Urea, and Uric Acid evaluation.'
-    },
-    {
-      name: 'Fasting Blood Sugar (FBS)',
-      nepaliName: 'फास्टिङ ब्लड सुगर (FBS)',
-      abbr: 'FBS',
-      category: 'diabetes',
-      categoryLabel: 'Diabetes',
-      sample: 'Blood (Fluoride Plasma)',
-      prep: 'Overnight fasting required (8–10 hrs)',
-      desc: 'Baseline blood glucose measurement for diabetes evaluation.'
-    },
-    {
-      name: 'Post Prandial Blood Sugar (PPBS)',
-      nepaliName: 'खाना खाएपछिको सुगर (PPBS)',
-      abbr: 'PPBS',
-      category: 'diabetes',
-      categoryLabel: 'Diabetes',
-      sample: 'Blood (Fluoride Plasma)',
-      prep: 'Sample collected 2 hours after starting meal',
-      desc: 'Post-meal blood glucose evaluation.'
-    },
-    {
-      name: 'HbA1c (Glycated Hemoglobin)',
-      nepaliName: 'एचबिएवानसी (HbA1c)',
-      abbr: 'HbA1c',
-      category: 'diabetes',
-      categoryLabel: 'Diabetes',
-      sample: 'Blood (EDTA Whole Blood)',
-      prep: 'No fasting required; any time of day',
-      desc: 'Long-term glycemic status overview over past 2–3 months.'
-    },
-    {
-      name: 'Lipid Profile (Full Panel)',
-      nepaliName: 'लिपिड प्रोफाइल (कोलेस्ट्रोल)',
-      abbr: 'Lipid',
-      category: 'lipid',
-      categoryLabel: 'Lipid Profile',
-      sample: 'Blood Serum',
-      prep: '10–12 hours overnight fasting recommended',
-      desc: 'Total Cholesterol, Triglycerides, HDL, LDL, and VLDL cholesterol fractions.'
-    },
-    {
-      name: 'Thyroid Stimulating Hormone (TSH)',
-      nepaliName: 'थाइरोइड हर्मोन (TSH)',
-      abbr: 'TSH',
-      category: 'thyroid',
-      categoryLabel: 'Thyroid',
-      sample: 'Blood Serum',
-      prep: 'Morning sample preferred / Follow clinician advice',
-      desc: 'Quantitative fluorescence immunoassay for thyroid function.'
-    },
-    {
-      name: 'Free T3 & Free T4 Panel',
-      nepaliName: 'फ्री टी३ र फ्री टी४',
-      abbr: 'FT3/FT4',
-      category: 'thyroid',
-      categoryLabel: 'Thyroid',
-      sample: 'Blood Serum',
-      prep: 'Morning sample preferred / Follow clinician advice',
-      desc: 'Active circulating unbound thyroid hormones assessment.'
-    },
-    {
-      name: 'Vitamin D (25-Hydroxy)',
-      nepaliName: 'भिटामिन डी (Vitamin D)',
-      abbr: 'Vit D',
-      category: 'vitamins',
-      categoryLabel: 'Vitamins',
-      sample: 'Blood Serum',
-      prep: 'Routine sample collection',
-      desc: 'Vitamin D status and bone mineral health evaluation.'
-    },
-    {
-      name: 'Vitamin B12 (Cyanocobalamin)',
-      nepaliName: 'भिटामिन बी१२ (Vitamin B12)',
-      abbr: 'Vit B12',
-      category: 'vitamins',
-      categoryLabel: 'Vitamins',
-      sample: 'Blood Serum',
-      prep: 'Routine sample collection / Follow clinician advice',
-      desc: 'Vitamin B12 level for neurological and red blood cell health.'
-    },
-    {
-      name: 'Troponin I (Cardiac Marker)',
-      nepaliName: 'ट्रोपोनिन आई (Troponin I)',
-      abbr: 'cTnI',
-      category: 'cardiac',
-      categoryLabel: 'Cardiac',
-      sample: 'Blood Serum / Plasma',
-      prep: 'Emergency marker; immediate collection as ordered',
-      desc: 'Quantitative cardiac biomarker detection for acute myocardial assessment.'
-    },
-    {
-      name: 'Urine Routine & Microscopy (R/E)',
-      nepaliName: 'पिसाब परीक्षण (Urine R/E)',
-      abbr: 'Urine R/E',
-      category: 'urine',
-      categoryLabel: 'Urine & Routine',
-      sample: 'Mid-stream Clean Catch Urine',
-      prep: 'Fresh clean-catch midstream urine sample',
-      desc: 'Physical, chemical, and microscopic examination (Pus cells, RBC, Albumin, Sugar).'
-    },
-    {
-      name: 'Infectious Serology (Dengue, HBsAg, HCV)',
-      nepaliName: 'सेरोलोजी परीक्षण (डेंगु, हेपाटाइटिस)',
-      abbr: 'Serology',
-      category: 'serology',
-      categoryLabel: 'Serology',
-      sample: 'Blood Serum',
-      prep: 'No fasting required',
-      desc: 'Rapid immunochromatographic assays for viral antigens and antibodies.'
-    }
-  ];
-
-  // Render Test Cards
-  const testsGrid = document.getElementById('testsGrid');
-  const testSearchInput = document.getElementById('testSearchInput');
-  const filterTabs = document.querySelectorAll('.filter-tab-btn');
-  const emptySearchState = document.getElementById('emptySearchState');
-
-  let activeCategory = 'all';
+  // ===== 4. LABORATORY TEST RATE SEARCH ENGINE (SEARCH-FIRST) =====
+  let ratesDataset = window.BIMAL_RATES_DATA || { categories: [], tests: [] };
   let searchQuery = '';
+  let visibleLimit = 8;
+  const PAGE_SIZE = 8;
 
-  function renderTests() {
-    if (!testsGrid) return;
+  const rateSearchInput = document.getElementById('rateSearchInput');
+  const clearRateSearchBtn = document.getElementById('clearRateSearchBtn');
+  const rateInitialPrompt = document.getElementById('rateInitialPrompt');
+  const rateResultsMeta = document.getElementById('rateResultsMeta');
+  const rateResultsCountText = document.getElementById('rateResultsCountText');
+  const rateResultsGrid = document.getElementById('rateResultsGrid');
+  const rateShowMoreContainer = document.getElementById('rateShowMoreContainer');
+  const rateShowMoreBtn = document.getElementById('rateShowMoreBtn');
+  const rateEmptyState = document.getElementById('rateEmptyState');
+  const printSearchResultBtn = document.getElementById('printSearchResultBtn');
+  const shortcutChips = document.querySelectorAll('.rate-shortcut-chip');
 
+  // Format NPR Currency
+  function formatCurrency(price) {
+    if (price === undefined || price === null || price <= 0) return 'सोधपुछ गर्नुहोस्';
+    return `रु. ${price.toLocaleString('en-IN')}`;
+  }
+
+  // Safe HTML Escaping helper
+  function escapeHtml(str) {
+    if (!str) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+
+  // Calculate search relevance score
+  function scoreTestMatch(test, query) {
+    const q = query.toLowerCase().trim();
+    if (!q || q.length < 2) return 0;
+
+    let score = 0;
+    const code = (test.code || '').toLowerCase();
+    const name = (test.name || '').toLowerCase();
+    const nepaliName = (test.nepaliName || '').toLowerCase();
+    const category = (test.category || '').toLowerCase();
+    const catLabel = (test.categoryLabel || '').toLowerCase();
+    const desc = (test.description || '').toLowerCase();
+    const aliases = Array.isArray(test.aliases) ? test.aliases.map(a => a.toLowerCase()) : [];
+
+    // Exact code match
+    if (code === q) score += 120;
+    else if (code.includes(q)) score += 80;
+
+    // Aliases exact or partial match
+    for (const alias of aliases) {
+      if (alias === q) {
+        score += 100;
+        break;
+      } else if (alias.startsWith(q)) {
+        score += 70;
+      } else if (alias.includes(q)) {
+        score += 50;
+      }
+    }
+
+    // Name matches
+    if (name === q) score += 95;
+    else if (name.startsWith(q)) score += 75;
+    else if (name.includes(q)) score += 45;
+
+    // Nepali name match
+    if (nepaliName.includes(q)) score += 40;
+
+    // Category match
+    if (category.includes(q) || catLabel.includes(q)) score += 30;
+
+    // Package tests match
+    if (Array.isArray(test.packageTests)) {
+      const pkgStr = test.packageTests.join(' ').toLowerCase();
+      if (pkgStr.includes(q)) score += 25;
+    }
+
+    // Description match
+    if (desc.includes(q)) score += 10;
+
+    return score;
+  }
+
+  // Render a Single Test Result Card directly in place
+  function renderTestCard(test) {
+    const rateVal = test.rate || test.price;
+    const hasPackageTests = Array.isArray(test.packageTests) && test.packageTests.length > 0;
+
+    return `
+      <div class="rate-result-card" data-category="${escapeHtml(test.category)}">
+        <div class="rate-card-header">
+          <div class="rate-card-title-group">
+            ${test.code ? `<span class="rate-card-code">${escapeHtml(test.code)}</span>` : ''}
+            <h3 class="rate-card-name">${escapeHtml(test.name)}</h3>
+            ${test.nepaliName ? `<div class="rate-card-nepali">${escapeHtml(test.nepaliName)}</div>` : ''}
+          </div>
+          <div class="rate-card-price-badge">
+            <span class="rate-price-value">${formatCurrency(rateVal)}</span>
+          </div>
+        </div>
+
+        <div class="rate-card-category-row">
+          <span class="rate-card-category-tag"><i class="fas fa-tag" aria-hidden="true"></i> ${escapeHtml(test.categoryLabel || test.category)}</span>
+        </div>
+
+        ${test.description ? `<p class="rate-card-desc">${escapeHtml(test.description)}</p>` : ''}
+
+        ${hasPackageTests ? `
+          <div class="rate-package-includes">
+            <strong><i class="fas fa-check-circle text-primary" aria-hidden="true"></i> समावेश परीक्षणहरू (${test.packageTests.length}):</strong>
+            <div class="rate-package-tags">
+              ${test.packageTests.map(t => `<span class="rate-package-tag-item">${escapeHtml(t)}</span>`).join('')}
+            </div>
+          </div>
+        ` : ''}
+
+        <div class="rate-card-meta-grid">
+          ${test.sample ? `
+            <div class="rate-meta-cell">
+              <i class="fas fa-vial text-primary" aria-hidden="true"></i>
+              <div>
+                <span class="rate-meta-label">नमुना (Sample)</span>
+                <span class="rate-meta-val">${escapeHtml(test.sample)}</span>
+              </div>
+            </div>
+          ` : ''}
+          ${test.reporting ? `
+            <div class="rate-meta-cell">
+              <i class="far fa-clock text-primary" aria-hidden="true"></i>
+              <div>
+                <span class="rate-meta-label">रिपोर्ट (Time)</span>
+                <span class="rate-meta-val">${escapeHtml(test.reporting)}</span>
+              </div>
+            </div>
+          ` : ''}
+          ${test.preparation ? `
+            <div class="rate-meta-cell">
+              <i class="fas fa-notes-medical text-primary" aria-hidden="true"></i>
+              <div>
+                <span class="rate-meta-label">तयारी (Prep)</span>
+                <span class="rate-meta-val">${escapeHtml(test.preparation)}</span>
+              </div>
+            </div>
+          ` : ''}
+        </div>
+      </div>
+    `;
+  }
+
+  // Execute Search and Render Results
+  function executeRateSearch() {
+    if (!rateResultsGrid) return;
     const q = searchQuery.toLowerCase().trim();
 
-    const filtered = TESTS_DATA.filter(test => {
-      const matchesCategory = activeCategory === 'all' || test.category === activeCategory;
-      if (!matchesCategory) return false;
-      if (!q) return true;
-
-      return (
-        test.name.toLowerCase().includes(q) || 
-        test.nepaliName.toLowerCase().includes(q) || 
-        test.abbr.toLowerCase().includes(q) || 
-        test.categoryLabel.toLowerCase().includes(q) ||
-        test.desc.toLowerCase().includes(q) ||
-        test.sample.toLowerCase().includes(q)
-      );
-    });
-
-    if (filtered.length === 0) {
-      testsGrid.innerHTML = '';
-      if (emptySearchState) emptySearchState.style.display = 'block';
+    // 1. If query is shorter than 2 characters -> Reset to Initial Prompt (Do NOT render full list)
+    if (!q || q.length < 2) {
+      if (rateInitialPrompt) rateInitialPrompt.style.display = 'block';
+      if (rateResultsMeta) rateResultsMeta.style.display = 'none';
+      if (rateResultsGrid) rateResultsGrid.innerHTML = '';
+      if (rateShowMoreContainer) rateShowMoreContainer.style.display = 'none';
+      if (rateEmptyState) rateEmptyState.style.display = 'none';
+      if (clearRateSearchBtn) clearRateSearchBtn.style.display = q.length > 0 ? 'flex' : 'none';
       return;
     }
 
-    if (emptySearchState) emptySearchState.style.display = 'none';
+    if (clearRateSearchBtn) clearRateSearchBtn.style.display = 'flex';
+    if (rateInitialPrompt) rateInitialPrompt.style.display = 'none';
 
-    testsGrid.innerHTML = filtered.map(test => `
-      <div class="test-item-card" data-category="${test.category}">
-        <div class="test-card-top">
-          <div>
-            <h3 class="test-name">${test.name}</h3>
-            <p class="test-nepali-sub">${test.nepaliName}</p>
-          </div>
-          <span class="test-category-tag">${test.categoryLabel}</span>
-        </div>
-        <p class="test-desc-text">
-          ${test.desc}
-        </p>
-        <div class="test-card-details">
-          <div class="test-detail-row">
-            <i class="fas fa-vial" aria-hidden="true"></i>
-            <span><strong>Sample:</strong> ${test.sample}</span>
-          </div>
-          <div class="test-detail-row">
-            <i class="far fa-clock" aria-hidden="true"></i>
-            <span><strong>Prep:</strong> ${test.prep}</span>
-          </div>
-        </div>
-      </div>
-    `).join('');
+    // 2. Score and Filter Matching Tests
+    const tests = ratesDataset.tests || [];
+    const scoredMatches = [];
+
+    tests.forEach(test => {
+      const score = scoreTestMatch(test, q);
+      if (score > 0) {
+        scoredMatches.push({ test, score });
+      }
+    });
+
+    // Sort by best matches first
+    scoredMatches.sort((a, b) => b.score - a.score);
+    const matchedTests = scoredMatches.map(m => m.test);
+    const totalMatches = matchedTests.length;
+
+    // 3. No Results State
+    if (totalMatches === 0) {
+      if (rateResultsMeta) rateResultsMeta.style.display = 'none';
+      if (rateResultsGrid) rateResultsGrid.innerHTML = '';
+      if (rateShowMoreContainer) rateShowMoreContainer.style.display = 'none';
+      if (rateEmptyState) rateEmptyState.style.display = 'block';
+      return;
+    }
+
+    if (rateEmptyState) rateEmptyState.style.display = 'none';
+    if (rateResultsMeta) rateResultsMeta.style.display = 'flex';
+
+    // Update Count text
+    if (rateResultsCountText) {
+      rateResultsCountText.innerHTML = `<strong>${totalMatches}</strong> परीक्षण फेला पर्यो (Found matching "${escapeHtml(searchQuery)}")`;
+    }
+
+    // 4. Render Limited Result Cards (initial max 8)
+    const visibleTests = matchedTests.slice(0, visibleLimit);
+    rateResultsGrid.innerHTML = visibleTests.map(test => renderTestCard(test)).join('');
+
+    // 5. Show More Button (Visible if more matches exist)
+    if (rateShowMoreContainer) {
+      if (totalMatches > visibleLimit) {
+        rateShowMoreContainer.style.display = 'block';
+        if (rateShowMoreBtn) {
+          const remaining = totalMatches - visibleLimit;
+          rateShowMoreBtn.innerHTML = `<i class="fas fa-chevron-down" aria-hidden="true"></i> थप ${remaining > PAGE_SIZE ? PAGE_SIZE : remaining} परीक्षण हेर्नुहोस् (Show More / बाँकी ${remaining})`;
+        }
+      } else {
+        rateShowMoreContainer.style.display = 'none';
+      }
+    }
   }
 
-  if (testSearchInput) {
-    testSearchInput.addEventListener('input', (e) => {
+  // Search Input Listener
+  if (rateSearchInput) {
+    rateSearchInput.addEventListener('input', (e) => {
       searchQuery = e.target.value;
-      renderTests();
+      visibleLimit = PAGE_SIZE; // reset pagination limit on new search
+      executeRateSearch();
     });
   }
 
-  filterTabs.forEach(tab => {
-    tab.addEventListener('click', function() {
-      filterTabs.forEach(t => {
-        t.classList.remove('active');
-        t.setAttribute('aria-selected', 'false');
-      });
-      this.classList.add('active');
-      this.setAttribute('aria-selected', 'true');
-      activeCategory = this.getAttribute('data-category');
-      renderTests();
+  // Clear Search Button
+  if (clearRateSearchBtn) {
+    clearRateSearchBtn.addEventListener('click', () => {
+      if (rateSearchInput) {
+        rateSearchInput.value = '';
+        rateSearchInput.focus();
+      }
+      searchQuery = '';
+      visibleLimit = PAGE_SIZE;
+      executeRateSearch();
     });
-  });
+  }
 
-  // Initial render of tests
-  renderTests();
+  // Show More Button Listener
+  if (rateShowMoreBtn) {
+    rateShowMoreBtn.addEventListener('click', () => {
+      visibleLimit += PAGE_SIZE;
+      executeRateSearch();
+    });
+  }
+
+  // Shortcut Chips Listeners
+  if (shortcutChips && shortcutChips.length > 0) {
+    shortcutChips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        const query = chip.getAttribute('data-search') || chip.textContent.trim();
+        if (rateSearchInput) {
+          rateSearchInput.value = query;
+          searchQuery = query;
+          visibleLimit = PAGE_SIZE;
+          executeRateSearch();
+          rateSearchInput.focus();
+        }
+      });
+    });
+  }
+
+  // Print Currently Searched Results
+  if (printSearchResultBtn) {
+    printSearchResultBtn.addEventListener('click', () => {
+      window.print();
+    });
+  }
+
+  // Asynchronous dataset fetch with fallback to embedded window.BIMAL_RATES_DATA
+  function initializeRateEngine() {
+    executeRateSearch(); // Boots in default empty state (0 tests rendered)
+
+    if (window.location.protocol.startsWith('http')) {
+      fetch('assets/data/rates.json', { cache: 'no-cache' })
+        .then(response => {
+          if (!response.ok) throw new Error('Network response not ok');
+          return response.json();
+        })
+        .then(data => {
+          if (data && data.tests && data.tests.length > 0) {
+            ratesDataset = data;
+            if (searchQuery.length >= 2) {
+              executeRateSearch();
+            }
+          }
+        })
+        .catch(() => {
+          // Gracefully continue using window.BIMAL_RATES_DATA
+        });
+    }
+  }
+
+  // Initial Boot
+  initializeRateEngine();
 
   // ===== 5. GALLERY LIGHTBOX MODAL =====
   const lightboxModal = document.getElementById('lightboxModal');
@@ -417,24 +471,26 @@
   const sections = document.querySelectorAll('section[id]');
   const navLinks = document.querySelectorAll('.nav-link');
 
-  window.addEventListener('scroll', () => {
-    let current = '';
-    const scrollPosition = window.scrollY + 140;
+  if (sections.length > 0) {
+    window.addEventListener('scroll', () => {
+      let current = '';
+      const scrollPosition = window.scrollY + 140;
 
-    sections.forEach(section => {
-      const sectionTop = section.offsetTop;
-      const sectionHeight = section.offsetHeight;
-      if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-        current = section.getAttribute('id');
-      }
-    });
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.offsetHeight;
+        if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+          current = section.getAttribute('id');
+        }
+      });
 
-    navLinks.forEach(link => {
-      link.classList.remove('active');
-      if (link.getAttribute('href') === `#${current}` || (current === '' && link.getAttribute('href') === '#home')) {
-        link.classList.add('active');
-      }
-    });
-  }, { passive: true });
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${current}` || (current === '' && link.getAttribute('href') === '#home')) {
+          link.classList.add('active');
+        }
+      });
+    }, { passive: true });
+  }
 
 })();

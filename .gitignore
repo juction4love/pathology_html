@@ -1,6 +1,24 @@
 # wrangler files
-.wrangler
+.wrangler/
 .dev.vars*
 !.dev.vars.example
 .env*
 !.env.example
+
+# Source rate spreadsheets & raw rate PDFs
+*.xlsx
+*.xls
+*.pdf
+*.csv
+extracted_excel.json
+
+# Python bytecode & generation / audit scripts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py
+
+# OS & temporary files
+.DS_Store
+Thumbs.db

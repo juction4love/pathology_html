@@ -1,0 +1,11321 @@
+window.BIMAL_RATES_DATA = {
+  "metadata": {
+    "laboratoryName": "Bimal Pathology & Diagnostic Center",
+    "laboratoryNepaliName": "बिमल प्याथोलोजी एण्ड डाइग्नोस्टिक सेन्टर",
+    "location": "Bharatpur-7, Opposite Cancer Hospital, Chitwan, Nepal",
+    "phone": "०५६-५९३२८८",
+    "phoneHref": "tel:+97756593288",
+    "email": "admin@bimalpathology.com.np",
+    "currency": "रु.",
+    "currencyCode": "NPR",
+    "lastUpdated": "२०८१ चैत्र / March 2026",
+    "disclaimer": "दरहरू समयअनुसार परिवर्तन हुन सक्छन्। विशेष परीक्षण, नमुना वा बाह्य रेफरल परीक्षणको शुल्क फरक हुन सक्छ। परीक्षण गराउनु अघि आवश्यक परे प्रयोगशालाबाट हालको शुल्क पुष्टि गर्नुहोस्।",
+    "notice": "Official diagnostic test rates for Bimal Pathology & Diagnostic Center, Bharatpur, Chitwan."
+  },
+  "categories": [
+    {
+      "id": "all",
+      "label": "सबै (All Tests)",
+      "icon": "fa-list-check"
+    },
+    {
+      "id": "Biochemistry",
+      "label": "Biochemistry",
+      "nepaliLabel": "बायोकेमिस्ट्री",
+      "icon": "fa-vial"
+    },
+    {
+      "id": "Diabetes",
+      "label": "Diabetes",
+      "nepaliLabel": "मधुमेह",
+      "icon": "fa-cubes-stacked"
+    },
+    {
+      "id": "Liver Function",
+      "label": "Liver Function",
+      "nepaliLabel": "कलेजो",
+      "icon": "fa-shield-halved"
+    },
+    {
+      "id": "Renal Function & Electrolytes",
+      "label": "Renal & Electrolytes",
+      "nepaliLabel": "मृगौला र इलेक्ट्रोलाइट्स",
+      "icon": "fa-disease"
+    },
+    {
+      "id": "Lipid Profile",
+      "label": "Lipid Profile",
+      "nepaliLabel": "लिपिड प्रोफाइल",
+      "icon": "fa-heart-pulse"
+    },
+    {
+      "id": "Hematology",
+      "label": "Hematology",
+      "nepaliLabel": "हेमेटोलोजी",
+      "icon": "fa-tint"
+    },
+    {
+      "id": "Coagulation",
+      "label": "Coagulation",
+      "nepaliLabel": "रक्त जमावट",
+      "icon": "fa-droplet"
+    },
+    {
+      "id": "Clinical Pathology",
+      "label": "Clinical Pathology",
+      "nepaliLabel": "क्लिनिकल प्याथोलोजी",
+      "icon": "fa-microscope"
+    },
+    {
+      "id": "Urine Tests",
+      "label": "Urine Tests",
+      "nepaliLabel": "पिसाब जाँच",
+      "icon": "fa-flask"
+    },
+    {
+      "id": "Stool Tests",
+      "label": "Stool Tests",
+      "nepaliLabel": "दिसा जाँच",
+      "icon": "fa-vial-virus"
+    },
+    {
+      "id": "Microbiology & Culture",
+      "label": "Microbiology & Culture",
+      "nepaliLabel": "माइक्रोबायोलोजी र कल्चर",
+      "icon": "fa-bacterium"
+    },
+    {
+      "id": "Serology",
+      "label": "Serology",
+      "nepaliLabel": "सेरोलोजी",
+      "icon": "fa-shield-virus"
+    },
+    {
+      "id": "Infectious Disease",
+      "label": "Infectious Disease",
+      "nepaliLabel": "संक्रामक रोग",
+      "icon": "fa-virus"
+    },
+    {
+      "id": "Cardiac Markers",
+      "label": "Cardiac Markers",
+      "nepaliLabel": "मुटु / कार्डियाक",
+      "icon": "fa-heartbeat"
+    },
+    {
+      "id": "Enzymes",
+      "label": "Enzymes",
+      "nepaliLabel": "इन्जाइम",
+      "icon": "fa-atom"
+    },
+    {
+      "id": "Thyroid & Hormones",
+      "label": "Thyroid & Hormones",
+      "nepaliLabel": "थाइरोइड र हर्मोन",
+      "icon": "fa-dna"
+    },
+    {
+      "id": "Vitamins",
+      "label": "Vitamins",
+      "nepaliLabel": "भिटामिन",
+      "icon": "fa-sun"
+    },
+    {
+      "id": "Tumor Markers",
+      "label": "Tumor Markers",
+      "nepaliLabel": "ट्युमर मार्कर",
+      "icon": "fa-ribbon"
+    },
+    {
+      "id": "Autoimmune",
+      "label": "Autoimmune",
+      "nepaliLabel": "अटोइम्युन",
+      "icon": "fa-shield-heart"
+    },
+    {
+      "id": "Cytology & Histopathology",
+      "label": "Cytology & Histopathology",
+      "nepaliLabel": "साइटोलोजी / बायोप्सी",
+      "icon": "fa-microscope"
+    },
+    {
+      "id": "Special Tests",
+      "label": "Special Tests",
+      "nepaliLabel": "विशिष्ट जाँच",
+      "icon": "fa-flask-vial"
+    },
+    {
+      "id": "Health Packages",
+      "label": "Health Packages",
+      "nepaliLabel": "स्वास्थ्य प्याकेज",
+      "icon": "fa-notes-medical"
+    }
+  ],
+  "tests": [
+    {
+      "code": "BIO-001",
+      "name": "Blood Sugar (Fasting) / FBS",
+      "nepaliName": "फास्टिङ ब्लड सुगर (FBS)",
+      "category": "Diabetes",
+      "categoryLabel": "Diabetes",
+      "rate": 80,
+      "price": 80,
+      "aliases": [
+        "blood sugar (fasting) / fbs",
+        "fasting"
+      ],
+      "sample": "Sodium Fluoride Plasma (2 ml)",
+      "preparation": "Strict 8–10 hours overnight fasting required (water permitted)",
+      "reporting": "",
+      "description": "Baseline blood glucose measurement for diabetes evaluation.",
+      "slug": "blood-sugar-fasting-fbs",
+      "url": "/tests/blood-sugar-fasting-fbs.html"
+    },
+    {
+      "code": "BIO-002",
+      "name": "Blood Sugar (PP) / PPBS",
+      "nepaliName": "खाना पछिको सुगर (PPBS)",
+      "category": "Diabetes",
+      "categoryLabel": "Diabetes",
+      "rate": 80,
+      "price": 80,
+      "aliases": [
+        "pp",
+        "blood sugar (pp) / ppbs"
+      ],
+      "sample": "Sodium Fluoride Plasma (2 ml)",
+      "preparation": "Sample collected exactly 2 hours after starting meal",
+      "reporting": "",
+      "description": "Post-prandial blood glucose assessment.",
+      "slug": "blood-sugar-pp-ppbs",
+      "url": "/tests/blood-sugar-pp-ppbs.html"
+    },
+    {
+      "code": "BIO-003",
+      "name": "Random Blood Sugar (RBS)",
+      "nepaliName": "रेन्डम ब्लड सुगर (RBS)",
+      "category": "Diabetes",
+      "categoryLabel": "Diabetes",
+      "rate": 80,
+      "price": 80,
+      "aliases": [
+        "rbs",
+        "random blood sugar (rbs)"
+      ],
+      "sample": "Sodium Fluoride Plasma / Serum",
+      "preparation": "No preparation needed; spot glucose test",
+      "reporting": "",
+      "description": "Immediate blood glucose check for acute assessment.",
+      "slug": "random-blood-sugar-rbs",
+      "url": "/tests/random-blood-sugar-rbs.html"
+    },
+    {
+      "code": "BIO-004",
+      "name": "HbA1c (Glycated Hemoglobin)",
+      "nepaliName": "एचबिएवानसी (HbA1c)",
+      "category": "Diabetes",
+      "categoryLabel": "Diabetes",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "hba1c (glycated hemoglobin)",
+        "glycated hemoglobin"
+      ],
+      "sample": "EDTA Whole Blood (2 ml)",
+      "preparation": "No fasting needed; any time of day",
+      "reporting": "",
+      "description": "Gold standard 3-month average glucose control assessment.",
+      "slug": "hba1c",
+      "url": "/tests/hba1c.html"
+    },
+    {
+      "code": "BIO-005",
+      "name": "Glucose Tolerance Test (GTT / OGTT)",
+      "nepaliName": "ग्लुकोज टोलेरेन्स टेस्ट (GTT)",
+      "category": "Diabetes",
+      "categoryLabel": "Diabetes",
+      "rate": 640,
+      "price": 640,
+      "aliases": [
+        "gtt / ogtt",
+        "glucose tolerance test (gtt / ogtt)"
+      ],
+      "sample": "Fasting + Post-Glucose Plasma",
+      "preparation": "8–10 hrs fast; includes standard glucose drink",
+      "reporting": "",
+      "description": "Diagnostic evaluation for gestational diabetes and impaired glucose tolerance.",
+      "slug": "glucose-tolerance-test-gtt-ogtt",
+      "url": "/tests/glucose-tolerance-test-gtt-ogtt.html"
+    },
+    {
+      "code": "LIV-001",
+      "name": "Liver Function Test (Complete LFT)",
+      "nepaliName": "कलेजो कार्य परीक्षण (Complete LFT)",
+      "category": "Liver Function",
+      "categoryLabel": "Liver Function",
+      "rate": 1100,
+      "price": 1100,
+      "aliases": [
+        "liver function test (complete lft)",
+        "complete lft"
+      ],
+      "sample": "Serum (Clotted Blood)",
+      "preparation": "8–10 hours overnight fasting recommended",
+      "reporting": "",
+      "description": "Bilirubin (Total & Direct), SGOT, SGPT, ALP, Total Protein, Albumin, Globulin, A:G Ratio.",
+      "slug": "liver-function-test-lft",
+      "url": "/tests/liver-function-test-lft.html"
+    },
+    {
+      "code": "LIV-002",
+      "name": "Bilirubin (Total & Direct)",
+      "nepaliName": "बिलिरुबिन (Total & Direct)",
+      "category": "Liver Function",
+      "categoryLabel": "Liver Function",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "bilirubin (total & direct)",
+        "total & direct"
+      ],
+      "sample": "Serum (Protect from light)",
+      "preparation": "4–8 hours fasting preferred",
+      "reporting": "Same Day",
+      "description": "Total Bilirubin, Direct (Conjugated) and Indirect for jaundice evaluation.",
+      "slug": "bilirubin-total-and-direct",
+      "url": "/tests/bilirubin-total-and-direct.html"
+    },
+    {
+      "code": "LIV-003",
+      "name": "SGPT (ALT - Alanine Aminotransferase)",
+      "nepaliName": "एसजिपिटी / एएलटी (SGPT / ALT)",
+      "category": "Liver Function",
+      "categoryLabel": "Liver Function",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "sgpt (alt - alanine aminotransferase)",
+        "alt - alanine aminotransferase"
+      ],
+      "sample": "Serum",
+      "preparation": "No special fasting required",
+      "reporting": "",
+      "description": "Specific liver enzyme for acute hepatocellular injury and hepatitis.",
+      "slug": "sgpt-alt-alanine-aminotransferase",
+      "url": "/tests/sgpt-alt-alanine-aminotransferase.html"
+    },
+    {
+      "code": "LIV-004",
+      "name": "SGOT (AST - Aspartate Aminotransferase)",
+      "nepaliName": "एसजिओटी / एएसटी (SGOT / AST)",
+      "category": "Liver Function",
+      "categoryLabel": "Liver Function",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "sgot (ast - aspartate aminotransferase)",
+        "ast - aspartate aminotransferase"
+      ],
+      "sample": "Serum",
+      "preparation": "No special fasting required",
+      "reporting": "",
+      "description": "Enzyme marker for liver and tissue cellular injury.",
+      "slug": "sgot-ast-aspartate-aminotransferase",
+      "url": "/tests/sgot-ast-aspartate-aminotransferase.html"
+    },
+    {
+      "code": "LIV-005",
+      "name": "Alkaline Phosphatase (ALP)",
+      "nepaliName": "अल्कालाइन फस्फेटेज (ALP)",
+      "category": "Liver Function",
+      "categoryLabel": "Liver Function",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "alkaline phosphatase (alp)",
+        "alp"
+      ],
+      "sample": "Serum",
+      "preparation": "8 hours fasting recommended",
+      "reporting": "Same Day",
+      "description": "Enzyme marker for biliary obstruction and bone disorders.",
+      "slug": "alkaline-phosphatase-alp",
+      "url": "/tests/alkaline-phosphatase-alp.html"
+    },
+    {
+      "code": "LIV-006",
+      "name": "Albumin",
+      "nepaliName": "अल्बुमिन (Albumin)",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "albumin"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "Same Day",
+      "description": "Liver synthetic protein marker for nutritional and hepatic status.",
+      "slug": "albumin",
+      "url": "/tests/albumin.html"
+    },
+    {
+      "code": "LIV-007",
+      "name": "Total Protein",
+      "nepaliName": "कुल प्रोटिन (Total Protein)",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "total protein"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Measures total serum albumin and globulin proteins.",
+      "slug": "total-protein",
+      "url": "/tests/total-protein.html"
+    },
+    {
+      "code": "LIV-008",
+      "name": "Total Protein & Albumin (A:G Ratio)",
+      "nepaliName": "कुल प्रोटिन तथा अल्बुमिन (A:G Ratio)",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "a:g ratio",
+        "total protein & albumin (a:g ratio)"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Total Protein, Albumin, Globulin, and calculated Albumin-Globulin ratio.",
+      "slug": "total-protein-and-albumin-a-g-ratio",
+      "url": "/tests/total-protein-and-albumin-a-g-ratio.html"
+    },
+    {
+      "code": "LIV-009",
+      "name": "Gamma GT (GGT / GGTP)",
+      "nepaliName": "गामा जिटी (Gamma GT)",
+      "category": "Liver Function",
+      "categoryLabel": "Liver Function",
+      "rate": 800,
+      "price": 800,
+      "aliases": [
+        "ggt / ggtp",
+        "gamma gt (ggt / ggtp)"
+      ],
+      "sample": "Serum",
+      "preparation": "8 hours fasting; avoid alcohol 24h prior",
+      "reporting": "",
+      "description": "Sensitive marker for biliary disease, alcohol impact, and fatty liver.",
+      "slug": "gamma-gt-ggt-ggtp",
+      "url": "/tests/gamma-gt-ggt-ggtp.html"
+    },
+    {
+      "code": "REN-001",
+      "name": "Renal Function Test (Complete RFT / KFT)",
+      "nepaliName": "मृगौला कार्य परीक्षण (Complete RFT)",
+      "category": "Renal Function & Electrolytes",
+      "categoryLabel": "Renal Function & Electrolytes",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "renal function test (complete rft / kft)",
+        "complete rft / kft"
+      ],
+      "sample": "Serum (Clotted Blood)",
+      "preparation": "Maintain normal hydration; avoid heavy meat dinner",
+      "reporting": "",
+      "description": "Serum Creatinine, Blood Urea, BUN, Serum Uric Acid, eGFR calculation.",
+      "slug": "renal-function-test-complete-rft-kft",
+      "url": "/tests/renal-function-test-complete-rft-kft.html"
+    },
+    {
+      "code": "REN-002",
+      "name": "Serum Creatinine",
+      "nepaliName": "सिरम क्रिएटिनिन",
+      "category": "Renal Function & Electrolytes",
+      "categoryLabel": "Renal Function & Electrolytes",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "serum creatinine"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection; normal hydration",
+      "reporting": "Same Day",
+      "description": "Key clinical biomarker for kidney glomerular filtration function.",
+      "slug": "serum-creatinine",
+      "url": "/tests/serum-creatinine.html"
+    },
+    {
+      "code": "REN-003",
+      "name": "Blood Urea / BUN",
+      "nepaliName": "ब्लड युरिया / BUN",
+      "category": "Renal Function & Electrolytes",
+      "categoryLabel": "Renal Function & Electrolytes",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "blood urea / bun"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Measurement of urea nitrogen cleared by the kidneys.",
+      "slug": "blood-urea-bun",
+      "url": "/tests/blood-urea-bun.html"
+    },
+    {
+      "code": "REN-004",
+      "name": "Serum Uric Acid",
+      "nepaliName": "युरिक एसिड (Uric Acid)",
+      "category": "Renal Function & Electrolytes",
+      "categoryLabel": "Renal Function & Electrolytes",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "serum uric acid"
+      ],
+      "sample": "Serum",
+      "preparation": "4–8 hours fasting preferred; avoid alcohol prior day",
+      "reporting": "Same Day",
+      "description": "Evaluation for gout arthritis, hyperuricemia, and renal calculi.",
+      "slug": "serum-uric-acid",
+      "url": "/tests/serum-uric-acid.html"
+    },
+    {
+      "code": "REN-005",
+      "name": "Electrolytes (Na+ / K+ / Cl-)",
+      "nepaliName": "इलेक्ट्रोलाइट्स (Na+ / K+)",
+      "category": "Renal Function & Electrolytes",
+      "categoryLabel": "Renal Function & Electrolytes",
+      "rate": 800,
+      "price": 800,
+      "aliases": [
+        "na+ / k+ / cl-",
+        "electrolytes (na+ / k+ / cl-)"
+      ],
+      "sample": "Serum (Fresh, non-hemolyzed)",
+      "preparation": "Routine collection; maintain normal hydration",
+      "reporting": "",
+      "description": "Ion-selective electrode assay for electrolyte balance and hydration.",
+      "slug": "electrolytes-naplus-kplus-cl",
+      "url": "/tests/electrolytes-naplus-kplus-cl.html"
+    },
+    {
+      "code": "REN-006",
+      "name": "Serum Calcium (Total)",
+      "nepaliName": "सिरम क्याल्सियम (Calcium)",
+      "category": "Renal Function & Electrolytes",
+      "categoryLabel": "Renal Function & Electrolytes",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "serum calcium (total)",
+        "total"
+      ],
+      "sample": "Serum",
+      "preparation": "Fasting preferred; avoid calcium supplements morning of test",
+      "reporting": "Same Day",
+      "description": "Bone mineral metabolism and parathyroid status evaluation.",
+      "slug": "serum-calcium-total",
+      "url": "/tests/serum-calcium-total.html"
+    },
+    {
+      "code": "REN-007",
+      "name": "Serum Phosphorus / Phosphorous",
+      "nepaliName": "सिरम फस्फोरस (Phosphorus)",
+      "category": "Renal Function & Electrolytes",
+      "categoryLabel": "Renal Function & Electrolytes",
+      "rate": 700,
+      "price": 700,
+      "aliases": [
+        "serum phosphorus / phosphorous"
+      ],
+      "sample": "Serum (Non-hemolyzed)",
+      "preparation": "Morning fasting sample preferred",
+      "reporting": "Same Day",
+      "description": "Renal phosphate clearance and calcium-phosphorus bone homeostasis.",
+      "slug": "serum-phosphorus-phosphorous",
+      "url": "/tests/serum-phosphorus-phosphorous.html"
+    },
+    {
+      "code": "LIP-001",
+      "name": "Lipid Profile Package (Full Panel)",
+      "nepaliName": "लिपिड प्रोफाइल (Full Package)",
+      "category": "Lipid Profile",
+      "categoryLabel": "Lipid Profile",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "full panel",
+        "lipid profile package (full panel)"
+      ],
+      "sample": "Serum (Clotted Blood)",
+      "preparation": "Strict 10–12 hours overnight fasting required (water permitted)",
+      "reporting": "",
+      "description": "Total Cholesterol, Triglycerides, HDL (Good), LDL (Bad), VLDL, Ratios.",
+      "slug": "lipid-profile-package-full-panel",
+      "url": "/tests/lipid-profile-package-full-panel.html"
+    },
+    {
+      "code": "LIP-002",
+      "name": "Total Cholesterol",
+      "nepaliName": "कुल कोलेस्ट्रोल (Total Cholesterol)",
+      "category": "Lipid Profile",
+      "categoryLabel": "Lipid Profile",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "total cholesterol"
+      ],
+      "sample": "Serum",
+      "preparation": "10–12 hours fasting recommended",
+      "reporting": "",
+      "description": "Total circulating blood cholesterol measurement for cardiovascular risk.",
+      "slug": "total-cholesterol",
+      "url": "/tests/total-cholesterol.html"
+    },
+    {
+      "code": "LIP-003",
+      "name": "Triglycerides (TG)",
+      "nepaliName": "ट्राइग्लिसराइड्स (Triglycerides)",
+      "category": "Lipid Profile",
+      "categoryLabel": "Lipid Profile",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "triglycerides (tg)",
+        "tg"
+      ],
+      "sample": "Serum",
+      "preparation": "Strict 10–12 hours fasting; avoid fatty dinner and alcohol",
+      "reporting": "",
+      "description": "Blood lipid fraction linked with metabolic syndrome and vascular health.",
+      "slug": "triglycerides-tg",
+      "url": "/tests/triglycerides-tg.html"
+    },
+    {
+      "code": "LIP-004",
+      "name": "HDL Cholesterol",
+      "nepaliName": "एचडीएल कोलेस्ट्रोल (HDL)",
+      "category": "Lipid Profile",
+      "categoryLabel": "Lipid Profile",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "hdl cholesterol"
+      ],
+      "sample": "Serum",
+      "preparation": "10–12 hours fasting",
+      "reporting": "",
+      "description": "Cardioprotective high-density lipoprotein (Good cholesterol).",
+      "slug": "hdl-cholesterol",
+      "url": "/tests/hdl-cholesterol.html"
+    },
+    {
+      "code": "LIP-005",
+      "name": "LDL Cholesterol",
+      "nepaliName": "एलडीएल कोलेस्ट्रोल (LDL)",
+      "category": "Lipid Profile",
+      "categoryLabel": "Lipid Profile",
+      "rate": 450,
+      "price": 450,
+      "aliases": [
+        "ldl cholesterol"
+      ],
+      "sample": "Serum",
+      "preparation": "10–12 hours fasting",
+      "reporting": "",
+      "description": "Atherogenic low-density lipoprotein directly measured.",
+      "slug": "ldl-cholesterol",
+      "url": "/tests/ldl-cholesterol.html"
+    },
+    {
+      "code": "HEM-001",
+      "name": "Complete Blood Count (CBC / Hemogram)",
+      "nepaliName": "पूर्ण रक्त गणना (CBC)",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 600,
+      "price": 600,
+      "aliases": [
+        "cbc / hemogram",
+        "complete blood count (cbc / hemogram)"
+      ],
+      "sample": "EDTA Whole Blood (2 ml)",
+      "preparation": "No fasting required / Routine sample",
+      "reporting": "",
+      "description": "Hb, TLC, DLC (5-part Differential), Platelet Count, RBC Indices, ESR.",
+      "slug": "complete-blood-count-cbc",
+      "url": "/tests/complete-blood-count-cbc.html"
+    },
+    {
+      "code": "HEM-002",
+      "name": "Hemoglobin (Hb)",
+      "nepaliName": "हेमोग्लोबिन (Hb)",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "hemoglobin (hb)",
+        "hb"
+      ],
+      "sample": "EDTA Blood (1 ml)",
+      "preparation": "No fasting required",
+      "reporting": "Same Day",
+      "description": "Total hemoglobin concentration for anemia assessment.",
+      "slug": "hemoglobin-hb",
+      "url": "/tests/hemoglobin-hb.html"
+    },
+    {
+      "code": "HEM-003",
+      "name": "TC / DC (Total & Differential Leucocyte Count)",
+      "nepaliName": "टिसी / डिसी (TC / DC)",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "total & differential leucocyte count",
+        "tc / dc (total & differential leucocyte count)"
+      ],
+      "sample": "EDTA Whole Blood",
+      "preparation": "No fasting required",
+      "reporting": "",
+      "description": "Total and differential white blood cell count for infection screening.",
+      "slug": "tc-dc-total-and-differential-leucocyte-count",
+      "url": "/tests/tc-dc-total-and-differential-leucocyte-count.html"
+    },
+    {
+      "code": "HEM-004",
+      "name": "ESR (Westergren)",
+      "nepaliName": "ईएसआर (ESR Westergren)",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "westergren",
+        "esr (westergren)"
+      ],
+      "sample": "EDTA / Citrated Whole Blood",
+      "preparation": "No fasting required",
+      "reporting": "Same Day",
+      "description": "Erythrocyte sedimentation rate for systemic inflammation.",
+      "slug": "esr-westergren",
+      "url": "/tests/esr-westergren.html"
+    },
+    {
+      "code": "HEM-005",
+      "name": "Platelets Count",
+      "nepaliName": "प्लेटलेट गणना (Platelets Count)",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "platelets count"
+      ],
+      "sample": "EDTA Whole Blood",
+      "preparation": "No fasting required",
+      "reporting": "Same Day",
+      "description": "Automated and smear platelet evaluation.",
+      "slug": "platelets-count",
+      "url": "/tests/platelets-count.html"
+    },
+    {
+      "code": "HEM-006",
+      "name": "Peripheral Blood Smear (PBS / PS Morphology)",
+      "nepaliName": "पेरिफेरल ब्लड स्मीयर (PBS)",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "peripheral blood smear (pbs / ps morphology)",
+        "pbs / ps morphology"
+      ],
+      "sample": "Fresh EDTA Blood Smear",
+      "preparation": "No fasting required",
+      "reporting": "Same Day",
+      "description": "Detailed microscopic morphology of red blood cells, WBC, and platelets.",
+      "slug": "peripheral-blood-smear-pbs-ps-morphology",
+      "url": "/tests/peripheral-blood-smear-pbs-ps-morphology.html"
+    },
+    {
+      "code": "HEM-007",
+      "name": "RBC Count",
+      "nepaliName": "आरबिसी काउन्ट (RBC Count)",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "rbc count"
+      ],
+      "sample": "EDTA Whole Blood",
+      "preparation": "No fasting required",
+      "reporting": "",
+      "description": "Total red blood cell count.",
+      "slug": "rbc-count",
+      "url": "/tests/rbc-count.html"
+    },
+    {
+      "code": "HEM-008",
+      "name": "Blood Grouping & Rh Type",
+      "nepaliName": "रक्त समूह र आर.एच. (Blood Group & Rh)",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "blood grouping & rh type"
+      ],
+      "sample": "EDTA or Plain Blood",
+      "preparation": "No fasting required",
+      "reporting": "",
+      "description": "ABO blood group and Rh(D) factor typing with certification.",
+      "slug": "blood-grouping-and-rh-type",
+      "url": "/tests/blood-grouping-and-rh-type.html"
+    },
+    {
+      "code": "HEM-009",
+      "name": "Reticulocyte Count",
+      "nepaliName": "रेटिकुलोसाइट काउन्ट",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "reticulocyte count"
+      ],
+      "sample": "EDTA Whole Blood",
+      "preparation": "No fasting required",
+      "reporting": "Same Day",
+      "description": "Measures bone marrow red blood cell production activity.",
+      "slug": "reticulocyte-count",
+      "url": "/tests/reticulocyte-count.html"
+    },
+    {
+      "code": "HEM-010",
+      "name": "Bleeding Time / Clotting Time (BT / CT)",
+      "nepaliName": "ब्लिडिङ र क्लटिङ टाइम (BT/CT)",
+      "category": "Coagulation",
+      "categoryLabel": "Coagulation",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "bleeding time / clotting time (bt / ct)",
+        "bt / ct"
+      ],
+      "sample": "Direct capillary puncture",
+      "preparation": "In-lab physical procedure",
+      "reporting": "",
+      "description": "Screening for primary hemostasis and coagulation prior to surgery.",
+      "slug": "bleeding-time-clotting-time-bt-ct",
+      "url": "/tests/bleeding-time-clotting-time-bt-ct.html"
+    },
+    {
+      "code": "COA-001",
+      "name": "Prothrombin Time with INR (PT / INR)",
+      "nepaliName": "प्रोथ्रोम्बिन टाइम (PT / INR)",
+      "category": "Coagulation",
+      "categoryLabel": "Coagulation",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "pt / inr",
+        "prothrombin time with inr (pt / inr)"
+      ],
+      "sample": "Sodium Citrate Blood (1:9 ratio)",
+      "preparation": "Routine collection; note anticoagulant medication",
+      "reporting": "",
+      "description": "Extrinsic pathway evaluation and oral anticoagulant therapy monitoring.",
+      "slug": "prothrombin-time-with-inr-pt-inr",
+      "url": "/tests/prothrombin-time-with-inr-pt-inr.html"
+    },
+    {
+      "code": "COA-002",
+      "name": "APTT (Activated Partial Thromboplastin Time)",
+      "nepaliName": "एपीटीटी (APTT)",
+      "category": "Coagulation",
+      "categoryLabel": "Coagulation",
+      "rate": 600,
+      "price": 600,
+      "aliases": [
+        "aptt (activated partial thromboplastin time)",
+        "activated partial thromboplastin time"
+      ],
+      "sample": "Sodium Citrate Blood",
+      "preparation": "Routine collection; note Heparin therapy",
+      "reporting": "Same Day",
+      "description": "Intrinsic coagulation pathway evaluation and surgical bleeding risk.",
+      "slug": "aptt",
+      "url": "/tests/aptt.html"
+    },
+    {
+      "code": "COA-003",
+      "name": "D-Dimer (Quantitative Assay)",
+      "nepaliName": "डी-डाइमर (D-Dimer)",
+      "category": "Coagulation",
+      "categoryLabel": "Coagulation",
+      "rate": 2500,
+      "price": 2500,
+      "aliases": [
+        "d-dimer (quantitative assay)",
+        "quantitative assay"
+      ],
+      "sample": "Sodium Citrated Plasma",
+      "preparation": "Emergency / routine collection",
+      "reporting": "Same Day",
+      "description": "Fibrin degradation marker for Deep Vein Thrombosis (DVT), PE, and DIC.",
+      "slug": "d-dimer",
+      "url": "/tests/d-dimer.html"
+    },
+    {
+      "code": "URN-001",
+      "name": "Urine Routine & Microscopic (R/E)",
+      "nepaliName": "पिसाबको नियमित तथा सूक्ष्म जाँच (Urine R/E)",
+      "category": "Urine Tests",
+      "categoryLabel": "Urine Tests",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "r/e",
+        "urine routine & microscopic (r/e)"
+      ],
+      "sample": "Clean Catch Midstream Urine (20 ml)",
+      "preparation": "First morning midstream clean urine in sterile container",
+      "reporting": "",
+      "description": "Physical, chemical (Protein, Sugar, Ketone, Bile), and microscopic analysis.",
+      "slug": "urine-routine-and-microscopic-r-e",
+      "url": "/tests/urine-routine-and-microscopic-r-e.html"
+    },
+    {
+      "code": "URN-002",
+      "name": "Urine Pregnancy Test (UPT)",
+      "nepaliName": "पिसाबमा गर्भ परीक्षण (UPT)",
+      "category": "Urine Tests",
+      "categoryLabel": "Urine Tests",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "upt",
+        "urine pregnancy test (upt)"
+      ],
+      "sample": "First Morning Clean Urine",
+      "preparation": "Early morning concentrated urine sample gives best sensitivity",
+      "reporting": "",
+      "description": "Rapid qualitative detection of human Chorionic Gonadotropin (hCG).",
+      "slug": "urine-pregnancy-test-upt",
+      "url": "/tests/urine-pregnancy-test-upt.html"
+    },
+    {
+      "code": "URN-003",
+      "name": "24 Hours Urine Protein",
+      "nepaliName": "२४ घण्टे पिसाब प्रोटिन",
+      "category": "Urine Tests",
+      "categoryLabel": "Urine Tests",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "24 hours urine protein"
+      ],
+      "sample": "24-hour pooled urine container",
+      "preparation": "Collect all urine passed in 24 hours; keep container cool",
+      "reporting": "",
+      "description": "Quantification of daily proteinuria for nephrotic syndrome and renal disease.",
+      "slug": "24-hours-urine-protein",
+      "url": "/tests/24-hours-urine-protein.html"
+    },
+    {
+      "code": "URN-004",
+      "name": "Microalbumin / Creatinine Ratio (UACR)",
+      "nepaliName": "पिसाब माइक्रोअल्बुमिन (Microalbumin Ratio)",
+      "category": "Urine Tests",
+      "categoryLabel": "Urine Tests",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "uacr",
+        "microalbumin / creatinine ratio (uacr)"
+      ],
+      "sample": "Spot Early Morning Midstream Urine",
+      "preparation": "Early morning first void preferred; avoid heavy exertion",
+      "reporting": "",
+      "description": "Early detection of diabetic nephropathy and renal microvascular disease.",
+      "slug": "microalbumin-creatinine-ratio-uacr",
+      "url": "/tests/microalbumin-creatinine-ratio-uacr.html"
+    },
+    {
+      "code": "URN-005",
+      "name": "Urine for Bence Jones Protein (BJP)",
+      "nepaliName": "पिसाबमा बेन्स जोन्स प्रोटिन (BJP)",
+      "category": "Urine Tests",
+      "categoryLabel": "Urine Tests",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "bjp",
+        "urine for bence jones protein (bjp)"
+      ],
+      "sample": "Early Morning Fresh Urine",
+      "preparation": "Fresh sample without preservatives",
+      "reporting": "Same Day",
+      "description": "Thermal / chemical screening for free light chains in Multiple Myeloma.",
+      "slug": "urine-for-bence-jones-protein-bjp",
+      "url": "/tests/urine-for-bence-jones-protein-bjp.html"
+    },
+    {
+      "code": "URN-006",
+      "name": "Ketone / Acetone Bodies (Urine)",
+      "nepaliName": "पिसाबमा किटोन / एसिटोन बडी",
+      "category": "Urine Tests",
+      "categoryLabel": "Urine Tests",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "urine",
+        "ketone / acetone bodies (urine)"
+      ],
+      "sample": "Fresh Urine",
+      "preparation": "Fresh sample tested promptly",
+      "reporting": "",
+      "description": "Screening for diabetic ketoacidosis (DKA) and starvation ketosis.",
+      "slug": "ketone-acetone-bodies-urine",
+      "url": "/tests/ketone-acetone-bodies-urine.html"
+    },
+    {
+      "code": "STL-001",
+      "name": "Stool Routine Examination (R/E)",
+      "nepaliName": "दिसाको नियमित तथा सूक्ष्म जाँच (Stool R/E)",
+      "category": "Stool Tests",
+      "categoryLabel": "Stool Tests",
+      "rate": 150,
+      "price": 150,
+      "aliases": [
+        "r/e",
+        "stool routine examination (r/e)"
+      ],
+      "sample": "Fresh Stool (Sterile container)",
+      "preparation": "Fresh specimen without water/urine contamination",
+      "reporting": "Same Day",
+      "description": "Consistency, color, mucus, plus microscopic Ova, Cysts, Pus cells, and RBC.",
+      "slug": "stool-routine-examination-r-e",
+      "url": "/tests/stool-routine-examination-r-e.html"
+    },
+    {
+      "code": "STL-002",
+      "name": "Occult Blood (Stool / FOBT)",
+      "nepaliName": "दिसामा रगत जाँच (Occult Blood)",
+      "category": "Stool Tests",
+      "categoryLabel": "Stool Tests",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "occult blood (stool / fobt)",
+        "stool / fobt"
+      ],
+      "sample": "Fresh Stool",
+      "preparation": "Avoid red meat, iron supplements for 48h prior if advised",
+      "reporting": "",
+      "description": "Detects hidden microscopic gastrointestinal bleeding.",
+      "slug": "occult-blood-stool-fobt",
+      "url": "/tests/occult-blood-stool-fobt.html"
+    },
+    {
+      "code": "STL-003",
+      "name": "H. Pylori Antigen (Stool)",
+      "nepaliName": "एच. पाइलोरी एन्टिजेन - दिसा (H. Pylori Stool)",
+      "category": "Stool Tests",
+      "categoryLabel": "Stool Tests",
+      "rate": 1500,
+      "price": 1500,
+      "aliases": [
+        "stool",
+        "h. pylori antigen (stool)"
+      ],
+      "sample": "Fresh Stool Specimen",
+      "preparation": "Fresh unpreserved stool",
+      "reporting": "",
+      "description": "Definitive non-invasive stool antigen test for active Helicobacter pylori infection.",
+      "slug": "h-pylori-antigen-stool",
+      "url": "/tests/h-pylori-antigen-stool.html"
+    },
+    {
+      "code": "SPC-001",
+      "name": "Semen Analysis (Routine & Morphology)",
+      "nepaliName": "सिमेन एनालाइसिस (वीर्य जाँच)",
+      "category": "Clinical Pathology",
+      "categoryLabel": "Clinical Pathology",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "semen analysis (routine & morphology)",
+        "routine & morphology"
+      ],
+      "sample": "Complete ejaculate in sterile container",
+      "preparation": "Strict 3 to 5 days of sexual abstinence; deliver within 30–45 mins",
+      "reporting": "Same Day",
+      "description": "Volume, Liquefaction, Total Sperm Count, Motility, and Morphology.",
+      "slug": "semen-analysis-routine-and-morphology",
+      "url": "/tests/semen-analysis-routine-and-morphology.html"
+    },
+    {
+      "code": "CRD-001",
+      "name": "Troponin-I (Rapid Card)",
+      "nepaliName": "ट्रोपोनिन-आई - र्‍यापिड (Troponin-I Rapid)",
+      "category": "Cardiac Markers",
+      "categoryLabel": "Cardiac Markers",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "troponin-i (rapid card)",
+        "rapid card"
+      ],
+      "sample": "Serum / Whole Blood",
+      "preparation": "Emergency / immediate stat collection",
+      "reporting": "",
+      "description": "Qualitative rapid immunoassay for cardiac troponin I.",
+      "slug": "troponin-i-rapid",
+      "url": "/tests/troponin-i-rapid.html"
+    },
+    {
+      "code": "CRD-002",
+      "name": "Troponin-I (Quantitative / High Sensitive)",
+      "nepaliName": "ट्रोपोनिन-आई - परिमाणात्मक (Troponin-I Quantitative)",
+      "category": "Cardiac Markers",
+      "categoryLabel": "Cardiac Markers",
+      "rate": 2500,
+      "price": 2500,
+      "aliases": [
+        "troponin-i (quantitative / high sensitive)",
+        "quantitative / high sensitive"
+      ],
+      "sample": "Serum / Plasma",
+      "preparation": "Emergency / immediate stat collection",
+      "reporting": "",
+      "description": "High sensitivity fluorescence immunoassay for acute myocardial infarction.",
+      "slug": "troponin-i-quantitative-high-sensitive",
+      "url": "/tests/troponin-i-quantitative-high-sensitive.html"
+    },
+    {
+      "code": "CRD-003",
+      "name": "CPK-MB",
+      "nepaliName": "सिके-एमबी (CPK-MB)",
+      "category": "Cardiac Markers",
+      "categoryLabel": "Cardiac Markers",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "cpk-mb"
+      ],
+      "sample": "Serum (Fresh, non-hemolyzed)",
+      "preparation": "Immediate collection",
+      "reporting": "",
+      "description": "Myocardial enzyme marker for heart muscle injury assessment.",
+      "slug": "cpk-mb",
+      "url": "/tests/cpk-mb.html"
+    },
+    {
+      "code": "CRD-004",
+      "name": "CPK Total",
+      "nepaliName": "सीपीके टोटल (CPK Total)",
+      "category": "Enzymes",
+      "categoryLabel": "Enzymes",
+      "rate": 700,
+      "price": 700,
+      "aliases": [
+        "cpk total"
+      ],
+      "sample": "Serum",
+      "preparation": "Avoid strenuous exercise 24h prior",
+      "reporting": "",
+      "description": "Enzyme marker for skeletal and heart muscle breakdown.",
+      "slug": "cpk-total",
+      "url": "/tests/cpk-total.html"
+    },
+    {
+      "code": "CRD-005",
+      "name": "NT-proBNP (Quantitative)",
+      "nepaliName": "एनटि-प्रो बिएनपि (NT-proBNP)",
+      "category": "Cardiac Markers",
+      "categoryLabel": "Cardiac Markers",
+      "rate": 5000,
+      "price": 5000,
+      "aliases": [
+        "quantitative",
+        "nt-probnp (quantitative)"
+      ],
+      "sample": "Serum / Heparin Plasma",
+      "preparation": "Routine / emergency as ordered",
+      "reporting": "Same Day",
+      "description": "Gold standard biomarker for congestive heart failure diagnosis and monitoring.",
+      "slug": "nt-probnp-quantitative",
+      "url": "/tests/nt-probnp-quantitative.html"
+    },
+    {
+      "code": "ENZ-001",
+      "name": "Serum Amylase",
+      "nepaliName": "सिरम एमाइलेज (Serum Amylase)",
+      "category": "Enzymes",
+      "categoryLabel": "Enzymes",
+      "rate": 700,
+      "price": 700,
+      "aliases": [
+        "serum amylase"
+      ],
+      "sample": "Serum (Non-lipemic)",
+      "preparation": "Avoid alcohol prior to test",
+      "reporting": "Same Day",
+      "description": "Digestive enzyme marker for acute pancreatitis and salivary gland inflammation.",
+      "slug": "serum-amylase",
+      "url": "/tests/serum-amylase.html"
+    },
+    {
+      "code": "ENZ-002",
+      "name": "Serum Lipase",
+      "nepaliName": "सिरम लाइपेज (Serum Lipase)",
+      "category": "Enzymes",
+      "categoryLabel": "Enzymes",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "serum lipase"
+      ],
+      "sample": "Serum",
+      "preparation": "Fasting preferred",
+      "reporting": "Same Day",
+      "description": "Highly specific pancreatic biomarker for acute pancreatitis.",
+      "slug": "serum-lipase",
+      "url": "/tests/serum-lipase.html"
+    },
+    {
+      "code": "ENZ-003",
+      "name": "LDH (Lactate Dehydrogenase)",
+      "nepaliName": "एलडीएच (LDH)",
+      "category": "Enzymes",
+      "categoryLabel": "Enzymes",
+      "rate": 600,
+      "price": 600,
+      "aliases": [
+        "lactate dehydrogenase",
+        "ldh (lactate dehydrogenase)"
+      ],
+      "sample": "Serum (Non-hemolyzed)",
+      "preparation": "Routine collection",
+      "reporting": "Same Day",
+      "description": "General biomarker for cellular injury, tissue breakdown, and hemolysis.",
+      "slug": "ldh-lactate-dehydrogenase",
+      "url": "/tests/ldh-lactate-dehydrogenase.html"
+    },
+    {
+      "code": "ENZ-004",
+      "name": "ADA (Adenosine Deaminase)",
+      "nepaliName": "एडीए (ADA - Fluid / Serum)",
+      "category": "Enzymes",
+      "categoryLabel": "Enzymes",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "ada (adenosine deaminase)",
+        "adenosine deaminase"
+      ],
+      "sample": "Pleural / Ascitic / CSF Fluid or Serum",
+      "preparation": "Aspirated body fluid or routine blood",
+      "reporting": "",
+      "description": "Biochemical marker for tuberculous effusion and lymphocytic pleurisy.",
+      "slug": "ada-adenosine-deaminase",
+      "url": "/tests/ada-adenosine-deaminase.html"
+    },
+    {
+      "code": "ENZ-005",
+      "name": "G6PD (Glucose-6-Phosphate Dehydrogenase)",
+      "nepaliName": "जि६पिडि (G6PD Quantitative)",
+      "category": "Enzymes",
+      "categoryLabel": "Enzymes",
+      "rate": 6000,
+      "price": 6000,
+      "aliases": [
+        "glucose-6-phosphate dehydrogenase",
+        "g6pd (glucose-6-phosphate dehydrogenase)"
+      ],
+      "sample": "EDTA Whole Blood",
+      "preparation": "Test when patient is not in acute hemolytic crisis",
+      "reporting": "Next Day",
+      "description": "Evaluation for G6PD enzyme deficiency and drug-induced hemolytic anemia.",
+      "slug": "g6pd-glucose-6-phosphate-dehydrogenase",
+      "url": "/tests/g6pd-glucose-6-phosphate-dehydrogenase.html"
+    },
+    {
+      "code": "INF-001",
+      "name": "Dengue (Combo) Test (NS1 Antigen + IgM/IgG Antibody)",
+      "nepaliName": "डेंगु कम्बो परीक्षण (NS1 + IgM/IgG)",
+      "category": "Infectious Disease",
+      "categoryLabel": "Infectious Disease",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "ns1 antigen + igm/igg antibody",
+        "dengue (combo) test (ns1 antigen + igm/igg antibody)",
+        "combo"
+      ],
+      "sample": "Serum / Plasma",
+      "preparation": "Any day of suspected dengue illness",
+      "reporting": "",
+      "description": "Complete dengue panel detecting NS1 antigen and acute/convalescent antibodies.",
+      "slug": "dengue-combo-test-ns1-antigen-plus-igm-igg-antibody",
+      "url": "/tests/dengue-combo-test-ns1-antigen-plus-igm-igg-antibody.html"
+    },
+    {
+      "code": "INF-002",
+      "name": "Scrub Typhus Antibody (IgM)",
+      "nepaliName": "स्क्रब टाइफस (Scrub Typhus)",
+      "category": "Infectious Disease",
+      "categoryLabel": "Infectious Disease",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "igm",
+        "scrub typhus antibody (igm)"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection during acute febrile illness",
+      "reporting": "",
+      "description": "Serodiagnosis for vector-borne Orientia tsutsugamushi mite fever in Chitwan.",
+      "slug": "scrub-typhus-antibody-igm",
+      "url": "/tests/scrub-typhus-antibody-igm.html"
+    },
+    {
+      "code": "INF-003",
+      "name": "Widal Slide Agglutination",
+      "nepaliName": "वाइडल स्लाइड परीक्षण (Widal Slide)",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "widal slide agglutination"
+      ],
+      "sample": "Serum",
+      "preparation": "No fasting required",
+      "reporting": "",
+      "description": "Slide agglutination for Salmonella enterica serotypes (TO, TH, AH, BH).",
+      "slug": "widal-slide-agglutination",
+      "url": "/tests/widal-slide-agglutination.html"
+    },
+    {
+      "code": "INF-004",
+      "name": "Typhoid IgM/IgG (Typhi Dot)",
+      "nepaliName": "टाइफाइड र्‍यापिड (Typhi Dot / IgM & IgG)",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "typhi dot",
+        "typhoid igm/igg (typhi dot)"
+      ],
+      "sample": "Serum",
+      "preparation": "No fasting required",
+      "reporting": "",
+      "description": "Rapid chromatographic detection of Salmonella typhi specific IgM and IgG.",
+      "slug": "typhoid-igm-igg-typhi-dot",
+      "url": "/tests/typhoid-igm-igg-typhi-dot.html"
+    },
+    {
+      "code": "INF-005",
+      "name": "Kala-azar (rK39 Rapid Strip)",
+      "nepaliName": "कालाजार (rK39 Rapid)",
+      "category": "Infectious Disease",
+      "categoryLabel": "Infectious Disease",
+      "rate": 1500,
+      "price": 1500,
+      "aliases": [
+        "kala-azar (rk39 rapid strip)",
+        "rk39 rapid strip"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection for prolonged fever / splenomegaly",
+      "reporting": "",
+      "description": "Visceral leishmaniasis recombinant rK39 antibody detection.",
+      "slug": "kala-azar-rk39-rapid-strip",
+      "url": "/tests/kala-azar-rk39-rapid-strip.html"
+    },
+    {
+      "code": "INF-006",
+      "name": "HIV 1 & 2 Rapid Screening",
+      "nepaliName": "एचआइभी १ र २ (HIV 1 & 2)",
+      "category": "Infectious Disease",
+      "categoryLabel": "Infectious Disease",
+      "rate": 600,
+      "price": 600,
+      "aliases": [
+        "hiv 1 & 2 rapid screening"
+      ],
+      "sample": "Serum / Whole Blood",
+      "preparation": "Confidential routine collection",
+      "reporting": "",
+      "description": "Rapid screening immunoassay for HIV-1 and HIV-2 antibodies.",
+      "slug": "hiv-1-and-2-rapid-screening",
+      "url": "/tests/hiv-1-and-2-rapid-screening.html"
+    },
+    {
+      "code": "INF-007",
+      "name": "HBsAg Hepatitis B Screening",
+      "nepaliName": "हेपाटाइटिस बी (HBsAg Screening)",
+      "category": "Infectious Disease",
+      "categoryLabel": "Infectious Disease",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "hbsag hepatitis b screening"
+      ],
+      "sample": "Serum",
+      "preparation": "No fasting required",
+      "reporting": "",
+      "description": "Screening for Hepatitis B viral surface antigen.",
+      "slug": "hbsag-hepatitis-b-screening",
+      "url": "/tests/hbsag-hepatitis-b-screening.html"
+    },
+    {
+      "code": "INF-008",
+      "name": "HCV Antibody Screening",
+      "nepaliName": "हेपाटाइटिस सी (HCV Screening)",
+      "category": "Infectious Disease",
+      "categoryLabel": "Infectious Disease",
+      "rate": 700,
+      "price": 700,
+      "aliases": [
+        "hcv antibody screening"
+      ],
+      "sample": "Serum",
+      "preparation": "No fasting required",
+      "reporting": "",
+      "description": "Screening for Hepatitis C viral antibody.",
+      "slug": "hcv-antibody-screening",
+      "url": "/tests/hcv-antibody-screening.html"
+    },
+    {
+      "code": "INF-009",
+      "name": "HAV IgM Antibody",
+      "nepaliName": "हेपाटाइटिस ए (HAV IgM)",
+      "category": "Infectious Disease",
+      "categoryLabel": "Infectious Disease",
+      "rate": 2500,
+      "price": 2500,
+      "aliases": [
+        "hav igm antibody"
+      ],
+      "sample": "Serum",
+      "preparation": "No fasting required",
+      "reporting": "",
+      "description": "Diagnostic antibody for acute Hepatitis A infection and acute jaundice.",
+      "slug": "hav-igm-antibody",
+      "url": "/tests/hav-igm-antibody.html"
+    },
+    {
+      "code": "INF-010",
+      "name": "HEV IgM Antibody",
+      "nepaliName": "हेपाटाइटिस ई (HEV IgM)",
+      "category": "Infectious Disease",
+      "categoryLabel": "Infectious Disease",
+      "rate": 2500,
+      "price": 2500,
+      "aliases": [
+        "hev igm antibody"
+      ],
+      "sample": "Serum",
+      "preparation": "No fasting required",
+      "reporting": "",
+      "description": "Diagnostic antibody for acute Hepatitis E infection.",
+      "slug": "hev-igm-antibody",
+      "url": "/tests/hev-igm-antibody.html"
+    },
+    {
+      "code": "INF-011",
+      "name": "H. Pylori Antibody (Blood)",
+      "nepaliName": "एच. पाइलोरी एन्टिबडी - रगत (H. Pylori Blood)",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1200,
+      "price": 1200,
+      "aliases": [
+        "h. pylori antibody (blood)",
+        "blood"
+      ],
+      "sample": "Serum",
+      "preparation": "No fasting required",
+      "reporting": "",
+      "description": "Serological total antibody detection for Helicobacter pylori exposure.",
+      "slug": "h-pylori-antibody-blood",
+      "url": "/tests/h-pylori-antibody-blood.html"
+    },
+    {
+      "code": "SER-001",
+      "name": "VDRL / RPR (Syphilis Screening)",
+      "nepaliName": "भिडिआरएल / आरपिआर (VDRL)",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "vdrl / rpr (syphilis screening)",
+        "syphilis screening"
+      ],
+      "sample": "Serum",
+      "preparation": "No fasting required",
+      "reporting": "",
+      "description": "Nontreponemal flocculation test for syphilis screening.",
+      "slug": "vdrl-rpr-syphilis-screening",
+      "url": "/tests/vdrl-rpr-syphilis-screening.html"
+    },
+    {
+      "code": "SER-002",
+      "name": "TPHA (Treponema Pallidum Hemagglutination)",
+      "nepaliName": "टिपिएचए (TPHA)",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 600,
+      "price": 600,
+      "aliases": [
+        "tpha (treponema pallidum hemagglutination)",
+        "treponema pallidum hemagglutination"
+      ],
+      "sample": "Serum",
+      "preparation": "No fasting required",
+      "reporting": "",
+      "description": "Specific treponemal confirmatory hemagglutination test for syphilis.",
+      "slug": "tpha-treponema-pallidum-hemagglutination",
+      "url": "/tests/tpha-treponema-pallidum-hemagglutination.html"
+    },
+    {
+      "code": "SER-003",
+      "name": "MHA-TP (Microhemagglutination Assay for T. pallidum)",
+      "nepaliName": "एमएचए-टिपि (MHA-TP)",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 4000,
+      "price": 4000,
+      "aliases": [
+        "microhemagglutination assay for t. pallidum",
+        "mha-tp (microhemagglutination assay for t. pallidum)"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Advanced microhemagglutination treponemal test for syphilis confirmation.",
+      "slug": "mha-tp-microhemagglutination-assay-for-t-pallidum",
+      "url": "/tests/mha-tp-microhemagglutination-assay-for-t-pallidum.html"
+    },
+    {
+      "code": "SER-004",
+      "name": "CRP (Qualitative)",
+      "nepaliName": "सि-रिएक्टिभ प्रोटिन - गुणात्मक (CRP Qualitative)",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "qualitative",
+        "crp (qualitative)"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Rapid slide latex screening for acute phase C-Reactive Protein.",
+      "slug": "crp-qualitative",
+      "url": "/tests/crp-qualitative.html"
+    },
+    {
+      "code": "SER-005",
+      "name": "CRP (Quantitative / Turbidimetric)",
+      "nepaliName": "सि-रिएक्टिभ प्रोटिन - परिमाणात्मक (CRP Quantitative)",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "quantitative / turbidimetric",
+        "crp (quantitative / turbidimetric)"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Quantitative measurement of C-Reactive Protein concentration in mg/L.",
+      "slug": "crp-quantitative-turbidimetric",
+      "url": "/tests/crp-quantitative-turbidimetric.html"
+    },
+    {
+      "code": "SER-006",
+      "name": "ASO (Qualitative)",
+      "nepaliName": "एएसओ - गुणात्मक (ASO Qualitative)",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "qualitative",
+        "aso (qualitative)"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Latex agglutination screening for Anti-Streptolysin O antibodies.",
+      "slug": "aso-qualitative",
+      "url": "/tests/aso-qualitative.html"
+    },
+    {
+      "code": "SER-007",
+      "name": "ASO (Quantitative)",
+      "nepaliName": "एएसओ - परिमाणात्मक (ASO Quantitative)",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "quantitative",
+        "aso (quantitative)"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Quantitative determination of Anti-Streptolysin O titre in IU/ml.",
+      "slug": "aso-quantitative",
+      "url": "/tests/aso-quantitative.html"
+    },
+    {
+      "code": "SER-008",
+      "name": "RA Factor (Qualitative)",
+      "nepaliName": "आरए फ्याक्टर - गुणात्मक (RA Factor Qualitative)",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "ra factor (qualitative)",
+        "qualitative"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Latex screening for Rheumatoid Factor in suspected rheumatoid arthritis.",
+      "slug": "ra-factor-qualitative",
+      "url": "/tests/ra-factor-qualitative.html"
+    },
+    {
+      "code": "SER-009",
+      "name": "RA Factor (Quantitative)",
+      "nepaliName": "आरए फ्याक्टर - परिमाणात्मक (RA Factor Quantitative)",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "quantitative",
+        "ra factor (quantitative)"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Precise quantitative determination of Rheumatoid Factor concentration in IU/ml.",
+      "slug": "ra-factor-quantitative",
+      "url": "/tests/ra-factor-quantitative.html"
+    },
+    {
+      "code": "SER-010",
+      "name": "Total IgE",
+      "nepaliName": "टोटल आइजिइ (Total IgE)",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3000,
+      "price": 3000,
+      "aliases": [
+        "total ige"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Quantitative measurement of total Immunoglobulin E for allergic disorders and atopy.",
+      "slug": "total-ige",
+      "url": "/tests/total-ige.html"
+    },
+    {
+      "code": "MIC-001",
+      "name": "Urine Culture & Sensitivity",
+      "nepaliName": "पिसाब कल्चर तथा सेन्सिटिभिटी",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "urine culture & sensitivity"
+      ],
+      "sample": "Clean Catch Midstream Urine in Sterile Container",
+      "preparation": "Clean external genitalia; first morning midstream preferred",
+      "reporting": "2 Days",
+      "description": "Aerobic culture, colony count, and automated/disc antimicrobial susceptibility.",
+      "slug": "urine-culture-sensitivity",
+      "url": "/tests/urine-culture-sensitivity.html"
+    },
+    {
+      "code": "MIC-002",
+      "name": "Stool Culture & Sensitivity",
+      "nepaliName": "दिसा कल्चर तथा सेन्सिटिभिटी",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 600,
+      "price": 600,
+      "aliases": [
+        "stool culture & sensitivity"
+      ],
+      "sample": "Fresh Stool in Sterile Cup",
+      "preparation": "Deliver immediately; before starting antibiotics",
+      "reporting": "2 Days",
+      "description": "Isolation of enteric pathogens (Salmonella, Shigella, Vibrio, E. coli) and antibiotic sensitivity.",
+      "slug": "stool-culture-and-sensitivity",
+      "url": "/tests/stool-culture-and-sensitivity.html"
+    },
+    {
+      "code": "MIC-003",
+      "name": "Blood Culture & Sensitivity",
+      "nepaliName": "रगत कल्चर तथा सेन्सिटिभिटी",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "blood culture & sensitivity"
+      ],
+      "sample": "Venous Blood inoculated in BACTEC/Brain Heart Infusion Broth",
+      "preparation": "Strict aseptic skin preparation before fever spike",
+      "reporting": "2 Days",
+      "description": "Gold standard diagnostic for bacteremia, septicemia, and enteric fever.",
+      "slug": "blood-culture-and-sensitivity",
+      "url": "/tests/blood-culture-and-sensitivity.html"
+    },
+    {
+      "code": "MIC-004",
+      "name": "Sputum Culture & Sensitivity",
+      "nepaliName": "खकार कल्चर तथा सेन्सिटिभिटी",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "sputum culture & sensitivity"
+      ],
+      "sample": "Deep coughed morning sputum in sterile container",
+      "preparation": "Rinse mouth with clean water; cough deeply from bronchial tree",
+      "reporting": "2 Days",
+      "description": "Respiratory pathogen identification and antibiotic sensitivity.",
+      "slug": "sputum-culture-and-sensitivity",
+      "url": "/tests/sputum-culture-and-sensitivity.html"
+    },
+    {
+      "code": "MIC-005",
+      "name": "Pus / Wound Discharge Culture & Sensitivity",
+      "nepaliName": "पिप / घाउ कल्चर तथा सेन्सिटिभिटी",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "pus / wound discharge culture & sensitivity"
+      ],
+      "sample": "Sterile swab / aspirate of wound discharge or pus",
+      "preparation": "Aseptic collection before topical or systemic antibiotics",
+      "reporting": "",
+      "description": "Aerobic pathogen culture and antibiogram profiling.",
+      "slug": "pus-wound-discharge-culture-and-sensitivity",
+      "url": "/tests/pus-wound-discharge-culture-and-sensitivity.html"
+    },
+    {
+      "code": "MIC-006",
+      "name": "Gram Stain",
+      "nepaliName": "ग्राम स्टेन (Gram Stain)",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "gram stain"
+      ],
+      "sample": "Smear of pus, discharge, fluid, or sputum",
+      "preparation": "Collect on clean glass slide",
+      "reporting": "Next Day",
+      "description": "Rapid differential microscopic identification of Gram-positive and Gram-negative bacteria.",
+      "slug": "gram-stain",
+      "url": "/tests/gram-stain.html"
+    },
+    {
+      "code": "MIC-007",
+      "name": "AFB Stain (1st & 2nd Sample / Ziehl-Neelsen)",
+      "nepaliName": "खकारमा टिबी कीटाणु जाँच (AFB Stain)",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "afb stain (1st & 2nd sample / ziehl-neelsen)",
+        "1st & 2nd sample / ziehl-neelsen"
+      ],
+      "sample": "Deep coughed sputum or body fluid",
+      "preparation": "Morning deep cough specimen; avoid saliva",
+      "reporting": "Next Day",
+      "description": "Ziehl-Neelsen acid-fast staining for Mycobacterium tuberculosis detection.",
+      "slug": "afb-stain-1st-and-2nd-sample-ziehl-neelsen",
+      "url": "/tests/afb-stain-1st-and-2nd-sample-ziehl-neelsen.html"
+    },
+    {
+      "code": "MIC-008",
+      "name": "KOH Preparation (Fungus Direct Examination)",
+      "nepaliName": "फंगस जाँच (KOH Mount)",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "koh preparation (fungus direct examination)",
+        "fungus direct examination"
+      ],
+      "sample": "Skin scraping, nail clipping, or hair root",
+      "preparation": "Clean area; avoid antifungal ointments on collection day",
+      "reporting": "Next Day",
+      "description": "Potassium hydroxide mount for direct microscopic fungal hyphae/spores visualization.",
+      "slug": "koh-preparation-fungus-direct-examination",
+      "url": "/tests/koh-preparation-fungus-direct-examination.html"
+    },
+    {
+      "code": "MIC-009",
+      "name": "Wet Mount Examination",
+      "nepaliName": "वेट माउन्ट परीक्षण (Wet Mount)",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "wet mount examination"
+      ],
+      "sample": "Vaginal discharge / bodily fluid on fresh slide",
+      "preparation": "Fresh unpreserved specimen delivered immediately",
+      "reporting": "",
+      "description": "Direct microscopic examination for Trichomonas vaginalis, clue cells, and yeast.",
+      "slug": "wet-mount-examination",
+      "url": "/tests/wet-mount-examination.html"
+    },
+    {
+      "code": "MIC-010",
+      "name": "Mantoux Test (Tuberculin Skin Test - TST)",
+      "nepaliName": "मान्टोक्स परीक्षण (Mantoux TST)",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "tuberculin skin test - tst",
+        "mantoux test (tuberculin skin test - tst)"
+      ],
+      "sample": "Intradermal purified protein derivative (PPD)",
+      "preparation": "In-lab intradermal injection; mandatory reading after 48–72 hours",
+      "reporting": "2-3 Days",
+      "description": "Cell-mediated immunity assessment for tuberculosis infection.",
+      "slug": "mantoux-test-tuberculin-skin-test-tst",
+      "url": "/tests/mantoux-test-tuberculin-skin-test-tst.html"
+    },
+    {
+      "code": "CYT-001",
+      "name": "PAP Smear (Cervical Cytology)",
+      "nepaliName": "प्याप स्मीयर (PAP Smear)",
+      "category": "Cytology & Histopathology",
+      "categoryLabel": "Cytology & Histopathology",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "pap smear (cervical cytology)",
+        "cervical cytology"
+      ],
+      "sample": "Cervical cytology smear fixed in 95% ethyl alcohol",
+      "preparation": "Avoid douching or vaginal medications 48h prior; avoid during menses",
+      "reporting": "3-5 Days",
+      "description": "Screening for cervical pre-cancerous intraepithelial lesions and cervical cancer.",
+      "slug": "pap-smear-cervical-cytology",
+      "url": "/tests/pap-smear-cervical-cytology.html"
+    },
+    {
+      "code": "CYT-002",
+      "name": "Liquid Based Cytology (LBC - Pap / Non-Gyn)",
+      "nepaliName": "लिक्विड बेस्ड साइटोलोजी (LBC)",
+      "category": "Cytology & Histopathology",
+      "categoryLabel": "Cytology & Histopathology",
+      "rate": 1800,
+      "price": 1800,
+      "aliases": [
+        "liquid based cytology (lbc - pap / non-gyn)",
+        "lbc - pap / non-gyn"
+      ],
+      "sample": "Cervical brush in liquid preservative vial",
+      "preparation": "Avoid scheduling during active menstruation",
+      "reporting": "3-5 Days",
+      "description": "Enhanced thin-layer cervical and non-gynecological cytology with superior cell clarity.",
+      "slug": "liquid-based-cytology-lbc-pap-non-gyn",
+      "url": "/tests/liquid-based-cytology-lbc-pap-non-gyn.html"
+    },
+    {
+      "code": "CYT-003",
+      "name": "FNAC (Fine Needle Aspiration Cytology)",
+      "nepaliName": "एफएनएसी (FNAC)",
+      "category": "Cytology & Histopathology",
+      "categoryLabel": "Cytology & Histopathology",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "fine needle aspiration cytology",
+        "fnac (fine needle aspiration cytology)"
+      ],
+      "sample": "Fine needle cellular aspirate on slides",
+      "preparation": "In-lab procedure performed by pathologist",
+      "reporting": "3-5 Days",
+      "description": "Rapid cytological diagnosis of lumps, lymph nodes, thyroid nodules, and breast masses.",
+      "slug": "fnac-fine-needle-aspiration-cytology",
+      "url": "/tests/fnac-fine-needle-aspiration-cytology.html"
+    },
+    {
+      "code": "HIS-001",
+      "name": "Biopsy (Small Tissue)",
+      "nepaliName": "बायोप्सी - सानो तन्तु (Small Biopsy)",
+      "category": "Cytology & Histopathology",
+      "categoryLabel": "Cytology & Histopathology",
+      "rate": 4700,
+      "price": 4700,
+      "aliases": [
+        "small tissue",
+        "biopsy (small tissue)"
+      ],
+      "sample": "Tissue specimen in 10% neutral buffered formalin",
+      "preparation": "Immediate fixation in formalin container",
+      "reporting": "5-7 Days",
+      "description": "Histopathological grossing, processing, microtomy, and expert biopsy evaluation.",
+      "slug": "biopsy-small-tissue",
+      "url": "/tests/biopsy-small-tissue.html"
+    },
+    {
+      "code": "HIS-002",
+      "name": "Biopsy (Medium Tissue)",
+      "nepaliName": "बायोप्सी - मध्यम तन्तु (Medium Biopsy)",
+      "category": "Cytology & Histopathology",
+      "categoryLabel": "Cytology & Histopathology",
+      "rate": 3500,
+      "price": 3500,
+      "aliases": [
+        "medium tissue",
+        "biopsy (medium tissue)"
+      ],
+      "sample": "Tissue in 10% formalin",
+      "preparation": "Proper volume of formalin (10:1 formalin to tissue ratio)",
+      "reporting": "",
+      "description": "Histopathology examination for medium resected surgical specimens.",
+      "slug": "biopsy-medium-tissue",
+      "url": "/tests/biopsy-medium-tissue.html"
+    },
+    {
+      "code": "HIS-003",
+      "name": "Biopsy (Large Tissue)",
+      "nepaliName": "बायोप्सी - ठूलो तन्तु (Large Biopsy)",
+      "category": "Cytology & Histopathology",
+      "categoryLabel": "Cytology & Histopathology",
+      "rate": 5000,
+      "price": 5000,
+      "aliases": [
+        "large tissue",
+        "biopsy (large tissue)"
+      ],
+      "sample": "Large organ/resection in 10% formalin",
+      "preparation": "Adequate formalin fixation",
+      "reporting": "",
+      "description": "Comprehensive histopathological examination for large organ resection specimens.",
+      "slug": "biopsy-large-tissue",
+      "url": "/tests/biopsy-large-tissue.html"
+    },
+    {
+      "code": "HIS-004",
+      "name": "Bone Marrow Aspiration / Biopsy",
+      "nepaliName": "बोन म्यारो परीक्षण (Bone Marrow)",
+      "category": "Cytology & Histopathology",
+      "categoryLabel": "Cytology & Histopathology",
+      "rate": 6000,
+      "price": 6000,
+      "aliases": [
+        "bone marrow aspiration / biopsy"
+      ],
+      "sample": "Bone marrow aspirate smears and core biopsy",
+      "preparation": "Clinical hematology procedure",
+      "reporting": "",
+      "description": "Evaluation for leukemia, multiple myeloma, myelodysplastic syndrome, and aplastic anemia.",
+      "slug": "bone-marrow-aspiration-biopsy",
+      "url": "/tests/bone-marrow-aspiration-biopsy.html"
+    },
+    {
+      "code": "HIS-005",
+      "name": "IHC (Immunohistochemistry) Panel",
+      "nepaliName": "इम्युनोहिस्टोकेमिस्ट्री प्यानल (IHC Panel)",
+      "category": "Cytology & Histopathology",
+      "categoryLabel": "Cytology & Histopathology",
+      "rate": 13000,
+      "price": 13000,
+      "aliases": [
+        "immunohistochemistry",
+        "ihc (immunohistochemistry) panel"
+      ],
+      "sample": "Paraffin embedded tissue block (FFPE block)",
+      "preparation": "Representative tissue block with pathology report",
+      "reporting": "",
+      "description": "Diagnostic tumor categorization, lymphoma subtyping, and hormone receptor status.",
+      "slug": "ihc-immunohistochemistry-panel",
+      "url": "/tests/ihc-immunohistochemistry-panel.html"
+    },
+    {
+      "code": "THY-001",
+      "name": "Thyroid Function Test (TFT - T3, T4, TSH)",
+      "nepaliName": "थाइरोइड प्रोफाइल (TFT - T3, T4, TSH)",
+      "category": "Thyroid & Hormones",
+      "categoryLabel": "Thyroid & Hormones",
+      "rate": 1200,
+      "price": 1200,
+      "aliases": [
+        "tft - t3, t4, tsh",
+        "thyroid function test (tft - t3, t4, tsh)"
+      ],
+      "sample": "Serum (Clotted Blood)",
+      "preparation": "Morning collection preferred; note thyroid medication",
+      "reporting": "",
+      "description": "Standard thyroid tri-panel assessing Total T3, Total T4, and ultrasensitive TSH.",
+      "slug": "thyroid-function-test-tft",
+      "url": "/tests/thyroid-function-test-tft.html"
+    },
+    {
+      "code": "THY-002",
+      "name": "Free TFT (FT3, FT4, TSH)",
+      "nepaliName": "फ्री थाइरोइड प्रोफाइल (Free TFT - FT3, FT4, TSH)",
+      "category": "Thyroid & Hormones",
+      "categoryLabel": "Thyroid & Hormones",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "ft3, ft4, tsh",
+        "free tft (ft3, ft4, tsh)"
+      ],
+      "sample": "Serum",
+      "preparation": "Morning collection preferred; note thyroid medication",
+      "reporting": "",
+      "description": "Active unbound circulating FT3, FT4 and pituitary TSH evaluation.",
+      "slug": "free-tft-ft3-ft4-tsh",
+      "url": "/tests/free-tft-ft3-ft4-tsh.html"
+    },
+    {
+      "code": "THY-003",
+      "name": "Anti-TPO Antibody",
+      "nepaliName": "एन्टी-टीपीओ एन्टिबडी (Anti-TPO)",
+      "category": "Thyroid & Hormones",
+      "categoryLabel": "Thyroid & Hormones",
+      "rate": 2000,
+      "price": 2000,
+      "aliases": [
+        "anti-tpo antibody"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Autoimmune thyroid marker for Hashimoto's thyroiditis and Graves' disease.",
+      "slug": "anti-tpo-antibody",
+      "url": "/tests/anti-tpo-antibody.html"
+    },
+    {
+      "code": "VIT-001",
+      "name": "Vitamin D (25-OH Total)",
+      "nepaliName": "भिटामिन डी (Vitamin D 25-OH)",
+      "category": "Vitamins",
+      "categoryLabel": "Vitamins",
+      "rate": 2800,
+      "price": 2800,
+      "aliases": [
+        "vitamin d (25-oh total)",
+        "25-oh total"
+      ],
+      "sample": "Serum (Clotted Blood 2 ml)",
+      "preparation": "Routine collection; no mandatory fasting",
+      "reporting": "Same Day",
+      "description": "Quantitative determination of total 25-Hydroxy Vitamin D (D2+D3) for bone & immune health.",
+      "slug": "vitamin-d-25-oh",
+      "url": "/tests/vitamin-d-25-oh.html"
+    },
+    {
+      "code": "VIT-002",
+      "name": "Vitamin B12 (Cyanocobalamin)",
+      "nepaliName": "भिटामिन बी१२ (Vitamin B12)",
+      "category": "Vitamins",
+      "categoryLabel": "Vitamins",
+      "rate": 1800,
+      "price": 1800,
+      "aliases": [
+        "vitamin b12 (cyanocobalamin)",
+        "cyanocobalamin"
+      ],
+      "sample": "Serum",
+      "preparation": "Overnight fasting (8h) preferred; avoid B12 injections prior to test",
+      "reporting": "Same Day",
+      "description": "Immunoassay for megaloblastic anemia, neuropathy, and nerve health.",
+      "slug": "vitamin-b12",
+      "url": "/tests/vitamin-b12.html"
+    },
+    {
+      "code": "VIT-003",
+      "name": "Serum Ferritin",
+      "nepaliName": "सिरम फेरिटिन (Serum Ferritin)",
+      "category": "Vitamins",
+      "categoryLabel": "Vitamins",
+      "rate": 1200,
+      "price": 1200,
+      "aliases": [
+        "serum ferritin"
+      ],
+      "sample": "Serum",
+      "preparation": "Morning fasting sample preferred",
+      "reporting": "Same Day",
+      "description": "Primary storage iron biomarker for iron deficiency and overload assessment.",
+      "slug": "serum-ferritin",
+      "url": "/tests/serum-ferritin.html"
+    },
+    {
+      "code": "VIT-004",
+      "name": "Iron Profile (Serum Iron + TIBC + UIBC + Transferrin)",
+      "nepaliName": "आइरन प्रोफाइल (Iron Profile)",
+      "category": "Vitamins",
+      "categoryLabel": "Vitamins",
+      "rate": 2500,
+      "price": 2500,
+      "aliases": [
+        "serum iron + tibc + uibc + transferrin",
+        "iron profile (serum iron + tibc + uibc + transferrin)"
+      ],
+      "sample": "Serum",
+      "preparation": "Morning fasting sample required; avoid iron tablets 24h prior",
+      "reporting": "",
+      "description": "Comprehensive evaluation of circulating iron, transferrin saturation, and binding capacity.",
+      "slug": "iron-profile-serum-iron-plus-tibc-plus-uibc-plus-transferrin",
+      "url": "/tests/iron-profile-serum-iron-plus-tibc-plus-uibc-plus-transferrin.html"
+    },
+    {
+      "code": "VIT-005",
+      "name": "Folic Acid / Folate",
+      "nepaliName": "फोलिक एसिड (Folic Acid / Folate)",
+      "category": "Vitamins",
+      "categoryLabel": "Vitamins",
+      "rate": 2100,
+      "price": 2100,
+      "aliases": [
+        "folic acid / folate"
+      ],
+      "sample": "Serum",
+      "preparation": "Overnight fasting (8h) preferred",
+      "reporting": "Same Day",
+      "description": "Serum folate evaluation for megaloblastic anemia and pregnancy nutrition.",
+      "slug": "folic-acid-folate",
+      "url": "/tests/folic-acid-folate.html"
+    },
+    {
+      "code": "HOR-001",
+      "name": "Beta-HCG (Quantitative)",
+      "nepaliName": "बेटा एचसिजी - परिमाणात्मक (Beta-HCG Quantitative)",
+      "category": "Thyroid & Hormones",
+      "categoryLabel": "Thyroid & Hormones",
+      "rate": 2000,
+      "price": 2000,
+      "aliases": [
+        "quantitative",
+        "beta-hcg (quantitative)"
+      ],
+      "sample": "Serum",
+      "preparation": "No fasting needed",
+      "reporting": "Same Day",
+      "description": "Precise quantitative confirmation of pregnancy, ectopic pregnancy, and trophoblastic disease.",
+      "slug": "beta-hcg-quantitative",
+      "url": "/tests/beta-hcg-quantitative.html"
+    },
+    {
+      "code": "HOR-002",
+      "name": "Prolactin (PRL)",
+      "nepaliName": "प्रोल्याक्टिन हर्मोन (Prolactin)",
+      "category": "Thyroid & Hormones",
+      "categoryLabel": "Thyroid & Hormones",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "prolactin (prl)",
+        "prl"
+      ],
+      "sample": "Serum",
+      "preparation": "Morning sample 2–3 hours after waking; rest 20 mins before draw",
+      "reporting": "Same Day",
+      "description": "Pituitary hormone for galactorrhea, amenorrhea, and infertility workup.",
+      "slug": "prolactin-prl",
+      "url": "/tests/prolactin-prl.html"
+    },
+    {
+      "code": "HOR-003",
+      "name": "FSH (Follicle Stimulating Hormone)",
+      "nepaliName": "एफएसएच हर्मोन (FSH)",
+      "category": "Thyroid & Hormones",
+      "categoryLabel": "Thyroid & Hormones",
+      "rate": 2000,
+      "price": 2000,
+      "aliases": [
+        "fsh (follicle stimulating hormone)",
+        "follicle stimulating hormone"
+      ],
+      "sample": "Serum",
+      "preparation": "Day 2 or 3 of menstrual cycle for females",
+      "reporting": "Same Day",
+      "description": "Ovarian reserve, menopausal status, and spermatogenesis assessment.",
+      "slug": "fsh-follicle-stimulating-hormone",
+      "url": "/tests/fsh-follicle-stimulating-hormone.html"
+    },
+    {
+      "code": "HOR-004",
+      "name": "LH (Luteinizing Hormone)",
+      "nepaliName": "एलएच हर्मोन (LH)",
+      "category": "Thyroid & Hormones",
+      "categoryLabel": "Thyroid & Hormones",
+      "rate": 2500,
+      "price": 2500,
+      "aliases": [
+        "lh (luteinizing hormone)",
+        "luteinizing hormone"
+      ],
+      "sample": "Serum",
+      "preparation": "Note day of menstrual cycle",
+      "reporting": "",
+      "description": "Pituitary gonadotropin evaluating ovulation, PCOS, and fertility.",
+      "slug": "lh-luteinizing-hormone",
+      "url": "/tests/lh-luteinizing-hormone.html"
+    },
+    {
+      "code": "HOR-005",
+      "name": "Testosterone (Total)",
+      "nepaliName": "टेस्टोस्टेरोन (Testosterone Total)",
+      "category": "Thyroid & Hormones",
+      "categoryLabel": "Thyroid & Hormones",
+      "rate": 2000,
+      "price": 2000,
+      "aliases": [
+        "total",
+        "testosterone (total)"
+      ],
+      "sample": "Serum",
+      "preparation": "Morning collection (7:00 AM – 10:00 AM) when levels peak",
+      "reporting": "",
+      "description": "Primary androgen evaluation for male hypogonadism and female hirsutism/PCOS.",
+      "slug": "testosterone-total",
+      "url": "/tests/testosterone-total.html"
+    },
+    {
+      "code": "HOR-006",
+      "name": "Progesterone",
+      "nepaliName": "प्रोजेस्टेरोन हर्मोन (Progesterone)",
+      "category": "Thyroid & Hormones",
+      "categoryLabel": "Thyroid & Hormones",
+      "rate": 2500,
+      "price": 2500,
+      "aliases": [
+        "progesterone"
+      ],
+      "sample": "Serum",
+      "preparation": "Typically collected on Day 21 of a 28-day cycle (mid-luteal)",
+      "reporting": "Same Day",
+      "description": "Confirmation of ovulation and luteal phase sufficiency.",
+      "slug": "progesterone",
+      "url": "/tests/progesterone.html"
+    },
+    {
+      "code": "HOR-007",
+      "name": "Serum Insulin (Fasting / PP)",
+      "nepaliName": "सिरम इन्सुलिन (Serum Insulin)",
+      "category": "Thyroid & Hormones",
+      "categoryLabel": "Thyroid & Hormones",
+      "rate": 3000,
+      "price": 3000,
+      "aliases": [
+        "serum insulin (fasting / pp)",
+        "fasting / pp"
+      ],
+      "sample": "Fasting Serum",
+      "preparation": "Overnight 8–10 hours fasting required",
+      "reporting": "",
+      "description": "Assessment of insulin resistance, HOMA-IR, and hyperinsulinemia.",
+      "slug": "serum-insulin-fasting-pp",
+      "url": "/tests/serum-insulin-fasting-pp.html"
+    },
+    {
+      "code": "HOR-008",
+      "name": "Serum Cortisol",
+      "nepaliName": "सिरम कोर्टिसोल (Serum Cortisol)",
+      "category": "Thyroid & Hormones",
+      "categoryLabel": "Thyroid & Hormones",
+      "rate": 2500,
+      "price": 2500,
+      "aliases": [
+        "serum cortisol"
+      ],
+      "sample": "Serum",
+      "preparation": "Morning (8:00 AM) or evening (4:00 PM) collection as advised",
+      "reporting": "",
+      "description": "Adrenal glucocorticoid function for Cushing's syndrome and adrenal insufficiency.",
+      "slug": "serum-cortisol",
+      "url": "/tests/serum-cortisol.html"
+    },
+    {
+      "code": "HOR-009",
+      "name": "DHEAS (Dehydroepiandrosterone Sulfate)",
+      "nepaliName": "डिएचइएएस (DHEAS)",
+      "category": "Thyroid & Hormones",
+      "categoryLabel": "Thyroid & Hormones",
+      "rate": 1800,
+      "price": 1800,
+      "aliases": [
+        "dehydroepiandrosterone sulfate",
+        "dheas (dehydroepiandrosterone sulfate)"
+      ],
+      "sample": "Serum",
+      "preparation": "Morning sample preferred",
+      "reporting": "",
+      "description": "Adrenal androgen marker for congenital adrenal hyperplasia and hirsutism.",
+      "slug": "dheas-dehydroepiandrosterone-sulfate",
+      "url": "/tests/dheas-dehydroepiandrosterone-sulfate.html"
+    },
+    {
+      "code": "HOR-010",
+      "name": "PTH (Intact Parathyroid Hormone)",
+      "nepaliName": "पाराथाइरोइड हर्मोन (Intact PTH)",
+      "category": "Thyroid & Hormones",
+      "categoryLabel": "Thyroid & Hormones",
+      "rate": 3000,
+      "price": 3000,
+      "aliases": [
+        "intact parathyroid hormone",
+        "pth (intact parathyroid hormone)"
+      ],
+      "sample": "Serum / EDTA Plasma (Freeze if delayed)",
+      "preparation": "Morning fasting sample preferred with calcium",
+      "reporting": "",
+      "description": "Primary regulator of calcium homeostasis for hyper/hypoparathyroidism.",
+      "slug": "pth-intact-parathyroid-hormone",
+      "url": "/tests/pth-intact-parathyroid-hormone.html"
+    },
+    {
+      "code": "HOR-011",
+      "name": "Growth Hormone (GH)",
+      "nepaliName": "ग्रोथ हर्मोन (Growth Hormone)",
+      "category": "Thyroid & Hormones",
+      "categoryLabel": "Thyroid & Hormones",
+      "rate": 2000,
+      "price": 2000,
+      "aliases": [
+        "growth hormone (gh)",
+        "gh"
+      ],
+      "sample": "Serum",
+      "preparation": "Overnight fasting and complete physical rest prior",
+      "reporting": "Same Day",
+      "description": "Pituitary growth hormone evaluation for acromegaly and growth disorders.",
+      "slug": "growth-hormone-gh",
+      "url": "/tests/growth-hormone-gh.html"
+    },
+    {
+      "code": "TUM-001",
+      "name": "PSA (Total - Prostate Specific Antigen)",
+      "nepaliName": "पिएसए टोटल (PSA Total)",
+      "category": "Tumor Markers",
+      "categoryLabel": "Tumor Markers",
+      "rate": 3000,
+      "price": 3000,
+      "aliases": [
+        "psa (total - prostate specific antigen)",
+        "total - prostate specific antigen"
+      ],
+      "sample": "Serum",
+      "preparation": "Avoid ejaculation, cycling, or DRE exam for 48h prior",
+      "reporting": "",
+      "description": "Prostate health evaluation and screening for prostate cancer/BPH in men.",
+      "slug": "psa-total",
+      "url": "/tests/psa-total.html"
+    },
+    {
+      "code": "TUM-002",
+      "name": "Free PSA",
+      "nepaliName": "फ्री पिएसए (Free PSA)",
+      "category": "Tumor Markers",
+      "categoryLabel": "Tumor Markers",
+      "rate": 2000,
+      "price": 2000,
+      "aliases": [
+        "free psa"
+      ],
+      "sample": "Serum",
+      "preparation": "Avoid ejaculation, cycling, or DRE exam for 48h prior",
+      "reporting": "",
+      "description": "Free/Total PSA ratio for distinguishing benign prostatic hyperplasia from malignancy.",
+      "slug": "free-psa",
+      "url": "/tests/free-psa.html"
+    },
+    {
+      "code": "TUM-003",
+      "name": "CA 125 (Ovarian Marker)",
+      "nepaliName": "सि.ए. १२५ (CA 125 Ovarian)",
+      "category": "Tumor Markers",
+      "categoryLabel": "Tumor Markers",
+      "rate": 2000,
+      "price": 2000,
+      "aliases": [
+        "ca 125 (ovarian marker)",
+        "ovarian marker"
+      ],
+      "sample": "Serum",
+      "preparation": "Avoid scheduling during active menstruation",
+      "reporting": "",
+      "description": "Ovarian tumor marker for epithelial ovarian cancer monitoring and pelvic mass workup.",
+      "slug": "ca-125",
+      "url": "/tests/ca-125.html"
+    },
+    {
+      "code": "TUM-004",
+      "name": "CA 15.3 (Breast Marker)",
+      "nepaliName": "सि.ए. १५.३ (CA 15.3 Breast)",
+      "category": "Tumor Markers",
+      "categoryLabel": "Tumor Markers",
+      "rate": 2000,
+      "price": 2000,
+      "aliases": [
+        "breast marker",
+        "ca 15.3 (breast marker)"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Tumor biomarker for therapeutic monitoring and recurrence in breast cancer.",
+      "slug": "ca-15-3-breast-marker",
+      "url": "/tests/ca-15-3-breast-marker.html"
+    },
+    {
+      "code": "TUM-005",
+      "name": "CA 19.9 (GI / Pancreatic Marker)",
+      "nepaliName": "सि.ए. १९.९ (CA 19.9 Pancreatic)",
+      "category": "Tumor Markers",
+      "categoryLabel": "Tumor Markers",
+      "rate": 2000,
+      "price": 2000,
+      "aliases": [
+        "ca 19.9 (gi / pancreatic marker)",
+        "gi / pancreatic marker"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Carbohydrate antigen marker for pancreatic adenocarcinoma and cholangiocarcinoma.",
+      "slug": "ca-19-9-gi-pancreatic-marker",
+      "url": "/tests/ca-19-9-gi-pancreatic-marker.html"
+    },
+    {
+      "code": "TUM-006",
+      "name": "CEA (Carcinoembryonic Antigen)",
+      "nepaliName": "सिइए (CEA)",
+      "category": "Tumor Markers",
+      "categoryLabel": "Tumor Markers",
+      "rate": 1500,
+      "price": 1500,
+      "aliases": [
+        "cea (carcinoembryonic antigen)",
+        "carcinoembryonic antigen"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection; note smoking status",
+      "reporting": "Same Day",
+      "description": "Broad gastrointestinal, colorectal, and lung tumor surveillance marker.",
+      "slug": "cea-carcinoembryonic-antigen",
+      "url": "/tests/cea-carcinoembryonic-antigen.html"
+    },
+    {
+      "code": "TUM-007",
+      "name": "AFP (Alpha-Fetoprotein)",
+      "nepaliName": "अल्फा-फेटोप्रोटिन (AFP)",
+      "category": "Tumor Markers",
+      "categoryLabel": "Tumor Markers",
+      "rate": 1400,
+      "price": 1400,
+      "aliases": [
+        "alpha-fetoprotein",
+        "afp (alpha-fetoprotein)"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Primary tumor marker for hepatocellular carcinoma (HCC) and testicular germ cell tumors.",
+      "slug": "afp-alpha-fetoprotein",
+      "url": "/tests/afp-alpha-fetoprotein.html"
+    },
+    {
+      "code": "AUT-001",
+      "name": "ANA (Antinuclear Antibodies - IFA / Screen)",
+      "nepaliName": "एएनए (ANA / Antinuclear Antibodies)",
+      "category": "Autoimmune",
+      "categoryLabel": "Autoimmune",
+      "rate": 2200,
+      "price": 2200,
+      "aliases": [
+        "ana (antinuclear antibodies - ifa / screen)",
+        "antinuclear antibodies - ifa / screen"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Primary gold standard screening test for Systemic Lupus Erythematosus (SLE) and connective tissue diseases.",
+      "slug": "ana-antinuclear-antibodies-ifa-screen",
+      "url": "/tests/ana-antinuclear-antibodies-ifa-screen.html"
+    },
+    {
+      "code": "AUT-002",
+      "name": "Ds-DNA (Anti-dsDNA Antibody)",
+      "nepaliName": "एन्टी-डिएसडिएनए (Anti-dsDNA)",
+      "category": "Autoimmune",
+      "categoryLabel": "Autoimmune",
+      "rate": 3000,
+      "price": 3000,
+      "aliases": [
+        "anti-dsdna antibody",
+        "ds-dna (anti-dsdna antibody)"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Highly specific confirmatory biomarker for SLE and lupus nephritis disease activity.",
+      "slug": "ds-dna-anti-dsdna-antibody",
+      "url": "/tests/ds-dna-anti-dsdna-antibody.html"
+    },
+    {
+      "code": "AUT-003",
+      "name": "Anti-CCP (Anti-Cyclic Citrullinated Peptide)",
+      "nepaliName": "एन्टी-सिसिपी (Anti-CCP)",
+      "category": "Autoimmune",
+      "categoryLabel": "Autoimmune",
+      "rate": 2500,
+      "price": 2500,
+      "aliases": [
+        "anti-cyclic citrullinated peptide",
+        "anti-ccp (anti-cyclic citrullinated peptide)"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Highly specific early marker for erosive Rheumatoid Arthritis.",
+      "slug": "anti-ccp-anti-cyclic-citrullinated-peptide",
+      "url": "/tests/anti-ccp-anti-cyclic-citrullinated-peptide.html"
+    },
+    {
+      "code": "AUT-004",
+      "name": "ANA Profile (Immunoblot / 18 Panel)",
+      "nepaliName": "एएनए प्रोफाइल (ANA Profile Immunoblot)",
+      "category": "Autoimmune",
+      "categoryLabel": "Autoimmune",
+      "rate": 8000,
+      "price": 8000,
+      "aliases": [
+        "ana profile (immunoblot / 18 panel)",
+        "immunoblot / 18 panel"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Comprehensive 18-antigen line immunoblot (Ro/SSA, La/SSB, Sm, RNP, Scl-70, Jo-1, Centromere, Ribosomal P, etc.).",
+      "slug": "ana-profile-immunoblot-18-panel",
+      "url": "/tests/ana-profile-immunoblot-18-panel.html"
+    },
+    {
+      "code": "AUT-005",
+      "name": "ANCA, PANCA, GBM Panel",
+      "nepaliName": "एन्का / प्यान्का / एन्टी-जिबिएम (ANCA / PANCA / Anti GBM)",
+      "category": "Autoimmune",
+      "categoryLabel": "Autoimmune",
+      "rate": 6000,
+      "price": 6000,
+      "aliases": [
+        "anca, panca, gbm panel"
+      ],
+      "sample": "Serum",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Comprehensive vasculitis panel for Granulomatosis with Polyangiitis, Microscopic Polyangiitis, and Goodpasture syndrome.",
+      "slug": "anca-panca-gbm-panel",
+      "url": "/tests/anca-panca-gbm-panel.html"
+    },
+    {
+      "code": "SPC-002",
+      "name": "Quadruple Marker (Quarde / Second Trimester Screening)",
+      "nepaliName": "क्वाड्रुपल मार्कर (Quadruple Marker)",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 6000,
+      "price": 6000,
+      "aliases": [
+        "quadruple marker (quarde / second trimester screening)",
+        "quarde / second trimester screening"
+      ],
+      "sample": "Serum (15–20 weeks of gestation)",
+      "preparation": "Accurate ultrasound gestational age and maternal weight required",
+      "reporting": "",
+      "description": "Second-trimester prenatal screening (AFP, hCG, uE3, Inhibin-A) for Down syndrome, Trisomy 18, and open neural tube defects.",
+      "slug": "quadruple-marker-quarde-second-trimester-screening",
+      "url": "/tests/quadruple-marker-quarde-second-trimester-screening.html"
+    },
+    {
+      "code": "SPC-003",
+      "name": "Antigen Profile / Panel",
+      "nepaliName": "एन्टिजेन प्रोफाइल प्यानल (Antigen Profile)",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 4500,
+      "price": 4500,
+      "aliases": [
+        "antigen profile / panel"
+      ],
+      "sample": "Serum / Plasma",
+      "preparation": "Routine collection",
+      "reporting": "",
+      "description": "Comprehensive clinical antigen screening panel.",
+      "slug": "antigen-profile-panel",
+      "url": "/tests/antigen-profile-panel.html"
+    },
+    {
+      "code": "PKG-001",
+      "name": "Basic Whole Body Package / Basic Health Screening Package",
+      "nepaliName": "आधारभूत सम्पूर्ण शरीर स्वास्थ्य प्याकेज",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 5000,
+      "price": 5000,
+      "aliases": [
+        "basic whole body package / basic health screening package"
+      ],
+      "sample": "Fasting Blood (EDTA, Fluoride, Clotted) & Clean Catch Urine",
+      "preparation": "8–10 hours overnight fasting required",
+      "reporting": "",
+      "description": "Essential preventive health checkup covering blood counts, glucose, liver enzymes, kidney function, lipids, and urine.",
+      "packageTests": [
+        "Complete Blood Count (CBC) with ESR",
+        "Fasting Blood Sugar (FBS)",
+        "Liver Function (SGOT, SGPT, Bilirubin, Protein)",
+        "Renal Function (Creatinine, Urea, Uric Acid)",
+        "Lipid Profile (Cholesterol, TG, HDL, LDL)",
+        "Urine Routine & Microscopic (R/E)"
+      ],
+      "slug": "basic-whole-body-package-basic-health-screening-package",
+      "url": "/tests/basic-whole-body-package-basic-health-screening-package.html"
+    },
+    {
+      "code": "PKG-002",
+      "name": "Medium Whole Body Package / Comprehensive Executive Package",
+      "nepaliName": "कार्यकारी मध्यम स्वास्थ्य प्याकेज (Medium Whole Body)",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 7200,
+      "price": 7200,
+      "aliases": [
+        "medium whole body package / comprehensive executive package"
+      ],
+      "sample": "Overnight Fasting Blood & Morning Urine",
+      "preparation": "10–12 hours overnight fasting (water permitted)",
+      "reporting": "",
+      "description": "Executive diagnostic screening covering liver, kidney, cardiac lipid panel, diabetes control, thyroid function, and urine.",
+      "packageTests": [
+        "CBC with 5-Part Differential & ESR",
+        "Complete Liver Function Test (LFT - 8 Parameters)",
+        "Complete Renal Function Test (RFT with Electrolytes)",
+        "Complete Lipid Profile Panel",
+        "Fasting Blood Sugar & HbA1c",
+        "Thyroid Function Test (TFT - T3, T4, TSH)",
+        "Serum Calcium & Uric Acid",
+        "Urine Routine & Microscopy (R/E)"
+      ],
+      "slug": "medium-whole-body-package-comprehensive-executive-package",
+      "url": "/tests/medium-whole-body-package-comprehensive-executive-package.html"
+    },
+    {
+      "code": "PKG-003",
+      "name": "Advance Whole Body Package (Comprehensive Screening)",
+      "nepaliName": "अग्रिम सम्पूर्ण शरीर स्वास्थ्य प्याकेज (Advance Whole Body)",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 15000,
+      "price": 15000,
+      "aliases": [
+        "comprehensive screening",
+        "advance whole body package (comprehensive screening)"
+      ],
+      "sample": "Fasting Blood & Urine",
+      "preparation": "10–12 hours overnight fasting",
+      "reporting": "",
+      "description": "Ultimate comprehensive full body profile with full organ panels, diabetes HbA1c, vitamins (D & B12), thyroid, cardiac, and urine.",
+      "packageTests": [
+        "Complete Blood Count (CBC) with ESR & Platelets",
+        "Full Liver Function Test (LFT)",
+        "Full Renal Function Test (RFT) & Electrolytes",
+        "Complete Lipid Profile Panel",
+        "Fasting Blood Sugar & HbA1c (3-Month Glycemic Control)",
+        "Thyroid Function Test (T3, T4, TSH)",
+        "Vitamin D (25-OH) & Vitamin B12",
+        "Cardiac Enzymes (CPK-MB / Troponin)",
+        "Serum Calcium, Phosphorus, Uric Acid",
+        "Urine Routine & Microscopic (R/E) & Stool Occult Blood"
+      ],
+      "slug": "advance-whole-body-package-comprehensive-screening",
+      "url": "/tests/advance-whole-body-package-comprehensive-screening.html"
+    },
+    {
+      "code": "EXC-001",
+      "name": "17-Alpha Hydroxy Progesterone (17-OHP)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2800,
+      "price": 2800,
+      "aliases": [
+        "17-ohp",
+        "17-alpha hydroxy progesterone",
+        "17-alpha hydroxy progesterone (17-ohp)"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "17-Alpha Hydroxy Progesterone (17-OHP) (CLIA).",
+      "slug": "17-ohp",
+      "url": "/tests/17-ohp.html"
+    },
+    {
+      "code": "EXC-002",
+      "name": "Absolute Basophils Count (ABC)",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "abc",
+        "absolute basophils count (abc)",
+        "absolute basophils count"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Absolute Basophils Count (ABC) (Cell Counter).",
+      "slug": "absolute-basophils-count-abc",
+      "url": "/tests/absolute-basophils-count-abc.html"
+    },
+    {
+      "code": "EXC-003",
+      "name": "Absolute Eosinophils Count (AEC)",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "absolute eosinophils count",
+        "aec",
+        "absolute eosinophils count (aec)"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Absolute Eosinophils Count (AEC) (Cell Counter).",
+      "slug": "absolute-eosinophils-count-aec",
+      "url": "/tests/absolute-eosinophils-count-aec.html"
+    },
+    {
+      "code": "EXC-004",
+      "name": "Absolute Lymphocytes Count (ALC)",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "absolute lymphocytes count",
+        "absolute lymphocytes count (alc)",
+        "alc"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Absolute Lymphocytes Count (ALC) (Cell Counter).",
+      "slug": "absolute-lymphocytes-count-alc",
+      "url": "/tests/absolute-lymphocytes-count-alc.html"
+    },
+    {
+      "code": "EXC-005",
+      "name": "Absolute Monocytes Count (AMC)",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "amc",
+        "absolute monocytes count (amc)",
+        "absolute monocytes count"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Absolute Monocytes Count (AMC) (Cell Counter).",
+      "slug": "absolute-monocytes-count-amc",
+      "url": "/tests/absolute-monocytes-count-amc.html"
+    },
+    {
+      "code": "EXC-006",
+      "name": "Absolute Neutrophils Count (ANC)",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "absolute neutrophils count (anc)",
+        "anc",
+        "absolute neutrophils count"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Absolute Neutrophils Count (ANC) (Cell Counter).",
+      "slug": "absolute-neutrophils-count-anc",
+      "url": "/tests/absolute-neutrophils-count-anc.html"
+    },
+    {
+      "code": "EXC-007",
+      "name": "Acetaminophen (Paracetamol)",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 2300,
+      "price": 2300,
+      "aliases": [
+        "acetaminophen (paracetamol)",
+        "acetaminophen",
+        "paracetamol"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Acetaminophen (Paracetamol) (Spectrophotometry).",
+      "slug": "acetaminophen-paracetamol",
+      "url": "/tests/acetaminophen-paracetamol.html"
+    },
+    {
+      "code": "EXC-008",
+      "name": "Acid Fast Bacilli (AFB) Culture",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 2100,
+      "price": 2100,
+      "aliases": [
+        "acid fast bacilli  culture",
+        "acid fast bacilli (afb) culture",
+        "afb"
+      ],
+      "sample": "Clinical  Specimen",
+      "preparation": "",
+      "reporting": "6 Weeks",
+      "description": "Acid Fast Bacilli (AFB) Culture (Microscopy.).",
+      "slug": "acid-fast-bacilli-afb-culture",
+      "url": "/tests/acid-fast-bacilli-afb-culture.html"
+    },
+    {
+      "code": "EXC-009",
+      "name": "Acid Phosphatase",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1300,
+      "price": 1300,
+      "aliases": [
+        "acid phosphatase"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Acid Phosphatase (Spectrophotometry).",
+      "slug": "acid-phosphatase",
+      "url": "/tests/acid-phosphatase.html"
+    },
+    {
+      "code": "EXC-010",
+      "name": "Adenosine Deaminase (ADA) - CSF",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "adenosine deaminase  - csf",
+        "adenosine deaminase (ada) - csf",
+        "ada"
+      ],
+      "sample": "CSF (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Adenosine Deaminase (ADA) - CSF (Spectrophotometry).",
+      "slug": "adenosine-deaminase-ada-csf",
+      "url": "/tests/adenosine-deaminase-ada-csf.html"
+    },
+    {
+      "code": "EXC-011",
+      "name": "Adenosine Deaminase (ADA) - Fluid",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "adenosine deaminase (ada) - fluid",
+        "ada",
+        "adenosine deaminase  - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Adenosine Deaminase (ADA) - Fluid (Spectrophotometry).",
+      "slug": "adenosine-deaminase-ada-fluid",
+      "url": "/tests/adenosine-deaminase-ada-fluid.html"
+    },
+    {
+      "code": "EXC-012",
+      "name": "Adenosine Deaminase (ADA) - Serum",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "ada",
+        "adenosine deaminase (ada) - serum",
+        "adenosine deaminase  - serum"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Adenosine Deaminase (ADA) - Serum (Spectrophotometry).",
+      "slug": "adenosine-deaminase-ada-serum",
+      "url": "/tests/adenosine-deaminase-ada-serum.html"
+    },
+    {
+      "code": "EXC-013",
+      "name": "Adrenocorticotropic Hormone (ACTH)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2800,
+      "price": 2800,
+      "aliases": [
+        "adrenocorticotropic hormone",
+        "adrenocorticotropic hormone (acth)",
+        "acth"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Adrenocorticotropic Hormone (ACTH) (CLIA).",
+      "slug": "adrenocorticotropic-hormone-acth",
+      "url": "/tests/adrenocorticotropic-hormone-acth.html"
+    },
+    {
+      "code": "EXC-014",
+      "name": "Aerobic Culture & sensitivity",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "aerobic culture & sensitivity"
+      ],
+      "sample": "Clinical  Specimen",
+      "preparation": "",
+      "reporting": "2 Days",
+      "description": "Aerobic Culture & sensitivity (Conventional).",
+      "slug": "aerobic-culture-and-sensitivity",
+      "url": "/tests/aerobic-culture-and-sensitivity.html"
+    },
+    {
+      "code": "EXC-015",
+      "name": "Alanine Aminotransferase (ALT / SGPT)",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "alanine aminotransferase (alt / sgpt)",
+        "alt / sgpt",
+        "alanine aminotransferase"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Alanine Aminotransferase (ALT / SGPT) (Tris buffer with P5P).",
+      "slug": "alanine-aminotransferase-alt-sgpt",
+      "url": "/tests/alanine-aminotransferase-alt-sgpt.html"
+    },
+    {
+      "code": "EXC-016",
+      "name": "Albumin - Fluid",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "albumin - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Albumin - Fluid (Bromocresol Purple).",
+      "slug": "albumin-fluid",
+      "url": "/tests/albumin-fluid.html"
+    },
+    {
+      "code": "EXC-017",
+      "name": "Albumin (Microalbumin) - 24 hr. Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 900,
+      "price": 900,
+      "aliases": [
+        "microalbumin",
+        "albumin  - 24 hr. urine",
+        "albumin (microalbumin) - 24 hr. urine"
+      ],
+      "sample": "24 Hrs Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Albumin (Microalbumin) - 24 hr. Urine (PETINIA).",
+      "slug": "albumin-microalbumin-24-hr-urine",
+      "url": "/tests/albumin-microalbumin-24-hr-urine.html"
+    },
+    {
+      "code": "EXC-018",
+      "name": "Albumin (Microalbumin) - Spot Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 900,
+      "price": 900,
+      "aliases": [
+        "microalbumin",
+        "albumin  - spot urine",
+        "albumin (microalbumin) - spot urine"
+      ],
+      "sample": "Spot Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Albumin (Microalbumin) - Spot Urine (PETINIA).",
+      "slug": "albumin-microalbumin-spot-urine",
+      "url": "/tests/albumin-microalbumin-spot-urine.html"
+    },
+    {
+      "code": "EXC-019",
+      "name": "Albumin/ Globulin Ratio",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "albumin/ globulin ratio"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Albumin/ Globulin Ratio (Calculated).",
+      "slug": "albumin-globulin-ratio",
+      "url": "/tests/albumin-globulin-ratio.html"
+    },
+    {
+      "code": "EXC-020",
+      "name": "Albumin/Creatinine Ratio(ACR), 24 hrs Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "albumin/creatinine ratio(acr), 24 hrs urine",
+        "albumin/creatinine ratio, 24 hrs urine",
+        "acr"
+      ],
+      "sample": "24 Hrs Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Albumin/Creatinine Ratio(ACR), 24 hrs Urine (Calculated).",
+      "slug": "albumin-creatinine-ratio-acr-24-hrs-urine",
+      "url": "/tests/albumin-creatinine-ratio-acr-24-hrs-urine.html"
+    },
+    {
+      "code": "EXC-021",
+      "name": "Albumin/Creatinine Ratio(ACR), Spot Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "albumin/creatinine ratio(acr), spot urine",
+        "albumin/creatinine ratio, spot urine",
+        "acr"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Albumin/Creatinine Ratio(ACR), Spot Urine (Calculated).",
+      "slug": "albumin-creatinine-ratio-acr-spot-urine",
+      "url": "/tests/albumin-creatinine-ratio-acr-spot-urine.html"
+    },
+    {
+      "code": "EXC-022",
+      "name": "Aldosterone",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2900,
+      "price": 2900,
+      "aliases": [
+        "aldosterone"
+      ],
+      "sample": "Serum/Plasma (1ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Aldosterone (CLIA).",
+      "slug": "aldosterone",
+      "url": "/tests/aldosterone.html"
+    },
+    {
+      "code": "EXC-023",
+      "name": "Aldosterone/Direct Renin Ratio",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 11700,
+      "price": 11700,
+      "aliases": [
+        "aldosterone/direct renin ratio"
+      ],
+      "sample": "EDTA Plasma (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Aldosterone/Direct Renin Ratio (CLIA).",
+      "slug": "aldosterone-direct-renin-ratio",
+      "url": "/tests/aldosterone-direct-renin-ratio.html"
+    },
+    {
+      "code": "EXC-024",
+      "name": "Alpha 1 antitrypsin; AAT",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 3700,
+      "price": 3700,
+      "aliases": [
+        "alpha 1 antitrypsin; aat"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Alpha 1 antitrypsin; AAT (Spectrophotometry).",
+      "slug": "alpha-1-antitrypsin-aat",
+      "url": "/tests/alpha-1-antitrypsin-aat.html"
+    },
+    {
+      "code": "EXC-025",
+      "name": "Alpha Feto Protein (AFP)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1300,
+      "price": 1300,
+      "aliases": [
+        "alpha feto protein",
+        "afp",
+        "alpha feto protein (afp)"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Alpha Feto Protein (AFP) (CLIA).",
+      "slug": "alpha-feto-protein-afp",
+      "url": "/tests/alpha-feto-protein-afp.html"
+    },
+    {
+      "code": "EXC-026",
+      "name": "Alpha Feto Protein (AFP), Fluid",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1300,
+      "price": 1300,
+      "aliases": [
+        "afp",
+        "alpha feto protein , fluid",
+        "alpha feto protein (afp), fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Alpha Feto Protein (AFP), Fluid (CLIA).",
+      "slug": "alpha-feto-protein-afp-fluid",
+      "url": "/tests/alpha-feto-protein-afp-fluid.html"
+    },
+    {
+      "code": "EXC-027",
+      "name": "AMMONIA, BLOOD",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 2100,
+      "price": 2100,
+      "aliases": [
+        "ammonia, blood"
+      ],
+      "sample": "EDTA Plasma (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "AMMONIA, BLOOD (Mod. GLDH).",
+      "slug": "ammonia-blood",
+      "url": "/tests/ammonia-blood.html"
+    },
+    {
+      "code": "EXC-028",
+      "name": "Amphetamine, Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 800,
+      "price": 800,
+      "aliases": [
+        "amphetamine, urine"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Amphetamine, Urine (Immunochromatography).",
+      "slug": "amphetamine-urine",
+      "url": "/tests/amphetamine-urine.html"
+    },
+    {
+      "code": "EXC-029",
+      "name": "Amylase - 24 hr. Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "amylase - 24 hr. urine"
+      ],
+      "sample": "24 Hrs Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Amylase - 24 hr. Urine (CNP-triose).",
+      "slug": "amylase-24-hr-urine",
+      "url": "/tests/amylase-24-hr-urine.html"
+    },
+    {
+      "code": "EXC-030",
+      "name": "Amylase - Fluid",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "amylase - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Amylase - Fluid (CNP-triose).",
+      "slug": "amylase-fluid",
+      "url": "/tests/amylase-fluid.html"
+    },
+    {
+      "code": "EXC-031",
+      "name": "Amylase - Spot Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "amylase - spot urine"
+      ],
+      "sample": "Spot Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Amylase - Spot Urine (CNP-triose).",
+      "slug": "amylase-spot-urine",
+      "url": "/tests/amylase-spot-urine.html"
+    },
+    {
+      "code": "EXC-032",
+      "name": "ANA 18 IgG (ENA Profile)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 5100,
+      "price": 5100,
+      "aliases": [
+        "ana 18 igg",
+        "ana 18 igg (ena profile)",
+        "ena profile"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Next Day",
+      "description": "ANA 18 IgG (ENA Profile) (Immuno Blot).",
+      "slug": "ana-18-igg-ena-profile",
+      "url": "/tests/ana-18-igg-ena-profile.html"
+    },
+    {
+      "code": "EXC-033",
+      "name": "ANA 23 IgG (ENA Extended Profile)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 8100,
+      "price": 8100,
+      "aliases": [
+        "ana 23 igg",
+        "ana 23 igg (ena extended profile)",
+        "ena extended profile"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Next Day",
+      "description": "ANA 23 IgG (ENA Extended Profile) (Immuno Blot).",
+      "slug": "ana-23-igg-ena-extended-profile",
+      "url": "/tests/ana-23-igg-ena-extended-profile.html"
+    },
+    {
+      "code": "EXC-034",
+      "name": "Angiotensin Converting Enzyme (ACE)",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 2300,
+      "price": 2300,
+      "aliases": [
+        "ace",
+        "angiotensin converting enzyme",
+        "angiotensin converting enzyme (ace)"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Angiotensin Converting Enzyme (ACE) (FAPGG).",
+      "slug": "angiotensin-converting-enzyme-ace",
+      "url": "/tests/angiotensin-converting-enzyme-ace.html"
+    },
+    {
+      "code": "EXC-035",
+      "name": "Anti Cardiolipin IgG",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "anti cardiolipin igg"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Anti Cardiolipin IgG (CLIA).",
+      "slug": "anti-cardiolipin-igg",
+      "url": "/tests/anti-cardiolipin-igg.html"
+    },
+    {
+      "code": "EXC-036",
+      "name": "Anti Cardiolipin IgM",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "anti cardiolipin igm"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Anti Cardiolipin IgM (CLIA).",
+      "slug": "anti-cardiolipin-igm",
+      "url": "/tests/anti-cardiolipin-igm.html"
+    },
+    {
+      "code": "EXC-037",
+      "name": "Anti Mitochondrial Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3100,
+      "price": 3100,
+      "aliases": [
+        "anti mitochondrial ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Anti Mitochondrial Ab (CLIA).",
+      "slug": "anti-mitochondrial-ab",
+      "url": "/tests/anti-mitochondrial-ab.html"
+    },
+    {
+      "code": "EXC-038",
+      "name": "Anti Mullerian Hormone (AMH)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3600,
+      "price": 3600,
+      "aliases": [
+        "amh",
+        "anti mullerian hormone (amh)",
+        "anti mullerian hormone"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Anti Mullerian Hormone (AMH) (CLIA).",
+      "slug": "anti-mullerian-hormone-amh",
+      "url": "/tests/anti-mullerian-hormone-amh.html"
+    },
+    {
+      "code": "EXC-039",
+      "name": "Anti Nuclear Antibody / Factor (ANA / ANF)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1200,
+      "price": 1200,
+      "aliases": [
+        "anti nuclear antibody / factor",
+        "ana / anf",
+        "anti nuclear antibody / factor (ana / anf)"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Anti Nuclear Antibody / Factor (ANA / ANF) (CLIA).",
+      "slug": "anti-nuclear-antibody-factor-ana-anf",
+      "url": "/tests/anti-nuclear-antibody-factor-ana-anf.html"
+    },
+    {
+      "code": "EXC-040",
+      "name": "Anti Nuclear Antibody / Factor (ANA / ANF) IFA (HEP-2) End point titre**",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 2600,
+      "price": 2600,
+      "aliases": [
+        "hep-2",
+        "ana / anf",
+        "anti nuclear antibody / factor (ana / anf) ifa (hep-2) end point titre**",
+        "anti nuclear antibody / factor  ifa  end point titre**"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "5-7 Days",
+      "description": "Anti Nuclear Antibody / Factor (ANA / ANF) IFA (HEP-2) End point titre** (IFA).",
+      "slug": "anti-nuclear-antibody-factor-ana-anf-ifa-hep-2-end-point-titre",
+      "url": "/tests/anti-nuclear-antibody-factor-ana-anf-ifa-hep-2-end-point-titre.html"
+    },
+    {
+      "code": "EXC-041",
+      "name": "Anti Phospholipid IgG",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "anti phospholipid igg"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Anti Phospholipid IgG (EIA).",
+      "slug": "anti-phospholipid-igg",
+      "url": "/tests/anti-phospholipid-igg.html"
+    },
+    {
+      "code": "EXC-042",
+      "name": "Anti Phospholipid IgM",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "anti phospholipid igm"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Anti Phospholipid IgM (EIA).",
+      "slug": "anti-phospholipid-igm",
+      "url": "/tests/anti-phospholipid-igm.html"
+    },
+    {
+      "code": "EXC-043",
+      "name": "Anti Scl-70 IgG",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2650,
+      "price": 2650,
+      "aliases": [
+        "anti scl-70 igg"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Anti Scl-70 IgG (EIA).",
+      "slug": "anti-scl-70-igg",
+      "url": "/tests/anti-scl-70-igg.html"
+    },
+    {
+      "code": "EXC-044",
+      "name": "Anti Smooth Muscle Ab",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 3100,
+      "price": 3100,
+      "aliases": [
+        "anti smooth muscle ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "5-7 Days",
+      "description": "Anti Smooth Muscle Ab (IFA).",
+      "slug": "anti-smooth-muscle-ab",
+      "url": "/tests/anti-smooth-muscle-ab.html"
+    },
+    {
+      "code": "EXC-045",
+      "name": "Anti Soluble Liver Antigen (SLA), IgG",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2900,
+      "price": 2900,
+      "aliases": [
+        "sla",
+        "anti soluble liver antigen , igg",
+        "anti soluble liver antigen (sla), igg"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Tue/ Fri",
+      "description": "Anti Soluble Liver Antigen (SLA), IgG (ELISA).",
+      "slug": "anti-soluble-liver-antigen-sla-igg",
+      "url": "/tests/anti-soluble-liver-antigen-sla-igg.html"
+    },
+    {
+      "code": "EXC-046",
+      "name": "Anti Streptolysin-O (ASO) Quantitative",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 700,
+      "price": 700,
+      "aliases": [
+        "anti streptolysin-o  quantitative",
+        "anti streptolysin-o (aso) quantitative",
+        "aso"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Anti Streptolysin-O (ASO) Quantitative (Nephelometry).",
+      "slug": "anti-streptolysin-o-aso-quantitative",
+      "url": "/tests/anti-streptolysin-o-aso-quantitative.html"
+    },
+    {
+      "code": "EXC-047",
+      "name": "Anti Streptolysin-O (ASO) Titre",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 700,
+      "price": 700,
+      "aliases": [
+        "anti streptolysin-o  titre",
+        "anti streptolysin-o (aso) titre",
+        "aso"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Anti Streptolysin-O (ASO) Titre (Particle Agglutination).",
+      "slug": "anti-streptolysin-o-aso-titre",
+      "url": "/tests/anti-streptolysin-o-aso-titre.html"
+    },
+    {
+      "code": "EXC-048",
+      "name": "Anti Thrombin lll",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 5350,
+      "price": 5350,
+      "aliases": [
+        "anti thrombin lll"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Anti Thrombin lll (Immunoturbidimetric).",
+      "slug": "anti-thrombin-lll",
+      "url": "/tests/anti-thrombin-lll.html"
+    },
+    {
+      "code": "EXC-049",
+      "name": "Anti Thyroglobulin Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2200,
+      "price": 2200,
+      "aliases": [
+        "anti thyroglobulin ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Anti Thyroglobulin Ab (CLIA).",
+      "slug": "anti-thyroglobulin-ab",
+      "url": "/tests/anti-thyroglobulin-ab.html"
+    },
+    {
+      "code": "EXC-050",
+      "name": "Anti Thyroid Peroxidase (aTPO)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2000,
+      "price": 2000,
+      "aliases": [
+        "anti thyroid peroxidase (atpo)",
+        "atpo",
+        "anti thyroid peroxidase"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Anti Thyroid Peroxidase (aTPO) (CLIA).",
+      "slug": "anti-thyroid-peroxidase-atpo",
+      "url": "/tests/anti-thyroid-peroxidase-atpo.html"
+    },
+    {
+      "code": "EXC-051",
+      "name": "Anti Transglutaminase IgA Antibody (tTG-IgA)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2100,
+      "price": 2100,
+      "aliases": [
+        "anti transglutaminase iga antibody (ttg-iga)",
+        "anti transglutaminase iga antibody",
+        "ttg-iga"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Anti Transglutaminase IgA Antibody (tTG-IgA) (EIA).",
+      "slug": "anti-transglutaminase-iga-antibody-ttg-iga",
+      "url": "/tests/anti-transglutaminase-iga-antibody-ttg-iga.html"
+    },
+    {
+      "code": "EXC-052",
+      "name": "Anti Transglutaminase IgG Antibody (tTG-IgG)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2100,
+      "price": 2100,
+      "aliases": [
+        "anti transglutaminase igg antibody",
+        "anti transglutaminase igg antibody (ttg-igg)",
+        "ttg-igg"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Anti Transglutaminase IgG Antibody (tTG-IgG) (EIA).",
+      "slug": "anti-transglutaminase-igg-antibody-ttg-igg",
+      "url": "/tests/anti-transglutaminase-igg-antibody-ttg-igg.html"
+    },
+    {
+      "code": "EXC-053",
+      "name": "Anti-Cyclic Citrullinated Peptide Antibody (Anti CCP Ab)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2800,
+      "price": 2800,
+      "aliases": [
+        "anti ccp ab",
+        "anti-cyclic citrullinated peptide antibody",
+        "anti-cyclic citrullinated peptide antibody (anti ccp ab)"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Anti-Cyclic Citrullinated Peptide Antibody (Anti CCP Ab) (CLIA).",
+      "slug": "anti-cyclic-citrullinated-peptide-antibody-anti-ccp-ab",
+      "url": "/tests/anti-cyclic-citrullinated-peptide-antibody-anti-ccp-ab.html"
+    },
+    {
+      "code": "EXC-054",
+      "name": "Anti-D Titre (Rh Antibody Titre)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1100,
+      "price": 1100,
+      "aliases": [
+        "rh antibody titre",
+        "anti-d titre (rh antibody titre)",
+        "anti-d titre"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Anti-D Titre (Rh Antibody Titre) (Gel Matrix).",
+      "slug": "anti-d-titre-rh-antibody-titre",
+      "url": "/tests/anti-d-titre-rh-antibody-titre.html"
+    },
+    {
+      "code": "EXC-055",
+      "name": "Apolipoprotein A1 (Apo A)",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1150,
+      "price": 1150,
+      "aliases": [
+        "apolipoprotein a1 (apo a)",
+        "apo a",
+        "apolipoprotein a1"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Apolipoprotein A1 (Apo A) (Immunoturbidimetric).",
+      "slug": "apolipoprotein-a1-apo-a",
+      "url": "/tests/apolipoprotein-a1-apo-a.html"
+    },
+    {
+      "code": "EXC-056",
+      "name": "Apolipoprotein B (Apo B)",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1150,
+      "price": 1150,
+      "aliases": [
+        "apolipoprotein b (apo b)",
+        "apolipoprotein b",
+        "apo b"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Apolipoprotein B (Apo B) (Immunoturbidimetric).",
+      "slug": "apolipoprotein-b-apo-b",
+      "url": "/tests/apolipoprotein-b-apo-b.html"
+    },
+    {
+      "code": "EXC-057",
+      "name": "ASCA (ANTI SACCHAROMYCES CEREVISIAE ANTIBODY), IgA",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2500,
+      "price": 2500,
+      "aliases": [
+        "asca (anti saccharomyces cerevisiae antibody), iga",
+        "anti saccharomyces cerevisiae antibody",
+        "asca , iga"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "ASCA (ANTI SACCHAROMYCES CEREVISIAE ANTIBODY), IgA (EIA).",
+      "slug": "asca-anti-saccharomyces-cerevisiae-antibody-iga",
+      "url": "/tests/asca-anti-saccharomyces-cerevisiae-antibody-iga.html"
+    },
+    {
+      "code": "EXC-058",
+      "name": "ASCA (ANTI SACCHAROMYCES CEREVISIAE ANTIBODY), IgG",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2500,
+      "price": 2500,
+      "aliases": [
+        "anti saccharomyces cerevisiae antibody",
+        "asca , igg",
+        "asca (anti saccharomyces cerevisiae antibody), igg"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "ASCA (ANTI SACCHAROMYCES CEREVISIAE ANTIBODY), IgG (EIA).",
+      "slug": "asca-anti-saccharomyces-cerevisiae-antibody-igg",
+      "url": "/tests/asca-anti-saccharomyces-cerevisiae-antibody-igg.html"
+    },
+    {
+      "code": "EXC-059",
+      "name": "Aspartate Aminotransferase (AST/SGOT)",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "aspartate aminotransferase (ast/sgot)",
+        "aspartate aminotransferase",
+        "ast/sgot"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Aspartate Aminotransferase (AST/SGOT) (Tris buffer with P5P).",
+      "slug": "aspartate-aminotransferase-ast-sgot",
+      "url": "/tests/aspartate-aminotransferase-ast-sgot.html"
+    },
+    {
+      "code": "EXC-060",
+      "name": "Barbiturates, Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 800,
+      "price": 800,
+      "aliases": [
+        "barbiturates, urine"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Barbiturates, Urine (Immunochromatography).",
+      "slug": "barbiturates-urine",
+      "url": "/tests/barbiturates-urine.html"
+    },
+    {
+      "code": "EXC-061",
+      "name": "Benzodiazepine, Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 800,
+      "price": 800,
+      "aliases": [
+        "benzodiazepine, urine"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Benzodiazepine, Urine (Immunochromatography).",
+      "slug": "benzodiazepine-urine",
+      "url": "/tests/benzodiazepine-urine.html"
+    },
+    {
+      "code": "EXC-062",
+      "name": "Beta 2 Glycoprotein 1 IgG",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2100,
+      "price": 2100,
+      "aliases": [
+        "beta 2 glycoprotein 1 igg"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Beta 2 Glycoprotein 1 IgG (CLIA).",
+      "slug": "beta-2-glycoprotein-1-igg",
+      "url": "/tests/beta-2-glycoprotein-1-igg.html"
+    },
+    {
+      "code": "EXC-063",
+      "name": "Beta 2 Glycoprotein 1 IgM",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2100,
+      "price": 2100,
+      "aliases": [
+        "beta 2 glycoprotein 1 igm"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Beta 2 Glycoprotein 1 IgM (CLIA).",
+      "slug": "beta-2-glycoprotein-1-igm",
+      "url": "/tests/beta-2-glycoprotein-1-igm.html"
+    },
+    {
+      "code": "EXC-064",
+      "name": "Beta 2 Microglobulin - Serum",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2300,
+      "price": 2300,
+      "aliases": [
+        "beta 2 microglobulin - serum"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Beta 2 Microglobulin - Serum (CLIA).",
+      "slug": "beta-2-microglobulin-serum",
+      "url": "/tests/beta-2-microglobulin-serum.html"
+    },
+    {
+      "code": "EXC-065",
+      "name": "Beta 2 Microglobulin - Urine",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2300,
+      "price": 2300,
+      "aliases": [
+        "beta 2 microglobulin - urine"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Beta 2 Microglobulin - Urine (CLIA).",
+      "slug": "beta-2-microglobulin-urine",
+      "url": "/tests/beta-2-microglobulin-urine.html"
+    },
+    {
+      "code": "EXC-066",
+      "name": "Bicarbonate, Dialysis fluid",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1450,
+      "price": 1450,
+      "aliases": [
+        "bicarbonate, dialysis fluid"
+      ],
+      "sample": "Dialysis Fluid",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Bicarbonate, Dialysis fluid (Enzymatic end point).",
+      "slug": "bicarbonate-dialysis-fluid",
+      "url": "/tests/bicarbonate-dialysis-fluid.html"
+    },
+    {
+      "code": "EXC-067",
+      "name": "Bicarbonate, Serum",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1450,
+      "price": 1450,
+      "aliases": [
+        "bicarbonate, serum"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Bicarbonate, Serum (Enzymatic end point).",
+      "slug": "bicarbonate-serum",
+      "url": "/tests/bicarbonate-serum.html"
+    },
+    {
+      "code": "EXC-068",
+      "name": "Bile Acid Total, Serum",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 2700,
+      "price": 2700,
+      "aliases": [
+        "bile acid total, serum"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Bile Acid Total, Serum (Enzymatic).",
+      "slug": "bile-acid-total-serum",
+      "url": "/tests/bile-acid-total-serum.html"
+    },
+    {
+      "code": "EXC-069",
+      "name": "Bile-Pigment, Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "bile-pigment, urine"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Bile-Pigment, Urine (Chemical).",
+      "slug": "bile-pigment-urine",
+      "url": "/tests/bile-pigment-urine.html"
+    },
+    {
+      "code": "EXC-070",
+      "name": "Bile-Salt, Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "bile-salt, urine"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Bile-Salt, Urine (Chemical).",
+      "slug": "bile-salt-urine",
+      "url": "/tests/bile-salt-urine.html"
+    },
+    {
+      "code": "EXC-071",
+      "name": "Bilirubin-Direct (Fluid)",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "fluid",
+        "bilirubin-direct",
+        "bilirubin-direct (fluid)"
+      ],
+      "sample": "Fluid ( 1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Bilirubin-Direct (Fluid) (Diazotization).",
+      "slug": "bilirubin-direct-fluid",
+      "url": "/tests/bilirubin-direct-fluid.html"
+    },
+    {
+      "code": "EXC-072",
+      "name": "Bilirubin-Total (Fluid)",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "fluid",
+        "bilirubin-total",
+        "bilirubin-total (fluid)"
+      ],
+      "sample": "Fluid ( 1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Bilirubin-Total (Fluid) (Jendrassik Grof).",
+      "slug": "bilirubin-total-fluid",
+      "url": "/tests/bilirubin-total-fluid.html"
+    },
+    {
+      "code": "EXC-073",
+      "name": "Biopsy Intermediate Specimen",
+      "nepaliName": "",
+      "category": "Cytology & Histopathology",
+      "categoryLabel": "Cytology & Histopathology",
+      "rate": 2700,
+      "price": 2700,
+      "aliases": [
+        "biopsy intermediate specimen"
+      ],
+      "sample": "Biopsy Sample",
+      "preparation": "",
+      "reporting": "5-7 Days",
+      "description": "Biopsy Intermediate Specimen (Histology/Microscopy).",
+      "slug": "biopsy-intermediate-specimen",
+      "url": "/tests/biopsy-intermediate-specimen.html"
+    },
+    {
+      "code": "EXC-074",
+      "name": "Biopsy Medium Specimen",
+      "nepaliName": "",
+      "category": "Cytology & Histopathology",
+      "categoryLabel": "Cytology & Histopathology",
+      "rate": 1700,
+      "price": 1700,
+      "aliases": [
+        "biopsy medium specimen"
+      ],
+      "sample": "Biopsy Sample",
+      "preparation": "",
+      "reporting": "5-7 Days",
+      "description": "Biopsy Medium Specimen (Histology/Microscopy).",
+      "slug": "biopsy-medium-specimen",
+      "url": "/tests/biopsy-medium-specimen.html"
+    },
+    {
+      "code": "EXC-075",
+      "name": "Bleeding Time (BT)",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "bt",
+        "bleeding time (bt)",
+        "bleeding time"
+      ],
+      "sample": "Patients walk to nrl",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Bleeding Time (BT) (Ivy Method).",
+      "slug": "bleeding-time-bt",
+      "url": "/tests/bleeding-time-bt.html"
+    },
+    {
+      "code": "EXC-076",
+      "name": "Block Review (More Than Two Block)",
+      "nepaliName": "",
+      "category": "Cytology & Histopathology",
+      "categoryLabel": "Cytology & Histopathology",
+      "rate": 1800,
+      "price": 1800,
+      "aliases": [
+        "block review",
+        "block review (more than two block)",
+        "more than two block"
+      ],
+      "sample": "Block for Review",
+      "preparation": "",
+      "reporting": "5-7 Days",
+      "description": "Block Review (More Than Two Block) (Histology/Microscopy).",
+      "slug": "block-review-more-than-two-block",
+      "url": "/tests/block-review-more-than-two-block.html"
+    },
+    {
+      "code": "EXC-077",
+      "name": "Block Review (Up to 2 Block)",
+      "nepaliName": "",
+      "category": "Cytology & Histopathology",
+      "categoryLabel": "Cytology & Histopathology",
+      "rate": 1400,
+      "price": 1400,
+      "aliases": [
+        "up to 2 block",
+        "block review",
+        "block review (up to 2 block)"
+      ],
+      "sample": "Block for Review",
+      "preparation": "",
+      "reporting": "5-7 Days",
+      "description": "Block Review (Up to 2 Block) (Histology/Microscopy).",
+      "slug": "block-review-up-to-2-block",
+      "url": "/tests/block-review-up-to-2-block.html"
+    },
+    {
+      "code": "EXC-078",
+      "name": "Blood Group & Rh typing",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 150,
+      "price": 150,
+      "aliases": [
+        "blood group & rh typing"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Blood Group & Rh typing (Gel Matrix).",
+      "slug": "blood-group-and-rh-typing",
+      "url": "/tests/blood-group-and-rh-typing.html"
+    },
+    {
+      "code": "EXC-079",
+      "name": "Bone Marrow",
+      "nepaliName": "",
+      "category": "Cytology & Histopathology",
+      "categoryLabel": "Cytology & Histopathology",
+      "rate": 1700,
+      "price": 1700,
+      "aliases": [
+        "bone marrow"
+      ],
+      "sample": "Fixed Smear",
+      "preparation": "",
+      "reporting": "3-5  Days",
+      "description": "Bone Marrow (Cytology/Microscopy).",
+      "slug": "bone-marrow",
+      "url": "/tests/bone-marrow.html"
+    },
+    {
+      "code": "EXC-080",
+      "name": "BORDETELLA PERTUSSIS ANTIBODY IGG, SERUM",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 4300,
+      "price": 4300,
+      "aliases": [
+        "bordetella pertussis antibody igg, serum"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "BORDETELLA PERTUSSIS ANTIBODY IGG, SERUM (EIA).",
+      "slug": "bordetella-pertussis-antibody-igg-serum",
+      "url": "/tests/bordetella-pertussis-antibody-igg-serum.html"
+    },
+    {
+      "code": "EXC-081",
+      "name": "Brucella Ab Test",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "brucella ab test"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Brucella Ab Test (Particle Agglutination).",
+      "slug": "brucella-ab-test",
+      "url": "/tests/brucella-ab-test.html"
+    },
+    {
+      "code": "EXC-082",
+      "name": "Brucella Ab Titre",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1100,
+      "price": 1100,
+      "aliases": [
+        "brucella ab titre"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Brucella Ab Titre (Particle Agglutination).",
+      "slug": "brucella-ab-titre",
+      "url": "/tests/brucella-ab-titre.html"
+    },
+    {
+      "code": "EXC-083",
+      "name": "Brucella IgG Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2100,
+      "price": 2100,
+      "aliases": [
+        "brucella igg ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Brucella IgG Ab (EIA).",
+      "slug": "brucella-igg-ab",
+      "url": "/tests/brucella-igg-ab.html"
+    },
+    {
+      "code": "EXC-084",
+      "name": "Brucella IgM Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2100,
+      "price": 2100,
+      "aliases": [
+        "brucella igm ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Brucella IgM Ab (EIA).",
+      "slug": "brucella-igm-ab",
+      "url": "/tests/brucella-igm-ab.html"
+    },
+    {
+      "code": "EXC-085",
+      "name": "BUN",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "bun"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "BUN (Urease, UV).",
+      "slug": "bun",
+      "url": "/tests/bun.html"
+    },
+    {
+      "code": "EXC-086",
+      "name": "BUN - 24 hr. Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "bun - 24 hr. urine"
+      ],
+      "sample": "24 Hrs Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "BUN - 24 hr. Urine (Urease, UV).",
+      "slug": "bun-24-hr-urine",
+      "url": "/tests/bun-24-hr-urine.html"
+    },
+    {
+      "code": "EXC-087",
+      "name": "BUN - Spot Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "bun - spot urine"
+      ],
+      "sample": "Spot Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "BUN - Spot Urine (Urease, UV).",
+      "slug": "bun-spot-urine",
+      "url": "/tests/bun-spot-urine.html"
+    },
+    {
+      "code": "EXC-088",
+      "name": "Calcitonin",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 4100,
+      "price": 4100,
+      "aliases": [
+        "calcitonin"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Calcitonin (CLIA).",
+      "slug": "calcitonin",
+      "url": "/tests/calcitonin.html"
+    },
+    {
+      "code": "EXC-089",
+      "name": "Calcium - 24 hr. Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "calcium - 24 hr. urine"
+      ],
+      "sample": "24 Hrs Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Calcium - 24 hr. Urine (O-cresolphthylein complexone).",
+      "slug": "calcium-24-hr-urine",
+      "url": "/tests/calcium-24-hr-urine.html"
+    },
+    {
+      "code": "EXC-090",
+      "name": "Calcium - Spot Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "calcium - spot urine"
+      ],
+      "sample": "Spot Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Calcium - Spot Urine (O-cresolphthylein complexone).",
+      "slug": "calcium-spot-urine",
+      "url": "/tests/calcium-spot-urine.html"
+    },
+    {
+      "code": "EXC-091",
+      "name": "Calcium/Creatinine Ratio - Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 450,
+      "price": 450,
+      "aliases": [
+        "calcium/creatinine ratio - urine"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Calcium/Creatinine Ratio - Urine (Calculated).",
+      "slug": "calcium-creatinine-ratio-urine",
+      "url": "/tests/calcium-creatinine-ratio-urine.html"
+    },
+    {
+      "code": "EXC-092",
+      "name": "C-ANCA / Anti PR3",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2600,
+      "price": 2600,
+      "aliases": [
+        "c-anca / anti pr3"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "C-ANCA / Anti PR3 (EIA).",
+      "slug": "c-anca-anti-pr3",
+      "url": "/tests/c-anca-anti-pr3.html"
+    },
+    {
+      "code": "EXC-093",
+      "name": "Candida Examination",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "candida examination"
+      ],
+      "sample": "Vaginal Discharge",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Candida Examination (Microscopy.).",
+      "slug": "candida-examination",
+      "url": "/tests/candida-examination.html"
+    },
+    {
+      "code": "EXC-094",
+      "name": "Cannabinoids (Marijuana/THC), Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 700,
+      "price": 700,
+      "aliases": [
+        "cannabinoids (marijuana/thc), urine",
+        "cannabinoids , urine",
+        "marijuana/thc"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Cannabinoids (Marijuana/THC), Urine (Immunochromatography).",
+      "slug": "cannabinoids-marijuana-thc-urine",
+      "url": "/tests/cannabinoids-marijuana-thc-urine.html"
+    },
+    {
+      "code": "EXC-095",
+      "name": "Carbamazepine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1900,
+      "price": 1900,
+      "aliases": [
+        "carbamazepine"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Carbamazepine (PETINIA).",
+      "slug": "carbamazepine",
+      "url": "/tests/carbamazepine.html"
+    },
+    {
+      "code": "EXC-096",
+      "name": "Carbohydrate Antigen -15.3 (CA-15.3)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1800,
+      "price": 1800,
+      "aliases": [
+        "ca-15.3",
+        "carbohydrate antigen -15.3 (ca-15.3)",
+        "carbohydrate antigen -15.3"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Carbohydrate Antigen -15.3 (CA-15.3) (CLIA).",
+      "slug": "carbohydrate-antigen-15-3-ca-15-3",
+      "url": "/tests/carbohydrate-antigen-15-3-ca-15-3.html"
+    },
+    {
+      "code": "EXC-097",
+      "name": "Carbohydrate Antigen-125 (CA-125)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1500,
+      "price": 1500,
+      "aliases": [
+        "carbohydrate antigen-125",
+        "ca-125",
+        "carbohydrate antigen-125 (ca-125)"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Carbohydrate Antigen-125 (CA-125) (CLIA).",
+      "slug": "carbohydrate-antigen-125-ca-125",
+      "url": "/tests/carbohydrate-antigen-125-ca-125.html"
+    },
+    {
+      "code": "EXC-098",
+      "name": "Carbohydrate Antigen-19.9 (CA-19.9)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1800,
+      "price": 1800,
+      "aliases": [
+        "carbohydrate antigen-19.9",
+        "ca-19.9",
+        "carbohydrate antigen-19.9 (ca-19.9)"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Carbohydrate Antigen-19.9 (CA-19.9) (CLIA).",
+      "slug": "carbohydrate-antigen-19-9-ca-19-9",
+      "url": "/tests/carbohydrate-antigen-19-9-ca-19-9.html"
+    },
+    {
+      "code": "EXC-099",
+      "name": "Carbohydrate Antigen-72.4 (CA-72.4)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3500,
+      "price": 3500,
+      "aliases": [
+        "carbohydrate antigen-72.4",
+        "ca-72.4",
+        "carbohydrate antigen-72.4 (ca-72.4)"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Carbohydrate Antigen-72.4 (CA-72.4) (CLIA).",
+      "slug": "carbohydrate-antigen-72-4-ca-72-4",
+      "url": "/tests/carbohydrate-antigen-72-4-ca-72-4.html"
+    },
+    {
+      "code": "EXC-100",
+      "name": "Centromere IgG Antibody",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2600,
+      "price": 2600,
+      "aliases": [
+        "centromere igg antibody"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Centromere IgG Antibody (EIA).",
+      "slug": "centromere-igg-antibody",
+      "url": "/tests/centromere-igg-antibody.html"
+    },
+    {
+      "code": "EXC-101",
+      "name": "Ceruloplasmin",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 2100,
+      "price": 2100,
+      "aliases": [
+        "ceruloplasmin"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Ceruloplasmin (Spectrophotometry).",
+      "slug": "ceruloplasmin",
+      "url": "/tests/ceruloplasmin.html"
+    },
+    {
+      "code": "EXC-102",
+      "name": "Chickunguniya IgG",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1700,
+      "price": 1700,
+      "aliases": [
+        "chickunguniya igg"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Chickunguniya IgG (EIA).",
+      "slug": "chickunguniya-igg",
+      "url": "/tests/chickunguniya-igg.html"
+    },
+    {
+      "code": "EXC-103",
+      "name": "Chickunguniya IgM",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1700,
+      "price": 1700,
+      "aliases": [
+        "chickunguniya igm"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Chickunguniya IgM (EIA).",
+      "slug": "chickunguniya-igm",
+      "url": "/tests/chickunguniya-igm.html"
+    },
+    {
+      "code": "EXC-104",
+      "name": "Chikungunya IgG/IgM",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1700,
+      "price": 1700,
+      "aliases": [
+        "chikungunya igg/igm"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Chikungunya IgG/IgM (Immunochromatography).",
+      "slug": "chikungunya-igg-igm",
+      "url": "/tests/chikungunya-igg-igm.html"
+    },
+    {
+      "code": "EXC-105",
+      "name": "Chlamydia trachomatis IgG Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2800,
+      "price": 2800,
+      "aliases": [
+        "chlamydia trachomatis igg ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Chlamydia trachomatis IgG Ab (EIA).",
+      "slug": "chlamydia-trachomatis-igg-ab",
+      "url": "/tests/chlamydia-trachomatis-igg-ab.html"
+    },
+    {
+      "code": "EXC-106",
+      "name": "Chlamydia trachomatis IgM Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2800,
+      "price": 2800,
+      "aliases": [
+        "chlamydia trachomatis igm ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Next Day",
+      "description": "Chlamydia trachomatis IgM Ab (ELISA).",
+      "slug": "chlamydia-trachomatis-igm-ab",
+      "url": "/tests/chlamydia-trachomatis-igm-ab.html"
+    },
+    {
+      "code": "EXC-107",
+      "name": "Chloride",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "chloride"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Chloride (ISE indirect).",
+      "slug": "chloride",
+      "url": "/tests/chloride.html"
+    },
+    {
+      "code": "EXC-108",
+      "name": "Chloride - 24 hr. Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "chloride - 24 hr. urine"
+      ],
+      "sample": "24 Hrs Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Chloride - 24 hr. Urine (ISE indirect).",
+      "slug": "chloride-24-hr-urine",
+      "url": "/tests/chloride-24-hr-urine.html"
+    },
+    {
+      "code": "EXC-109",
+      "name": "Chloride - Fluid",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "chloride - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Chloride - Fluid (ISE indirect).",
+      "slug": "chloride-fluid",
+      "url": "/tests/chloride-fluid.html"
+    },
+    {
+      "code": "EXC-110",
+      "name": "Chloride - Spot Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "chloride - spot urine"
+      ],
+      "sample": "Spot Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Chloride - Spot Urine (ISE indirect).",
+      "slug": "chloride-spot-urine",
+      "url": "/tests/chloride-spot-urine.html"
+    },
+    {
+      "code": "EXC-111",
+      "name": "Cholesterol-HDL",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 255,
+      "price": 255,
+      "aliases": [
+        "cholesterol-hdl"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Cholesterol-HDL (Direct measure-PEG).",
+      "slug": "cholesterol-hdl",
+      "url": "/tests/cholesterol-hdl.html"
+    },
+    {
+      "code": "EXC-112",
+      "name": "Cholesterol-LDL",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "cholesterol-ldl"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Cholesterol-LDL (Direct measure).",
+      "slug": "cholesterol-ldl",
+      "url": "/tests/cholesterol-ldl.html"
+    },
+    {
+      "code": "EXC-113",
+      "name": "Cholesterol-Total",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "cholesterol-total"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Cholesterol-Total (Cholesterol Esterase, Oxidase, Peroxidase).",
+      "slug": "cholesterol-total",
+      "url": "/tests/cholesterol-total.html"
+    },
+    {
+      "code": "EXC-114",
+      "name": "Cholesterol-Total, Fluid",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "cholesterol-total, fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Cholesterol-Total, Fluid (Cholesterol Esterase, Oxidase, Peroxidase).",
+      "slug": "cholesterol-total-fluid",
+      "url": "/tests/cholesterol-total-fluid.html"
+    },
+    {
+      "code": "EXC-115",
+      "name": "Cholesterol-VLDL",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 275,
+      "price": 275,
+      "aliases": [
+        "cholesterol-vldl"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Cholesterol-VLDL (Calculated).",
+      "slug": "cholesterol-vldl",
+      "url": "/tests/cholesterol-vldl.html"
+    },
+    {
+      "code": "EXC-116",
+      "name": "Cholinesterase",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 2100,
+      "price": 2100,
+      "aliases": [
+        "cholinesterase"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Cholinesterase (Colorometric Butyryithiocholine).",
+      "slug": "cholinesterase",
+      "url": "/tests/cholinesterase.html"
+    },
+    {
+      "code": "EXC-117",
+      "name": "Chyle - Fluid",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "chyle - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Chyle - Fluid (Chemical).",
+      "slug": "chyle-fluid",
+      "url": "/tests/chyle-fluid.html"
+    },
+    {
+      "code": "EXC-118",
+      "name": "Chyle - Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "chyle - urine"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Chyle - Urine (Chemical).",
+      "slug": "chyle-urine",
+      "url": "/tests/chyle-urine.html"
+    },
+    {
+      "code": "EXC-119",
+      "name": "Clostridium difficile GDH, Toxin A and Toxin B, Qualitative - Stool",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3200,
+      "price": 3200,
+      "aliases": [
+        "clostridium difficile gdh, toxin a and toxin b, qualitative - stool"
+      ],
+      "sample": "Stool",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Clostridium difficile GDH, Toxin A and Toxin B, Qualitative - Stool (Immunochromatography).",
+      "slug": "clostridium-difficile-gdh-toxin-a-and-toxin-b-qualitative-stool",
+      "url": "/tests/clostridium-difficile-gdh-toxin-a-and-toxin-b-qualitative-stool.html"
+    },
+    {
+      "code": "EXC-120",
+      "name": "Clostridium difficile Toxin A/B, Qualitative - Stool",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2900,
+      "price": 2900,
+      "aliases": [
+        "clostridium difficile toxin a/b, qualitative - stool"
+      ],
+      "sample": "Stool",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Clostridium difficile Toxin A/B, Qualitative - Stool (Immunochromatography).",
+      "slug": "clostridium-difficile-toxin-a-b-qualitative-stool",
+      "url": "/tests/clostridium-difficile-toxin-a-b-qualitative-stool.html"
+    },
+    {
+      "code": "EXC-121",
+      "name": "Clotting Time (CT)",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "ct",
+        "clotting time (ct)",
+        "clotting time"
+      ],
+      "sample": "Patients walk to nrl",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Clotting Time (CT) (Lee & White).",
+      "slug": "clotting-time-ct",
+      "url": "/tests/clotting-time-ct.html"
+    },
+    {
+      "code": "EXC-122",
+      "name": "Cocaine, Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 800,
+      "price": 800,
+      "aliases": [
+        "cocaine, urine"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Cocaine, Urine (Immunochromatography).",
+      "slug": "cocaine-urine",
+      "url": "/tests/cocaine-urine.html"
+    },
+    {
+      "code": "EXC-123",
+      "name": "Complement 3 (C3)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1300,
+      "price": 1300,
+      "aliases": [
+        "complement 3",
+        "c3",
+        "complement 3 (c3)"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Complement 3 (C3) (Immunoturbidimetric).",
+      "slug": "complement-3-c3",
+      "url": "/tests/complement-3-c3.html"
+    },
+    {
+      "code": "EXC-124",
+      "name": "Complement 4 (C4)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1300,
+      "price": 1300,
+      "aliases": [
+        "complement 4",
+        "c4",
+        "complement 4 (c4)"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Complement 4 (C4) (Immunoturbidimetric).",
+      "slug": "complement-4-c4",
+      "url": "/tests/complement-4-c4.html"
+    },
+    {
+      "code": "EXC-125",
+      "name": "Coombs Test-Direct",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 700,
+      "price": 700,
+      "aliases": [
+        "coombs test-direct"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Coombs Test-Direct (Gel Matrix).",
+      "slug": "coombs-test-direct",
+      "url": "/tests/coombs-test-direct.html"
+    },
+    {
+      "code": "EXC-126",
+      "name": "Coombs Test-Indirect",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "coombs test-indirect"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Coombs Test-Indirect (Gel Matrix).",
+      "slug": "coombs-test-indirect",
+      "url": "/tests/coombs-test-indirect.html"
+    },
+    {
+      "code": "EXC-127",
+      "name": "Copper",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 2150,
+      "price": 2150,
+      "aliases": [
+        "copper"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Copper (Spectrophotometry).",
+      "slug": "copper",
+      "url": "/tests/copper.html"
+    },
+    {
+      "code": "EXC-128",
+      "name": "Cortisol",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1300,
+      "price": 1300,
+      "aliases": [
+        "cortisol"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Cortisol (CLIA).",
+      "slug": "cortisol",
+      "url": "/tests/cortisol.html"
+    },
+    {
+      "code": "EXC-129",
+      "name": "Cortisol - 24 hr. Urine",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1500,
+      "price": 1500,
+      "aliases": [
+        "cortisol - 24 hr. urine"
+      ],
+      "sample": "24 Hrs Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Cortisol - 24 hr. Urine (CLIA).",
+      "slug": "cortisol-24-hr-urine",
+      "url": "/tests/cortisol-24-hr-urine.html"
+    },
+    {
+      "code": "EXC-130",
+      "name": "C-Peptide",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1800,
+      "price": 1800,
+      "aliases": [
+        "c-peptide"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "C-Peptide (CLIA).",
+      "slug": "c-peptide",
+      "url": "/tests/c-peptide.html"
+    },
+    {
+      "code": "EXC-131",
+      "name": "C-Peptide - Fasting",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1800,
+      "price": 1800,
+      "aliases": [
+        "c-peptide - fasting"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "C-Peptide - Fasting (CLIA).",
+      "slug": "c-peptide-fasting",
+      "url": "/tests/c-peptide-fasting.html"
+    },
+    {
+      "code": "EXC-132",
+      "name": "C-Peptide - PP",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1800,
+      "price": 1800,
+      "aliases": [
+        "c-peptide - pp"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "C-Peptide - PP (CLIA).",
+      "slug": "c-peptide-pp",
+      "url": "/tests/c-peptide-pp.html"
+    },
+    {
+      "code": "EXC-133",
+      "name": "C-Reactive Protein (CRP) Quantitative, Fluid",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 700,
+      "price": 700,
+      "aliases": [
+        "crp",
+        "c-reactive protein (crp) quantitative, fluid",
+        "c-reactive protein  quantitative, fluid"
+      ],
+      "sample": "Fluid ( 1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "C-Reactive Protein (CRP) Quantitative, Fluid (Immunoturbidimetry).",
+      "slug": "c-reactive-protein-crp-quantitative-fluid",
+      "url": "/tests/c-reactive-protein-crp-quantitative-fluid.html"
+    },
+    {
+      "code": "EXC-134",
+      "name": "C-Reactive Protein (CRP) Test",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 260,
+      "price": 260,
+      "aliases": [
+        "crp",
+        "c-reactive protein (crp) test",
+        "c-reactive protein  test"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "C-Reactive Protein (CRP) Test (Particle Agglutination).",
+      "slug": "c-reactive-protein-crp-test",
+      "url": "/tests/c-reactive-protein-crp-test.html"
+    },
+    {
+      "code": "EXC-135",
+      "name": "C-Reactive Protein (CRP) Titre",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 700,
+      "price": 700,
+      "aliases": [
+        "crp",
+        "c-reactive protein (crp) titre",
+        "c-reactive protein  titre"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "C-Reactive Protein (CRP) Titre (Particle Agglutination).",
+      "slug": "c-reactive-protein-crp-titre",
+      "url": "/tests/c-reactive-protein-crp-titre.html"
+    },
+    {
+      "code": "EXC-136",
+      "name": "C-Reactive Protein (CRP), Quantitative",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 700,
+      "price": 700,
+      "aliases": [
+        "crp",
+        "c-reactive protein , quantitative",
+        "c-reactive protein (crp), quantitative"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "C-Reactive Protein (CRP), Quantitative (Immunoturbidimetric).",
+      "slug": "c-reactive-protein-crp-quantitative",
+      "url": "/tests/c-reactive-protein-crp-quantitative.html"
+    },
+    {
+      "code": "EXC-137",
+      "name": "C-Reactive Protein High Sensitive (hsCRP)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1200,
+      "price": 1200,
+      "aliases": [
+        "hscrp",
+        "c-reactive protein high sensitive (hscrp)",
+        "c-reactive protein high sensitive"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "C-Reactive Protein High Sensitive (hsCRP) (Immunoturbidimetric).",
+      "slug": "c-reactive-protein-high-sensitive-hscrp",
+      "url": "/tests/c-reactive-protein-high-sensitive-hscrp.html"
+    },
+    {
+      "code": "EXC-138",
+      "name": "Creatine Kinase (CK/CPK)",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "creatine kinase",
+        "creatine kinase (ck/cpk)",
+        "ck/cpk"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Creatine Kinase (CK/CPK) (NAC activated).",
+      "slug": "creatine-kinase-ck-cpk",
+      "url": "/tests/creatine-kinase-ck-cpk.html"
+    },
+    {
+      "code": "EXC-139",
+      "name": "Creatine Kinase-MB (CK/CPK-MB)",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "ck/cpk-mb",
+        "creatine kinase-mb",
+        "creatine kinase-mb (ck/cpk-mb)"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Creatine Kinase-MB (CK/CPK-MB) (IFCC, CK-MB isoenzyme activity).",
+      "slug": "creatine-kinase-mb-ck-cpk-mb",
+      "url": "/tests/creatine-kinase-mb-ck-cpk-mb.html"
+    },
+    {
+      "code": "EXC-140",
+      "name": "Creatinine - 24 hr. Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "creatinine - 24 hr. urine"
+      ],
+      "sample": "24 Hrs Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Creatinine - 24 hr. Urine (Alkaline picrate-kinetic).",
+      "slug": "creatinine-24-hr-urine",
+      "url": "/tests/creatinine-24-hr-urine.html"
+    },
+    {
+      "code": "EXC-141",
+      "name": "Creatinine - Spot Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "creatinine - spot urine"
+      ],
+      "sample": "Spot Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Creatinine - Spot Urine (Alkaline picrate-kinetic).",
+      "slug": "creatinine-spot-urine",
+      "url": "/tests/creatinine-spot-urine.html"
+    },
+    {
+      "code": "EXC-142",
+      "name": "Creatinine Clearance Test",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "creatinine clearance test"
+      ],
+      "sample": "Serum and 24 hrs Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Creatinine Clearance Test (Calculated).",
+      "slug": "creatinine-clearance-test",
+      "url": "/tests/creatinine-clearance-test.html"
+    },
+    {
+      "code": "EXC-143",
+      "name": "Creatinine, Fluid",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "creatinine, fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Creatinine, Fluid (Alkaline picrate-kinetic).",
+      "slug": "creatinine-fluid",
+      "url": "/tests/creatinine-fluid.html"
+    },
+    {
+      "code": "EXC-144",
+      "name": "Cryptococcus Antigen , CSF",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3400,
+      "price": 3400,
+      "aliases": [
+        "cryptococcus antigen , csf"
+      ],
+      "sample": "CSF (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Cryptococcus Antigen , CSF (Immunochromatography).",
+      "slug": "cryptococcus-antigen-csf",
+      "url": "/tests/cryptococcus-antigen-csf.html"
+    },
+    {
+      "code": "EXC-145",
+      "name": "Cryptococcus Antigen, Serum",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3400,
+      "price": 3400,
+      "aliases": [
+        "cryptococcus antigen, serum"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Cryptococcus Antigen, Serum (Immunochromatography).",
+      "slug": "cryptococcus-antigen-serum",
+      "url": "/tests/cryptococcus-antigen-serum.html"
+    },
+    {
+      "code": "EXC-146",
+      "name": "Crystal  Examination - Fluid",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "crystal  examination - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Crystal  Examination - Fluid (Microscopy.).",
+      "slug": "crystal-examination-fluid",
+      "url": "/tests/crystal-examination-fluid.html"
+    },
+    {
+      "code": "EXC-147",
+      "name": "CSF Culture & Sensitivity",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "csf culture & sensitivity"
+      ],
+      "sample": "CSF (1 ml)",
+      "preparation": "",
+      "reporting": "2 Days",
+      "description": "CSF Culture & Sensitivity (Conventional).",
+      "slug": "csf-culture-and-sensitivity",
+      "url": "/tests/csf-culture-and-sensitivity.html"
+    },
+    {
+      "code": "EXC-148",
+      "name": "CSF Protein",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "csf protein"
+      ],
+      "sample": "CSF (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "CSF Protein (Pyrogallol red molybdate protein complex).",
+      "slug": "csf-protein",
+      "url": "/tests/csf-protein.html"
+    },
+    {
+      "code": "EXC-149",
+      "name": "Culture & Sensitivity",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "culture & sensitivity"
+      ],
+      "sample": "Clinical  Specimen",
+      "preparation": "",
+      "reporting": "2 Days",
+      "description": "Culture & Sensitivity (Conventional).",
+      "slug": "culture-and-sensitivity",
+      "url": "/tests/culture-and-sensitivity.html"
+    },
+    {
+      "code": "EXC-150",
+      "name": "Cysticercosis  (Neurocysticercosis) IgG Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3100,
+      "price": 3100,
+      "aliases": [
+        "cysticercosis   igg ab",
+        "cysticercosis  (neurocysticercosis) igg ab",
+        "neurocysticercosis"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Next Day",
+      "description": "Cysticercosis  (Neurocysticercosis) IgG Ab (ELISA).",
+      "slug": "cysticercosis-neurocysticercosis-igg-ab",
+      "url": "/tests/cysticercosis-neurocysticercosis-igg-ab.html"
+    },
+    {
+      "code": "EXC-151",
+      "name": "Cytology",
+      "nepaliName": "",
+      "category": "Cytology & Histopathology",
+      "categoryLabel": "Cytology & Histopathology",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "cytology"
+      ],
+      "sample": "Fixed Smear",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Cytology (Cytology/Microscopy).",
+      "slug": "cytology",
+      "url": "/tests/cytology.html"
+    },
+    {
+      "code": "EXC-152",
+      "name": "Cytomegalo Virus (CMV) IgG Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 900,
+      "price": 900,
+      "aliases": [
+        "cytomegalo virus (cmv) igg ab",
+        "cmv",
+        "cytomegalo virus  igg ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Cytomegalo Virus (CMV) IgG Ab (CLIA).",
+      "slug": "cytomegalo-virus-cmv-igg-ab",
+      "url": "/tests/cytomegalo-virus-cmv-igg-ab.html"
+    },
+    {
+      "code": "EXC-153",
+      "name": "Cytomegalo Virus (CMV) IgM Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 900,
+      "price": 900,
+      "aliases": [
+        "cytomegalo virus (cmv) igm ab",
+        "cmv",
+        "cytomegalo virus  igm ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Cytomegalo Virus (CMV) IgM Ab (CLIA).",
+      "slug": "cytomegalo-virus-cmv-igm-ab",
+      "url": "/tests/cytomegalo-virus-cmv-igm-ab.html"
+    },
+    {
+      "code": "EXC-154",
+      "name": "Dehydroepiandrosterone-Sulfate (DHEA-S)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2100,
+      "price": 2100,
+      "aliases": [
+        "dehydroepiandrosterone-sulfate",
+        "dehydroepiandrosterone-sulfate (dhea-s)",
+        "dhea-s"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Dehydroepiandrosterone-Sulfate (DHEA-S) (CLIA).",
+      "slug": "dehydroepiandrosterone-sulfate-dhea-s",
+      "url": "/tests/dehydroepiandrosterone-sulfate-dhea-s.html"
+    },
+    {
+      "code": "EXC-155",
+      "name": "Dengue",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 600,
+      "price": 600,
+      "aliases": [
+        "dengue"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Dengue (Immunochromatography).",
+      "slug": "dengue",
+      "url": "/tests/dengue.html"
+    },
+    {
+      "code": "EXC-156",
+      "name": "Differential Leucocyte Count",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "differential leucocyte count"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Differential Leucocyte Count (Cell Counter).",
+      "slug": "differential-leucocyte-count",
+      "url": "/tests/differential-leucocyte-count.html"
+    },
+    {
+      "code": "EXC-157",
+      "name": "Differential Leucocyte Count - Fluid",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "differential leucocyte count - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Differential Leucocyte Count - Fluid (Cell Counter/Microscopic).",
+      "slug": "differential-leucocyte-count-fluid",
+      "url": "/tests/differential-leucocyte-count-fluid.html"
+    },
+    {
+      "code": "EXC-158",
+      "name": "DIPHTHERIA ANTIBODY IGG, SERUM",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 4500,
+      "price": 4500,
+      "aliases": [
+        "diphtheria antibody igg, serum"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "DIPHTHERIA ANTIBODY IGG, SERUM (EIA).",
+      "slug": "diphtheria-antibody-igg-serum",
+      "url": "/tests/diphtheria-antibody-igg-serum.html"
+    },
+    {
+      "code": "EXC-159",
+      "name": "Direct Renin",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 7600,
+      "price": 7600,
+      "aliases": [
+        "direct renin"
+      ],
+      "sample": "EDTA Plasma (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Direct Renin (CLIA).",
+      "slug": "direct-renin",
+      "url": "/tests/direct-renin.html"
+    },
+    {
+      "code": "EXC-160",
+      "name": "Double Stranded DNA Antibody (ds-DNA-Ab)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1700,
+      "price": 1700,
+      "aliases": [
+        "double stranded dna antibody (ds-dna-ab)",
+        "double stranded dna antibody",
+        "ds-dna-ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Double Stranded DNA Antibody (ds-DNA-Ab) (CLIA).",
+      "slug": "double-stranded-dna-antibody-ds-dna-ab",
+      "url": "/tests/double-stranded-dna-antibody-ds-dna-ab.html"
+    },
+    {
+      "code": "EXC-161",
+      "name": "Echinococcus IgG Ab (Hydatid Serology)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2800,
+      "price": 2800,
+      "aliases": [
+        "echinococcus igg ab",
+        "hydatid serology",
+        "echinococcus igg ab (hydatid serology)"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Echinococcus IgG Ab (Hydatid Serology) (EIA).",
+      "slug": "echinococcus-igg-ab-hydatid-serology",
+      "url": "/tests/echinococcus-igg-ab-hydatid-serology.html"
+    },
+    {
+      "code": "EXC-162",
+      "name": "Endometrium Culture for Mycobacterium Tuberculosis (AFB Culture)",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "afb culture",
+        "endometrium culture for mycobacterium tuberculosis (afb culture)",
+        "endometrium culture for mycobacterium tuberculosis"
+      ],
+      "sample": "Endometrial Biopsy",
+      "preparation": "",
+      "reporting": "6 weeks",
+      "description": "Endometrium Culture for Mycobacterium Tuberculosis (AFB Culture) (Conventional).",
+      "slug": "endometrium-culture-for-mycobacterium-tuberculosis-afb-culture",
+      "url": "/tests/endometrium-culture-for-mycobacterium-tuberculosis-afb-culture.html"
+    },
+    {
+      "code": "EXC-163",
+      "name": "EPSTEIN-BARR VIRUS ANTIBODY TO VIRAL CAPSID ANTIGEN (VCA), IgG",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2900,
+      "price": 2900,
+      "aliases": [
+        "epstein-barr virus antibody to viral capsid antigen (vca), igg",
+        "epstein-barr virus antibody to viral capsid antigen , igg",
+        "vca"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "EPSTEIN-BARR VIRUS ANTIBODY TO VIRAL CAPSID ANTIGEN (VCA), IgG (EIA).",
+      "slug": "epstein-barr-virus-antibody-to-viral-capsid-antigen-vca-igg",
+      "url": "/tests/epstein-barr-virus-antibody-to-viral-capsid-antigen-vca-igg.html"
+    },
+    {
+      "code": "EXC-164",
+      "name": "EPSTEIN-BARR VIRUS ANTIBODY TO VIRAL CAPSID ANTIGEN (VCA), IgM",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2900,
+      "price": 2900,
+      "aliases": [
+        "epstein-barr virus antibody to viral capsid antigen , igm",
+        "epstein-barr virus antibody to viral capsid antigen (vca), igm",
+        "vca"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "EPSTEIN-BARR VIRUS ANTIBODY TO VIRAL CAPSID ANTIGEN (VCA), IgM (EIA).",
+      "slug": "epstein-barr-virus-antibody-to-viral-capsid-antigen-vca-igm",
+      "url": "/tests/epstein-barr-virus-antibody-to-viral-capsid-antigen-vca-igm.html"
+    },
+    {
+      "code": "EXC-165",
+      "name": "Erythropoietin, Serum",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 4100,
+      "price": 4100,
+      "aliases": [
+        "erythropoietin, serum"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Erythropoietin, Serum (CLIA).",
+      "slug": "erythropoietin-serum",
+      "url": "/tests/erythropoietin-serum.html"
+    },
+    {
+      "code": "EXC-166",
+      "name": "Estradiol( E2 )/Oestrogen",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1400,
+      "price": 1400,
+      "aliases": [
+        "e2",
+        "estradiol( e2 )/oestrogen",
+        "estradiol/oestrogen"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Estradiol( E2 )/Oestrogen (CLIA).",
+      "slug": "estradiol-e2-oestrogen",
+      "url": "/tests/estradiol-e2-oestrogen.html"
+    },
+    {
+      "code": "EXC-167",
+      "name": "Fecal Calprotectin, Qualitative",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 5150,
+      "price": 5150,
+      "aliases": [
+        "fecal calprotectin, qualitative"
+      ],
+      "sample": "Stool",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Fecal Calprotectin, Qualitative (Immunochromatography).",
+      "slug": "fecal-calprotectin-qualitative",
+      "url": "/tests/fecal-calprotectin-qualitative.html"
+    },
+    {
+      "code": "EXC-168",
+      "name": "Fecal Calprotectin, Quantitative",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 5900,
+      "price": 5900,
+      "aliases": [
+        "fecal calprotectin, quantitative"
+      ],
+      "sample": "Stool",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Fecal Calprotectin, Quantitative (EIA).",
+      "slug": "fecal-calprotectin-quantitative",
+      "url": "/tests/fecal-calprotectin-quantitative.html"
+    },
+    {
+      "code": "EXC-169",
+      "name": "Filarial Ab (IgM/IgG)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "igm/igg",
+        "filarial ab (igm/igg)",
+        "filarial ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Filarial Ab (IgM/IgG) (Immunochromatography).",
+      "slug": "filarial-ab-igm-igg",
+      "url": "/tests/filarial-ab-igm-igg.html"
+    },
+    {
+      "code": "EXC-170",
+      "name": "Filarial Ab (Total)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "filarial ab",
+        "total",
+        "filarial ab (total)"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Filarial Ab (Total) (Immunochromatography).",
+      "slug": "filarial-ab-total",
+      "url": "/tests/filarial-ab-total.html"
+    },
+    {
+      "code": "EXC-171",
+      "name": "Filarial Parasite",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 350,
+      "price": 350,
+      "aliases": [
+        "filarial parasite"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Filarial Parasite (Microscopy.).",
+      "slug": "filarial-parasite",
+      "url": "/tests/filarial-parasite.html"
+    },
+    {
+      "code": "EXC-172",
+      "name": "Filarial Parasite - Urine",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "filarial parasite - urine"
+      ],
+      "sample": "Haematuric Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Filarial Parasite - Urine (Microscopy.).",
+      "slug": "filarial-parasite-urine",
+      "url": "/tests/filarial-parasite-urine.html"
+    },
+    {
+      "code": "EXC-173",
+      "name": "Food Allergy Panel 1",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3800,
+      "price": 3800,
+      "aliases": [
+        "food allergy panel 1"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Next Day",
+      "description": "Food Allergy Panel 1 (Immuno Blot).",
+      "slug": "food-allergy-panel-1",
+      "url": "/tests/food-allergy-panel-1.html"
+    },
+    {
+      "code": "EXC-174",
+      "name": "Food Allergy Panel 2",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 5100,
+      "price": 5100,
+      "aliases": [
+        "food allergy panel 2"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Next Day",
+      "description": "Food Allergy Panel 2 (Immuno Blot).",
+      "slug": "food-allergy-panel-2",
+      "url": "/tests/food-allergy-panel-2.html"
+    },
+    {
+      "code": "EXC-175",
+      "name": "Fractional Excretion of Sodium (FENa)",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1500,
+      "price": 1500,
+      "aliases": [
+        "fractional excretion of sodium",
+        "fena",
+        "fractional excretion of sodium (fena)"
+      ],
+      "sample": "Clinical  Specimen",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Fractional Excretion of Sodium (FENa) (Calculated).",
+      "slug": "fractional-excretion-of-sodium-fena",
+      "url": "/tests/fractional-excretion-of-sodium-fena.html"
+    },
+    {
+      "code": "EXC-176",
+      "name": "Fungal Complete Study - Fluid",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "fungal complete study - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "7 Days",
+      "description": "Fungal Complete Study - Fluid (Cultivation/Identification/Microscopy).",
+      "slug": "fungal-complete-study-fluid",
+      "url": "/tests/fungal-complete-study-fluid.html"
+    },
+    {
+      "code": "EXC-177",
+      "name": "Fungal Complete Study - Hair",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "fungal complete study - hair"
+      ],
+      "sample": "Hair",
+      "preparation": "",
+      "reporting": "7 Days",
+      "description": "Fungal Complete Study - Hair (Cultivation/Identification/Microscopy).",
+      "slug": "fungal-complete-study-hair",
+      "url": "/tests/fungal-complete-study-hair.html"
+    },
+    {
+      "code": "EXC-178",
+      "name": "Fungal Complete Study - Nail Scrap",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "fungal complete study - nail scrap"
+      ],
+      "sample": "Nail Scrap",
+      "preparation": "",
+      "reporting": "7 Days",
+      "description": "Fungal Complete Study - Nail Scrap (Cultivation/Identification/Microscopy).",
+      "slug": "fungal-complete-study-nail-scrap",
+      "url": "/tests/fungal-complete-study-nail-scrap.html"
+    },
+    {
+      "code": "EXC-179",
+      "name": "Fungal Complete Study - Skin Scrap",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "fungal complete study - skin scrap"
+      ],
+      "sample": "Skin Scrap",
+      "preparation": "",
+      "reporting": "7 Days",
+      "description": "Fungal Complete Study - Skin Scrap (Cultivation/Identification/Microscopy).",
+      "slug": "fungal-complete-study-skin-scrap",
+      "url": "/tests/fungal-complete-study-skin-scrap.html"
+    },
+    {
+      "code": "EXC-180",
+      "name": "Fungal Complete Study - Sputum",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "fungal complete study - sputum"
+      ],
+      "sample": "Sputum (Adequate).",
+      "preparation": "",
+      "reporting": "7 Days",
+      "description": "Fungal Complete Study - Sputum (Cultivation/Identification/Microscopy).",
+      "slug": "fungal-complete-study-sputum",
+      "url": "/tests/fungal-complete-study-sputum.html"
+    },
+    {
+      "code": "EXC-181",
+      "name": "Fungal Culture",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 1150,
+      "price": 1150,
+      "aliases": [
+        "fungal culture"
+      ],
+      "sample": "Clinical  Specimen",
+      "preparation": "",
+      "reporting": "7 Days",
+      "description": "Fungal Culture (Conventional).",
+      "slug": "fungal-culture",
+      "url": "/tests/fungal-culture.html"
+    },
+    {
+      "code": "EXC-182",
+      "name": "Fungal Germ tube test - Fluid",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "fungal germ tube test - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Fungal Germ tube test - Fluid (Chemical).",
+      "slug": "fungal-germ-tube-test-fluid",
+      "url": "/tests/fungal-germ-tube-test-fluid.html"
+    },
+    {
+      "code": "EXC-183",
+      "name": "Fungal Germ tube test - Hair",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "fungal germ tube test - hair"
+      ],
+      "sample": "Hair",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Fungal Germ tube test - Hair (Chemical).",
+      "slug": "fungal-germ-tube-test-hair",
+      "url": "/tests/fungal-germ-tube-test-hair.html"
+    },
+    {
+      "code": "EXC-184",
+      "name": "Fungal Germ tube test - Skin Scrap",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "fungal germ tube test - skin scrap"
+      ],
+      "sample": "Skin Scrap",
+      "preparation": "",
+      "reporting": "Next Day",
+      "description": "Fungal Germ tube test - Skin Scrap (Chemical).",
+      "slug": "fungal-germ-tube-test-skin-scrap",
+      "url": "/tests/fungal-germ-tube-test-skin-scrap.html"
+    },
+    {
+      "code": "EXC-185",
+      "name": "Fungal Germ tube test - Sputum",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "fungal germ tube test - sputum"
+      ],
+      "sample": "Sputum (Adequate).",
+      "preparation": "",
+      "reporting": "Next Day",
+      "description": "Fungal Germ tube test - Sputum (Chemical).",
+      "slug": "fungal-germ-tube-test-sputum",
+      "url": "/tests/fungal-germ-tube-test-sputum.html"
+    },
+    {
+      "code": "EXC-186",
+      "name": "GALACTOMANNAN (ASPERGILLUS ANTIGEN), BRONCHOALVEOLAR LAVAGE",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 8400,
+      "price": 8400,
+      "aliases": [
+        "aspergillus antigen",
+        "galactomannan (aspergillus antigen), bronchoalveolar lavage",
+        "galactomannan , bronchoalveolar lavage"
+      ],
+      "sample": "Bronchoalveolar lavage (BAL)",
+      "preparation": "",
+      "reporting": "Next Day",
+      "description": "GALACTOMANNAN (ASPERGILLUS ANTIGEN), BRONCHOALVEOLAR LAVAGE (EIA).",
+      "slug": "galactomannan-aspergillus-antigen-bronchoalveolar-lavage",
+      "url": "/tests/galactomannan-aspergillus-antigen-bronchoalveolar-lavage.html"
+    },
+    {
+      "code": "EXC-187",
+      "name": "GALACTOMANNAN (ASPERGILLUS ANTIGEN), SERUM",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 8950,
+      "price": 8950,
+      "aliases": [
+        "galactomannan (aspergillus antigen), serum",
+        "aspergillus antigen",
+        "galactomannan , serum"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Next Day",
+      "description": "GALACTOMANNAN (ASPERGILLUS ANTIGEN), SERUM (EIA).",
+      "slug": "galactomannan-aspergillus-antigen-serum",
+      "url": "/tests/galactomannan-aspergillus-antigen-serum.html"
+    },
+    {
+      "code": "EXC-188",
+      "name": "Gamma-glutamyl Transferase (Gamma-GT)",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "gamma-gt",
+        "gamma-glutamyl transferase (gamma-gt)",
+        "gamma-glutamyl transferase"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Gamma-glutamyl Transferase (Gamma-GT) (Gamma Glutamyltransferase).",
+      "slug": "gamma-glutamyl-transferase-gamma-gt",
+      "url": "/tests/gamma-glutamyl-transferase-gamma-gt.html"
+    },
+    {
+      "code": "EXC-189",
+      "name": "Gastric Biopsy Culture for Mycobacterium Tuberculosis",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "gastric biopsy culture for mycobacterium tuberculosis"
+      ],
+      "sample": "Gastric Biopsy",
+      "preparation": "",
+      "reporting": "6 weeks",
+      "description": "Gastric Biopsy Culture for Mycobacterium Tuberculosis (Conventional).",
+      "slug": "gastric-biopsy-culture-for-mycobacterium-tuberculosis",
+      "url": "/tests/gastric-biopsy-culture-for-mycobacterium-tuberculosis.html"
+    },
+    {
+      "code": "EXC-190",
+      "name": "Gastrin (Gastrin-17)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2100,
+      "price": 2100,
+      "aliases": [
+        "gastrin (gastrin-17)",
+        "gastrin-17",
+        "gastrin"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Gastrin (Gastrin-17) (CLIA).",
+      "slug": "gastrin-gastrin-17",
+      "url": "/tests/gastrin-gastrin-17.html"
+    },
+    {
+      "code": "EXC-191",
+      "name": "GBM Antibodies",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3100,
+      "price": 3100,
+      "aliases": [
+        "gbm antibodies"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Next Day",
+      "description": "GBM Antibodies (EIA).",
+      "slug": "gbm-antibodies",
+      "url": "/tests/gbm-antibodies.html"
+    },
+    {
+      "code": "EXC-192",
+      "name": "Giemsa Stain",
+      "nepaliName": "",
+      "category": "Cytology & Histopathology",
+      "categoryLabel": "Cytology & Histopathology",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "giemsa stain"
+      ],
+      "sample": "Clinical  Specimen",
+      "preparation": "",
+      "reporting": "3-5 Days",
+      "description": "Giemsa Stain (Microscopy.).",
+      "slug": "giemsa-stain",
+      "url": "/tests/giemsa-stain.html"
+    },
+    {
+      "code": "EXC-193",
+      "name": "GLIADIN DEAMIDATED ANTIBODY, IgA",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3100,
+      "price": 3100,
+      "aliases": [
+        "gliadin deamidated antibody, iga"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "GLIADIN DEAMIDATED ANTIBODY, IgA (EIA).",
+      "slug": "gliadin-deamidated-antibody-iga",
+      "url": "/tests/gliadin-deamidated-antibody-iga.html"
+    },
+    {
+      "code": "EXC-194",
+      "name": "GLIADIN DEAMIDATED ANTIBODY, IgG",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3100,
+      "price": 3100,
+      "aliases": [
+        "gliadin deamidated antibody, igg"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "GLIADIN DEAMIDATED ANTIBODY, IgG (EIA).",
+      "slug": "gliadin-deamidated-antibody-igg",
+      "url": "/tests/gliadin-deamidated-antibody-igg.html"
+    },
+    {
+      "code": "EXC-195",
+      "name": "Globulin",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "globulin"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Globulin (Calculated).",
+      "slug": "globulin",
+      "url": "/tests/globulin.html"
+    },
+    {
+      "code": "EXC-196",
+      "name": "Glomerular Filtration Rate (GFR), Estimated (eGFR)",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 450,
+      "price": 450,
+      "aliases": [
+        "egfr",
+        "glomerular filtration rate (gfr), estimated (egfr)",
+        "glomerular filtration rate , estimated",
+        "gfr"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Glomerular Filtration Rate (GFR), Estimated (eGFR) (Calculated).",
+      "slug": "glomerular-filtration-rate-gfr-estimated-egfr",
+      "url": "/tests/glomerular-filtration-rate-gfr-estimated-egfr.html"
+    },
+    {
+      "code": "EXC-197",
+      "name": "Glucose - Fluid",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 75,
+      "price": 75,
+      "aliases": [
+        "glucose - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Glucose - Fluid (Hexokinase).",
+      "slug": "glucose-fluid",
+      "url": "/tests/glucose-fluid.html"
+    },
+    {
+      "code": "EXC-198",
+      "name": "Glucose Challenge Test",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 75,
+      "price": 75,
+      "aliases": [
+        "glucose challenge test"
+      ],
+      "sample": "Fluoride Plasma (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Glucose Challenge Test (Hexokinase).",
+      "slug": "glucose-challenge-test",
+      "url": "/tests/glucose-challenge-test.html"
+    },
+    {
+      "code": "EXC-199",
+      "name": "Glucose F",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 75,
+      "price": 75,
+      "aliases": [
+        "glucose f"
+      ],
+      "sample": "Fluoride Plasma (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Glucose F (Hexokinase).",
+      "slug": "glucose-f",
+      "url": "/tests/glucose-f.html"
+    },
+    {
+      "code": "EXC-200",
+      "name": "Glucose Post Dinner",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 75,
+      "price": 75,
+      "aliases": [
+        "glucose post dinner"
+      ],
+      "sample": "Fluoride Plasma (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Glucose Post Dinner (Hexokinase).",
+      "slug": "glucose-post-dinner",
+      "url": "/tests/glucose-post-dinner.html"
+    },
+    {
+      "code": "EXC-201",
+      "name": "Glucose PP",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 75,
+      "price": 75,
+      "aliases": [
+        "glucose pp"
+      ],
+      "sample": "Fluoride Plasma (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Glucose PP (Hexokinase).",
+      "slug": "glucose-pp",
+      "url": "/tests/glucose-pp.html"
+    },
+    {
+      "code": "EXC-202",
+      "name": "Glucose Pre-dinner",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 75,
+      "price": 75,
+      "aliases": [
+        "glucose pre-dinner"
+      ],
+      "sample": "Fluoride Plasma (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Glucose Pre-dinner (Hexokinase).",
+      "slug": "glucose-pre-dinner",
+      "url": "/tests/glucose-pre-dinner.html"
+    },
+    {
+      "code": "EXC-203",
+      "name": "Glucose Pre-Lunch",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 75,
+      "price": 75,
+      "aliases": [
+        "glucose pre-lunch"
+      ],
+      "sample": "Fluoride Plasma (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Glucose Pre-Lunch (Hexokinase).",
+      "slug": "glucose-pre-lunch",
+      "url": "/tests/glucose-pre-lunch.html"
+    },
+    {
+      "code": "EXC-204",
+      "name": "Glucose R",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 75,
+      "price": 75,
+      "aliases": [
+        "glucose r"
+      ],
+      "sample": "Flouride Plasma (1ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Glucose R (Hexokinase).",
+      "slug": "glucose-r",
+      "url": "/tests/glucose-r.html"
+    },
+    {
+      "code": "EXC-205",
+      "name": "Glucose Tolerance Test (GTT) 3 Sample",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 270,
+      "price": 270,
+      "aliases": [
+        "gtt",
+        "glucose tolerance test (gtt) 3 sample",
+        "glucose tolerance test  3 sample"
+      ],
+      "sample": "Fluoride Plasma & Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Glucose Tolerance Test (GTT) 3 Sample (Spectrophotometry).",
+      "slug": "glucose-tolerance-test-gtt-3-sample",
+      "url": "/tests/glucose-tolerance-test-gtt-3-sample.html"
+    },
+    {
+      "code": "EXC-206",
+      "name": "Glucose Tolerance Test (GTT) 4 Sample",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 375,
+      "price": 375,
+      "aliases": [
+        "gtt",
+        "glucose tolerance test  4 sample",
+        "glucose tolerance test (gtt) 4 sample"
+      ],
+      "sample": "Fluoride Plasma & Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Glucose Tolerance Test (GTT) 4 Sample (Spectrophotometry).",
+      "slug": "glucose-tolerance-test-gtt-4-sample",
+      "url": "/tests/glucose-tolerance-test-gtt-4-sample.html"
+    },
+    {
+      "code": "EXC-207",
+      "name": "Glucose Tolerance Test (GTT) 6 Sample",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 425,
+      "price": 425,
+      "aliases": [
+        "gtt",
+        "glucose tolerance test  6 sample",
+        "glucose tolerance test (gtt) 6 sample"
+      ],
+      "sample": "Fluoride Plasma & Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Glucose Tolerance Test (GTT) 6 Sample (Spectrophotometry).",
+      "slug": "glucose-tolerance-test-gtt-6-sample",
+      "url": "/tests/glucose-tolerance-test-gtt-6-sample.html"
+    },
+    {
+      "code": "EXC-208",
+      "name": "Glucose Tolerance Test (GTT) 7 Sample",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 535,
+      "price": 535,
+      "aliases": [
+        "gtt",
+        "glucose tolerance test  7 sample",
+        "glucose tolerance test (gtt) 7 sample"
+      ],
+      "sample": "Flouride Plasma (1ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Glucose Tolerance Test (GTT) 7 Sample (Spectrophotometry).",
+      "slug": "glucose-tolerance-test-gtt-7-sample",
+      "url": "/tests/glucose-tolerance-test-gtt-7-sample.html"
+    },
+    {
+      "code": "EXC-209",
+      "name": "Glutamic Acid Decarboxylase-65 (GAD-65) IgG",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 6100,
+      "price": 6100,
+      "aliases": [
+        "glutamic acid decarboxylase-65  igg",
+        "gad-65",
+        "glutamic acid decarboxylase-65 (gad-65) igg"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Glutamic Acid Decarboxylase-65 (GAD-65) IgG (CLIA).",
+      "slug": "glutamic-acid-decarboxylase-65-gad-65-igg",
+      "url": "/tests/glutamic-acid-decarboxylase-65-gad-65-igg.html"
+    },
+    {
+      "code": "EXC-210",
+      "name": "Glycosylated Hb (HbA1C)",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 950,
+      "price": 950,
+      "aliases": [
+        "glycosylated hb",
+        "glycosylated hb (hba1c)",
+        "hba1c"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Glycosylated Hb (HbA1C) (IE-HPLC).",
+      "slug": "glycosylated-hb-hba1c",
+      "url": "/tests/glycosylated-hb-hba1c.html"
+    },
+    {
+      "code": "EXC-211",
+      "name": "Haemoglobin(Hb) - Fluid",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "haemoglobin - fluid",
+        "haemoglobin(hb) - fluid",
+        "hb"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Haemoglobin(Hb) - Fluid (Dipstick).",
+      "slug": "haemoglobin-hb-fluid",
+      "url": "/tests/haemoglobin-hb-fluid.html"
+    },
+    {
+      "code": "EXC-212",
+      "name": "Haptoglobin",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 3100,
+      "price": 3100,
+      "aliases": [
+        "haptoglobin"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Haptoglobin (Immunoturbidimetric).",
+      "slug": "haptoglobin",
+      "url": "/tests/haptoglobin.html"
+    },
+    {
+      "code": "EXC-213",
+      "name": "HAV  IgM Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "hav  igm ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "HAV  IgM Ab (CLIA).",
+      "slug": "hav-igm-ab",
+      "url": "/tests/hav-igm-ab.html"
+    },
+    {
+      "code": "EXC-214",
+      "name": "HBc IgM Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2100,
+      "price": 2100,
+      "aliases": [
+        "hbc igm ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "HBc IgM Ab (CLIA).",
+      "slug": "hbc-igm-ab",
+      "url": "/tests/hbc-igm-ab.html"
+    },
+    {
+      "code": "EXC-215",
+      "name": "HBc Total Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2100,
+      "price": 2100,
+      "aliases": [
+        "hbc total ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "HBc Total Ab (CLIA).",
+      "slug": "hbc-total-ab",
+      "url": "/tests/hbc-total-ab.html"
+    },
+    {
+      "code": "EXC-216",
+      "name": "HBeAb",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "hbeab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "HBeAb (CLIA).",
+      "slug": "hbeab",
+      "url": "/tests/hbeab.html"
+    },
+    {
+      "code": "EXC-217",
+      "name": "HBeAg",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "hbeag"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "HBeAg (CLIA).",
+      "slug": "hbeag",
+      "url": "/tests/hbeag.html"
+    },
+    {
+      "code": "EXC-218",
+      "name": "HBsAb",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2100,
+      "price": 2100,
+      "aliases": [
+        "hbsab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "HBsAb (CLIA).",
+      "slug": "hbsab",
+      "url": "/tests/hbsab.html"
+    },
+    {
+      "code": "EXC-219",
+      "name": "HBsAg",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "hbsag"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "HBsAg (CLIA).",
+      "slug": "hbsag",
+      "url": "/tests/hbsag.html"
+    },
+    {
+      "code": "EXC-220",
+      "name": "HBsAg Confirmatory",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3100,
+      "price": 3100,
+      "aliases": [
+        "hbsag confirmatory"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "HBsAg Confirmatory (Neutralization).",
+      "slug": "hbsag-confirmatory",
+      "url": "/tests/hbsag-confirmatory.html"
+    },
+    {
+      "code": "EXC-221",
+      "name": "HBV DNA QUANTITATIVE",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 8100,
+      "price": 8100,
+      "aliases": [
+        "hbv dna quantitative"
+      ],
+      "sample": "EDTA Plasma (2 ml)",
+      "preparation": "",
+      "reporting": "5-7 Days",
+      "description": "HBV DNA QUANTITATIVE (Real Time PCR).",
+      "slug": "hbv-dna-quantitative",
+      "url": "/tests/hbv-dna-quantitative.html"
+    },
+    {
+      "code": "EXC-222",
+      "name": "HCV Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "hcv ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "HCV Ab (CLIA).",
+      "slug": "hcv-ab",
+      "url": "/tests/hcv-ab.html"
+    },
+    {
+      "code": "EXC-223",
+      "name": "HCV RNA QUANTITATIVE",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 9100,
+      "price": 9100,
+      "aliases": [
+        "hcv rna quantitative"
+      ],
+      "sample": "EDTA Plasma (2 ml)",
+      "preparation": "",
+      "reporting": "5-7 Days",
+      "description": "HCV RNA QUANTITATIVE (Real Time PCR).",
+      "slug": "hcv-rna-quantitative",
+      "url": "/tests/hcv-rna-quantitative.html"
+    },
+    {
+      "code": "EXC-224",
+      "name": "Helicobacter Pylori Antigen - Stool",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1200,
+      "price": 1200,
+      "aliases": [
+        "helicobacter pylori antigen - stool"
+      ],
+      "sample": "Stool",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Helicobacter Pylori Antigen - Stool (Immunochromatography).",
+      "slug": "helicobacter-pylori-antigen-stool",
+      "url": "/tests/helicobacter-pylori-antigen-stool.html"
+    },
+    {
+      "code": "EXC-225",
+      "name": "Helicobacter Pylori IgA Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3100,
+      "price": 3100,
+      "aliases": [
+        "helicobacter pylori iga ab"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Next Day",
+      "description": "Helicobacter Pylori IgA Ab (EIA).",
+      "slug": "helicobacter-pylori-iga-ab",
+      "url": "/tests/helicobacter-pylori-iga-ab.html"
+    },
+    {
+      "code": "EXC-226",
+      "name": "Helicobacter Pylori IgG Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2700,
+      "price": 2700,
+      "aliases": [
+        "helicobacter pylori igg ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Next Day",
+      "description": "Helicobacter Pylori IgG Ab (ELISA).",
+      "slug": "helicobacter-pylori-igg-ab",
+      "url": "/tests/helicobacter-pylori-igg-ab.html"
+    },
+    {
+      "code": "EXC-227",
+      "name": "Helicobacter Pylori Total Antibody",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "helicobacter pylori total antibody"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Helicobacter Pylori Total Antibody (Immunochromatography).",
+      "slug": "helicobacter-pylori-total-antibody",
+      "url": "/tests/helicobacter-pylori-total-antibody.html"
+    },
+    {
+      "code": "EXC-228",
+      "name": "HEPATITIS A ANTIBODY (ANTI-HAV), IGG",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2900,
+      "price": 2900,
+      "aliases": [
+        "anti-hav",
+        "hepatitis a antibody , igg",
+        "hepatitis a antibody (anti-hav), igg"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Next Day",
+      "description": "HEPATITIS A ANTIBODY (ANTI-HAV), IGG (ELISA).",
+      "slug": "hepatitis-a-antibody-anti-hav-igg",
+      "url": "/tests/hepatitis-a-antibody-anti-hav-igg.html"
+    },
+    {
+      "code": "EXC-229",
+      "name": "HERPES SIMPLEX VIRUS (HSV) TYPE 1 & 2, PCR, QUALITATIVE",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 10710,
+      "price": 10710,
+      "aliases": [
+        "herpes simplex virus  type 1 & 2, pcr, qualitative",
+        "herpes simplex virus (hsv) type 1 & 2, pcr, qualitative",
+        "hsv"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "5-7 Days",
+      "description": "HERPES SIMPLEX VIRUS (HSV) TYPE 1 & 2, PCR, QUALITATIVE (PCR).",
+      "slug": "herpes-simplex-virus-hsv-type-1-and-2-pcr-qualitative",
+      "url": "/tests/herpes-simplex-virus-hsv-type-1-and-2-pcr-qualitative.html"
+    },
+    {
+      "code": "EXC-230",
+      "name": "Herpes Simplex Virus (HSV)-1 IgG Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 950,
+      "price": 950,
+      "aliases": [
+        "herpes simplex virus (hsv)-1 igg ab",
+        "hsv",
+        "herpes simplex virus -1 igg ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Herpes Simplex Virus (HSV)-1 IgG Ab (CLIA).",
+      "slug": "herpes-simplex-virus-hsv-1-igg-ab",
+      "url": "/tests/herpes-simplex-virus-hsv-1-igg-ab.html"
+    },
+    {
+      "code": "EXC-231",
+      "name": "Herpes Simplex Virus (HSV)-1 IgM Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 950,
+      "price": 950,
+      "aliases": [
+        "herpes simplex virus -1 igm ab",
+        "herpes simplex virus (hsv)-1 igm ab",
+        "hsv"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Herpes Simplex Virus (HSV)-1 IgM Ab (CLIA).",
+      "slug": "herpes-simplex-virus-hsv-1-igm-ab",
+      "url": "/tests/herpes-simplex-virus-hsv-1-igm-ab.html"
+    },
+    {
+      "code": "EXC-232",
+      "name": "Herpes Simplex Virus (HSV)-2 IgG Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 950,
+      "price": 950,
+      "aliases": [
+        "herpes simplex virus -2 igg ab",
+        "herpes simplex virus (hsv)-2 igg ab",
+        "hsv"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Herpes Simplex Virus (HSV)-2 IgG Ab (CLIA).",
+      "slug": "herpes-simplex-virus-hsv-2-igg-ab",
+      "url": "/tests/herpes-simplex-virus-hsv-2-igg-ab.html"
+    },
+    {
+      "code": "EXC-233",
+      "name": "Herpes Simplex Virus (HSV)-2 IgM Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 950,
+      "price": 950,
+      "aliases": [
+        "herpes simplex virus (hsv)-2 igm ab",
+        "herpes simplex virus -2 igm ab",
+        "hsv"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Herpes Simplex Virus (HSV)-2 IgM Ab (CLIA).",
+      "slug": "herpes-simplex-virus-hsv-2-igm-ab",
+      "url": "/tests/herpes-simplex-virus-hsv-2-igm-ab.html"
+    },
+    {
+      "code": "EXC-234",
+      "name": "HEV IgM Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2100,
+      "price": 2100,
+      "aliases": [
+        "hev igm ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Next Day",
+      "description": "HEV IgM Ab (ELISA).",
+      "slug": "hev-igm-ab",
+      "url": "/tests/hev-igm-ab.html"
+    },
+    {
+      "code": "EXC-235",
+      "name": "HIV 1 & 2 Antibody & P24 Ag",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1400,
+      "price": 1400,
+      "aliases": [
+        "hiv 1 & 2 antibody & p24 ag"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "HIV 1 & 2 Antibody & P24 Ag (CLIA).",
+      "slug": "hiv-1-and-2-antibody-and-p24-ag",
+      "url": "/tests/hiv-1-and-2-antibody-and-p24-ag.html"
+    },
+    {
+      "code": "EXC-236",
+      "name": "HLA-B27 DNA PCR",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 5100,
+      "price": 5100,
+      "aliases": [
+        "hla-b27 dna pcr"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "5-7 Days",
+      "description": "HLA-B27 DNA PCR (Real Time PCR).",
+      "slug": "hla-b27-dna-pcr",
+      "url": "/tests/hla-b27-dna-pcr.html"
+    },
+    {
+      "code": "EXC-237",
+      "name": "HOMA IR; Insulin Resistance Index, C-peptide Model",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3500,
+      "price": 3500,
+      "aliases": [
+        "homa ir; insulin resistance index, c-peptide model"
+      ],
+      "sample": "Plasma / Serum",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "HOMA IR; Insulin Resistance Index, C-peptide Model (Calculated).",
+      "slug": "homa-ir-insulin-resistance-index-c-peptide-model",
+      "url": "/tests/homa-ir-insulin-resistance-index-c-peptide-model.html"
+    },
+    {
+      "code": "EXC-238",
+      "name": "Homocystine",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1900,
+      "price": 1900,
+      "aliases": [
+        "homocystine"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Homocystine (CLIA).",
+      "slug": "homocystine",
+      "url": "/tests/homocystine.html"
+    },
+    {
+      "code": "EXC-239",
+      "name": "Human papilloma virus (HPV)",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 4200,
+      "price": 4200,
+      "aliases": [
+        "hpv",
+        "human papilloma virus",
+        "human papilloma virus (hpv)"
+      ],
+      "sample": "Vaginal Swab/ Cervical Fluid",
+      "preparation": "",
+      "reporting": "5-7 Days",
+      "description": "Human papilloma virus (HPV) (Real Time PCR).",
+      "slug": "human-papilloma-virus-hpv",
+      "url": "/tests/human-papilloma-virus-hpv.html"
+    },
+    {
+      "code": "EXC-240",
+      "name": "HVS Culture & Sensitivity",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "hvs culture & sensitivity"
+      ],
+      "sample": "High Vaginal Swab",
+      "preparation": "",
+      "reporting": "2 Days",
+      "description": "HVS Culture & Sensitivity (Conventional).",
+      "slug": "hvs-culture-and-sensitivity",
+      "url": "/tests/hvs-culture-and-sensitivity.html"
+    },
+    {
+      "code": "EXC-241",
+      "name": "HVS Wet Mount Examination",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "hvs wet mount examination"
+      ],
+      "sample": "High Vaginal Swab",
+      "preparation": "",
+      "reporting": "Next Day",
+      "description": "HVS Wet Mount Examination (Microscopy).",
+      "slug": "hvs-wet-mount-examination",
+      "url": "/tests/hvs-wet-mount-examination.html"
+    },
+    {
+      "code": "EXC-242",
+      "name": "Immunoglobulin A - Total",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1300,
+      "price": 1300,
+      "aliases": [
+        "immunoglobulin a - total"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Immunoglobulin A - Total (Nephelometry).",
+      "slug": "immunoglobulin-a-total",
+      "url": "/tests/immunoglobulin-a-total.html"
+    },
+    {
+      "code": "EXC-243",
+      "name": "Immunoglobulin E - Total",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1900,
+      "price": 1900,
+      "aliases": [
+        "immunoglobulin e - total"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Immunoglobulin E - Total (CLIA).",
+      "slug": "immunoglobulin-e-total",
+      "url": "/tests/immunoglobulin-e-total.html"
+    },
+    {
+      "code": "EXC-244",
+      "name": "Immunoglobulin G - Total",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1300,
+      "price": 1300,
+      "aliases": [
+        "immunoglobulin g - total"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Immunoglobulin G - Total (Immunoturbidimetric).",
+      "slug": "immunoglobulin-g-total",
+      "url": "/tests/immunoglobulin-g-total.html"
+    },
+    {
+      "code": "EXC-245",
+      "name": "Immunoglobulin M -  Total",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1400,
+      "price": 1400,
+      "aliases": [
+        "immunoglobulin m -  total"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Immunoglobulin M -  Total (Nephelometry).",
+      "slug": "immunoglobulin-m-total",
+      "url": "/tests/immunoglobulin-m-total.html"
+    },
+    {
+      "code": "EXC-246",
+      "name": "India Ink Preparation - CSF",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "india ink preparation - csf"
+      ],
+      "sample": "CSF (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "India Ink Preparation - CSF (Chemical/Microscopy).",
+      "slug": "india-ink-preparation-csf",
+      "url": "/tests/india-ink-preparation-csf.html"
+    },
+    {
+      "code": "EXC-247",
+      "name": "Influenza A/B",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1900,
+      "price": 1900,
+      "aliases": [
+        "influenza a/b"
+      ],
+      "sample": "Swab",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Influenza A/B (Immunochromatography).",
+      "slug": "influenza-a-b",
+      "url": "/tests/influenza-a-b.html"
+    },
+    {
+      "code": "EXC-248",
+      "name": "Inhalation Allergy Panel 1",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3800,
+      "price": 3800,
+      "aliases": [
+        "inhalation allergy panel 1"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Inhalation Allergy Panel 1 (Immuno Blot).",
+      "slug": "inhalation-allergy-panel-1",
+      "url": "/tests/inhalation-allergy-panel-1.html"
+    },
+    {
+      "code": "EXC-249",
+      "name": "Inhalation Allergy Panel 2",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 5100,
+      "price": 5100,
+      "aliases": [
+        "inhalation allergy panel 2"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Inhalation Allergy Panel 2 (Immuno Blot).",
+      "slug": "inhalation-allergy-panel-2",
+      "url": "/tests/inhalation-allergy-panel-2.html"
+    },
+    {
+      "code": "EXC-250",
+      "name": "Inhibin A",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3100,
+      "price": 3100,
+      "aliases": [
+        "inhibin a"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Next Day",
+      "description": "Inhibin A (ELISA).",
+      "slug": "inhibin-a",
+      "url": "/tests/inhibin-a.html"
+    },
+    {
+      "code": "EXC-251",
+      "name": "Insulin",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "insulin"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Insulin (CLIA).",
+      "slug": "insulin",
+      "url": "/tests/insulin.html"
+    },
+    {
+      "code": "EXC-252",
+      "name": "Insulin , PP",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "insulin , pp"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Insulin , PP (CLIA).",
+      "slug": "insulin-pp",
+      "url": "/tests/insulin-pp.html"
+    },
+    {
+      "code": "EXC-253",
+      "name": "Insulin Like Growth Factor (IGF - 1)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 4600,
+      "price": 4600,
+      "aliases": [
+        "igf - 1",
+        "insulin like growth factor",
+        "insulin like growth factor (igf - 1)"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Insulin Like Growth Factor (IGF - 1) (CLIA).",
+      "slug": "insulin-like-growth-factor-igf-1",
+      "url": "/tests/insulin-like-growth-factor-igf-1.html"
+    },
+    {
+      "code": "EXC-254",
+      "name": "Insulin, Fasting",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "insulin, fasting"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Insulin, Fasting (CLIA).",
+      "slug": "insulin-fasting",
+      "url": "/tests/insulin-fasting.html"
+    },
+    {
+      "code": "EXC-255",
+      "name": "Interleukin - 6 (IL-6)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 4650,
+      "price": 4650,
+      "aliases": [
+        "interleukin - 6",
+        "interleukin - 6 (il-6)",
+        "il-6"
+      ],
+      "sample": "Serum/Plasma (1ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Interleukin - 6 (IL-6) (FIA).",
+      "slug": "interleukin-6-il-6",
+      "url": "/tests/interleukin-6-il-6.html"
+    },
+    {
+      "code": "EXC-256",
+      "name": "Intrinsic Factor Antibody",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 4310,
+      "price": 4310,
+      "aliases": [
+        "intrinsic factor antibody"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Intrinsic Factor Antibody (EIA).",
+      "slug": "intrinsic-factor-antibody",
+      "url": "/tests/intrinsic-factor-antibody.html"
+    },
+    {
+      "code": "EXC-257",
+      "name": "Ionized Calcium",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "ionized calcium"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Ionized Calcium (Spectrophotometry).",
+      "slug": "ionized-calcium",
+      "url": "/tests/ionized-calcium.html"
+    },
+    {
+      "code": "EXC-258",
+      "name": "Iron",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 700,
+      "price": 700,
+      "aliases": [
+        "iron"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Iron (Ferene).",
+      "slug": "iron",
+      "url": "/tests/iron.html"
+    },
+    {
+      "code": "EXC-259",
+      "name": "JO-1 ANTIBODY",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2600,
+      "price": 2600,
+      "aliases": [
+        "jo-1 antibody"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "JO-1 ANTIBODY (EIA).",
+      "slug": "jo-1-antibody",
+      "url": "/tests/jo-1-antibody.html"
+    },
+    {
+      "code": "EXC-260",
+      "name": "Ketone bodies (Acetone)",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "acetone",
+        "ketone bodies",
+        "ketone bodies (acetone)"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Ketone bodies (Acetone) (Chemical).",
+      "slug": "ketone-bodies-acetone",
+      "url": "/tests/ketone-bodies-acetone.html"
+    },
+    {
+      "code": "EXC-261",
+      "name": "Lactate Dehydrogenase (LDH) - Fluid",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "lactate dehydrogenase (ldh) - fluid",
+        "ldh",
+        "lactate dehydrogenase  - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Lactate Dehydrogenase (LDH) - Fluid (Lactate to pyruvate).",
+      "slug": "lactate-dehydrogenase-ldh-fluid",
+      "url": "/tests/lactate-dehydrogenase-ldh-fluid.html"
+    },
+    {
+      "code": "EXC-262",
+      "name": "LACTATE, SERUM/PLASMA",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 2300,
+      "price": 2300,
+      "aliases": [
+        "lactate, serum/plasma"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "LACTATE, SERUM/PLASMA (Oxidase method).",
+      "slug": "lactate-serum-plasma",
+      "url": "/tests/lactate-serum-plasma.html"
+    },
+    {
+      "code": "EXC-263",
+      "name": "Legionella pneumophila antigen - Urine",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2600,
+      "price": 2600,
+      "aliases": [
+        "legionella pneumophila antigen - urine"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Legionella pneumophila antigen - Urine (Immunochromatography).",
+      "slug": "legionella-pneumophila-antigen-urine",
+      "url": "/tests/legionella-pneumophila-antigen-urine.html"
+    },
+    {
+      "code": "EXC-264",
+      "name": "Leishmania (K-39) IgG",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 600,
+      "price": 600,
+      "aliases": [
+        "leishmania (k-39) igg",
+        "leishmania  igg",
+        "k-39"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Leishmania (K-39) IgG (Immunochromatography).",
+      "slug": "leishmania-k-39-igg",
+      "url": "/tests/leishmania-k-39-igg.html"
+    },
+    {
+      "code": "EXC-265",
+      "name": "Leishmania (K-39) IgG/IgM Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "leishmania  igg/igm ab",
+        "leishmania (k-39) igg/igm ab",
+        "k-39"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Leishmania (K-39) IgG/IgM Ab (Immunochromatography).",
+      "slug": "leishmania-k-39-igg-igm-ab",
+      "url": "/tests/leishmania-k-39-igg-igm-ab.html"
+    },
+    {
+      "code": "EXC-266",
+      "name": "Leishmania (K-39) IgM",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 600,
+      "price": 600,
+      "aliases": [
+        "leishmania  igm",
+        "leishmania (k-39) igm",
+        "k-39"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Leishmania (K-39) IgM (Immunochromatography).",
+      "slug": "leishmania-k-39-igm",
+      "url": "/tests/leishmania-k-39-igm.html"
+    },
+    {
+      "code": "EXC-267",
+      "name": "Leishmania (K-39) Total Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "leishmania (k-39) total ab",
+        "leishmania  total ab",
+        "k-39"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Leishmania (K-39) Total Ab (Immunochromatography).",
+      "slug": "leishmania-k-39-total-ab",
+      "url": "/tests/leishmania-k-39-total-ab.html"
+    },
+    {
+      "code": "EXC-268",
+      "name": "Leptospira IgG Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 600,
+      "price": 600,
+      "aliases": [
+        "leptospira igg ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Leptospira IgG Ab (Immunochromatography).",
+      "slug": "leptospira-igg-ab",
+      "url": "/tests/leptospira-igg-ab.html"
+    },
+    {
+      "code": "EXC-269",
+      "name": "Leptospira IgM Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 600,
+      "price": 600,
+      "aliases": [
+        "leptospira igm ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Leptospira IgM Ab (Immunochromatography).",
+      "slug": "leptospira-igm-ab",
+      "url": "/tests/leptospira-igm-ab.html"
+    },
+    {
+      "code": "EXC-270",
+      "name": "Leptospira Total Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "leptospira total ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Leptospira Total Ab (Immunochromatography).",
+      "slug": "leptospira-total-ab",
+      "url": "/tests/leptospira-total-ab.html"
+    },
+    {
+      "code": "EXC-271",
+      "name": "Leucocyte Count (Total)",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "leucocyte count (total)",
+        "leucocyte count",
+        "total"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Leucocyte Count (Total) (Cell Counter).",
+      "slug": "leucocyte-count-total",
+      "url": "/tests/leucocyte-count-total.html"
+    },
+    {
+      "code": "EXC-272",
+      "name": "Leucocyte Count (Total) - Fluid",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "leucocyte count  - fluid",
+        "total",
+        "leucocyte count (total) - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Leucocyte Count (Total) - Fluid (Cell Counter/Microscopic).",
+      "slug": "leucocyte-count-total-fluid",
+      "url": "/tests/leucocyte-count-total-fluid.html"
+    },
+    {
+      "code": "EXC-273",
+      "name": "Leutinizing Hormone (LH)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1200,
+      "price": 1200,
+      "aliases": [
+        "leutinizing hormone",
+        "lh",
+        "leutinizing hormone (lh)"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Leutinizing Hormone (LH) (CLIA).",
+      "slug": "leutinizing-hormone-lh",
+      "url": "/tests/leutinizing-hormone-lh.html"
+    },
+    {
+      "code": "EXC-274",
+      "name": "Lipase - Fluid",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 700,
+      "price": 700,
+      "aliases": [
+        "lipase - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Lipase - Fluid (Colorimetric).",
+      "slug": "lipase-fluid",
+      "url": "/tests/lipase-fluid.html"
+    },
+    {
+      "code": "EXC-275",
+      "name": "Lipoprotein (a), Lp(a)",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 2100,
+      "price": 2100,
+      "aliases": [
+        "a",
+        "lipoprotein (a), lp(a)",
+        "lipoprotein , lp"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Lipoprotein (a), Lp(a) (Immunoturbidimetric).",
+      "slug": "lipoprotein-a-lp-a",
+      "url": "/tests/lipoprotein-a-lp-a.html"
+    },
+    {
+      "code": "EXC-276",
+      "name": "Lipoprotein-associated phospholipase A2 (LP-PLA-2)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3600,
+      "price": 3600,
+      "aliases": [
+        "lipoprotein-associated phospholipase a2",
+        "lipoprotein-associated phospholipase a2 (lp-pla-2)",
+        "lp-pla-2"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Lipoprotein-associated phospholipase A2 (LP-PLA-2) (CLIA).",
+      "slug": "lipoprotein-associated-phospholipase-a2-lp-pla-2",
+      "url": "/tests/lipoprotein-associated-phospholipase-a2-lp-pla-2.html"
+    },
+    {
+      "code": "EXC-277",
+      "name": "Lithium",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "lithium"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Lithium (Spectrophotometry).",
+      "slug": "lithium",
+      "url": "/tests/lithium.html"
+    },
+    {
+      "code": "EXC-278",
+      "name": "LKM-1 Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3200,
+      "price": 3200,
+      "aliases": [
+        "lkm-1 ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "LKM-1 Ab (EIA).",
+      "slug": "lkm-1-ab",
+      "url": "/tests/lkm-1-ab.html"
+    },
+    {
+      "code": "EXC-279",
+      "name": "Lyme Disease (Borrelia burgdorferi) Antibodies, IgG & IgM",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 5550,
+      "price": 5550,
+      "aliases": [
+        "borrelia burgdorferi",
+        "lyme disease  antibodies, igg & igm",
+        "lyme disease (borrelia burgdorferi) antibodies, igg & igm"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Lyme Disease (Borrelia burgdorferi) Antibodies, IgG & IgM (Immunochromatography).",
+      "slug": "lyme-disease-borrelia-burgdorferi-antibodies-igg-and-igm",
+      "url": "/tests/lyme-disease-borrelia-burgdorferi-antibodies-igg-and-igm.html"
+    },
+    {
+      "code": "EXC-280",
+      "name": "Magnesium",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "magnesium"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Magnesium (Methymol Blue).",
+      "slug": "magnesium",
+      "url": "/tests/magnesium.html"
+    },
+    {
+      "code": "EXC-281",
+      "name": "Magnesium - 24 hr. Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "magnesium - 24 hr. urine"
+      ],
+      "sample": "24 Hrs Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Magnesium - 24 hr. Urine (Methymol Blue).",
+      "slug": "magnesium-24-hr-urine",
+      "url": "/tests/magnesium-24-hr-urine.html"
+    },
+    {
+      "code": "EXC-282",
+      "name": "Magnesium - Spot Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "magnesium - spot urine"
+      ],
+      "sample": "Spot Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Magnesium - Spot Urine (Methymol Blue).",
+      "slug": "magnesium-spot-urine",
+      "url": "/tests/magnesium-spot-urine.html"
+    },
+    {
+      "code": "EXC-283",
+      "name": "Malarial Antigen",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 700,
+      "price": 700,
+      "aliases": [
+        "malarial antigen"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Malarial Antigen (Immunochromatography).",
+      "slug": "malarial-antigen",
+      "url": "/tests/malarial-antigen.html"
+    },
+    {
+      "code": "EXC-284",
+      "name": "Malarial Parasite  (Direct)",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "malarial parasite",
+        "direct",
+        "malarial parasite  (direct)"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Malarial Parasite  (Direct) (Microscopy).",
+      "slug": "malarial-parasite-direct",
+      "url": "/tests/malarial-parasite-direct.html"
+    },
+    {
+      "code": "EXC-285",
+      "name": "Malarial Parasite (Thick smear)",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "malarial parasite",
+        "thick smear",
+        "malarial parasite (thick smear)"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Malarial Parasite (Thick smear) (Microscopy).",
+      "slug": "malarial-parasite-thick-smear",
+      "url": "/tests/malarial-parasite-thick-smear.html"
+    },
+    {
+      "code": "EXC-286",
+      "name": "Malarial Parasite (Thin smear)",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "thin smear",
+        "malarial parasite (thin smear)",
+        "malarial parasite"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Malarial Parasite (Thin smear) (Microscopy).",
+      "slug": "malarial-parasite-thin-smear",
+      "url": "/tests/malarial-parasite-thin-smear.html"
+    },
+    {
+      "code": "EXC-287",
+      "name": "Mean Corpuscular Haemoglobin (MCH)",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "mch",
+        "mean corpuscular haemoglobin (mch)",
+        "mean corpuscular haemoglobin"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Mean Corpuscular Haemoglobin (MCH) (Cell Counter).",
+      "slug": "mean-corpuscular-haemoglobin-mch",
+      "url": "/tests/mean-corpuscular-haemoglobin-mch.html"
+    },
+    {
+      "code": "EXC-288",
+      "name": "Mean Corpuscular Haemoglobin Concentration (MCHC)",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "mchc",
+        "mean corpuscular haemoglobin concentration (mchc)",
+        "mean corpuscular haemoglobin concentration"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Mean Corpuscular Haemoglobin Concentration (MCHC) (Cell Counter).",
+      "slug": "mean-corpuscular-haemoglobin-concentration-mchc",
+      "url": "/tests/mean-corpuscular-haemoglobin-concentration-mchc.html"
+    },
+    {
+      "code": "EXC-289",
+      "name": "Mean Corpuscular Volume (MCV)",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "mean corpuscular volume",
+        "mean corpuscular volume (mcv)",
+        "mcv"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Mean Corpuscular Volume (MCV) (Cell Counter).",
+      "slug": "mean-corpuscular-volume-mcv",
+      "url": "/tests/mean-corpuscular-volume-mcv.html"
+    },
+    {
+      "code": "EXC-290",
+      "name": "Mean Platelets Volume (MPV)",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "mean platelets volume (mpv)",
+        "mpv",
+        "mean platelets volume"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Mean Platelets Volume (MPV) (Cell Counter).",
+      "slug": "mean-platelets-volume-mpv",
+      "url": "/tests/mean-platelets-volume-mpv.html"
+    },
+    {
+      "code": "EXC-291",
+      "name": "Measles IgG Antibody",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3650,
+      "price": 3650,
+      "aliases": [
+        "measles igg antibody"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Measles IgG Antibody (EIA).",
+      "slug": "measles-igg-antibody",
+      "url": "/tests/measles-igg-antibody.html"
+    },
+    {
+      "code": "EXC-292",
+      "name": "MONO Test (Infectious Mononucleosis)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2150,
+      "price": 2150,
+      "aliases": [
+        "mono test",
+        "infectious mononucleosis",
+        "mono test (infectious mononucleosis)"
+      ],
+      "sample": "Serum (1 ml",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "MONO Test (Infectious Mononucleosis) (Immunochromatography).",
+      "slug": "mono-test-infectious-mononucleosis",
+      "url": "/tests/mono-test-infectious-mononucleosis.html"
+    },
+    {
+      "code": "EXC-293",
+      "name": "Morphine (Opiate), Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 700,
+      "price": 700,
+      "aliases": [
+        "morphine (opiate), urine",
+        "morphine , urine",
+        "opiate"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Morphine (Opiate), Urine (Immunochromatography).",
+      "slug": "morphine-opiate-urine",
+      "url": "/tests/morphine-opiate-urine.html"
+    },
+    {
+      "code": "EXC-294",
+      "name": "Mumps IgG Antibody",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3660,
+      "price": 3660,
+      "aliases": [
+        "mumps igg antibody"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Mumps IgG Antibody (EIA).",
+      "slug": "mumps-igg-antibody",
+      "url": "/tests/mumps-igg-antibody.html"
+    },
+    {
+      "code": "EXC-295",
+      "name": "Mumps IgM Antibody",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3230,
+      "price": 3230,
+      "aliases": [
+        "mumps igm antibody"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Mumps IgM Antibody (EIA).",
+      "slug": "mumps-igm-antibody",
+      "url": "/tests/mumps-igm-antibody.html"
+    },
+    {
+      "code": "EXC-296",
+      "name": "Mycodot /Tuberculosis Spot",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "mycodot /tuberculosis spot"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Mycodot /Tuberculosis Spot (Immunochromatography).",
+      "slug": "mycodot-tuberculosis-spot",
+      "url": "/tests/mycodot-tuberculosis-spot.html"
+    },
+    {
+      "code": "EXC-297",
+      "name": "Nitrite, Urine",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "nitrite, urine"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Nitrite, Urine (Chemical).",
+      "slug": "nitrite-urine",
+      "url": "/tests/nitrite-urine.html"
+    },
+    {
+      "code": "EXC-298",
+      "name": "Non HDL Cholesterol",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 450,
+      "price": 450,
+      "aliases": [
+        "non hdl cholesterol"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Non HDL Cholesterol (Calculated).",
+      "slug": "non-hdl-cholesterol",
+      "url": "/tests/non-hdl-cholesterol.html"
+    },
+    {
+      "code": "EXC-299",
+      "name": "Occult Blood - Stool",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "occult blood - stool"
+      ],
+      "sample": "Stool",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Occult Blood - Stool (Standard Guaiac Method).",
+      "slug": "occult-blood-stool",
+      "url": "/tests/occult-blood-stool.html"
+    },
+    {
+      "code": "EXC-300",
+      "name": "Occult Blood - Urine",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "occult blood - urine"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Occult Blood - Urine (Standard Guaiac Method).",
+      "slug": "occult-blood-urine",
+      "url": "/tests/occult-blood-urine.html"
+    },
+    {
+      "code": "EXC-301",
+      "name": "Osmolarity - 24 hr. Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1200,
+      "price": 1200,
+      "aliases": [
+        "osmolarity - 24 hr. urine"
+      ],
+      "sample": "24 Hrs Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Osmolarity - 24 hr. Urine (Calculated).",
+      "slug": "osmolarity-24-hr-urine",
+      "url": "/tests/osmolarity-24-hr-urine.html"
+    },
+    {
+      "code": "EXC-302",
+      "name": "Osmolarity - Serum",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1200,
+      "price": 1200,
+      "aliases": [
+        "osmolarity - serum"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Osmolarity - Serum (Calculated).",
+      "slug": "osmolarity-serum",
+      "url": "/tests/osmolarity-serum.html"
+    },
+    {
+      "code": "EXC-303",
+      "name": "Osmolarity - Spot Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1200,
+      "price": 1200,
+      "aliases": [
+        "osmolarity - spot urine"
+      ],
+      "sample": "Spot Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Osmolarity - Spot Urine (Calculated).",
+      "slug": "osmolarity-spot-urine",
+      "url": "/tests/osmolarity-spot-urine.html"
+    },
+    {
+      "code": "EXC-304",
+      "name": "Packed Cell Volume (PCV)",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "packed cell volume",
+        "packed cell volume (pcv)",
+        "pcv"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Packed Cell Volume (PCV) (Cell Counter).",
+      "slug": "packed-cell-volume-pcv",
+      "url": "/tests/packed-cell-volume-pcv.html"
+    },
+    {
+      "code": "EXC-305",
+      "name": "P-ANCA / Anti MPO",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2600,
+      "price": 2600,
+      "aliases": [
+        "p-anca / anti mpo"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "P-ANCA / Anti MPO (EIA).",
+      "slug": "p-anca-anti-mpo",
+      "url": "/tests/p-anca-anti-mpo.html"
+    },
+    {
+      "code": "EXC-306",
+      "name": "Parathyroid Hormone (PTH)-Intact",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2300,
+      "price": 2300,
+      "aliases": [
+        "pth",
+        "parathyroid hormone (pth)-intact",
+        "parathyroid hormone -intact"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Parathyroid Hormone (PTH)-Intact (CLIA).",
+      "slug": "parathyroid-hormone-pth-intact",
+      "url": "/tests/parathyroid-hormone-pth-intact.html"
+    },
+    {
+      "code": "EXC-307",
+      "name": "Phenytoin",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 2100,
+      "price": 2100,
+      "aliases": [
+        "phenytoin"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Phenytoin (PETINIA).",
+      "slug": "phenytoin",
+      "url": "/tests/phenytoin.html"
+    },
+    {
+      "code": "EXC-308",
+      "name": "Phosphorus - 24 hr. Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "phosphorus - 24 hr. urine"
+      ],
+      "sample": "24 Hrs Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Phosphorus - 24 hr. Urine (Phosphomolybdate UV).",
+      "slug": "phosphorus-24-hr-urine",
+      "url": "/tests/phosphorus-24-hr-urine.html"
+    },
+    {
+      "code": "EXC-309",
+      "name": "Phosphorus - Spot Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "phosphorus - spot urine"
+      ],
+      "sample": "Spot Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Phosphorus - Spot Urine (Phosphomolybdate UV).",
+      "slug": "phosphorus-spot-urine",
+      "url": "/tests/phosphorus-spot-urine.html"
+    },
+    {
+      "code": "EXC-310",
+      "name": "PIVKA-II / Des-Gamma Carboxy Prothrombin (DCP)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 4600,
+      "price": 4600,
+      "aliases": [
+        "pivka-ii / des-gamma carboxy prothrombin (dcp)",
+        "dcp",
+        "pivka-ii / des-gamma carboxy prothrombin"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "PIVKA-II / Des-Gamma Carboxy Prothrombin (DCP) (CLIA).",
+      "slug": "pivka-ii-des-gamma-carboxy-prothrombin-dcp",
+      "url": "/tests/pivka-ii-des-gamma-carboxy-prothrombin-dcp.html"
+    },
+    {
+      "code": "EXC-311",
+      "name": "Plate Exposure Culture",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "plate exposure culture"
+      ],
+      "sample": "Media/ Plate",
+      "preparation": "",
+      "reporting": "2 Days",
+      "description": "Plate Exposure Culture (Conventional).",
+      "slug": "plate-exposure-culture",
+      "url": "/tests/plate-exposure-culture.html"
+    },
+    {
+      "code": "EXC-312",
+      "name": "Platelet Distribution Width (PDW)",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "platelet distribution width (pdw)",
+        "pdw",
+        "platelet distribution width"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Platelet Distribution Width (PDW) (Cell Counter).",
+      "slug": "platelet-distribution-width-pdw",
+      "url": "/tests/platelet-distribution-width-pdw.html"
+    },
+    {
+      "code": "EXC-313",
+      "name": "Porphobilinogen, Urine",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "porphobilinogen, urine"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Porphobilinogen, Urine (Chemical).",
+      "slug": "porphobilinogen-urine",
+      "url": "/tests/porphobilinogen-urine.html"
+    },
+    {
+      "code": "EXC-314",
+      "name": "Potassium - 24 hr. Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "potassium - 24 hr. urine"
+      ],
+      "sample": "24 Hrs Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Potassium - 24 hr. Urine (ISE indirect).",
+      "slug": "potassium-24-hr-urine",
+      "url": "/tests/potassium-24-hr-urine.html"
+    },
+    {
+      "code": "EXC-315",
+      "name": "Potassium - Fluid",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "potassium - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Potassium - Fluid (ISE indirect).",
+      "slug": "potassium-fluid",
+      "url": "/tests/potassium-fluid.html"
+    },
+    {
+      "code": "EXC-316",
+      "name": "Potassium (K)",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "potassium (k)",
+        "potassium",
+        "k"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Potassium (K) (ISE indirect).",
+      "slug": "potassium-k",
+      "url": "/tests/potassium-k.html"
+    },
+    {
+      "code": "EXC-317",
+      "name": "Potassium, - Spot Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "potassium, - spot urine"
+      ],
+      "sample": "Spot Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Potassium, - Spot Urine (ISE indirect).",
+      "slug": "potassium-spot-urine",
+      "url": "/tests/potassium-spot-urine.html"
+    },
+    {
+      "code": "EXC-318",
+      "name": "Pregnancy Associated Plasma Protein-A (PAPP-A)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2800,
+      "price": 2800,
+      "aliases": [
+        "pregnancy associated plasma protein-a",
+        "papp-a",
+        "pregnancy associated plasma protein-a (papp-a)"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Pregnancy Associated Plasma Protein-A (PAPP-A) (CLIA).",
+      "slug": "pregnancy-associated-plasma-protein-a-papp-a",
+      "url": "/tests/pregnancy-associated-plasma-protein-a-papp-a.html"
+    },
+    {
+      "code": "EXC-319",
+      "name": "Pregnancy Test - Urine",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "pregnancy test - urine"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Pregnancy Test - Urine (Immunochromatography).",
+      "slug": "pregnancy-test-urine",
+      "url": "/tests/pregnancy-test-urine.html"
+    },
+    {
+      "code": "EXC-320",
+      "name": "Pregnancy Titre - Urine",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 600,
+      "price": 600,
+      "aliases": [
+        "pregnancy titre - urine"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Pregnancy Titre - Urine (Immunochromatography).",
+      "slug": "pregnancy-titre-urine",
+      "url": "/tests/pregnancy-titre-urine.html"
+    },
+    {
+      "code": "EXC-321",
+      "name": "Procalcitonin",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 4300,
+      "price": 4300,
+      "aliases": [
+        "procalcitonin"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Procalcitonin (FIA).",
+      "slug": "procalcitonin",
+      "url": "/tests/procalcitonin.html"
+    },
+    {
+      "code": "EXC-322",
+      "name": "Proinsulin",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3100,
+      "price": 3100,
+      "aliases": [
+        "proinsulin"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Proinsulin (CLIA).",
+      "slug": "proinsulin",
+      "url": "/tests/proinsulin.html"
+    },
+    {
+      "code": "EXC-323",
+      "name": "Prostate Specific Antigen (PSA) - Free",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "psa",
+        "prostate specific antigen  - free",
+        "prostate specific antigen (psa) - free"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Prostate Specific Antigen (PSA) - Free (CLIA).",
+      "slug": "prostate-specific-antigen-psa-free",
+      "url": "/tests/prostate-specific-antigen-psa-free.html"
+    },
+    {
+      "code": "EXC-324",
+      "name": "Prostate Specific Antigen (PSA) - Total",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1300,
+      "price": 1300,
+      "aliases": [
+        "prostate specific antigen (psa) - total",
+        "prostate specific antigen  - total",
+        "psa"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Prostate Specific Antigen (PSA) - Total (CLIA).",
+      "slug": "prostate-specific-antigen-psa-total",
+      "url": "/tests/prostate-specific-antigen-psa-total.html"
+    },
+    {
+      "code": "EXC-325",
+      "name": "Prostatic acid phosphatase",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1900,
+      "price": 1900,
+      "aliases": [
+        "prostatic acid phosphatase"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Prostatic acid phosphatase (Spectrophotometry).",
+      "slug": "prostatic-acid-phosphatase",
+      "url": "/tests/prostatic-acid-phosphatase.html"
+    },
+    {
+      "code": "EXC-326",
+      "name": "Protein - 24 hr. Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "protein - 24 hr. urine"
+      ],
+      "sample": "24 Hrs Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Protein - 24 hr. Urine (Pyrogallol red molybdate protein complex).",
+      "slug": "protein-24-hr-urine",
+      "url": "/tests/protein-24-hr-urine.html"
+    },
+    {
+      "code": "EXC-327",
+      "name": "Protein - Fluid",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 180,
+      "price": 180,
+      "aliases": [
+        "protein - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Protein - Fluid (Biuret end point).",
+      "slug": "protein-fluid",
+      "url": "/tests/protein-fluid.html"
+    },
+    {
+      "code": "EXC-328",
+      "name": "Protein - Spot Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 180,
+      "price": 180,
+      "aliases": [
+        "protein - spot urine"
+      ],
+      "sample": "Spot Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Protein - Spot Urine (Pyrogallol red molybdate protein complex).",
+      "slug": "protein-spot-urine",
+      "url": "/tests/protein-spot-urine.html"
+    },
+    {
+      "code": "EXC-329",
+      "name": "Protein Electrophoresis, Serum",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1900,
+      "price": 1900,
+      "aliases": [
+        "protein electrophoresis, serum"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "5-7 Days",
+      "description": "Protein Electrophoresis, Serum (Agarose Gel Electrophoresis).",
+      "slug": "protein-electrophoresis-serum",
+      "url": "/tests/protein-electrophoresis-serum.html"
+    },
+    {
+      "code": "EXC-330",
+      "name": "Protein -Total",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "protein -total"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Protein -Total (Biuret end point).",
+      "slug": "protein-total",
+      "url": "/tests/protein-total.html"
+    },
+    {
+      "code": "EXC-331",
+      "name": "Protein/Creatinine Ratio",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 450,
+      "price": 450,
+      "aliases": [
+        "protein/creatinine ratio"
+      ],
+      "sample": "Spot Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Protein/Creatinine Ratio (Calculated).",
+      "slug": "protein-creatinine-ratio",
+      "url": "/tests/protein-creatinine-ratio.html"
+    },
+    {
+      "code": "EXC-332",
+      "name": "Prothrombin Time(PT)",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "prothrombin time",
+        "prothrombin time(pt)",
+        "pt"
+      ],
+      "sample": "Citrated Plasma (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Prothrombin Time(PT) (Coagulometry).",
+      "slug": "prothrombin-time-pt",
+      "url": "/tests/prothrombin-time-pt.html"
+    },
+    {
+      "code": "EXC-333",
+      "name": "Pus Culture & Sensitivity",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "pus culture & sensitivity"
+      ],
+      "sample": "Pus",
+      "preparation": "",
+      "reporting": "2 Days",
+      "description": "Pus Culture & Sensitivity (Conventional).",
+      "slug": "pus-culture-and-sensitivity",
+      "url": "/tests/pus-culture-and-sensitivity.html"
+    },
+    {
+      "code": "EXC-334",
+      "name": "Reaction (pH)",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 150,
+      "price": 150,
+      "aliases": [
+        "ph",
+        "reaction (ph)",
+        "reaction"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Reaction (pH) (Chemical).",
+      "slug": "reaction-ph",
+      "url": "/tests/reaction-ph.html"
+    },
+    {
+      "code": "EXC-335",
+      "name": "Red Blood Cell (RBC) Morphology",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "red blood cell (rbc) morphology",
+        "rbc",
+        "red blood cell  morphology"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Red Blood Cell (RBC) Morphology (Microscopy.).",
+      "slug": "red-blood-cell-rbc-morphology",
+      "url": "/tests/red-blood-cell-rbc-morphology.html"
+    },
+    {
+      "code": "EXC-336",
+      "name": "Red Blood Cell (RBC) Morphology - Urine",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "red blood cell  morphology - urine",
+        "rbc",
+        "red blood cell (rbc) morphology - urine"
+      ],
+      "sample": "Spot Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Red Blood Cell (RBC) Morphology - Urine (Microscopy.).",
+      "slug": "red-blood-cell-rbc-morphology-urine",
+      "url": "/tests/red-blood-cell-rbc-morphology-urine.html"
+    },
+    {
+      "code": "EXC-337",
+      "name": "Red Blood Cell Count (RBC)",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 170,
+      "price": 170,
+      "aliases": [
+        "red blood cell count (rbc)",
+        "red blood cell count",
+        "rbc"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Red Blood Cell Count (RBC) (Cell Counter).",
+      "slug": "red-blood-cell-count-rbc",
+      "url": "/tests/red-blood-cell-count-rbc.html"
+    },
+    {
+      "code": "EXC-338",
+      "name": "Red Blood Cell Count (RBC) - Fluid",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 170,
+      "price": 170,
+      "aliases": [
+        "red blood cell count (rbc) - fluid",
+        "rbc",
+        "red blood cell count  - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Red Blood Cell Count (RBC) - Fluid (Cell Counter).",
+      "slug": "red-blood-cell-count-rbc-fluid",
+      "url": "/tests/red-blood-cell-count-rbc-fluid.html"
+    },
+    {
+      "code": "EXC-339",
+      "name": "Red Cell Distribution Width (RDW)",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "red cell distribution width",
+        "rdw",
+        "red cell distribution width (rdw)"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Red Cell Distribution Width (RDW) (Cell Counter).",
+      "slug": "red-cell-distribution-width-rdw",
+      "url": "/tests/red-cell-distribution-width-rdw.html"
+    },
+    {
+      "code": "EXC-340",
+      "name": "Reducing Substance - Stool",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "reducing substance - stool"
+      ],
+      "sample": "Stool",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Reducing Substance - Stool (Chemical).",
+      "slug": "reducing-substance-stool",
+      "url": "/tests/reducing-substance-stool.html"
+    },
+    {
+      "code": "EXC-341",
+      "name": "Reducing Substance - Urine",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "reducing substance - urine"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Reducing Substance - Urine (Chemical).",
+      "slug": "reducing-substance-urine",
+      "url": "/tests/reducing-substance-urine.html"
+    },
+    {
+      "code": "EXC-342",
+      "name": "Rheumatoid Arthritis (RA) Factor Test",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 260,
+      "price": 260,
+      "aliases": [
+        "rheumatoid arthritis  factor test",
+        "rheumatoid arthritis (ra) factor test",
+        "ra"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Rheumatoid Arthritis (RA) Factor Test (Particle Agglutination).",
+      "slug": "rheumatoid-arthritis-ra-factor-test",
+      "url": "/tests/rheumatoid-arthritis-ra-factor-test.html"
+    },
+    {
+      "code": "EXC-343",
+      "name": "Rheumatoid Arthritis (RA) Factor Titre",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 700,
+      "price": 700,
+      "aliases": [
+        "rheumatoid arthritis  factor titre",
+        "ra",
+        "rheumatoid arthritis (ra) factor titre"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Rheumatoid Arthritis (RA) Factor Titre (Particle Agglutination).",
+      "slug": "rheumatoid-arthritis-ra-factor-titre",
+      "url": "/tests/rheumatoid-arthritis-ra-factor-titre.html"
+    },
+    {
+      "code": "EXC-344",
+      "name": "Rheumatoid Arthritis (RA) Factor, Quantitative",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 700,
+      "price": 700,
+      "aliases": [
+        "rheumatoid arthritis  factor, quantitative",
+        "rheumatoid arthritis (ra) factor, quantitative",
+        "ra"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Rheumatoid Arthritis (RA) Factor, Quantitative (Immunoturbidimetric).",
+      "slug": "rheumatoid-arthritis-ra-factor-quantitative",
+      "url": "/tests/rheumatoid-arthritis-ra-factor-quantitative.html"
+    },
+    {
+      "code": "EXC-345",
+      "name": "RPR (VDRL) Test",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "rpr (vdrl) test",
+        "rpr  test",
+        "vdrl"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "RPR (VDRL) Test (Carbon Particle Agglutination).",
+      "slug": "rpr-vdrl-test",
+      "url": "/tests/rpr-vdrl-test.html"
+    },
+    {
+      "code": "EXC-346",
+      "name": "RPR (VDRL) Titre",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 800,
+      "price": 800,
+      "aliases": [
+        "vdrl",
+        "rpr (vdrl) titre",
+        "rpr  titre"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "RPR (VDRL) Titre (Carbon Particle Agglutination).",
+      "slug": "rpr-vdrl-titre",
+      "url": "/tests/rpr-vdrl-titre.html"
+    },
+    {
+      "code": "EXC-347",
+      "name": "Rubella Virus IgG Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 800,
+      "price": 800,
+      "aliases": [
+        "rubella virus igg ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Rubella Virus IgG Ab (CLIA).",
+      "slug": "rubella-virus-igg-ab",
+      "url": "/tests/rubella-virus-igg-ab.html"
+    },
+    {
+      "code": "EXC-348",
+      "name": "Rubella Virus IgM Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 800,
+      "price": 800,
+      "aliases": [
+        "rubella virus igm ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Rubella Virus IgM Ab (CLIA).",
+      "slug": "rubella-virus-igm-ab",
+      "url": "/tests/rubella-virus-igm-ab.html"
+    },
+    {
+      "code": "EXC-349",
+      "name": "Salmonella Agglutination Test (Widal)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "widal",
+        "salmonella agglutination test",
+        "salmonella agglutination test (widal)"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Salmonella Agglutination Test (Widal) (Particle Agglutination).",
+      "slug": "salmonella-agglutination-test-widal",
+      "url": "/tests/salmonella-agglutination-test-widal.html"
+    },
+    {
+      "code": "EXC-350",
+      "name": "Scrub Typhus",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "scrub typhus"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Scrub Typhus (Immuno chromatography).",
+      "slug": "scrub-typhus",
+      "url": "/tests/scrub-typhus.html"
+    },
+    {
+      "code": "EXC-351",
+      "name": "Semen Culture & Sensitivity",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "semen culture & sensitivity"
+      ],
+      "sample": "Semen",
+      "preparation": "",
+      "reporting": "2 Days",
+      "description": "Semen Culture & Sensitivity (Conventional).",
+      "slug": "semen-culture-and-sensitivity",
+      "url": "/tests/semen-culture-and-sensitivity.html"
+    },
+    {
+      "code": "EXC-352",
+      "name": "Sickling Test",
+      "nepaliName": "",
+      "category": "Hematology",
+      "categoryLabel": "Hematology",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "sickling test"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Sickling Test (Microscopy.).",
+      "slug": "sickling-test",
+      "url": "/tests/sickling-test.html"
+    },
+    {
+      "code": "EXC-353",
+      "name": "Slide Review (More Than Two Slides)",
+      "nepaliName": "",
+      "category": "Cytology & Histopathology",
+      "categoryLabel": "Cytology & Histopathology",
+      "rate": 1300,
+      "price": 1300,
+      "aliases": [
+        "slide review (more than two slides)",
+        "slide review",
+        "more than two slides"
+      ],
+      "sample": "Slide for Review",
+      "preparation": "",
+      "reporting": "5-7 Days",
+      "description": "Slide Review (More Than Two Slides) (Microscopy).",
+      "slug": "slide-review-more-than-two-slides",
+      "url": "/tests/slide-review-more-than-two-slides.html"
+    },
+    {
+      "code": "EXC-354",
+      "name": "Slide Review (Up to 2 Slides)",
+      "nepaliName": "",
+      "category": "Cytology & Histopathology",
+      "categoryLabel": "Cytology & Histopathology",
+      "rate": 900,
+      "price": 900,
+      "aliases": [
+        "slide review (up to 2 slides)",
+        "slide review",
+        "up to 2 slides"
+      ],
+      "sample": "Slide for Review",
+      "preparation": "",
+      "reporting": "5-7 Days",
+      "description": "Slide Review (Up to 2 Slides) (Microscopy.).",
+      "slug": "slide-review-up-to-2-slides",
+      "url": "/tests/slide-review-up-to-2-slides.html"
+    },
+    {
+      "code": "EXC-355",
+      "name": "Sm (SMITH) Antibody",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1800,
+      "price": 1800,
+      "aliases": [
+        "smith",
+        "sm (smith) antibody",
+        "sm  antibody"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Sm (SMITH) Antibody (EIA).",
+      "slug": "sm-smith-antibody",
+      "url": "/tests/sm-smith-antibody.html"
+    },
+    {
+      "code": "EXC-356",
+      "name": "Sodium - 24 hr. Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "sodium - 24 hr. urine"
+      ],
+      "sample": "24 Hrs Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Sodium - 24 hr. Urine (ISE indirect).",
+      "slug": "sodium-24-hr-urine",
+      "url": "/tests/sodium-24-hr-urine.html"
+    },
+    {
+      "code": "EXC-357",
+      "name": "Sodium - Fluid",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "sodium - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Sodium - Fluid (ISE indirect).",
+      "slug": "sodium-fluid",
+      "url": "/tests/sodium-fluid.html"
+    },
+    {
+      "code": "EXC-358",
+      "name": "Sodium - Spot Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "sodium - spot urine"
+      ],
+      "sample": "Spot Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Sodium - Spot Urine (ISE indirect).",
+      "slug": "sodium-spot-urine",
+      "url": "/tests/sodium-spot-urine.html"
+    },
+    {
+      "code": "EXC-359",
+      "name": "Sodium (Na)",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 250,
+      "price": 250,
+      "aliases": [
+        "sodium (na)",
+        "sodium",
+        "na"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Sodium (Na) (ISE indirect).",
+      "slug": "sodium-na",
+      "url": "/tests/sodium-na.html"
+    },
+    {
+      "code": "EXC-360",
+      "name": "Specific Gravity - Fluid",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "specific gravity - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Specific Gravity - Fluid (Immunochromatography).",
+      "slug": "specific-gravity-fluid",
+      "url": "/tests/specific-gravity-fluid.html"
+    },
+    {
+      "code": "EXC-361",
+      "name": "Specific Gravity - Urine",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 100,
+      "price": 100,
+      "aliases": [
+        "specific gravity - urine"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Specific Gravity - Urine (Immunochromatography).",
+      "slug": "specific-gravity-urine",
+      "url": "/tests/specific-gravity-urine.html"
+    },
+    {
+      "code": "EXC-362",
+      "name": "Sputum for Eosinophils",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "sputum for eosinophils"
+      ],
+      "sample": "Sputum (Adequate).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Sputum for Eosinophils (Microscopy.).",
+      "slug": "sputum-for-eosinophils",
+      "url": "/tests/sputum-for-eosinophils.html"
+    },
+    {
+      "code": "EXC-363",
+      "name": "SS-A/RO Antibody",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2600,
+      "price": 2600,
+      "aliases": [
+        "ss-a/ro antibody"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "SS-A/RO Antibody (EIA).",
+      "slug": "ss-a-ro-antibody",
+      "url": "/tests/ss-a-ro-antibody.html"
+    },
+    {
+      "code": "EXC-364",
+      "name": "SS-B/LA Antibody",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2600,
+      "price": 2600,
+      "aliases": [
+        "ss-b/la antibody"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "SS-B/LA Antibody (EIA).",
+      "slug": "ss-b-la-antibody",
+      "url": "/tests/ss-b-la-antibody.html"
+    },
+    {
+      "code": "EXC-365",
+      "name": "Stool For Coccidian Parasites",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "stool for coccidian parasites"
+      ],
+      "sample": "Stool",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Stool For Coccidian Parasites (Mod. ZN Stain).",
+      "slug": "stool-for-coccidian-parasites",
+      "url": "/tests/stool-for-coccidian-parasites.html"
+    },
+    {
+      "code": "EXC-366",
+      "name": "Stool For Cryptosporidium",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "stool for cryptosporidium"
+      ],
+      "sample": "Stool",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Stool For Cryptosporidium (Mod. ZN Stain).",
+      "slug": "stool-for-cryptosporidium",
+      "url": "/tests/stool-for-cryptosporidium.html"
+    },
+    {
+      "code": "EXC-367",
+      "name": "Stool For Cyclospora",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "stool for cyclospora"
+      ],
+      "sample": "Stool",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Stool For Cyclospora (Mod. ZN Stain).",
+      "slug": "stool-for-cyclospora",
+      "url": "/tests/stool-for-cyclospora.html"
+    },
+    {
+      "code": "EXC-368",
+      "name": "Stool for Hanging Drop Preparation",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 150,
+      "price": 150,
+      "aliases": [
+        "stool for hanging drop preparation"
+      ],
+      "sample": "Stool",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Stool for Hanging Drop Preparation (Conventional).",
+      "slug": "stool-for-hanging-drop-preparation",
+      "url": "/tests/stool-for-hanging-drop-preparation.html"
+    },
+    {
+      "code": "EXC-369",
+      "name": "Stool For Isospora",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "stool for isospora"
+      ],
+      "sample": "Stool",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Stool For Isospora (Mod. ZN Stain).",
+      "slug": "stool-for-isospora",
+      "url": "/tests/stool-for-isospora.html"
+    },
+    {
+      "code": "EXC-370",
+      "name": "Swab Culture",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "swab culture"
+      ],
+      "sample": "Swab",
+      "preparation": "",
+      "reporting": "2 Days",
+      "description": "Swab Culture (Conventional).",
+      "slug": "swab-culture",
+      "url": "/tests/swab-culture.html"
+    },
+    {
+      "code": "EXC-371",
+      "name": "Swab Culture & Sensitivity",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "swab culture & sensitivity"
+      ],
+      "sample": "Swab",
+      "preparation": "",
+      "reporting": "3 Days",
+      "description": "Swab Culture & Sensitivity (Conventional).",
+      "slug": "swab-culture-and-sensitivity",
+      "url": "/tests/swab-culture-and-sensitivity.html"
+    },
+    {
+      "code": "EXC-372",
+      "name": "Tacrolimus (FK-506)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3600,
+      "price": 3600,
+      "aliases": [
+        "fk-506",
+        "tacrolimus",
+        "tacrolimus (fk-506)"
+      ],
+      "sample": "WB EDTA (2 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Tacrolimus (FK-506) (CLIA).",
+      "slug": "tacrolimus-fk-506",
+      "url": "/tests/tacrolimus-fk-506.html"
+    },
+    {
+      "code": "EXC-373",
+      "name": "TB  GOLD, INTERFERON  GAMMA RELEASE ASSAY (IGRA)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 4850,
+      "price": 4850,
+      "aliases": [
+        "tb  gold, interferon  gamma release assay (igra)",
+        "igra",
+        "tb  gold, interferon  gamma release assay"
+      ],
+      "sample": "Lithium Heparin (3ml))",
+      "preparation": "",
+      "reporting": "3-4 Days",
+      "description": "TB  GOLD, INTERFERON  GAMMA RELEASE ASSAY (IGRA) (ELISA).",
+      "slug": "tb-gold-interferon-gamma-release-assay-igra",
+      "url": "/tests/tb-gold-interferon-gamma-release-assay-igra.html"
+    },
+    {
+      "code": "EXC-374",
+      "name": "TB PCR",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 3600,
+      "price": 3600,
+      "aliases": [
+        "tb pcr"
+      ],
+      "sample": "Fluid/Urine",
+      "preparation": "",
+      "reporting": "5-7 Days",
+      "description": "TB PCR (Real Time PCR).",
+      "slug": "tb-pcr",
+      "url": "/tests/tb-pcr.html"
+    },
+    {
+      "code": "EXC-375",
+      "name": "Testosterone - Free",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2600,
+      "price": 2600,
+      "aliases": [
+        "testosterone - free"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Testosterone - Free (CLIA).",
+      "slug": "testosterone-free",
+      "url": "/tests/testosterone-free.html"
+    },
+    {
+      "code": "EXC-376",
+      "name": "Testosterone - Total",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1400,
+      "price": 1400,
+      "aliases": [
+        "testosterone - total"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Testosterone - Total (CLIA).",
+      "slug": "testosterone-total-exc-376",
+      "url": "/tests/testosterone-total-exc-376.html"
+    },
+    {
+      "code": "EXC-377",
+      "name": "TETANUS TOXOID ANTIBODY IGG, SERUM",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 4600,
+      "price": 4600,
+      "aliases": [
+        "tetanus toxoid antibody igg, serum"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "TETANUS TOXOID ANTIBODY IGG, SERUM (EIA).",
+      "slug": "tetanus-toxoid-antibody-igg-serum",
+      "url": "/tests/tetanus-toxoid-antibody-igg-serum.html"
+    },
+    {
+      "code": "EXC-378",
+      "name": "Thyroglobulin",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3100,
+      "price": 3100,
+      "aliases": [
+        "thyroglobulin"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Thyroglobulin (CLIA).",
+      "slug": "thyroglobulin",
+      "url": "/tests/thyroglobulin.html"
+    },
+    {
+      "code": "EXC-379",
+      "name": "Thyroid Stimulating Hormone(TSH-Ultra, 3rd gen.)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 500,
+      "price": 500,
+      "aliases": [
+        "tsh-ultra, 3rd gen.",
+        "thyroid stimulating hormone(tsh-ultra, 3rd gen.)",
+        "thyroid stimulating hormone"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Thyroid Stimulating Hormone(TSH-Ultra, 3rd gen.) (CLIA).",
+      "slug": "thyroid-stimulating-hormone-tsh-ultra-3rd-gen",
+      "url": "/tests/thyroid-stimulating-hormone-tsh-ultra-3rd-gen.html"
+    },
+    {
+      "code": "EXC-380",
+      "name": "Thyroxine - Free (FT4)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 450,
+      "price": 450,
+      "aliases": [
+        "thyroxine - free (ft4)",
+        "thyroxine - free",
+        "ft4"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Thyroxine - Free (FT4) (CLIA).",
+      "slug": "thyroxine-free-ft4",
+      "url": "/tests/thyroxine-free-ft4.html"
+    },
+    {
+      "code": "EXC-381",
+      "name": "Thyroxine - Total (TT4)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 450,
+      "price": 450,
+      "aliases": [
+        "thyroxine - total",
+        "tt4",
+        "thyroxine - total (tt4)"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Thyroxine - Total (TT4) (CLIA).",
+      "slug": "thyroxine-total-tt4",
+      "url": "/tests/thyroxine-total-tt4.html"
+    },
+    {
+      "code": "EXC-382",
+      "name": "Total Iron Binding Capacity (TIBC)",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 700,
+      "price": 700,
+      "aliases": [
+        "total iron binding capacity (tibc)",
+        "tibc",
+        "total iron binding capacity"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Total Iron Binding Capacity (TIBC) (Ferene).",
+      "slug": "total-iron-binding-capacity-tibc",
+      "url": "/tests/total-iron-binding-capacity-tibc.html"
+    },
+    {
+      "code": "EXC-383",
+      "name": "Toxoplasma gondii IgG Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 900,
+      "price": 900,
+      "aliases": [
+        "toxoplasma gondii igg ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Toxoplasma gondii IgG Ab (CLIA).",
+      "slug": "toxoplasma-gondii-igg-ab",
+      "url": "/tests/toxoplasma-gondii-igg-ab.html"
+    },
+    {
+      "code": "EXC-384",
+      "name": "Toxoplasma gondii IgM Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 900,
+      "price": 900,
+      "aliases": [
+        "toxoplasma gondii igm ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Toxoplasma gondii IgM Ab (CLIA).",
+      "slug": "toxoplasma-gondii-igm-ab",
+      "url": "/tests/toxoplasma-gondii-igm-ab.html"
+    },
+    {
+      "code": "EXC-385",
+      "name": "TPHA Test",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 400,
+      "price": 400,
+      "aliases": [
+        "tpha test"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "TPHA Test (Hemagglutination).",
+      "slug": "tpha-test",
+      "url": "/tests/tpha-test.html"
+    },
+    {
+      "code": "EXC-386",
+      "name": "TPHA Titre",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1500,
+      "price": 1500,
+      "aliases": [
+        "tpha titre"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "TPHA Titre (Hemagglutination).",
+      "slug": "tpha-titre",
+      "url": "/tests/tpha-titre.html"
+    },
+    {
+      "code": "EXC-387",
+      "name": "Transferrin",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1500,
+      "price": 1500,
+      "aliases": [
+        "transferrin"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Transferrin (Immunoturbidimetric).",
+      "slug": "transferrin",
+      "url": "/tests/transferrin.html"
+    },
+    {
+      "code": "EXC-388",
+      "name": "Transferrin Saturation",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1200,
+      "price": 1200,
+      "aliases": [
+        "transferrin saturation"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Transferrin Saturation (Calculated).",
+      "slug": "transferrin-saturation",
+      "url": "/tests/transferrin-saturation.html"
+    },
+    {
+      "code": "EXC-389",
+      "name": "Trichomonas Examination",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "trichomonas examination"
+      ],
+      "sample": "Vaginal Discharge",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Trichomonas Examination (Microscopy.).",
+      "slug": "trichomonas-examination",
+      "url": "/tests/trichomonas-examination.html"
+    },
+    {
+      "code": "EXC-390",
+      "name": "Triglyceride",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 255,
+      "price": 255,
+      "aliases": [
+        "triglyceride"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Triglyceride (Enzymatic end point).",
+      "slug": "triglyceride",
+      "url": "/tests/triglyceride.html"
+    },
+    {
+      "code": "EXC-391",
+      "name": "Triglyceride - Fluid",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 300,
+      "price": 300,
+      "aliases": [
+        "triglyceride - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Triglyceride - Fluid (Enzymatic end point).",
+      "slug": "triglyceride-fluid",
+      "url": "/tests/triglyceride-fluid.html"
+    },
+    {
+      "code": "EXC-392",
+      "name": "Triidothyronine- Free (FT3)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 450,
+      "price": 450,
+      "aliases": [
+        "ft3",
+        "triidothyronine- free (ft3)",
+        "triidothyronine- free"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Triidothyronine- Free (FT3) (CLIA).",
+      "slug": "triidothyronine-free-ft3",
+      "url": "/tests/triidothyronine-free-ft3.html"
+    },
+    {
+      "code": "EXC-393",
+      "name": "Triidothyronine- Total (FT3)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 450,
+      "price": 450,
+      "aliases": [
+        "triidothyronine- total (ft3)",
+        "ft3",
+        "triidothyronine- total"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Triidothyronine- Total (FT3) (CLIA).",
+      "slug": "triidothyronine-total-ft3",
+      "url": "/tests/triidothyronine-total-ft3.html"
+    },
+    {
+      "code": "EXC-394",
+      "name": "Troponin-I, High Sensitivity",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1300,
+      "price": 1300,
+      "aliases": [
+        "troponin-i, high sensitivity"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Troponin-I, High Sensitivity (CLIA).",
+      "slug": "troponin-i-high-sensitivity",
+      "url": "/tests/troponin-i-high-sensitivity.html"
+    },
+    {
+      "code": "EXC-395",
+      "name": "TSH Receptor Ab (TRAb)",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 6300,
+      "price": 6300,
+      "aliases": [
+        "tsh receptor ab (trab)",
+        "trab",
+        "tsh receptor ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "TSH Receptor Ab (TRAb) (CLIA).",
+      "slug": "tsh-receptor-ab-trab",
+      "url": "/tests/tsh-receptor-ab-trab.html"
+    },
+    {
+      "code": "EXC-396",
+      "name": "Typhoid (IgG/IgM) Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "typhoid  ab",
+        "typhoid (igg/igm) ab",
+        "igg/igm"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Typhoid (IgG/IgM) Ab (Immunochromatography).",
+      "slug": "typhoid-igg-igm-ab",
+      "url": "/tests/typhoid-igg-igm-ab.html"
+    },
+    {
+      "code": "EXC-397",
+      "name": "Unconjugated Estriol",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 2300,
+      "price": 2300,
+      "aliases": [
+        "unconjugated estriol"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Unconjugated Estriol (CLIA).",
+      "slug": "unconjugated-estriol",
+      "url": "/tests/unconjugated-estriol.html"
+    },
+    {
+      "code": "EXC-398",
+      "name": "Unsaturated Iron Binding Capacity (UIBC)",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1400,
+      "price": 1400,
+      "aliases": [
+        "unsaturated iron binding capacity (uibc)",
+        "unsaturated iron binding capacity",
+        "uibc"
+      ],
+      "sample": "Serum (1 ml).",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Unsaturated Iron Binding Capacity (UIBC) (Spectrophotometry).",
+      "slug": "unsaturated-iron-binding-capacity-uibc",
+      "url": "/tests/unsaturated-iron-binding-capacity-uibc.html"
+    },
+    {
+      "code": "EXC-399",
+      "name": "Urea",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "urea"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Urea (Urease UV).",
+      "slug": "urea",
+      "url": "/tests/urea.html"
+    },
+    {
+      "code": "EXC-400",
+      "name": "Urea - 24 hr. Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "urea - 24 hr. urine"
+      ],
+      "sample": "24 Hrs Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Urea - 24 hr. Urine (Urease UV).",
+      "slug": "urea-24-hr-urine",
+      "url": "/tests/urea-24-hr-urine.html"
+    },
+    {
+      "code": "EXC-401",
+      "name": "Urea - Fluid",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "urea - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Urea - Fluid (Urease UV).",
+      "slug": "urea-fluid",
+      "url": "/tests/urea-fluid.html"
+    },
+    {
+      "code": "EXC-402",
+      "name": "Urea - Spot Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "urea - spot urine"
+      ],
+      "sample": "Spot Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Urea - Spot Urine (Urease UV).",
+      "slug": "urea-spot-urine",
+      "url": "/tests/urea-spot-urine.html"
+    },
+    {
+      "code": "EXC-403",
+      "name": "Uric Acid - 24 hr. Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 150,
+      "price": 150,
+      "aliases": [
+        "uric acid - 24 hr. urine"
+      ],
+      "sample": "24 Hrs Urine",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Uric Acid - 24 hr. Urine (Uricase UV).",
+      "slug": "uric-acid-24-hr-urine",
+      "url": "/tests/uric-acid-24-hr-urine.html"
+    },
+    {
+      "code": "EXC-404",
+      "name": "Uric Acid - Fluid",
+      "nepaliName": "",
+      "category": "Special Tests",
+      "categoryLabel": "Special Tests",
+      "rate": 150,
+      "price": 150,
+      "aliases": [
+        "uric acid - fluid"
+      ],
+      "sample": "Body Fluid (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Uric Acid - Fluid (Uricase UV).",
+      "slug": "uric-acid-fluid",
+      "url": "/tests/uric-acid-fluid.html"
+    },
+    {
+      "code": "EXC-405",
+      "name": "Uric Acid - Spot Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 150,
+      "price": 150,
+      "aliases": [
+        "uric acid - spot urine"
+      ],
+      "sample": "Spot Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Uric Acid - Spot Urine (Uricase UV).",
+      "slug": "uric-acid-spot-urine",
+      "url": "/tests/uric-acid-spot-urine.html"
+    },
+    {
+      "code": "EXC-406",
+      "name": "Urine For Bilirubin",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "urine for bilirubin"
+      ],
+      "sample": "Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Urine For Bilirubin (Chemical).",
+      "slug": "urine-for-bilirubin",
+      "url": "/tests/urine-for-bilirubin.html"
+    },
+    {
+      "code": "EXC-407",
+      "name": "Urine for Eosinophils",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 200,
+      "price": 200,
+      "aliases": [
+        "urine for eosinophils"
+      ],
+      "sample": "Spot Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Urine for Eosinophils (Microscopy.).",
+      "slug": "urine-for-eosinophils",
+      "url": "/tests/urine-for-eosinophils.html"
+    },
+    {
+      "code": "EXC-408",
+      "name": "Urine Routine Examination",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 150,
+      "price": 150,
+      "aliases": [
+        "urine routine examination"
+      ],
+      "sample": "Spot Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Urine Routine Examination (Chemical/Microscopy).",
+      "slug": "urine-routine-examination",
+      "url": "/tests/urine-routine-examination.html"
+    },
+    {
+      "code": "EXC-409",
+      "name": "Urobilinogen, Urine",
+      "nepaliName": "",
+      "category": "Microbiology & Culture",
+      "categoryLabel": "Microbiology & Culture",
+      "rate": 150,
+      "price": 150,
+      "aliases": [
+        "urobilinogen, urine"
+      ],
+      "sample": "Spot Urine (5 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Urobilinogen, Urine (Chemical).",
+      "slug": "urobilinogen-urine",
+      "url": "/tests/urobilinogen-urine.html"
+    },
+    {
+      "code": "EXC-410",
+      "name": "Vaginal pH",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 150,
+      "price": 150,
+      "aliases": [
+        "vaginal ph"
+      ],
+      "sample": "Swab",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Vaginal pH (Conventional).",
+      "slug": "vaginal-ph",
+      "url": "/tests/vaginal-ph.html"
+    },
+    {
+      "code": "EXC-411",
+      "name": "Valproic Acid",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 1600,
+      "price": 1600,
+      "aliases": [
+        "valproic acid"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Valproic Acid (PETINIA).",
+      "slug": "valproic-acid",
+      "url": "/tests/valproic-acid.html"
+    },
+    {
+      "code": "EXC-412",
+      "name": "Vancomycin",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 2600,
+      "price": 2600,
+      "aliases": [
+        "vancomycin"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Vancomycin (PETINIA).",
+      "slug": "vancomycin",
+      "url": "/tests/vancomycin.html"
+    },
+    {
+      "code": "EXC-413",
+      "name": "Vanillyl Mandelic Acid (VMA)-24 hr. Urine",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 6100,
+      "price": 6100,
+      "aliases": [
+        "vanillyl mandelic acid (vma)-24 hr. urine",
+        "vanillyl mandelic acid -24 hr. urine",
+        "vma"
+      ],
+      "sample": "24 Hrs Urine",
+      "preparation": "",
+      "reporting": "Next Day",
+      "description": "Vanillyl Mandelic Acid (VMA)-24 hr. Urine (Ion Exchange Resin).",
+      "slug": "vanillyl-mandelic-acid-vma-24-hr-urine",
+      "url": "/tests/vanillyl-mandelic-acid-vma-24-hr-urine.html"
+    },
+    {
+      "code": "EXC-414",
+      "name": "Varicella Zoster IgG Ab",
+      "nepaliName": "",
+      "category": "Serology",
+      "categoryLabel": "Serology",
+      "rate": 3650,
+      "price": 3650,
+      "aliases": [
+        "varicella zoster igg ab"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Varicella Zoster IgG Ab (EIA).",
+      "slug": "varicella-zoster-igg-ab",
+      "url": "/tests/varicella-zoster-igg-ab.html"
+    },
+    {
+      "code": "EXC-415",
+      "name": "Zinc - Serum",
+      "nepaliName": "",
+      "category": "Biochemistry",
+      "categoryLabel": "Biochemistry",
+      "rate": 3550,
+      "price": 3550,
+      "aliases": [
+        "zinc - serum"
+      ],
+      "sample": "Serum (1 ml)",
+      "preparation": "",
+      "reporting": "Same Day",
+      "description": "Zinc - Serum (Mod. Nitro-PAPS Method).",
+      "slug": "zinc-serum",
+      "url": "/tests/zinc-serum.html"
+    },
+    {
+      "code": "PKG-EXC-01",
+      "name": "Child Health Checkup",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 4500,
+      "price": 4500,
+      "aliases": [
+        "child health checkup"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Child Health Checkup diagnostic panel.",
+      "packageTests": [
+        "CBC",
+        "ESR",
+        "Blood Grouping",
+        "Calcium",
+        "Phosphorous",
+        "LFT",
+        "Urea",
+        "Creatinine",
+        "Thyroid Stimulating Hormone (TSH))",
+        "Growth Hormone",
+        "Stool R/E",
+        "Urine R/E"
+      ],
+      "slug": "child-health-checkup",
+      "url": "/tests/child-health-checkup.html"
+    },
+    {
+      "code": "PKG-EXC-02",
+      "name": "Liver Profile",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 1800,
+      "price": 1800,
+      "aliases": [
+        "liver profile"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Liver Profile diagnostic panel.",
+      "packageTests": [
+        "Bilirubin",
+        "SGPT",
+        "SGOT",
+        "Alkaline Phosphatase",
+        "Protein",
+        "Albumin",
+        "Globulin",
+        "A/G Ratio",
+        "LDH",
+        "Gamma GT"
+      ],
+      "slug": "liver-profile",
+      "url": "/tests/liver-profile.html"
+    },
+    {
+      "code": "PKG-EXC-03",
+      "name": "Anaemia Panel",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 6300,
+      "price": 6300,
+      "aliases": [
+        "anaemia panel"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Anaemia Panel diagnostic panel.",
+      "packageTests": [
+        "CBC",
+        "PBF",
+        "Iron",
+        "TIBC",
+        "Ferritin",
+        "Vitamin B-12",
+        "Folic Acid"
+      ],
+      "slug": "anaemia-panel",
+      "url": "/tests/anaemia-panel.html"
+    },
+    {
+      "code": "PKG-EXC-04",
+      "name": "Iron Profile B",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 3500,
+      "price": 3500,
+      "aliases": [
+        "iron profile b"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Iron Profile B diagnostic panel.",
+      "packageTests": [
+        "Iron",
+        "TIBC",
+        "Ferritin",
+        "Transferrin",
+        "Transferrin Saturation"
+      ],
+      "slug": "iron-profile-b",
+      "url": "/tests/iron-profile-b.html"
+    },
+    {
+      "code": "PKG-EXC-05",
+      "name": "TORCH Profile",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 5600,
+      "price": 5600,
+      "aliases": [
+        "torch profile"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive TORCH Profile diagnostic panel.",
+      "packageTests": [
+        "Toxoplasma gondii IgG Ab",
+        "Toxoplasma gondii IgM Ab",
+        "Rubella Virus IgG Ab",
+        "Rubella Virus IgM Ab",
+        "Cytomegalo Virus IgG Ab",
+        "Cytomegalo Virus IgM Ab",
+        "HSV-I IgG Ab",
+        "HsV-I IgM Ab",
+        "Hsv-II IgG Ab",
+        "Hsv-II IgM Ab"
+      ],
+      "slug": "torch-profile",
+      "url": "/tests/torch-profile.html"
+    },
+    {
+      "code": "PKG-EXC-06",
+      "name": "Coagulation Panel",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 1000,
+      "price": 1000,
+      "aliases": [
+        "coagulation panel"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Coagulation Panel diagnostic panel.",
+      "packageTests": [
+        "BT",
+        "CT",
+        "PT",
+        "APTT",
+        "Platelets Count"
+      ],
+      "slug": "coagulation-panel",
+      "url": "/tests/coagulation-panel.html"
+    },
+    {
+      "code": "PKG-EXC-07",
+      "name": "Renal Profile",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 1800,
+      "price": 1800,
+      "aliases": [
+        "renal profile"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Renal Profile diagnostic panel.",
+      "packageTests": [
+        "Urea",
+        "Creatinine",
+        "Sodium",
+        "Potassium",
+        "Uric Acid",
+        "Calcium",
+        "Phosphorus",
+        "Protein",
+        "Albumin",
+        "Urine Routine"
+      ],
+      "slug": "renal-profile",
+      "url": "/tests/renal-profile.html"
+    },
+    {
+      "code": "PKG-EXC-08",
+      "name": "Bone/Joint Panel",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 1200,
+      "price": 1200,
+      "aliases": [
+        "bone/joint panel"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Bone/Joint Panel diagnostic panel.",
+      "packageTests": [
+        "Uric Acid",
+        "Calcium",
+        "Phosphorus",
+        "Alkaline Phosphatase",
+        "Protein",
+        "Albumin"
+      ],
+      "slug": "bone-joint-panel",
+      "url": "/tests/bone-joint-panel.html"
+    },
+    {
+      "code": "PKG-EXC-09",
+      "name": "Double Marker",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 3800,
+      "price": 3800,
+      "aliases": [
+        "double marker"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Double Marker diagnostic panel.",
+      "packageTests": [
+        "Free Beta HCG",
+        "PAPP-A"
+      ],
+      "slug": "double-marker",
+      "url": "/tests/double-marker.html"
+    },
+    {
+      "code": "PKG-EXC-10",
+      "name": "Triple Marker",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 4800,
+      "price": 4800,
+      "aliases": [
+        "triple marker"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Triple Marker diagnostic panel.",
+      "packageTests": [
+        "Alpha Feto Protein(AFP)",
+        "B-Human chorionic gonadotropin (Beta HCG)",
+        "Unconjugated Estradiol"
+      ],
+      "slug": "triple-marker",
+      "url": "/tests/triple-marker.html"
+    },
+    {
+      "code": "PKG-EXC-11",
+      "name": "Pancreatic  Panel",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 1200,
+      "price": 1200,
+      "aliases": [
+        "pancreatic  panel"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Pancreatic  Panel diagnostic panel.",
+      "packageTests": [
+        "Glucose",
+        "Calcium",
+        "Amylase",
+        "Lipase"
+      ],
+      "slug": "pancreatic-panel",
+      "url": "/tests/pancreatic-panel.html"
+    },
+    {
+      "code": "PKG-EXC-12",
+      "name": "Fever Panel",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 2200,
+      "price": 2200,
+      "aliases": [
+        "fever panel"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Fever Panel diagnostic panel.",
+      "packageTests": [
+        "CBC",
+        "ESR",
+        "CRP",
+        "Salmonella Agglutination Test (Widal)",
+        "Blood Culture",
+        "Urine R/E",
+        "Urine Culture"
+      ],
+      "slug": "fever-panel",
+      "url": "/tests/fever-panel.html"
+    },
+    {
+      "code": "PKG-EXC-13",
+      "name": "Cardiac Profile",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 1900,
+      "price": 1900,
+      "aliases": [
+        "cardiac profile"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Cardiac Profile diagnostic panel.",
+      "packageTests": [
+        "CPK",
+        "CPK-MB",
+        "LDH",
+        "SGOT",
+        "Troponin-I"
+      ],
+      "slug": "cardiac-profile",
+      "url": "/tests/cardiac-profile.html"
+    },
+    {
+      "code": "PKG-EXC-14",
+      "name": "Collagen Panel",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 8500,
+      "price": 8500,
+      "aliases": [
+        "collagen panel"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Collagen Panel diagnostic panel.",
+      "packageTests": [
+        "Uric Acid",
+        "RA Factor",
+        "CRP",
+        "ANA",
+        "Ds-DNA",
+        "C-ANCA",
+        "P-ANCA",
+        "C3",
+        "C4"
+      ],
+      "slug": "collagen-panel",
+      "url": "/tests/collagen-panel.html"
+    },
+    {
+      "code": "PKG-EXC-15",
+      "name": "Sexual Dysfunction Test male",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 11600,
+      "price": 11600,
+      "aliases": [
+        "sexual dysfunction test male"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Sexual Dysfunction Test male diagnostic panel.",
+      "packageTests": [
+        "Complete Blood Count (CBC)",
+        "HbA1C",
+        "Liver Function Test (LFT)",
+        "Renal Function Test (RFT)",
+        "Lipid Profile",
+        "TFT",
+        "Testosterone-Free",
+        "Prolactin",
+        "FSH",
+        "LH",
+        "PSA",
+        "Urine R/E"
+      ],
+      "slug": "sexual-dysfunction-test-male",
+      "url": "/tests/sexual-dysfunction-test-male.html"
+    },
+    {
+      "code": "PKG-EXC-16",
+      "name": "Cardiac Risk Evaluation Panel",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 3675,
+      "price": 3675,
+      "aliases": [
+        "cardiac risk evaluation panel"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Cardiac Risk Evaluation Panel diagnostic panel.",
+      "packageTests": [
+        "Glucose",
+        "Lipid Profile",
+        "CPK",
+        "CPK-MB",
+        "LDH",
+        "SGOT",
+        "Troponin-I"
+      ],
+      "slug": "cardiac-risk-evaluation-panel",
+      "url": "/tests/cardiac-risk-evaluation-panel.html"
+    },
+    {
+      "code": "PKG-EXC-17",
+      "name": "Infectious  Markers",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 3700,
+      "price": 3700,
+      "aliases": [
+        "infectious  markers"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Infectious  Markers diagnostic panel.",
+      "packageTests": [
+        "RPR (VDRL)",
+        "HIV 1& 2 Antibody & P24 Ag",
+        "Hepatitis B Surface Antigen(HbsAg)",
+        "Hepatitis C Antibody (HCV)",
+        "Helicobacter Pylori Antibody"
+      ],
+      "slug": "infectious-markers",
+      "url": "/tests/infectious-markers.html"
+    },
+    {
+      "code": "PKG-EXC-18",
+      "name": "Diabetic Panel",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 1900,
+      "price": 1900,
+      "aliases": [
+        "diabetic panel"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Diabetic Panel diagnostic panel.",
+      "packageTests": [
+        "Glucose F",
+        "Glucose PP",
+        "HBA1C",
+        "Triglyceride",
+        "Total Cholesterol",
+        "Creatinine",
+        "Sodium",
+        "Potassium"
+      ],
+      "slug": "diabetic-panel",
+      "url": "/tests/diabetic-panel.html"
+    },
+    {
+      "code": "PKG-EXC-19",
+      "name": "Sexual Dysfunction Test Female",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 13100,
+      "price": 13100,
+      "aliases": [
+        "sexual dysfunction test female"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Sexual Dysfunction Test Female diagnostic panel.",
+      "packageTests": [
+        "Pap Smear",
+        "Vaginal pH",
+        "TFT",
+        "FSH",
+        "LH",
+        "Stool Occult Blood",
+        "Testosterone-Free",
+        "Sex Hormone Binding Globulin(SHBG)",
+        "Estradiol",
+        "Prolactin"
+      ],
+      "slug": "sexual-dysfunction-test-female",
+      "url": "/tests/sexual-dysfunction-test-female.html"
+    },
+    {
+      "code": "PKG-EXC-20",
+      "name": "Iron/Vitamins",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 6100,
+      "price": 6100,
+      "aliases": [
+        "iron/vitamins"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Iron/Vitamins diagnostic panel.",
+      "packageTests": [
+        "IRON",
+        "TIBC",
+        "Ferritin",
+        "Vitamin B12",
+        "25 Hydroxy Cholecalciferol (Vitamin D)"
+      ],
+      "slug": "iron-vitamins",
+      "url": "/tests/iron-vitamins.html"
+    },
+    {
+      "code": "PKG-EXC-21",
+      "name": "Gout Panel",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 3300,
+      "price": 3300,
+      "aliases": [
+        "gout panel"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Gout Panel diagnostic panel.",
+      "packageTests": [],
+      "slug": "gout-panel",
+      "url": "/tests/gout-panel.html"
+    },
+    {
+      "code": "PKG-EXC-22",
+      "name": "Diabetic Profile",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 3400,
+      "price": 3400,
+      "aliases": [
+        "diabetic profile"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Diabetic Profile diagnostic panel.",
+      "packageTests": [
+        "Glucose F",
+        "Glucose PP",
+        "HbA1C",
+        "Triglyceride",
+        "Total Cholesterol",
+        "HDL-Cholesterol",
+        "LDL-Cholesterol",
+        "Urea",
+        "Creatinine",
+        "Uric Acid",
+        "Urine Micro Albumin",
+        "Urine Routine",
+        "Ketone Bodies (Acetone)",
+        "Specific Gravity"
+      ],
+      "slug": "diabetic-profile",
+      "url": "/tests/diabetic-profile.html"
+    },
+    {
+      "code": "PKG-EXC-23",
+      "name": "Parathyroid Panel",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 2150,
+      "price": 2150,
+      "aliases": [
+        "parathyroid panel"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Parathyroid Panel diagnostic panel.",
+      "packageTests": [
+        "Calcium",
+        "Phosphorus",
+        "Magnesium",
+        "Alkaline Phosphatase",
+        "Protein",
+        "Albumin",
+        "Creatinine",
+        "24 hrs Urinary Calcium"
+      ],
+      "slug": "parathyroid-panel",
+      "url": "/tests/parathyroid-panel.html"
+    },
+    {
+      "code": "PKG-EXC-24",
+      "name": "Obesity Profile",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 3100,
+      "price": 3100,
+      "aliases": [
+        "obesity profile"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Obesity Profile diagnostic panel.",
+      "packageTests": [
+        "Glucose",
+        "TFT",
+        "Triglyceride",
+        "Total-Cholesterol",
+        "HDL-Cholesterol",
+        "LDL-Cholesterol",
+        "Creatinine",
+        "Uric Acid",
+        "Cortisol"
+      ],
+      "slug": "obesity-profile",
+      "url": "/tests/obesity-profile.html"
+    },
+    {
+      "code": "PKG-EXC-25",
+      "name": "Comprehensive Diabetic Check Up (CDC)",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 5400,
+      "price": 5400,
+      "aliases": [
+        "comprehensive diabetic check up",
+        "comprehensive diabetic check up (cdc)"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Comprehensive Diabetic Check Up (CDC) diagnostic panel.",
+      "packageTests": [
+        "Glucose F",
+        "Glucose PP",
+        "CBC",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Renal Function Test (RFT)",
+        "HbA1C",
+        "Albumin/Creatinine Ratio(ACR),",
+        "Urine Routine",
+        "TSH"
+      ],
+      "slug": "comprehensive-diabetic-check-up-cdc",
+      "url": "/tests/comprehensive-diabetic-check-up-cdc.html"
+    },
+    {
+      "code": "PKG-EXC-26",
+      "name": "Hepatitis Panel",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 4300,
+      "price": 4300,
+      "aliases": [
+        "hepatitis panel"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Hepatitis Panel diagnostic panel.",
+      "packageTests": [
+        "Hepatitis A IgM",
+        "Hepatitis B Surface Antigen",
+        "Hepatitis C Antibody",
+        "Hepatitis E IgM"
+      ],
+      "slug": "hepatitis-panel",
+      "url": "/tests/hepatitis-panel.html"
+    },
+    {
+      "code": "PKG-EXC-27",
+      "name": "Arthiritis Panel",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 2700,
+      "price": 2700,
+      "aliases": [
+        "arthiritis panel"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Arthiritis Panel diagnostic panel.",
+      "packageTests": [
+        "ESR",
+        "Uric acid",
+        "RA Factor Quantitaive",
+        "CRP Quantitative",
+        "ANA"
+      ],
+      "slug": "arthiritis-panel",
+      "url": "/tests/arthiritis-panel.html"
+    },
+    {
+      "code": "PKG-EXC-28",
+      "name": "Antenatal Panel",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 3100,
+      "price": 3100,
+      "aliases": [
+        "antenatal panel"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Antenatal Panel diagnostic panel.",
+      "packageTests": [
+        "Blood Grouping",
+        "Haemoglobin",
+        "Platelet's Count",
+        "Glucose",
+        "RPR (VDRL)",
+        "HIV I & II Antibody & p24 Ag",
+        "HBsAG",
+        "Anti HCV",
+        "Urine Routine",
+        "Urine Culture"
+      ],
+      "slug": "antenatal-panel",
+      "url": "/tests/antenatal-panel.html"
+    },
+    {
+      "code": "PKG-EXC-29",
+      "name": "Neoplasma (Malignancy) Panel",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 5600,
+      "price": 5600,
+      "aliases": [
+        "neoplasma (malignancy) panel",
+        "neoplasma  panel"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Neoplasma (Malignancy) Panel diagnostic panel.",
+      "packageTests": [
+        "Alpha-Fetoprotein (AFP)",
+        "Carcinoembryonic antigen (CEA)",
+        "Prostatic acid phosphatase",
+        "B-human chorionic gonadotropin (B-hCG)",
+        "Lactate dehydrogenase (LDH)",
+        "Alkaline Phosphatase"
+      ],
+      "slug": "neoplasma-malignancy-panel",
+      "url": "/tests/neoplasma-malignancy-panel.html"
+    },
+    {
+      "code": "PKG-EXC-30",
+      "name": "Drug Abuse  Panel",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 3600,
+      "price": 3600,
+      "aliases": [
+        "drug abuse  panel"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive Drug Abuse  Panel diagnostic panel.",
+      "packageTests": [
+        "Amphetamine",
+        "Morphine (Opiate)",
+        "Cannabinioides (Marjuna/THC)",
+        "Cocaine",
+        "Barbiturates",
+        "Benzodiazepine"
+      ],
+      "slug": "drug-abuse-panel",
+      "url": "/tests/drug-abuse-panel.html"
+    },
+    {
+      "code": "PKG-EXC-31",
+      "name": "ANA 23 IgG Panel",
+      "nepaliName": "",
+      "category": "Health Packages",
+      "categoryLabel": "Health Packages",
+      "rate": 8100,
+      "price": 8100,
+      "aliases": [
+        "ana 23 igg panel"
+      ],
+      "sample": "Blood / Serum / Clinical Specimen",
+      "preparation": "Fasting as advised per panel component",
+      "reporting": "Same Day / Routine",
+      "description": "Comprehensive ANA 23 IgG Panel diagnostic panel.",
+      "packageTests": [
+        "dsDNA",
+        "Nucleosomes",
+        "Histones",
+        "SS-A",
+        "Ro-52",
+        "SS-B",
+        "RNP/Sm",
+        "Sm",
+        "Mi-2alpha",
+        "Mi-2beta",
+        "Ku",
+        "Centromere A",
+        "Centromere B",
+        "Sp 100",
+        "PML",
+        "Scl-70",
+        "PM-Scl 100",
+        "PM-Scl 75",
+        "RP 11",
+        "RP 155",
+        "gp 210",
+        "PCNA",
+        "DFS 70"
+      ],
+      "slug": "ana-23-igg-panel",
+      "url": "/tests/ana-23-igg-panel.html"
+    }
+  ],
+  "totalTests": 580
+};
