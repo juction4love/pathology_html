@@ -175,21 +175,21 @@
               <div class="report-header-icon"><i class="fas fa-file-medical-alt" aria-hidden="true"></i></div>
               <h2 class="report-card-title">View Your Report</h2>
               <p class="report-card-subtitle">
-                Open your issued report securely using the QR code on your report or receipt, then confirm your <strong>Bill Number</strong> and <strong>4-digit Access PIN</strong>.
+                Scan the <strong>QR code</strong> on your receipt, or enter the <strong>Printed Access Code</strong> below. You will then confirm your <strong>Bill Number</strong> and <strong>4-digit Access PIN</strong>.
               </p>
             </div>
 
             <form id="reportPortalForm" class="report-form" novalidate>
               <div class="form-group">
                 <label for="verifyCode" class="form-label">
-                  <i class="fas fa-qrcode text-primary" aria-hidden="true"></i> Verification link or code (printed under the QR code)
+                  <i class="fas fa-qrcode text-primary" aria-hidden="true"></i> Printed Access Code (on your receipt)
                 </label>
-                <input type="text" id="verifyCode" name="verifyCode" class="form-control" placeholder="Paste the link or code under the QR code" required autocomplete="off" spellcheck="false" />
+                <input type="text" id="verifyCode" name="verifyCode" class="form-control" placeholder="e.g. 7K3M-9QWX-4T8B-..." inputmode="text" autocapitalize="characters" required autocomplete="off" spellcheck="false" />
                 <p id="reportPortalError" class="form-error" role="alert" hidden></p>
               </div>
               <div class="form-action">
                 <button type="submit" class="btn btn-primary btn-block btn-lg">
-                  <i class="fas fa-lock" aria-hidden="true"></i> Continue to Secure Report
+                  <i class="fas fa-lock" aria-hidden="true"></i> Continue
                 </button>
               </div>
             </form>
@@ -199,8 +199,8 @@
             <div class="report-help-card">
               <h3 class="report-help-title"><i class="fas fa-info-circle text-primary" aria-hidden="true"></i> How to view your report</h3>
               <ol class="report-help-steps">
-                <li>Scan the <strong>QR code</strong> on your report or receipt (or paste its link above).</li>
-                <li>Enter the <strong>Bill Number</strong> from your receipt and the <strong>4-digit Access PIN</strong> given by the laboratory.</li>
+                <li><strong>Scan the QR code</strong> on your receipt with your phone camera, or <strong>enter the Printed Access Code</strong> above and press Continue.</li>
+                <li>Enter your <strong>Bill Number</strong> and the <strong>4-digit Access PIN</strong> given by the laboratory with your report, then press <strong>View Report</strong>. A report is shown only after it has been issued.</li>
                 <li>Once opened, use <strong>Print</strong> or <strong>Save as PDF</strong> from your browser. Choose A4, 100% scale, and turn off browser headers and footers.</li>
                 <li>After several wrong attempts the report is temporarily locked; please try again later or contact reception.</li>
               </ol>
