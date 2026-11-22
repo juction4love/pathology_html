@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Online Laboratory Report Portal | Bimal Pathology Bharatpur</title>
-  <meta name="description" content="Search and download your laboratory test reports online with your Lab ID and registered mobile number at Bimal Pathology." />
+  <meta name="description" content="View your issued laboratory report securely at Bimal Pathology using the QR code on your report, your Bill Number and your Access PIN." />
   <meta name="keywords" content="Bimal Pathology, Diagnostic Center Bharatpur, Blood Test Chitwan, CBC, LFT, TFT, Hormone Test, Laboratory Nepal, NRL Nepal, Dr Lal PathLabs" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://www.bimalpathology.com.np/reports.html" />
@@ -19,7 +19,7 @@
 
   <!-- Open Graph -->
   <meta property="og:title" content="Online Laboratory Report Portal | Bimal Pathology Bharatpur" />
-  <meta property="og:description" content="Search and download your laboratory test reports online with your Lab ID and registered mobile number at Bimal Pathology." />
+  <meta property="og:description" content="View your issued laboratory report securely at Bimal Pathology using the QR code on your report, your Bill Number and your Access PIN." />
   <meta property="og:url" content="https://www.bimalpathology.com.np/reports.html" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://www.bimalpathology.com.np/assets/images/hero-pathology.png" />
@@ -31,7 +31,7 @@
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Online Laboratory Report Portal | Bimal Pathology Bharatpur" />
-  <meta name="twitter:description" content="Search and download your laboratory test reports online with your Lab ID and registered mobile number at Bimal Pathology." />
+  <meta name="twitter:description" content="View your issued laboratory report securely at Bimal Pathology using the QR code on your report, your Bill Number and your Access PIN." />
   <meta name="twitter:image" content="https://www.bimalpathology.com.np/assets/images/hero-pathology.png" />
 
   <!-- Structured Data -->
@@ -173,67 +173,36 @@
           <div class="report-search-card">
             <div class="report-card-header">
               <div class="report-header-icon"><i class="fas fa-file-medical-alt" aria-hidden="true"></i></div>
-              <h2 class="report-card-title">रिपोर्ट खोज्नुहोस् (Search Your Report)</h2>
+              <h2 class="report-card-title">View Your Report</h2>
               <p class="report-card-subtitle">
-                बिल / रसिदमा रहेको <strong>Lab ID</strong> र दर्ता गरिएको <strong>मोबाइल नम्बर</strong> प्रविष्ट गर्नुहोस्।
+                Open your issued report securely using the QR code on your report or receipt, then confirm your <strong>Bill Number</strong> and <strong>4-digit Access PIN</strong>.
               </p>
             </div>
 
-            <form id="reportSearchForm" class="report-form" novalidate>
+            <form id="reportPortalForm" class="report-form" novalidate>
               <div class="form-group">
-                <label for="labId" class="form-label">
-                  <i class="fas fa-id-card text-primary" aria-hidden="true"></i> ल्याब आईडी (Lab ID / Invoice No.)
+                <label for="verifyCode" class="form-label">
+                  <i class="fas fa-qrcode text-primary" aria-hidden="true"></i> Verification link or code (printed under the QR code)
                 </label>
-                <input
-                  type="text"
-                  id="labId"
-                  name="labId"
-                  class="form-control"
-                  placeholder="उदा. LAB-2026-XXXX"
-                  required
-                  autocomplete="off"
-                />
+                <input type="text" id="verifyCode" name="verifyCode" class="form-control" placeholder="Paste the link or code under the QR code" required autocomplete="off" spellcheck="false" />
+                <p id="reportPortalError" class="form-error" role="alert" hidden></p>
               </div>
-
-              <div class="form-group">
-                <label for="patientPhone" class="form-label">
-                  <i class="fas fa-phone text-primary" aria-hidden="true"></i> दर्ता गरिएको मोबाइल नम्बर (Mobile Number)
-                </label>
-                <input
-                  type="tel"
-                  id="patientPhone"
-                  name="patientPhone"
-                  class="form-control"
-                  placeholder="उदा. 98XXXXXXXX"
-                  required
-                  autocomplete="tel"
-                  pattern="[0-9]10"
-                />
-              </div>
-
               <div class="form-action">
-                <button type="submit" id="searchReportBtn" class="btn btn-primary btn-block btn-lg">
-                  <i class="fas fa-search" aria-hidden="true"></i> रिपोर्ट खोज्नुहोस् (Search Report)
+                <button type="submit" class="btn btn-primary btn-block btn-lg">
+                  <i class="fas fa-lock" aria-hidden="true"></i> Continue to Secure Report
                 </button>
               </div>
             </form>
-
-            <div id="reportLoading" class="report-status-box report-loading" style="display:none;">
-              <div class="spinner"></div>
-              <p>कृपया प्रतीक्षा गर्नुहोस्, रिपोर्ट खोजिँदैछ...</p>
-            </div>
-
-            <div id="reportResultArea" class="report-result-area" style="display:none;"></div>
-            <div id="reportErrorArea" class="report-status-box report-error" style="display:none;"></div>
           </div>
 
           <div class="report-info-sidebar">
             <div class="report-help-card">
-              <h3 class="report-help-title"><i class="fas fa-info-circle text-primary" aria-hidden="true"></i> रिपोर्ट कसरी हेर्ने?</h3>
+              <h3 class="report-help-title"><i class="fas fa-info-circle text-primary" aria-hidden="true"></i> How to view your report</h3>
               <ol class="report-help-steps">
-                <li>नमुना दिँदा प्राप्त भएको बिलको माथिल्लो भागमा <strong>Lab ID</strong> हेर्नुहोस्।</li>
-                <li>फाराममा Lab ID र तपाईंले दर्ता गराउनुभएको १० अंकको मोबाइल नम्बर भर्नुहोस्।</li>
-                <li>'रिपोर्ट खोज्नुहोस्' बटन थिची रिपोर्ट हेर्न वा PDF डाउनलोड गर्न सक्नुहुन्छ।</li>
+                <li>Scan the <strong>QR code</strong> on your report or receipt (or paste its link above).</li>
+                <li>Enter the <strong>Bill Number</strong> from your receipt and the <strong>4-digit Access PIN</strong> given by the laboratory.</li>
+                <li>Once opened, use <strong>Print</strong> or <strong>Save as PDF</strong> from your browser. Choose A4, 100% scale, and turn off browser headers and footers.</li>
+                <li>After several wrong attempts the report is temporarily locked; please try again later or contact reception.</li>
               </ol>
             </div>
 
@@ -398,6 +367,6 @@
   <script src="/assets/data/rates.json" type="application/json" id="ratesDataScript"></script>
   <script src="/assets/js/rates-data.js"></script>
   <script src="/assets/js/main.js"></script>
-  <script src="/assets/js/report.js"></script>
+  <script src="/assets/js/report-portal.js"></script>
 </body>
 </html>
